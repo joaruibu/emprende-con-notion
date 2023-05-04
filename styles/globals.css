@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap");
+
+@layer utilities {
+  @variants responsive {
+    .masonry {
+      column-gap: 3em;
+      column-count: 1;
+    }
+    .masonry-sm {
+      column-gap: 3em;
+      column-count: 2;
+    }
+
+    .break-inside {
+      break-inside: avoid;
+    }
+  }
+}
