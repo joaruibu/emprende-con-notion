@@ -16,6 +16,12 @@ const MyApp = ({ Component, pageProps }) => {
                 <style>
                     @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
                 </style>
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+                </style>
+                <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+                </style>
             </Head>
             <Layout>
                 <Component {...pageProps} />

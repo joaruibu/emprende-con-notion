@@ -11,7 +11,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sub': ['Montserrat Subrayada']
+        'sub': ['Montserrat Subrayada'],
+        'alternate': ['Montserrat Alternates'],
+        'montserrat': ['Montserrat'],
+
       },
       colors: {
         'terracotta': '#BD987E',
@@ -19,7 +22,7 @@ module.exports = {
         'real-stone': '#E2DCD7',
       },
       boxShadow: {
-        'dark': '10px 10px 0px 0px rgba(0,0,0,1)'
+        'dark': '5px 5px 0px 0px rgba(0,0,0,1)'
       }
     },
   },

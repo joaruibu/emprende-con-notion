@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { getUrltTitle } from '../helpers/index';
 
 
 
@@ -8,18 +9,18 @@ const ItemTemplate = ({ item }) => {
 
     const { title, id, template_summary, imgs, tags } = item
 
-
+    console.log(title)
     return (
-        <Link href={`/templates/${id}`}>
-            <article key={id} className=" break-inside mb-9 flex flex-col items-start justify-between border-2 border-black rounded-2xl hover:shadow-dark transition-all">
+        <Link href={`/templates/${getUrltTitle(title)}-${id}`} >
+            <article key={id} className=" break-inside mb-9 flex flex-col items-start justify-between border border-stone-950 rounded-md hover:shadow-dark transition-all">
                 <div className="relative w-full">
 
                     <img
                         src={imgs[0]}
                         alt=""
-                        className="aspect-[16/9] w-full rounded-2xl bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
+                        className="aspect-[16/9] w-full rounded-t-md bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
                     />
-                    <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                    <div className="absolute inset-0 rounded-md ring-1 ring-inset ring-gray-900/10" />
                 </div>
                 <div className="max-w-xl">
                     <div className="mt-8 flex items-center gap-x-4 text-xs">

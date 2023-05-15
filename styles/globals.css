@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap");
 
 @layer utilities {
-  @variants responsive {
+
     .masonry {
       column-gap: 3em;
       column-count: 1;
@@ -18,5 +20,29 @@
     .break-inside {
       break-inside: avoid;
     }
+
+}
+
+@layer base {
+  h1 {
+    @apply font-sub text-3xl font-black;
+  }
+  h2 {
+    @apply font-montserrat text-xl font-semibold;
+  }
+  h3 {
+    @apply font-sub text-lg font-bold;
+  }
+  h4 {
+    @apply font-sub text-sm font-medium;
+  }
+  h5 {
+    @apply font-alternate text-sm font-bold;
+  }
+  h6 {
+    @apply font-sub text-sm font-medium;
+  }
+  p {
+    @apply font-montserrat text-sm font-normal;
   }
 }

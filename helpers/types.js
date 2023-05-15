@@ -1,17 +1,17 @@
 
-export const DATA_TYPES = Object.freeze({
+export const DATA_TYPE = Object.freeze({
     posts: 'posts',
     templates: 'templates'
 })
 
-export const TAG_TEMPLATES_TYPES = Object.freeze({
+export const TAG_TEMPLATES_TYPE = Object.freeze({
     entrepeneur: 'emprendedor/a',
     personal: 'personal',
     student: 'estudiante',
     designer: 'diseñador/a',
 })
 
-export const TAG_POSTS_TYPES = Object.freeze({
+export const TAG_POSTS_TYPE = Object.freeze({
     tips: 'Notion tips',
     playlists: 'playlists',
     favs: 'favoritos',

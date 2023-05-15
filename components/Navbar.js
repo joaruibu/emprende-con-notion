@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <header>
-            <nav className=" mx-auto  border-b-2 border-black flex max-w-4xl items-center justify-between  pt-6 " aria-label="Global">
+            <nav className=" mx-auto  border-b-2 border-black flex max-w-4xl items-center justify-between h-16 pt-6 " aria-label="Global">
                 <div className=" flex items-center w-full justify-between ">
                     <Link href="/" legacyBehavior prefetch={false}>
                         <a className=' flex items-center gap-x-2'>
@@ -29,7 +29,7 @@ export default function Navbar() {
                     <div className="hidden sm:flex sm:gap-x-6">
                         {navigation.map((item) => (
                             <Link href={item.href} legacyBehavior prefetch={false}>
-                                <a key={item.name} className={`text-xs font-sub hover:text-terracotta ${item.href === pathname ? 'text-terracotta' : ''}`}>
+                                <a key={item.name} className={`text-xs font-sub block h-full  hover:text-terracotta ${item.href === pathname ? 'text-terracotta' : ''}`}>
                                     {item.name}
                                 </a>
                             </Link>

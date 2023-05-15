@@ -1,4 +1,4 @@
-import { TAG_TEMPLATES_TYPES } from "../helpers/types"
+import { TAG_TEMPLATES_TYPE } from "../helpers/types"
 
 const templates = [
     {
@@ -25,7 +25,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
-        tags: [TAG_TEMPLATES_TYPES.designer, TAG_TEMPLATES_TYPES.entrepeneur],
+        tags: [TAG_TEMPLATES_TYPE.designer, TAG_TEMPLATES_TYPE.entrepeneur],
 
     },
     {
@@ -50,7 +50,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
-        tags: [TAG_TEMPLATES_TYPES.student],
+        tags: [TAG_TEMPLATES_TYPE.student],
 
     },
     {
@@ -75,7 +75,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
-        tags: [TAG_TEMPLATES_TYPES.student, TAG_TEMPLATES_TYPES.personal],
+        tags: [TAG_TEMPLATES_TYPE.student, TAG_TEMPLATES_TYPE.personal],
 
     },
     {
@@ -100,7 +100,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
-        tags: [TAG_TEMPLATES_TYPES.entrepeneur, TAG_TEMPLATES_TYPES.personal],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.personal],
 
     },
     {
@@ -126,7 +126,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132340/emprende-con-notion/blog/Portadas_apaisadas_Nouti_ztnt53.png',
         ],
-        tags: [TAG_TEMPLATES_TYPES.student, TAG_TEMPLATES_TYPES.personal],
+        tags: [TAG_TEMPLATES_TYPE.student, TAG_TEMPLATES_TYPE.personal],
 
     },
     {
@@ -150,7 +150,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132339/emprende-con-notion/blog/Columnas_en_Notion_wsvqg2.jpg',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
-        tags: [TAG_TEMPLATES_TYPES.entrepeneur, TAG_TEMPLATES_TYPES.personal],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.personal],
 
     },
 

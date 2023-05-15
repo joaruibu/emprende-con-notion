@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
+import { getUrltTitle } from '../helpers'
 
 
 
@@ -11,15 +12,15 @@ const ItemBlog = ({ item }) => {
 
 
     return (
-        <Link href={`/blog/${id}`}>
-            <article key={id} className=" mb-9 relative isolate flex flex-col gap-8 lg:flex-row border-2 border-black rounded-2xl hover:shadow-dark transition-all">
+        <Link href={`/blog/${getUrltTitle(title)}-${id}`}>
+            <article key={id} className=" mb-9 relative isolate flex flex-col gap-8 lg:flex-row border border-stone-950 rounded-md hover:shadow-dark transition-all">
                 <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
                     <img
                         src={imgs[0]}
                         alt=""
-                        className="absolute inset-0 h-full w-full rounded-2xl bg-gray-50 object-cover"
+                        className="absolute inset-0 h-full w-full rounded-t-md bg-gray-50 object-cover"
                     />
-                    <div className="absolute inset-0 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
+                    <div className="absolute inset-0 rounded-md ring-1 ring-inset ring-gray-900/10" />
                 </div>
                 <div>
                     <div className="flex items-center gap-x-4 text-xs">

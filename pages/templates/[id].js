@@ -1,31 +1,26 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
-import { getItemById } from '../../helpers';
-import { DATA_TYPES } from '../../helpers/types';
+
+import { getIdByUrl, getItemById } from '../../helpers';
+import { DATA_TYPE } from '../../helpers/types';
 
 
 
 const TemplateItem = () => {
-    const { isReady, query: { id } } = useRouter();
-    const [template, setTemplate] = useState({})
+    const { isReady, query: { id: url } } = useRouter();
 
+    const [template, setTemplate] = useState({})
     const [domLoaded, setDomLoaded] = useState(false);
 
     useEffect(() => {
-        setDomLoaded(true);
-    }, []);
-
-
-    useEffect(() => {
         if (isReady) {
-            const item = getItemById(DATA_TYPES.templates, id);
-            console.log(item)
+            setDomLoaded(true);
+            const item = getItemById(DATA_TYPE.templates, getIdByUrl(url));
             setTemplate(item)
         }
     }, [isReady]);
 
     const { title, template_body, imgs, tags } = template
-
 
 
     return (
@@ -57,16 +52,7 @@ const TemplateItem = () => {
                             <p className="text-3xl tracking-tight text-gray-900">GRATIS</p>
 
 
-                            <form className="mt-10">
 
-                                <input className='border-2 border-black w-full rounded-lg p-1' placeholder='Tu email'></input>
-                                <button
-                                    type="submit"
-                                    className="mt-3 flex w-full items-center justify-center rounded-md border border-transparent bg-terracotta px-8 py-3 text-base font-medium text-white hover:shadow-dark focus:outline-none transition-all"
-                                >
-                                    Suscribete
-                                </button>
-                            </form>
                         </div>
 
                         <div className="py-10 lg:col-span-2 lg:col-start-1 lg:border-r lg:border-gray-200 lg:pb-16 lg:pr-8 lg:pt-6">
