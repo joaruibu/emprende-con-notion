@@ -21,10 +21,10 @@ const templates = [
         },
 
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+        ,
         tags: [TAG_TEMPLATES_TYPE.designer, TAG_TEMPLATES_TYPE.entrepeneur],
 
     },
@@ -46,10 +46,10 @@ const templates = [
         },
 
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_kv9anq.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+        ,
         tags: [TAG_TEMPLATES_TYPE.student],
 
     },
@@ -71,10 +71,10 @@ const templates = [
         },
 
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132340/emprende-con-notion/blog/Portadas_apaisadas_Nouti_ztnt53.png',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg'
+        ],
         tags: [TAG_TEMPLATES_TYPE.student, TAG_TEMPLATES_TYPE.personal],
 
     },
@@ -96,10 +96,11 @@ const templates = [
             value: ''
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132339/emprende-con-notion/blog/Columnas_en_Notion_wsvqg2.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg'
+        ],
+
         tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.personal],
 
     },
@@ -121,10 +122,9 @@ const templates = [
         },
 
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132340/emprende-con-notion/blog/Portadas_apaisadas_Nouti_ztnt53.png',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg'
         ],
         tags: [TAG_TEMPLATES_TYPE.student, TAG_TEMPLATES_TYPE.personal],
 
@@ -146,10 +146,10 @@ const templates = [
             value: ''
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132339/emprende-con-notion/blog/Columnas_en_Notion_wsvqg2.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg'
+        ],
         tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.personal],
 
     },

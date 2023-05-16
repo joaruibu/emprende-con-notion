@@ -23,7 +23,7 @@ const SubscriptionForm = () => {
 
         <div className=" p-6 mb-6 bg-yellow-300 border border-stone-950 rounded-md items-center">
             <div className="max-w-xl mb-4 sm:mb-2 font-bold lg:col-span-7">
-                <h6 className="">SÉ EL PRIMERO EN RECIBIR NUEVAS PLANTILLAS Y ACTUALIZACIONES DE NOTION EN TU EMAIL.  </h6>{' '}
+                <h6 className="">Hay cosas que no se dan #degratis.  <br /> Esas cosas, las especiales, solo se las doy a mi lista de suscriptores. </h6>{' '}
             </div>
             <div
 

@@ -16,11 +16,7 @@ const posts = [
             <p > .You can delete this blog post by going to the blog dashboard.</p>
             `,
         date: 'Mar 16, 2020',
-        imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+        img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_dhmmhu.gif',
         tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.favs],
 
     },
@@ -37,11 +33,7 @@ const posts = [
             <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
             `,
         date: 'Mar 16, 2020',
-        imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_kv9anq.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+        img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/Duplicar_templates_en_Notion-emprende_con_notion_i4ux40.jpg',
         tags: [TAG_POSTS_TYPE.playlists],
 
     },
@@ -59,11 +51,7 @@ const posts = [
             <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
             `,
         date: 'Mar 16, 2020',
-        imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132340/emprende-con-notion/blog/Portadas_apaisadas_Nouti_ztnt53.png',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+        img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/Widgets_interactivos_en_Notion_jxxgwm.jpg',
         tags: [TAG_POSTS_TYPE.tips],
 
     },
@@ -81,11 +69,7 @@ const posts = [
             <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
             `,
         date: 'Mar 16, 2020',
-        imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132339/emprende-con-notion/blog/Columnas_en_Notion_wsvqg2.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
+        img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/Ilustraci%C3%B3n_Nouti-emprende_con_notion_lqipwc.png',
         tags: [TAG_POSTS_TYPE.favs],
 
     },
@@ -102,36 +86,11 @@ const posts = [
             <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
             `,
         date: 'Mar 16, 2020',
-        imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132340/emprende-con-notion/blog/Portadas_apaisadas_Nouti_ztnt53.png',
-        ],
+        img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169712/emprende-con-notion/blog/Columnas_en_Notion-emprende_con_notion_kzn8au.jpg',
+
         tags: [TAG_POSTS_TYPE.tips],
 
-    },
-    {
-        title: 'Holiday template, tus vacaciones siempre organizadas',
-        id: '46asg3a',
-        post_body: `
-            <p class="text-xl text-red-200 mb-6">This is an example blog post.    <br>  You can delete this blog post by going to the blog dashboard.</p>
-            
-            <img src='https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/Short_wb5a4k.jpg'></img>
-            <p class="text-xl text-red-200 mb-6">We hope you enjoy your HubSpot!</p>
-            `,
-        post_summary: `
-            <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
-            `,
-        date: 'Mar 16, 2020',
-        imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132343/emprende-con-notion/blog/Portfolio_interiorismo_notion-lauradearquer-cover_xxmytw.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132342/emprende-con-notion/blog/que_es_notion_-_gesti%C3%B3n_de_tareas_en_notion_-_gtd_notion_-_emprende_con_notion_hlptg4.gif',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132339/emprende-con-notion/blog/Columnas_en_Notion_wsvqg2.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1683132341/emprende-con-notion/blog/iconos_para_notion_-_emprende_con_notion_pex0nc.gif'],
-        tags: [TAG_POSTS_TYPE.playlists],
-
-    },
+    }
 
 ]
 

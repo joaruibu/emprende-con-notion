@@ -31,7 +31,7 @@ const index = () => {
         subtitle: 'Todos los meses, nuevas plantillas sobre Notion'
     }
     return (
-        <>
+        <main>
             {
                 domLoaded &&
                 <>
@@ -42,7 +42,7 @@ const index = () => {
                 </>
             }
 
-        </>
+        </main>
     )
 }
 

@@ -12,7 +12,7 @@ const ItemList = ({ items, type }) => {
     console.log(1212, items)
 
     return (
-        <div className={`${type === DATA_TYPE.posts ? 'grid grid-col-1 mt-12' : ' masonry sm:masonry-sm md:masonry-md mt-12'}   `}>
+        <div className={`masonry sm:masonry-sm md:masonry-md mt-12  `}>
 
             {
                 items.map((item, index) => {
