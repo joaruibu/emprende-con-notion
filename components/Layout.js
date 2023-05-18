@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
 
     return (
         <div className='max-w-3xl mx-auto px-4  min-h-screen'>
-            {pathname !== '/templates' || pathname !== '' && <Navbar />}
+            {pathname !== '/templates' && pathname !== '/templates/[id]' && pathname !== '/' && <Navbar />}
             {children}
             <Footer />
 

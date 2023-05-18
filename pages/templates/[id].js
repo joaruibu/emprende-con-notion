@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'
+import SliderImg from '../../components/SliderImg';
 
 import { getIdByUrl, getItemById } from '../../helpers';
 import { DATA_TYPE } from '../../helpers/types';
@@ -28,17 +29,17 @@ const TemplateItem = () => {
 
             {domLoaded &&
 
-                <div className="pt-6">
+                <div className="border-2 border-stone-950 p-4 rounded-xl my-8">
 
                     {/* Image gallery */}
 
-                    <div className=" sm:overflow-hidden sm:rounded-2xl">
+                    {/* <div className=" sm:overflow-hidden sm:rounded-xl">
                         <img
                             src={imgs[2]}
                             className="h-full w-full object-cover object-center"
                         />
-                    </div>
-
+                    </div> */}
+                    <SliderImg imgs={imgs}></SliderImg>
 
                     {/* Product info */}
                     <div className="mx-auto max-w-2xl pb-16 pt-10  lg:grid lg:max-w-7xl lg:grid-cols-3 lg:grid-rows-[auto,auto,1fr] lg:gap-x-8 lg:pb-24 lg:pt-16">

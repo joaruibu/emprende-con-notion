@@ -20,7 +20,7 @@ const MyApp = ({ Component, pageProps }) => {
                     @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
                 </style>
                 <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
                 </style>
             </Head>
             <Layout>

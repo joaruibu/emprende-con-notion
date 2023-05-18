@@ -11,8 +11,9 @@ const ItemTemplate = ({ item }) => {
 
 
     return (
-        <Link href={`/template/${getUrltTitle(title)}-${id}`}>
+        <Link href={`/templates/${getUrltTitle(title)}-${id}`}>
             <article key={id} className=" mb-8 relative isolate border-2 border-stone-950 rounded-md hover:shadow-dark transition-all">
+
                 <img
                     src={imgs[0]}
                     alt=""
@@ -22,30 +23,29 @@ const ItemTemplate = ({ item }) => {
                 <div>
                     <div className='flex items-center justify-between mt-4 mr-3'>
 
-                        <h4 className=" ml-3">
-                            <a href={`/template/${getUrltTitle(title)}-${id}`}>
+                        <h3 className=" ml-3">
+                            <a href={`/templates/${getUrltTitle(title)}-${id}`}>
                                 {title}
                             </a>
-                        </h4>
-                        {/* <span className='text-terracotta font-bold '>Gratis</span> */}
+                        </h3>
                     </div>
 
                     <div className="flex items-center gap-x-4 mt-2">
                         {
                             tags.map((tag, index) => {
-                                return <h7
+                                return <h
                                     key={index}
                                     href={''}
-                                    className="relative text-xs rounded-full bg-gray-50 px-3 py-1.5 font-normal text-gray-600 "
+                                    className="px-3 py-1.5 text-terracotta text-xs"
                                 >
                                     {tag}
-                                </h7>
+                                </h>
                             })
                         }
                     </div>
 
-                    <div className='h-10 w-10 bg-yellow-300 absolute top-2 rounded-full left-2 grid place-content-center'>
-                        <h5 >Gratis
+                    <div className='h-11 w-11 bg-yellow-300 absolute top-2 rounded-full left-2 grid place-content-center'>
+                        <h5 className='text-xs -rotate-6'>Gratis
                         </h5>
                     </div>
                 </div>

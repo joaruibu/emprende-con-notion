@@ -6,8 +6,8 @@ import { useRouter } from 'next/router'
 
 const navigation = [
     { name: 'Plantilla gratuitas', href: '/templates' },
-    { name: 'Blog', href: '/blog', },
     { name: 'Sobre mi', href: '/about' },
+    { name: 'Blog', href: '/blog', },
 ]
 
 export default function Navbar() {

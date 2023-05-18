@@ -2,10 +2,8 @@ import React from 'react'
 
 const navigation = {
     main: [
-        { name: 'cookies', href: '/cookies' },
         { name: 'legal', href: '/legal' },
         { name: 'privacidad', href: '/privacidad' },
-
     ],
 }
 
