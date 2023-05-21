@@ -75,6 +75,7 @@ export default function Navbar() {
                                         <a
                                             key={item.name}
                                             className="-mx-3 block rounded-sm px-3 py-2 font-sub leading-7  hover:text-terracotta"
+                                            onClick={() => setMobileMenuOpen(false)}
                                         >
                                             {item.name}
                                         </a>

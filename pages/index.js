@@ -30,7 +30,7 @@ const Home = () => {
 
             <img className="rounded-xl pb-6" src='https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg'></img>
 
-            <SubscriptionForm titleForm={FORM_DATA.titleForm} textButton={FORM_DATA.textButton} code={FORM_DATA.code} trackerId={FORM_DATA.trackerId} />
+            <SubscriptionForm type={FORM_TYPE.banner} titleForm={FORM_DATA.titleForm} textButton={FORM_DATA.textButton} code={FORM_DATA.code} trackerId={FORM_DATA.trackerId} />
         </main>
 
 

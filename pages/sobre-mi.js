@@ -19,13 +19,13 @@ const About = () => {
         <main className=" border-2 border-stone-950 bg-stone-50 p-4 rounded-xl my-8">
 
             <TitlePage subtitle={TITLE_DATA.subtitle}>{TITLE_DATA.title}</TitlePage>
-            <SubscriptionForm titleForm={FORM_DATA.titleForm} textButton={FORM_DATA.textButton} code={FORM_DATA.code} trackerId={FORM_DATA.trackerId} />
+            <SubscriptionForm type={FORM_TYPE.banner} titleForm={FORM_DATA.titleForm} textButton={FORM_DATA.textButton} code={FORM_DATA.code} trackerId={FORM_DATA.trackerId} />
             <p className="pb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             <p className="pb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
             <p className="pt-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 
-            <SubscriptionForm titleForm={FORM_DATA.titleForm} textButton={FORM_DATA.textButton} code={FORM_DATA.code} trackerId={FORM_DATA.trackerId} />
+            <SubscriptionForm type={FORM_TYPE.banner} titleForm={FORM_DATA.titleForm} textButton={FORM_DATA.textButton} code={FORM_DATA.code} trackerId={FORM_DATA.trackerId} />
         </main>
     )
 }
