@@ -1,15 +1,9 @@
 import React from 'react'
-import TitlePage from '../components/TitlePage'
 
 const Privacidad = () => {
-
-  const TITLE_INFO = {
-    title: 'Política De Privacidad',
-
-  }
   return (
     <main className='my-12'>
-      {/* <TitlePage >{TITLE_INFO.title}</TitlePage> */}
+
       <h1><strong>Política De Privacidad</strong></h1>
       <p>Si estás leyendo esto es porque me obliga la ley.</p>
       <p>Esta política que estás leyendo ahora mismo, responde a todos los interrogantes acerca de cómo se tratan y protege la información personal de todas las personas que se relacionan con Laura de Arquer a través de esta web.</p>

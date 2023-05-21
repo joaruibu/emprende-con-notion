@@ -1,4 +1,4 @@
-import { TAG_POSTS_TYPE, } from "../helpers/types"
+import { TAG_POSTS_TYPE } from "../helpers/types"
 
 const posts = [
     {

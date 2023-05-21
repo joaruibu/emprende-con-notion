@@ -29,7 +29,7 @@ const FiltersByTags = ({ tags, setTags, setItems, type }) => {
     console.log(3232323, type, tags)
 
     return (
-        <div className='border-2 border-stone-950 rounded-md p-2 mt-2'>
+        <div className='border-2 border-stone-950 rounded-md p-2 mt-2 min-w-full flex-none overflow-x-scroll'>
             {/* <p>{type === DATA_TYPE.posts ? 'Filtra las entradas:' : 'Filtra tus plantillas:'}</p> */}
             {domLoaded &&
                 <div className='flex gap-2'>

@@ -6,11 +6,11 @@ import { getUrltTitle } from '../helpers'
 
 
 const ItemBlog = ({ item }) => {
-    console.log(55555, item)
+
     const { title, id, post_summary, img } = item
 
-    console.log(title)
     return (
+
         <Link href={`/blog/${getUrltTitle(title)}-${id}`} >
             <article key={id} className=" break-inside mb-9 flex flex-col items-start justify-between border-2 border-stone-950 rounded-md hover:shadow-dark transition-all">
                 <div className="relative w-full">

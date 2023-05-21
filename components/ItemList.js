@@ -12,7 +12,7 @@ const ItemList = ({ items, type }) => {
     console.log(1212, items)
 
     return (
-        <div className={`masonry sm:masonry-sm md:masonry-md mt-12  `}>
+        <div className={`sm:columns-2 columns-1 gap-9  py-12 mx-auto  `}>
 
             {
                 items.map((item, index) => {

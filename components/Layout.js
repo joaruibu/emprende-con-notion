@@ -7,11 +7,14 @@ const Layout = ({ children }) => {
     const { pathname } = useRouter();
 
     return (
-        <div className='max-w-3xl mx-auto px-4  min-h-screen'>
-            {pathname !== '/templates' && pathname !== '/templates/[id]' && pathname !== '/' && <Navbar />}
-            {children}
-            <Footer />
+        <div className={` ${pathname === '/' || pathname === '/sobre-mi' || pathname === '/plantillas/[id]' ? 'bg-stone-200' : 'bg-stone-50'}`}>
 
+            <div className='max-w-3xl mx-auto px-4 min-h-screen'>
+                {pathname !== '/plantillas/[id]' && <Navbar />}
+                {children}
+                <Footer />
+
+            </div>
         </div>
     )
 }

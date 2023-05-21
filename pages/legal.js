@@ -1,5 +1,4 @@
 import React from 'react'
-import TitlePage from '../components/TitlePage'
 
 const Legal = () => {
 

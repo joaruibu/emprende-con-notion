@@ -16,3 +16,8 @@ export const TAG_POSTS_TYPE = Object.freeze({
     playlists: 'playlists',
     favs: 'favoritos',
 })
+
+export const FORM_TYPE = Object.freeze({
+    banner: 'banner',
+    form: 'form'
+}) 

@@ -5,8 +5,8 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const navigation = [
-    { name: 'Plantilla gratuitas', href: '/templates' },
-    { name: 'Sobre mi', href: '/about' },
+    { name: 'Plantilla gratuitas', href: '/plantillas' },
+    { name: 'Sobre mi', href: '/sobre-mi' },
     { name: 'Blog', href: '/blog', },
 ]
 
