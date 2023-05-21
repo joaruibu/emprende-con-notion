@@ -1,7 +1,7 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import TitlePage from '../components/TitlePage'
 import SubscriptionForm from '../components/Form'
+import { FORM_TYPE } from '../helpers/types'
 
 const TITLE_DATA = {
     title: 'Sobre mi',
