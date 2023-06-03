@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 
 function SliderImg({ imgs }) {
-    console.log(989898989, imgs[2])
+
     const slides = [
         {
             url: 'https://res.cloudinary.com/dwsa2s0pn/video/upload/v1682344842/premium-autocad-block-mp4/Prueba_dybbmd.mp4'

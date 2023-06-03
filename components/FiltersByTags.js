@@ -15,7 +15,7 @@ const FiltersByTags = ({ tags, setTags, setItems, type }) => {
         })
         setTags(arrayFromTags)
         console.log(55554, arrayFromTags)
-    }, [])
+    }, [type, setTags])
 
 
     const onClickTag = (index) => {

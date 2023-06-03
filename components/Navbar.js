@@ -28,7 +28,7 @@ export default function Navbar() {
                     </Link>
                     <div className="hidden sm:flex sm:gap-x-6">
                         {navigation.map((item) => (
-                            <Link href={item.href} legacyBehavior prefetch={false}>
+                            <Link href={item.href} key={item.name} legacyBehavior prefetch={false}>
                                 <a key={item.name} className={`text-xs font-sub block h-full  hover:text-terracotta ${item.href === pathname ? 'text-terracotta' : ''}`}>
                                     {item.name}
                                 </a>
@@ -71,7 +71,7 @@ export default function Navbar() {
                         <div className="-my-6 divide-y divide-gray-500/10">
                             <div className="space-y-2 py-6">
                                 {navigation.map((item) => (
-                                    <Link href={item.href} legacyBehavior prefetch={false}>
+                                    <Link href={item.href} key={item.name} legacyBehavior prefetch={false}>
                                         <a
                                             key={item.name}
                                             className="-mx-3 block rounded-sm px-3 py-2 font-sub leading-7  hover:text-terracotta"

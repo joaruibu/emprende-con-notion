@@ -6,13 +6,15 @@ import { useEffect } from 'react';
 
 
 export const getUrltTitle = (title) => {
-    return title.trim().split(' ').join('-').toLowerCase().replace(/[.,\s]/g, '')
+    if (title !== undefined) {
+        return title.trim().split(' ').join('-').toLowerCase().replace(/[.,¿!¡?\s]/g, '')
+    }
 }
 
 export const getIdByUrl = (title) => {
-    console.log(934232, title)
-
-    return title.split("-").pop();
+    if (title !== undefined) {
+        return title.toString().split("-").pop();
+    }
 }
 
 export const getAllItems = (dataType) => {
@@ -27,7 +29,7 @@ export const getItemById = (dataType, id) => {
 
     if (dataType === DATA_TYPE.posts) return posts.find((ele => ele.id === id))
     if (dataType === DATA_TYPE.templates) return templates.find((ele => ele.id === id))
-
+    return
 }
 
 export const getFilterTemplates = (filterValue) => {

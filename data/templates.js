@@ -5,15 +5,17 @@ const templates = [
         title: 'Plantilla calendario de contenidos',
         id: '2zd33b8c',
         template_body: `
+        <h1>Plantilla super molona - h1</h1>
+        <h2>Plantilla super molona - h2</h2>
+        <h3>Plantilla super molona - h3</h3>
+        <h4>Plantilla super molona - h4</h4>
+        <h5>Plantilla super molona - h5</h5>
+        <h6>Plantilla super molona - h6</h6>
             <p class="text-xl text-red-200 mb-6">This is an example blog post.    <br>  You can delete this blog post by going to the blog dashboard.</p>
             
             <p class="text-xl text-red-200 mb-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
             `,
-        template_summary: `
-            <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
-            <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
-            <p > .You can delete this blog post by going to the blog dashboard.</p>
-            `,
+
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
@@ -21,7 +23,7 @@ const templates = [
             trackerId: '88509847557899626'
         },
         imgs: [
-            'https://emprendeconnotion.com/wp-content/uploads/2022/02/Plantilla-Objetivos-con-barras-de-progreso-en-Notion.jpg',
+
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
         ,
@@ -123,7 +125,7 @@ const templates = [
             <p > This is an example blog post.You can delete this blog post by going to the blog dashboard.</p>
             `,
         form: {
-            titleForm: '',
+            titleForm: 'Hay cosas que no se dan #degratis.  <br /> Esas cosas, las especiales, solo se las doy a mi lista de suscriptores.',
             textButton: 'Suscribir y recibir plantilla.',
             code: '5218390',
             trackerId: '88509459972752616'

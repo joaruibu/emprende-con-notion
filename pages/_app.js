@@ -1,12 +1,10 @@
 import Head from 'next/head'
 import Layout from '../components/Layout'
 import '../styles/globals.css'
-import { useRouter } from 'next/router';
 
 
 const MyApp = ({ Component, pageProps }) => {
-    const { pathname } = useRouter();
-    console.log(123444, pathname)
+
 
     return (
         <>

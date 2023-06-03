@@ -5,9 +5,9 @@ import { getAllItems, getFilterByTags } from '../../helpers'
 import { DATA_TYPE } from '../../helpers/types'
 import FiltersByTags from '../../components/FiltersByTags';
 
-const index = () => {
+const Index = ({ posts }) => {
     const [domLoaded, setDomLoaded] = useState(false);
-    const [items, setItems] = useState(getAllItems(DATA_TYPE.posts))
+    const [items, setItems] = useState(posts)
     const [tags, setTags] = useState([])
 
 
@@ -17,7 +17,6 @@ const index = () => {
 
     useEffect(() => {
         getFilterByTags(tags)
-        console.log(8887, items)
     }, [tags]);
 
     const TITLE_INFO = {
@@ -39,6 +38,12 @@ const index = () => {
     )
 }
 
-export default index
+export default Index
 
-
+export async function getStaticProps() {
+    return {
+        props: {
+            posts: getAllItems(DATA_TYPE.posts)
+        }
+    }
+}

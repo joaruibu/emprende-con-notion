@@ -89,7 +89,7 @@ const Form = ({ type, titleForm, textButton, code, trackerId }) => {
                             style={{ display: "none" }}
                         >
                             <div
-                                className="ml-form-successContent whitespace-pre-line text-center  rounded-md border border-stone-950  bg-stone-50 py-2.5 font-sub text-sm font-semibold  shadow-sm  "
+                                className="ml-form-successContent whitespace-pre-line text-center  rounded-md border border-stone-950  bg-yellow-300 py-2.5 font-sub text-sm font-semibold  shadow-sm  "
                             >
                                 Formulario enviado. <br />
                                 Revisa tu email

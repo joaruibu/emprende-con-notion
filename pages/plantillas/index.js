@@ -6,7 +6,7 @@ import { DATA_TYPE } from '../../helpers/types'
 import { getAllItems, getFilterByTags, getFilterTemplates } from '../../helpers/index';
 import FiltersByTags from '../../components/FiltersByTags'
 
-const index = () => {
+const Index = () => {
     const [domLoaded, setDomLoaded] = useState(false);
     const [searchValue, setSearchValue] = useState('')
     const [items, setItems] = useState(getAllItems(DATA_TYPE.templates))
@@ -17,9 +17,9 @@ const index = () => {
         setDomLoaded(true);
     }, []);
 
-    useEffect(() => {
-        setItems(getFilterTemplates(searchValue))
-    }, [searchValue]);
+    // useEffect(() => {
+    //     setItems(getFilterTemplates(searchValue))
+    // }, [searchValue]);
 
     useEffect(() => {
         getFilterByTags(tags)
@@ -46,6 +46,13 @@ const index = () => {
     )
 }
 
-export default index
+export default Index
 
 
+export async function getStaticProps() {
+    return {
+        props: {
+            templates: getAllItems(DATA_TYPE.templates)
+        }
+    }
+}
