@@ -89,10 +89,13 @@ const Form = ({ type, titleForm, textButton, code, trackerId }) => {
                             style={{ display: "none" }}
                         >
                             <div
-                                className="ml-form-successContent whitespace-pre-line text-center  rounded-md border border-stone-950  bg-yellow-300 py-2.5 font-sub text-sm font-semibold  shadow-sm  "
+                                className="ml-form-successContent whitespace-pre-line text-center  rounded-md border border-stone-950  bg-yellow-300 py-2.5 font-montserrat text-sm font-semibold  shadow-sm  "
                             >
-                                Formulario enviado. <br />
-                                Revisa tu email
+                                Formulario enviado.
+                                <br></br>
+                                1. Revisa tu email y confirma la suscripción.
+                                <br></br>
+                                2. Recibe tu plantilla.
 
                             </div>
                         </div>

@@ -27,9 +27,8 @@ const TemplateItem = ({ template }) => {
                 <SliderImg imgs={imgs}></SliderImg>
 
                 {/* Product info */}
-                <div className=" pb-16 pt-10  ">
+                <div className=" pt-10  ">
                     <h1 className="">{title}</h1>
-
 
                     <SubscriptionForm
                         type={form.type}
@@ -39,15 +38,21 @@ const TemplateItem = ({ template }) => {
                         trackerId={form.trackerId}
                     ></SubscriptionForm>
 
-                    {/* Description and details */}
+                    {/* Body description */}
                     <div>
                         <h3 className="sr-only">Description</h3>
                         <div className="space-y-6">
-                            <p dangerouslySetInnerHTML={{ __html: template_body }}></p>
+                            <p className='list-disc list-inside' dangerouslySetInnerHTML={{ __html: template_body }}></p>
                         </div>
                     </div>
-                    <p>esto es clarotio<b>y esyo negrita</b></p>
 
+                    <SubscriptionForm
+                        type={form.type}
+                        titleForm={form.titleForm}
+                        textButton={form.textButton}
+                        code={form.code}
+                        trackerId={form.trackerId}
+                    ></SubscriptionForm>
                 </div>
             </div>
         </>

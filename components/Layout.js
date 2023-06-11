@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     const { pathname } = useRouter();
 
     return (
-        <div className={` ${pathname === '/' || pathname === '/sobre-mi' || pathname === '/plantillas/[id]' || pathname === '/blog/[id]' ? 'bg-stone-200' : 'bg-stone-50'}`}>
+        <div className={` ${pathname === '/' || pathname === '/sobre-mi' || pathname === '/suscripcion-confirmada' || pathname === '/plantillas/[id]' || pathname === '/blog/[id]' ? 'bg-stone-200' : 'bg-stone-50'}`}>
 
             <div className='max-w-3xl mx-auto px-4 min-h-screen'>
                 {pathname !== '/plantillas/[id]' && <Navbar />}

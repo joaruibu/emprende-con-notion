@@ -370,7 +370,7 @@ const posts = [
         <h2>Notion para equipos. </h2>
         <img
         src="https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/Duplicar_templates_en_Notion-emprende_con_notion_i4ux40.jpg"
-        class="h-full w-full object-cover object-center"
+        class="h-full w-full object-cover rounded-md mb-4 object-center"
     />
 
         <p>Este es uno de los puntos fuertes de Notion. De hecho, grandes tecnológicas con cientos de empleados usan Notion para toda su gestión interna. </p>
