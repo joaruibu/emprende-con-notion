@@ -25,6 +25,7 @@ const templates = [
         <p>Y los que la dejan gratuita es porque solo comparten un habit tracker. Es decir una simple tablita con casillas que también podrías hacer en excel. </p>
         
         <p>Esta plantilla es algo más. Te lo voy a contar. </p>
+
         <br>
         
         <p>Primero. Un habit tracker es una herramienta para llevar un seguimiento de tus rutinas y objetivos de desarrollo personal, y ayudarte a cumplirlos. </p>
@@ -55,7 +56,7 @@ const templates = [
         
         <p>Se reportaron mejoras de salud: <b>las personas que hacían ejercicios de gratitud tenían mejor calidad de sueño, y escalas más bajas de ansiedad</b>.</p>
         <br>
-        <p>Si esto no te convence para llevar un diario, pues no te descargues la plantilla porque no la veas a aprovechar. Y no queremos perder el tiempo. Al menos yo no. Igual tú si. No sé.  </p>
+        <p>Si esto no te convence para llevar un diario de agradecimiento… No te descargues la plantilla. </p>
         <br>
         <p>Si sí que te convence, puedes suscribirte y recibirás esta plantilla de habit tracker + diario de agradecimiento, junto con el vídeo donde te explico paso a paso cómo utilizarla.</p>
         <br>
@@ -63,11 +64,14 @@ const templates = [
         
         <p>Si aporta tanto valor, ¿por qué la regalo en lugar de cobrarla? </p>
         
-        <p>Pues porque me hace ilusión. Y como la he hecho yo, he decidido hacer lo que me sale de los ovarios con ella. </p>
+        <p>Pues porque me hace ilusión. </p>
+        <p>Y como la he hecho yo, hago lo que me sale de los ovarios con ella. </p>
         
-        <p>Y, sobre todo, porque así te suscribes a mi newsletter y te podré enviar emails diarios para venderte plantillas y cursos en el futuro. Si no te gusta, puedes darte de baja.</p>
+        <p>Y, porque así te suscribes a mi newsletter y te podré enviar emails diarios para venderte plantillas y cursos en el futuro. Si no te gusta, puedes darte de baja cuando quieras.</p>
         <br>
-        <p><b>P.D.: Para suscribirte y recibir la plantilla, abajo en la casilla de suscripción.</b></p>
+        <p><b>P.D.: Al suscribirte recibirás un email con la plantilla de habit tracker y diario de agradecimiento, junto con el vídeo donde te explico paso a paso cómo utilizarla.</b></p>
+        <br>
+        <p><b>P.D.2: Para suscribirte y recibir la plantilla, abajo en la casilla de suscripción.</b></p>
 
             `,
 
@@ -89,11 +93,10 @@ const templates = [
         title: 'Plantilla CV en Notion',
         id: '2',
         template_summary: `
-            <p >Si todavía haces tu CV en pdf… Lee esto. En serio. Te interesa. </p>
-            <p > Tener tu CV en Notion es muy fácil. Y gratis. Y fácil. Y bonito.  </p>
+            <p >Si todavía haces tu CV en word y pdf… Lee esto. En serio, te interesa. Tener tu CV en Notion es muy fácil. Y gratis. Y diferenciador. Y fácil. Y bonito. Y fácil. </p>
             `,
         template_body: `
-            <p>Hace cuatro años estaba terminando el master de arquitectura. </p>
+            <p>En 2017 estaba terminando el master de arquitectura.  </p>
     
             <p>Además trabajaba en Bimba y Lola como dependienta.</p>
             
@@ -101,9 +104,7 @@ const templates = [
             
             <p>Ah. Y follaba mucho.</p>
             
-            <p>Acababa de conocer al que ahora sigue siendo mi pareja. </p>
-            
-            <p>Y follábamos constantemente. </p>
+            <p>Acababa de conocer a Joaquín, el que a día de hoy sigue siendo mi pareja, y follábamos constantemente. </p>
             
             <p>Pero eso es otra historia. </p>
             <br>
@@ -116,7 +117,7 @@ const templates = [
             
             <p>Y yo era una arquitecta pipiola.  </p>
             <br>
-            <p>La cosa es que a través del Politécnico conseguí una entrevista en una multinacional del sector cerámico. En Castellón. </p>
+            <p>La cosa es que conseguí una entrevista en una multinacional del sector cerámico en Castellón. </p>
             
             <p>Una multinacional muy gorda. </p>
             
@@ -124,26 +125,32 @@ const templates = [
             
             <p>Te imaginas mi emoción ¿no?  </p>
             
-            <p>En mi mundo inocente pensaba que me habían llamado porque a pesar de ser joven tenía un buen currículum: prácticas, Erasmus, idiomas, buenas notas… Bueno. Luego te cuento. </p>
-            
-            <p>La primera entrevista fue genial. El de rrhh era jovencito. El típico cayetano de pueblo (lo de pueblo no es peyorativo eh, es simplemente descriptivo). </p>
+            <p>En mi mundo inocente pensaba que me habían llamado porque a pesar de ser joven y mujer tenía un buen currículum: prácticas, Erasmus, idiomas, matrículas de honor… </p>
+           
+            <p>Pues no. Ahora te explico.</p>
+
+            <br>
+
+            <p>La primera entrevista fue genial. El de rrhh era jovencito. El típico cayetano de pueblo (lo de pueblo no va a malas eh, es simplemente descriptivo). </p>
             
             <p>La segunda entrevista fue también muy bien. Ahí estaba yo con el cayetano de rrhh, y el CEO de la empresa típico casposo de vox. </p>
             
-            <p>Por cierto, que si te sientes insultado al leer esto, lo mejor es que no continúes leyendo y tampoco te suscribas. </p>
+            <p>Por cierto, que si te sientes insultado al leer esto, lo mejor es que no continúes leyendo porque voy a soltar más y no quiero que lo pases mal. </p>
             
             <p>Sigo.</p>
             <br>
     
             <p>Me llamaron a la semana. </p>
             
-            <p>Yo estaba trabajando en Bimba. Cogí el teléfono y dejé plantada a la clienta con la que estaba hablando (algo imperdonable, ni debíamos tener los móviles en los bolsillos). </p>
+            <p>Yo estaba trabajando en Bimba. Cogí el teléfono y dejé plantada a la clienta con la que estaba hablando (algo imperdonable, no debíamos ni tener los móviles en los bolsillos). </p>
             
             <p>Me dijeron que empezase cuanto antes. </p>
             
-            <p>Al día siguiente me dejé mi trabajo como dependienta. </p>
+            <p>Al día siguiente dejé mi trabajo como dependienta. </p>
             
-            <p>A las dos semanas ya estaba independizada en Castellón, con un coche nuevo en leasing, y con un sueldo de 24000 brutos. Disponible para aguantar marichulos y hacer horas extra a cascoporro. </p>
+            <p>A las dos semanas ya estaba independizada en Castellón, con un coche nuevo en leasing, y con un sueldo de 24000 brutos.</p>
+
+            <p>Disponible para aguantar marichulos y hacer horas extra a cascoporro.</p>
             
             <p>O sea, mi primer trabajo serio, y en una multinacional gorda. Te haces una idea de mi emoción del momento. </p>
             <br>
@@ -169,48 +176,35 @@ const templates = [
     
             <ul class="list-disc list-inside">
     
-            <li> Aprendí que para llamar la atención un CV clásico en papel no servía. **Tu CV tiene que diferenciarte. Ojo, he dicho tu CV, no tu experiencia.** Es distinto. Da igual si tienes 2, 8 o 15 másters. Eso se lo leen después. Antes han hecho una criba. Criba con algo visual que les ha llamado la atención.</li>
+            <li>Aprendí que para llamar la atención un CV clásico no sirve. </li>
     
-            <li> Cayetano (que no se llamaba Cayetano pero no te quiero decir su nombre), es el perfil estándar de rrhh en muchísimas empresas tradicionales, que por desgracia son la mayoría. O sea, por desgracia también, esto pasa en muchas muchas muchas empresas.</li>
+            <li><b>Tu CV tiene que diferenciarte. Ojo, he dicho tu CV, no tu experiencia.</b> Es distinto. Da igual si tienes 2, 8 o 15 másters. Eso se lo leen después. Antes han hecho una criba. Criba con algo visual que les ha llamado la atención.  </li>
+            
+            <li>No pierdas tiempo pensando en un diseño bonito. Que la mayoría no somos diseñadores gráficos, asúmelo. Es mejor invertir ese tiempo en hacer un CV diferente a la mayoría. No bonito, diferente. Es decir. Si lo hacen en vertical. Pues tu horizontal. Si lo hacen en papel, pues tú online. Así de fácil. </li>
             
             </ul>
-            <p>Me gustaría decirte que fue la última empresa en la que trabajé. Que ya no volví a trabajar con marichulos.</p>
+            <br>
+
+            <p>Cuando dejé de trabajar allí y volví necesitar un CV, me hice mi propia página web en wordpress. Fue un jaleo.</p>
             
-            <p>Que emprendí y me fue todo estupendo. Pero no. </p>
+            <p>Cuando conocí Notion, me hice un CV en Notion. Que es lo mismo que crearte tu propia página web, pero más fácil vaya.  </p>
             
-            <p>Qué va. </p>
+            <p>El CV en Notion lo hice en muchísimo menos tiempo, claro. </p>
+
+            <p<b>O sea, coges la info de tu CV, y vas haciendo copia-pega en Notion con el diseño que quieras.</b>  </p>
             
-            <p>Sí que fue la última vez que imprimí un CV en papel. </p>
+            <p<b>Cuando ya la tienes, haces que esa página de currículum en Notion sea pública. </b>  </p>
             
-            <p>La última. </p>
+            <p<b>Y CV en Notion listo.  </b>  </p>
+            
+            <p>El CV en Notion lo hice en muchísimo menos tiempo, claro. </p>
+            
             <br>
             
-            <p>Si enviar un pdf en horizontal me diferenció… </p>
+            <p>Y como encima el estilo de Notion es minimalista, tampoco es que puedas cagarla con el diseño, ¿sabes? </p>
             
-            <p>Pues imagina enviar el CV como página web. </p>
-            
-            <p>Pues mujer, sí te diferencia (que no sabes la de gente que aún usa word).</p>
-            <br>
-            
-            <p>Así que me hice mi propia página web en wordpress. </p>
-            
-            <p>Fue un jaleo. </p>
-            
-            <p>Cuando conocí Notion, me hice un CV en Notion. Que es lo mismo que crearte tu propia página web, vaya. </p>
-            
-            <p>Y el CV en Notion lo hice en muchísimo menos tiempo, claro.</p>
-            
-            <p><b>O sea, coges la info de tu CV, y vas haciendo copia-pega en Notion con el diseño que quieras.</b> </p>
-            
-            <p><b>Cuando ya la tienes, haces que esa página de Notion en concreto sea pública.</b> </p>
-            
-            <p><b>Y CV en Notion listo.</b></p>
-            
-            <p>Y como encima el diseño de Notion es minimalista, tampoco es que puedas cagarla con el diseño, ¿sabes?</p>
-            <br>
-            <p>Por si tienes dudas, en el email que te llegará con la plantilla tendrás también el vídeo sobre cómo personalizarla y hacerla pública. </p>
-            
-            <p><b>Para conseguir la plantilla de CV en Notion, suscríbete abajo.</b></p>
+            <p>P.D.: <b>Por si tienes dudas sobre cómo utilizar tu CV en Notion, al suscribirte recibirás un email con la plantilla y el vídeo sobre cómo personalizarla y hacerla pública. </b></p>
+            <p>P.D.2: <b>Para conseguir la plantilla de CV en Notion, suscríbete abajo. </b></p>
                 `,
         form: {
             titleForm: '',
@@ -252,76 +246,67 @@ const templates = [
             
             <p>Total. Que Joaquín nunca sabe dónde está su cartera. </p>
             
-            <p>Y se estresa. Se estresa mucho. </p>
-            
-            <p>Termina saliendo 10 minutos tarde de casa por buscar su cartera. </p>
+            <p>Y se estresa. Se estresa mucho. Termina saliendo 10 minutos tarde de casa por buscar su cartera. </p>
             
             <p>Y me estresa a mí, claro, pero ese es otro tema. </p>
             
-            <p>La cuestión es que si no tienes un sitio claro donde dejar la cartera, pues nunca está. ¿Dónde no está? Pues no sé. Porque no tiene un sitio.</p>
+            <p>La cuestión es que si no tienes un sitio claro donde dejar la cartera, pues nunca está. ¿Dónde está? Pues no sé. Porque no tiene un sitio. </p>
     
             <br>
     
-            <p>La cosa es que aquello para lo que no tenemos una clasificación, un lugar, un sitio fijo, acaba perdido. Y eso equivale a perder tiempo buscándolo. Y a estrés por perder ese tiempo. Y a frustración propia por ser desastre. </p>
+            <p>Para lo que no tenemos una clasificación, un lugar, un sitio fijo, acaba perdido.  </p>
+            <p>Y eso equivale a perder tiempo buscándolo. Y a estrés por perder ese tiempo. Y a frustración propia por ser desastre.   </p>
     
             <br>
     
-            <p>Mira, yo me considero muy despistada. Mucho. Y a veces no sé dónde coño están las llaves. Y me me desespero conmigo misma. </p>
+            <p>Y en el ámbito digital pasa lo mismo. ¿Cómo tienes tu escritorio, eh, pillín?  </p>
     
-            <p>Así que hace años, siendo niña, me dije que eso no me pasaría nunca en los estudios. Me agobiaba horriblemente pensar que podía perder el libro de lengua y tener que pedirle a mi padre que me lo comprara otra vez. </p>
+            <p>Pues el mío en época de exámenes era un desastre, oiga.</p>
+
+            <br>
+
+            <p>Pero hace unos años descubrí Notion.</p>
+
+            <p>Descubrí que crear una especie de índice con carpetitas y subcarpetitas que me dijeran dónde guardar tal o cual cosa… Era una puta maravilla. </p>
+
+            <p>Mi vida digital mejoró que flipas. Y eso es algo que no te dan otra apps de productividad digital.</p>
             
-            <p>Puede parecerte absurdo, pero para mí suponía mucho estrés por la situación familiar. </p>
-            
-            <p>Así que me esforcé por tener todo bien clasificado. Por que las cosas tuvieran siempre un sitio.</p>
-    
-            <br>
-    
-            <p>Cuando llegué a la universidad y los libros, apuntes y proyectos pasaron a ser digitales, esa organización la pasé a mi ordenador. Con carpetas y subcarpetas. Fácil de buscar, rápido de encontrar. </p>
-    
-            <br>
-    
-            <p>Hace unos años llegó Notion. Y apliqué lo mismo: *fácil de buscar, rápido de encontrar*. </p>
-    
-            <p>Vale. Todo bien. </p>
-    
-            <p>Bueno, bien para mí que ya no pierdo las llaves tan a menudo. </p>
-    
-            <p>Pero para Joaquín que sigue perdiendo las llaves… </p>
-    
-            <p>Pues las pierde igual dentro de Notion que fuera. </p>
-    
-            <p>O sea que le cuesta saber dónde ha guardado la info en Notion, vaya. </p>
-    
-            <p>De hecho, en su trabajo por cuenta ajena usan Notion. Y mínimo una vez a la semana me pregunta a mí “¿dónde      crees que está nosequé carpeta?”. </p>
-    
-            <p>Y yo… Es tu empresa... Que tu jefe os organice. O que me contrate. Sabes.</p>
-    
-            <br>
-            <p><b>Bueno.</b></p> 
-    
-            <p><b>Que mi <i>fácil de buscar, rápido de encontrar</i> en Notion se traduce en una página: Home.</b></p>
-            
-            <p><b>O sea, una página con acceso a tus páginas de Notion bien clasificadas, además de tener acceso directo a tus objetivos o tareas diarios.</b></p>
-    
-            <br>
-    
-            <p>Como tengo proyectos en común con Joaquín (eso de <i>donde tengas la olla no metas la polla nosotros</i> no lo aplicamos), te puedes imaginar lo importante que ha sido para mi salud mental crear una Home clarísima cristalina. </p>
-    
-            <p>Digo por mi salud mental porque si Joaquín me tenía que estar preguntando cada día “dónde están guardados los textos de los formularios…”, seguramente nos habríamos matado mutuamente y no estarías viendo esta web. Que la ha creado él (es guay ¿eh?).</p>
-    
-            <p>La suerte es que creé una Home MUY CLARA.</p>
-    
-            <br>
-    
-            <p>En cualquier workspace de Notion (espacio de trabajo) para mí es imprescindible tener una página Home. Imprescindible.</p>
-    
-            <p>Por eso comparto una página Home para principiantes en Notion. </p>
-            
-            <p>Cada persona y proyecto requieren una Home diferente. Y si estás empezando necesitas una base, que es esta plantilla.</p>
-    
             <br>
             
-            <p>P.D.: Para conseguirla suscríbete abajo. Recibirás un email con la plantilla Home y un vídeo de YouTube explicándote tips para usarla.</p>
+            <p>Pero Joaquín que sigue perdiendo las llaves… </p>
+            <p>Y le cuesta saber dónde ha guardado la info en Notion… </p>
+            <p>Porque en su empresa usan Notion, pero no tienen una Home clara, vaya. </p>
+            <p>Y mínimo una vez a la semana me pregunta a mí “¿dónde crees que está la carpeta de nosequé?”. </p>
+            <p>Y yo… Es tu empresa... Que tu jefe os haga una buena home en Notion. No sé. </p>
+            <p>O que me contrate. No sé. </p>
+            <p>No sé.</p>
+
+            <br>
+
+            <p>Bueno. Que mis carpetitas y subcarpetitas en Notion se traduce en una página: Home. </p>
+            <p>O sea, un índice con tus páginas de Notion bien clasificadas. </p>
+            <p>Además de tener acceso directo a tus objetivos o tareas diarios. </p>
+    
+            <br>
+    
+            <p>Como tengo proyectos en común con Joaquín (eso de donde tengas la olla no metas la polla nosotros no lo aplicamos), te puedes imaginar lo importante que ha sido para mi salud mental crear una Home clarísima cristalina.  </p>
+            <p>Digo por mi salud mental porque si Joaquín me tenía que estar preguntando cada día “dónde están guardados los textos de los formularios…”, seguramente nos habríamos matado mutuamente y no estarías viendo esta web. Que ha creado él (es guay ¿eh?). </p>
+            <p>La suerte es que creé una Home MUY CLARA. </p>
+
+            <br>
+    
+            <p>En cualquier workspace de Notion (espacio de trabajo) es imprescindible tener una página Home. Imprescindible.</p>
+            <p>Por eso comparto esta página Home para principiantes en Notion. </p>
+            <p>Cada persona y proyecto requieren una Home diferente. </p>
+            <p>Y si estás empezando necesitas una base, que es esta plantilla. </p>
+    
+     
+    
+            <br>
+            <p>P.D.: <b>Al suscribirte recibirás un email con la plantilla Home y un vídeo de YouTube explicándote tips para usarla.</b></p> 
+            <p>P.D.2: <b>Para conseguirla suscríbete abajo. </b></p> 
+    
+     
     
                 `,
         form: {
@@ -370,56 +355,84 @@ const templates = [
             <p>Pero lo que sí creo que te interesa es que ahora no me dejo (casi) nunca las llaves en casa, ni las bragas.</p>
     
             <br>
-    
-            <p>Te lo digo rápido: en muy buena parte es parte porque descubrí el método GTD (Getting Things Done) de David Allen.</p>
+            <p>Te lo cuento rápido: en muy buena parte es parte porque descubrí el método GTD (Getting Things Done) de David Allen.</p>
 
-            <p>La esencial del método GTD es que una persona necesita <b>liberar la mente de todas esas tareas pendientes</b> y, en general, de cualquier cosa que se nos pase por la cabeza (ideas, eventos, tareas, series o películas para ver, lugares que visitar…) y guardarlas en un lugar específico. </p>
+            <p>La esencial del método GTD es que una persona necesita <b>liberar la mente</b> de todas esas tareas pendientes</b> de cualquier mierda que se nos pase por la cabeza (tareas, eventos, series para ver, lugares que visitar, la llamada a menganito, etc.) y guardarlas en un lugar específico. </p>
 
-            <p><b>De este modo no es necesario recordar lo que hay que hacer, sino que nos podemos centrar en cumplir nuestras tareas.</b></p>
+            <p>De este modo <b> no es necesario recordar lo que hay que hacer, y nos podemos centrar en cumplir nuestras tareas.</b> </p>
 
-            <p><b>Ese lugar específico, obviamente, es esta plantilla de Notion.</b></p>
+            <p><b>Ese lugar específico donde almacenamos todas las tareas pendientes es, obviamente, esta plantilla de Notion.</b></p>
     
             <br>
+
+        <p>Y esto es lo que vas a obtener si te suscribes para recibir la plantilla… Sip, la plantilla no es lo único que recibes, amigo. </p>
+
+        <p><b>Si te suscribes recibirás un email con:</b></p>
     
-            <p>Para conseguir la plantilla Getting Things Done de Notion y el vídeo explicativo de cómo funciona el método GTD, suscríbete aquí abajo. </p>
-
-            <p>Si quieres que te explique ahora cómo funciona el método, sigue leyendo.</p>
-
-        <p>Te cuento los <b>cinco puntos en los que se basa el método GTD:</b></p>
 
             <ol class="list-disc list-inside">
         
-        <li> <b>Recopilar ideas.</b> Vamos a tener una especie de repositorio de todo ese cúmulo de ideas. Puede parecer que las estamos guardando de forma caótica, pero ya habrá tiempo de ordenarlas y clasificarlas en los siguientes puntos del método.</li>
-
-        <li> <b>Procesar ideas.</b> Este es el típico punto que la gente se salta y empieza la procrastinación. Pero es importante de narices. Vamos a llevar las tareas al sitio que le corresponden. En el caso de la plantilla:Si es una tarea que puedes hacer en menos de dos minutos. La haces. Punto. No existe procrastinación ni mayor reflexión. Tarea de menos de dos minutos, tarea que haces y borras de la lista. Bien.Si es una idea (ojo, no una tarea). Por ejemplo, viajar a la casa de Papá Noel en Rovaniemi. Esto no lo podemos procesar como tarea. Se irá a una tabla especial de ideas locas que también te regalo junto con esta plantilla. Si la idea es "comer paella valenciana", quizás debas apuntarlo en tu menú semanal de batchcooking (y si aún no lo tienes, busca la plantilla). Y así con todo.Si es una tarea la pasaremos a la tabla donde se organizan las tareas. La cuestión es que proceses al César lo que es del César.</li>
-
-        <li> <b>Organizar tareas.</b> Organizar implica categorizar. ¿A qué proyecto pertenece la tarea? ¿Tiene una fecha límite? ¿Está en proceso, o por empezar?Con la plantilla que te regalo esto es fácil. Tienes una tabla creada donde poder aplicar todos estos filtros por tareas. Ojo, tienes que personalizarlos. Si piensas que yo te doy todo el trabajo hecho no te descargues la plantilla porque no te va a servir. Las plantillas no son mágicas. No son productivas por ti. Necesitan cariñito tuyo. Mira las fotos y lo entenderás rápido.</li>
-
-        <li><b>Revisar tareas.</b> Esta es fácil. Te lo explico rápido: si te apuntas todo pero luego no lo revisas... Mal vamos. Habrás conseguido lo mismo que cuando lo tenías en tu cabeza, es decir, se te olvidarán las llaves porque nadie te recordará cogerlas.Con esta plantilla de Notion de GTD esto es fácil fácil. Las tablas vienen con diferentes modos de vista. De nuevo, fíjate en las fotos. Puedes ver las tareas en forma de tabla, en calendario según su fecha límite, o si están en proceso o por empezar.Lo que no puedo, ni quiero, hacer por ti es revisar tus tareas al menos una vez al día, por ejemplo, antes de empezar la jornada. Te lo digo ahora como consejo porque es la única forma de que este método funcione. Tu plantilla GTD debe ser tu nueva mejor amiga para la gestión de tareas. Es un todo en uno.</li>
-
-        <li><b>HACER.</b> Este último paso solo depende de ti. Si has llegado hasta aquí, como mínimo ya habrás completado todas tus tareas de menos de 2 minutos. Que son, precisamente, las que más nos llevan a procrastinar. Y si te has portado bien, incluso habrás categorizado tus tareas por proyectos. Solo tendrás que mirar tu tabla de forma diaria, y ponerte a currar. Es decir: deja de perder tiempo organizándote e inviértelo en tu trabajo.</li>
+                <li> Un <b> vídeo detallado explicando cómo utilizar la plantilla de GTD.</b> Gratis. </li>
+                <li> El <b>  método Getting Things Done explicado paso a paso. O el método gracias al que ya no me dejo las llaves en casa. Ni el móvil. Ni la cartera. Ni las bragas.</b>  Gratis, en el vídeo de antes.  </li>
+                <li> El método de los dos minutos, o cómo dejar de procrastinar a saco. También gratis, en el vídeo de antes. </li>
+                <li> Si aún no sabes <b>cómo duplicar una plantilla en tu cuenta de Notion,</b> tranquilo, también te explico cómo hacerlo en otro vídeo que te envío también en el email. También de gratis. Esto no solo te servirá para duplicar esta plantilla de objetivos de nuevo año, si no cualquier otra plantilla de Notion que encuentres por internet.  </li>
+                <li>Por supuesto,  <b>obtendrás la plantilla de Getting Things Done en Notion. </b>Gratis. Verás que es la misma plantilla que te muestro en el vídeo explicativo. Para que no surja ninguna duda para aprender a utilizarla. </li>
         
+            </ol>
+
+        <br>
+        
+        <p>Puede ser que no hayas escuchado en tu vida lo del método GTD. </p>  
+
+        <p>Y que te esté hablando de GTD y tú estés pensando en Gatos Tontos Dementes. No sé. </p>
+
+        <p>Que no. Pobres gatos. Amo a los gatos. </p>
+        
+        <p>Bueno yo hasta hace nada tampoco sabía lo que era el sistema GTD (significa Getting Things Done, por si seguías pensando en gatos).   </p>
+        
+        <p>Si quieres que te explique cómo funciona el método, sigue leyendo.</p>
+        
+        <br>
+        
+        <p>Te voy a contar los <b> cinco puntos en los que se basa el método GTD y cómo se aplican a la plantilla de Getting Things Done que te regalo:</b></p>
+
+        <ol class="list-disc list-inside">
+        
+            <li><b>Recopilar ideas.</b> Vamos a tener una especie de repositorio de todo ese cúmulo de ideas. Así sin filtrar ni nada.  </li>
+            <li><b>Procesar ideas.</b>  Este es el típico punto que la gente se salta y empieza la procrastinación. Pero es importante de narices. Vamos a llevar las tareas al sitio que le corresponden.   </li>
+            <ol style="list-style-type: lower-latin; padding-bottom: 0;">
+                <li style="margin-left:2em">Si es una <b> tarea que puedes hacer en menos de dos minutos.</b> La haces. Punto. No existe procrastinación ni mayor reflexión. Tarea de menos de dos minutos, tarea que haces y borras de la lista. Bien. </li>
+                <li style="margin-left:2em;">Si es una <b>idea loca</b> (ojo, no una tarea), por ejemplo viajar a la casa de Papá Noel en Rovaniemi, se irá a una tabla de ideas que también te regalo junto con esta plantilla. Si la idea es "comer paella valenciana", quizás debas apuntarlo en tu menú semanal de batchcooking (y si aún no lo tienes, busca la plantilla). </li>
+                <li style="margin-left:2em">Si es una <b> tarea que puedes hacer en menos de dos minutos.</b> La haces. Punto. No existe procrastinación ni mayor reflexión. Tarea de menos de dos minutos, tarea que haces y borras de la lista. Bien. </li>
+                <li style="margin-left:2em">Si es una tarea normal la pasaremos a la tabla donde se organizan las tareas.</li>
+            </ol>
+            <p>Y así con todo. La cuestión es que le des al César lo que es del César. </p>
+            <li><b>Organizar las tareas.</b> ¿A qué proyecto pertenece la tarea? ¿Tiene una fecha límite? ¿Está en proceso, o por empezar? Con la plantilla que te regalo esto es fácil. </li>
+            <li><b>Revisar tareas</b>. O sea, si te apuntas todo pero luego no lo revisas al menos una vez al día... Mal vamos. Creo que no hace falta que te explique por qué. 
+            <br>
+            Verás que tienes un montón de formas de ver las tareas para que revisar sea fácil: calendario, por estado, etc. </li>
+
+            <li><b>HACER.</b>. Si llegas hasta aquí, como mínimo habrás completado tus tareas de menos de 2 minutos. Que son, precisamente, las que más nos llevan a procrastinar. 
+            <br>
+
+            O sea, que ni tan mal. 
+            <br>
+            
+            Y si te has portado bien y has categorizado tus tareas por proyectos... Solo tendrás que mirar tu tabla de forma diaria y ponerte a currar. 
+            <br>
+            
+            Es decir: <b>deja de perder tiempo organizándote e inviértelo en tu trabajo.</b></li>
+
+            <cite >«Mantén todo fuera de tu cabeza. Decide qué acciones requieren tus tareas cuando aparecen — no cuando expiran. Organiza recordatorios de tus proyectos y sus acciones próximas en las categorías apropiadas. Mantén tu sistema actualizado, completo y suficientemente revisado para conocer las opciones de las que dispones sobre lo que estás haciendo (y no haciendo) en cualquier momento.» - David Allen, creador del método GTD.
+            </cite>
+
         </ol>
-
         <br>
-        
-        <p><i>«Mantén todo fuera de tu cabeza. Decide qué acciones requieren tus tareas cuando aparecen — no cuando expiran. Organiza recordatorios de tus proyectos y sus acciones próximas en las categorías apropiadas. Mantén tu sistema actualizado, completo y suficientemente revisado para conocer las opciones de las que dispones sobre lo que estás haciendo (y no haciendo) en cualquier momento.» - David Allen, creador del método GTD. </i></p>
-        
-        <br>
-        
-        <p>Muchas personas tienden a confiar en su memoria para guardar todas las ideas y tareas. Y, como resultado, se acaban dejando las llaves. Se olvidan de llamar a algún cliente. O de esa cita con el médico por la tarde.</p>  
-
         <p>Con esta plantilla de Notion de GTD tienes la tranquilidad real de que todo-está-apuntado.</p>
-
-        <p>Y esta es la esencia del sistema GTD: liberar la mente para que no se te olviden las llaves. O lo que sea.</p>
-
-        <br>
-        
-        <p>¿Y por qué te regalo la plantilla si es tan molona? Porque es demasiado buen sistema como para no compartirla, y porque así te suscribes a mi newsletter y te podré acribillar a emails para venderte plantillas y cursos. Si no te gusta, puedes darte de baja.</p>
-        
-        <br>
-        
+        <p>Y es que esta es la esencia del sistema GTD: liberar la mente para que no se te olviden las llaves. O lo que sea.</p>
         <p><b>P.D.: Para suscribirte y recibir la plantilla, abajo en la casilla de suscripción.</b></p>
+
+    
                 `,
         form: {
             titleForm: '',
@@ -439,14 +452,14 @@ const templates = [
         title: 'Plantilla de Objetivos y visualizaciones de Nuevo Año ',
         id: '5',
         template_summary: `
-            <p>Te voy a contar el secreto de la visualización para crear unos objetivos anuales que se cumplan. Y para ponerlo en práctica te regalo una plantilla de objetivos en Notion. </p>
+            <p>Visualización de objetivos: el secreto para crear unos objetivos anuales que se cumplan. Para ponerlo en práctica te regalo una plantilla de objetivos en Notion.</p>
             `,
         template_body: `
-            <p>Resulta que muchas investigaciones (Corbin, 1960; Oxendine, 1969; Richardons, 1967; Start, 1960 y 1962; por si quieres buscarlas) han demostrado que la visualización es un método sumamente eficaz.</p>
+            <p>Resulta que muchas investigaciones han demostrado que la visualización es un método sumamente eficaz.</p>
 
             <p>¿Visuali-qué? ¿No hablábamos de objetivos?</p>
         
-            <p>Vale. Te cuento.</p>
+            <p>No sé. Yo te cuento.</p>
     
             <br>
 
@@ -464,51 +477,68 @@ const templates = [
 
             <p>Se formaron tres grupos de participantes:</p>
 
-            <ul class="list-disc list-inside">
-                <li> Los primeros practicaron tirando a canasta una hora al día.</li>
-                <li> Los segundos únicamente entrenaron en su imaginación.</li>
-                <li> Los terceros no hicieron nada (grupo control).</li>
-            </ul>
+            <p> Los primeros practicaron tirando a canasta una hora al día.</p>
+
+            <p> Los segundos únicamente entrenaron en su imaginación.</p>
+
+            <p> Los terceros no hicieron nada (grupo control).</p>
+          
         <br>
         
         <p>Tras 30 días, los dos primeros grupos experimentaron una mejoría muy superior al grupo control (como era de esperar). </p>
         
         <p><b>Hasta aquí todo normal. Si no haces nada, no mejoras. Vale.</b></p>
         
-        <p>Pero lo guay viene ahora… </p>
+        <p>Lo guay viene ahora:</p>
         
         <p>Los otros dos grupos, o sea, los que practicaban y los que se imaginaban practicando, obtuvieron resultados extremadamente similares, incrementando un 24% y 23% respectivamente.</p>
         
         <p>Wow.</p>
         
         <br>
-
-        <p>Es decir, <b>se demostró que al imaginar una acción se obtienen resultados muy similares a cuando realmente se ejecuta la acción.</b> Además, se generan los mismos cambios cerebrales... Ojo al dato.</p>
-
-        <p>No sé, a mí esto me dejó loca.</p>
         
-        <p>Es muy potente que cuando nos visualizamos alcanzando un objetivo, estamos físicamente moldeándonos para conseguirlo en la vida real.</p>
+        <p>(Paréntesis: si quieres buscar más info de esta y otras investigaciones similares, te dejo aquí info: Corbin, 1960; Oxendine, 1969; Richardons, 1967; Start, 1960 y 1962). </p>
+        
+        <br>
+        <p>Sigo.</p>
+
+        <p>La cosa es que <b>se demostró que al imaginar una acción se obtienen resultados muy similares a cuando realmente se ejecuta la acción.</b> </p>
+
+        <p>Además, se generan los mismos cambios cerebrales... Ojo al dato</p>
+        
+        <p>No sé, a mí esto me dejó loca.</p>
+
+        <p>Es muy potente que cuando nos visualizamos alcanzando un objetivo, estamos físicamente moldeándonos para conseguirlo en la vida real. </p>
 
         <br>
 
-        <p>Así que si tú quieres hacer el típico listado rápido en Notas con tus objetivos del año media hora antes de las campanadas... Adelante. Esta plantilla, desde luego, no es para ti.</p>
+        <p><b>Así que si tú quieres hacer el típico listado rápido en Notas con tus objetivos del año media hora antes de las campanadas... Adelante. Pero esta plantilla, desde luego, no es para ti.</b></p>
 
         <br>
         <p>Esta plantilla es para los que se lo quieren currar. Como los que se dedicaban a encestar canastas en su cabeza una hora al día. </p>
 
-        <p>O sea, no vale con hacer un listado rápido (que también). Para sacar ese listado de objetivos de nuevo año, primero hay que visualizarlos.</p>
+        <p>O sea, no vale con hacer un listado rápido (que también). </p>
+
+        <p>Con esta plantilla vas a poner en práctica esos objetivos en tu cabeza.</p>
         
-        <p><b>Es decir, con esta plantilla vas a poner en práctica esos objetivos en tu cabeza.</b></p>
 
         <br>
 
-        <p><b>Al suscribirte recibirás un email con tu plantilla de objetivos de año nuevo GRATIS y un vídeo detallado explicando cómo utilizarla.</b> Paso a paso. Para cumplir todos los objetivos de este año. O del mes. O de la semana. Personalízala a tu gusto. Que para eso Notion, es Notion.</p>
+        <p><b>Al suscribirte en el enlace de abajo recibirás un email con:</b></p>
 
+        <ul class="list-disc list-inside">
+            <li>Un <b>vídeo detallado explicando cómo utilizar la plantilla. Paso a paso.</b> Gratis.</li>
+            <li>El <b>motivo principal por el que no conseguimos cumplir nuestros objetivos de año nuevo.</b> Gratis, en el vídeo de antes.</li>
+            <li>La <b>técnica de visualización de objetivos que te he contado para hacer unos objetivos realistas y para que, casi con toda seguridad, los cumplas.</b>  También gratis, en el vídeo de antes. </li>
+            <li>Cómo <b>adaptar la plantilla a tu estilo:</b> los colores, las imágenes, los textos… Esto también te lo cuento en el vídeo.</li>
+            <li>Si aún no sabes <b>cómo duplicar una plantilla en tu cuenta de Notion,</b> tranquilo, también te explico cómo hacerlo en otro vídeo que te envío también en el email. También de gratis. Esto no solo te servirá para duplicar esta plantilla de objetivos de nuevo año, si no cualquier otra plantilla de Notion que encuentres por internet.   </li>
+            <li>Por supuesto, <b>la plantilla de objetivos de año nuevo.</b>  Gratis. Verás que es la misma plantilla que te muestro en el vídeo explicativo. Para que no surja ninguna duda para aprender a utilizarla. </li>
+            <li>Y lo mejor para el postre: podrás ver los vídeos de YouTube 24 horas antes de que se hagan oficialmente públicos. Y responderé a TODOS los comentarios o dudas que me hagas durante esas primeras 24 horas. Solo para mis suscriptores. </li>
+        </ul>
         <br>
-        <p>P.D.1: ¿Y por qué te regalo todo esto? Porque es demasiado bueno para no compartirlo, y porque así te suscribes a mi newsletter y te podré enviar emails diarios para venderte plantillas y cursos en el futuro. Si no te gusta, puedes darte de baja.</p>
+        <p>P.D.1: ¿Y por qué te regalo todo esto? Porque así te suscribes a mi newsletter y te podré enviar emails diarios para venderte plantillas y cursos en el futuro. Si no te gusta, puedes darte de baja.</p>
+        <p><b>P.D.2: Para suscribirte y recibir la plantilla, abajo en la casilla de suscripción.</b></p>
 
-        <br>
-        <p>P.D.2: Para suscribirte y recibir la plantilla, abajo en la casilla de suscripción</p>
         
         `,
         form: {
@@ -529,7 +559,7 @@ const templates = [
         title: 'Plantilla Planificador semanal para principiantes en Notion',
         id: '6',
         template_summary: `
-            <p>Para personas que están iniciándose en Notion y necesitan una plantilla rápida, funcional e intuitiva con la que planificar su semana. Sin paja.</p>
+            <p>Para personas que están iniciándose en Notion y necesitan una plantilla rápida, funcional e intuitiva con la que planificar su semana. Sin paja. </p>
             `,
         template_body: `
   
@@ -560,20 +590,24 @@ const templates = [
             <p>Y si viajaba a la luna hubiera sido con mi agenda-encuadernada-en-polipiel-verde-corporativo-y-logo-grabado-en-letras-doradas. ¡Claro que sí!<p>
 
             <br>
+
             <p>Total, que planificar cada semana era un jaleo. </p>
             
-            <p>Si hace falta que te explique por qué es mucho mejor tener un plaficiador semanal digitalizado que una agenda casposa en papel… Esta plantilla no es para ti. </p>
+            <p>Si hace falta que te explique por qué es mucho mejor tener un plaficiador semanal digitalizado que una agenda casposa en papel… Esta plantilla no es para ti.</p>
             
             <br>
             <p>Esta plantilla es para los que quieren planificarse en digital. </p>
             
-            <p>Es para los que quieren tener sus tareas actualizadas en todos sus dispositivos y poder tener un recuento de ellas. </p>
+            <p>Es para los que quieren tener sus tareas actualizadas en todos sus dispositivos y poder tener un recuento de ellas.</p>
             
-            <p><b>Esta plantilla es para las personas que están iniciándose en Notion y necesitan una plantilla rápida, funcional e intuitiva con la que planificarse la semana y ser productivo. Sin más.</b> Sin paja. Sin polipiel verde ni letras doradas. Solo eso. Todo eso.  </p>
+            <p><b>Esta plantilla es para las personas que están iniciándose en Notion y necesitan una plantilla rápida, funcional e intuitiva con la que planificarse la semana y ser productivo.</b></p>
+            <p><b>Sin más.</b>Sin paja. Sin polipiel verde. Ni letras doradas. Solo eso. Todo eso.</p>
             
             <br>
 
-            <p><b>Si te interesa, suscríbete abajo. Te enviaré al email la plantilla con un vídeo explicativo de cómo usarla y personalizarla.</b></p>
+            <p><b>Si te interesa, suscríbete abajo. </b></p>
+
+            <p><b>Te enviaré al email la plantilla con un vídeo explicativo de cómo usarla y personalizarla.</b></p>
         
         `,
         form: {
@@ -601,43 +635,59 @@ const templates = [
             <p>Te voy a contar una historia. </p>
     
             <br>
+            
+            <p>Pasó durante la primera semana de mi primer trabajo. Estaba muy emocionada. Era una empresa muy grande, una multinacional número uno en el sector de la cerámica.  </p>
+            
+            <br>
 
-            <p>Pasó hace años cuando trabajaba en una empresa. Ahora también trabajo en una empresa. Pero no es la misma. Vale. </p>
-
-            <p>Este fue mi primer trabajo en una empresa grande, multinacional. Y yo estaba muy emocionada. </p>
+            <p>El jefe de mi departamento era de mi misma edad pero bajito, grueso, de poble, que vestía como un cayetano, hacía ruiditos desagradables cuando estaba callado y siempre tenía algo en la boca: un palillo, una tapa de boli, una goma… En adelante, el ruiditos. </p>
+            
+            <br>
 
             <p>El primer día me dieron dos cosas. </p>
 
-            <p>La primera, una agenda de papel con las tapas encuadernadas en polipiel de color verde corporativo y el logo grabado en letras doradas en el lomo. </p>
+            <p>La primera, una agenda-encuadernada-en-polipiel-verde-corporativo-y-logo-grabado-en-letras-doradas.</p>
 
-            <p>La segunda, un ordenador portátil windows de hace 15 años y con el teclado grasiento.</p>
+            <p>La segunda, un ordenador portátil windows de hace 20 años y con el teclado grasiento.</p>
 
             <br>
 
-            <p>Después de comer, mi jefe de departamento (de mi misma edad pero bajito, grueso, de poble, que vestía como un cayetano, hacía ruiditos desagradables cuando estaba callado y siempre tenía algo en la boca: un palillo, una tapa de boli, una goma…, en adelante *el ruiditos*) me dijo que hiciera la medición del revestimiento de una fachada. </p>
+            <p>Un día después de comer el ruiditos me dijo que hiciera la medición de una fachada. </p>
 
             <p>Inciso para aclararte, soy arquitecta. </p>
 
-            <p>Total que yo me apunté la tarea en mi agenda de polipiel verde para llevar un recuento de lo que hacía cada día y me puse a ello.</p>
-
-            <p>Era una fachada hortera con más quiebros que una estrellita de mar. </p>
-
-            <p>Así que la medición con una versión de autocad 2010 y un portátil del 2000 era tremendamente tediosa. Y por si te lo preguntas (no sé, igual te lo preguntas) no era bim. Había que sumar a mano.</p>
+            <p>Total que yo me apunté la tarea en mi agenda de polipiel verde.  </p>
 
             <br>
 
+            <p>¿Y por qué me lo apunté en la agenda-encuadernada-en-polipiel-verde-corporativo-y-logo-grabado-en-letras-doradas? </p>
+
+            <p>Pues para llevar un recuento de las tareas en mi día a día porque no había absolutamente ningún software de organización que pudiéramos usar (literalmente estaba prohibido, pero eso es otra historia). </p>
+
+            <br>
+
+            <p>La cosa es que la fachada en cuestión tenía más quiebros que una estrellita de mar.</p>
+
+            <p>Así que la medición con una versión de autocad 2010 y un portátil del 2000 era tremendamente tediosa. Y por si te lo preguntas (no sé, igual te lo preguntas) no era bim. Había que sumar a mano. </p>
+            
+            <br>
+
+            <p><i>El ruiditos</i>, riéndose con un palillo en la boca, me dijo: “Ay, pobrecita. No hacía falta hacer todo esto. Solo necesitaba saber el perímetro de los huecos.”</p>
+            
             <p>Lo terminé poco antes de la hora de irme y se lo pasé a mi jefe. </p>
 
-            <p><i>El ruiditos</i>, riéndose con un palillo en la boca, me dijo: “Ay, pobrecita, menudo curro te has pegado. Pero no había que hacer esto. Solo necesitaba saber el perímetro de los huecos.”</p>
+            <p>Yo no me reí. No me hizo ni puta gracia. </p>
 
-            <p>Yo no me reí. No me hizo ni puta gracia. En general, no me hace gracia que me hagan perder el tiempo, ni aunque me lo paguen. El problema es que el tiempo de después no me lo pagaron. Te explico. </p>
+            <p>En general, no me hace gracia que me hagan perder el tiempo, ni aunque me lo paguen.</p>
 
             <p>Le dije: “Vale, no hay problema, mañana a primera hora me pongo con ello”. Y me puse a recoger. </p>
 
             <p>Él siguió con su sonrisa de hijo de la gran perra con el palillo: “¿Que te vas? No no, lo necesito para ahora. Tú tranquila que seguro que después del trabajazo que has hecho esto lo haces en nada.”</p>
 
-            <p>A mí no se me ocurrió quejarme. Era mi primera semana en un trabajo que necesitaba desesperadamente para poder independizarme, y encima aún no había firmado el contrato.</p>
+            <p>A mí no se me ocurrió quejarme. Era mi primera semana en un trabajo que necesitaba desesperadamente para poder independizarme. </p>
             
+            <p>Y aún no había firmado el contrato.”</p>
+
             <br>
        
             <p>Al terminar me dijo: “No te olvides de fichar.”</p>
@@ -650,17 +700,21 @@ const templates = [
                 <li>firma.</li>
             </ul>
 
-            <p>Yo fui a poner la hora de salida real. </p>
+            <p>Yo fui a poner la hora de salida real.</p>
 
-            <p>Por supuesto no iba a funcionar así.  </p>
+            <p>Por supuesto no iba a funcionar así.</p>
 
-            <p>“No no. A ver, hay que poner el horario normal. Fíjate que todos salimos tarde muchos días porque queremos. Solo faltaría. Que no nos obliga nadie ¿eh?”. </p>
-
-            <p>La frase de que <i>nadie nos obliga a hacer horas de más</i> y que <i>todos lo hacemos porque queremos</i> se repetía casi a diario. Y me resultaban igual de vomitivas que el *<i>si quieres, puedes</i>*. Yo no quería trabajar para <i>el ruiditos</i>, qué narices. Pero de algo tenía que vivir.</p>
+            <p>“No no. A ver, hay que poner el horario normal. Fíjate que todos salimos tarde muchos días y no pasa nada. Lo hacemos porque queremos. Solo faltaría. Que no nos obliga nadie ¿eh?”. </p>
 
             <br>
             
-            <p>Durante el tiempo que estuve trabajando allí me apuntaba las tareas que hacía cada día en la agenda de polipiel verde. Así por lo menos podía estimar lo productiva que estaba siendo con cada cliente y obra.</p>
+            <p>La frase de que <i>nadie nos obliga a hacer horas de más</i> y que <i>todos lo hacemos porque queremos</i> se repetía casi a diario.</p>
+
+            <p>Y me resultaban igual de vomitivas que el *<i>si quieres, puedes</i>*. Yo no quería trabajar para <i>el ruiditos</i>, qué narices. Pero de algo tenía que vivir.</p>
+
+            <br>
+
+            <p>Durante el tiempo que estuve trabajando allí me apuntaba las tareas que hacía cada día en la agenda de polipiel verde. Así, por lo menos, podía estimar lo productiva que estaba siendo con cada cliente y obra.</p>
 
             <br>
             
@@ -668,7 +722,7 @@ const templates = [
             
             <br>
 
-            <p>Porque me encantaría que <i>el ruiditos</i> leyese esto y viese lo bien que me va ahora. </p>
+            <p>Porque me encantaría que <i>el ruiditos</i> leyese esto y supiera el asco que me daba. </p>
             
             <p>Que noooo.</p>
             
@@ -676,24 +730,21 @@ const templates = [
 
             <br>
 
-            <p><b>Porque contabilizar las horas REALES de lo que trabajas es fundamental. Si no no puedes saber si un proyecto está saliendo rentable.</b> O si un empleado es productivo o no. </p>
+            <p><b>Porque contabilizar las horas REALES que inviertes en un proyecto es fundamental para saber si el proyecto es rentable o no.</b></p>
 
-            <p>Simplemente no se puede saber.</p>
-
-            <br>
-
-            <p>Ojo, no estoy hablando de control. Si en un entorno laboral hay control es asfixiante. Es falta de confianza. Y eso no funciona en ningún tipo de relación. En ninguna. </p>
-
-            <p>Pero yo te hablo de otra cosa. </p>
+            <p>Ojo, no estoy hablando de control. Si en un entorno laboral hay control es falta de confianza y es asfixiante. Y eso no funciona en ningún tipo de relación. En ninguna.</p>
             
-            <p>Te hablo de contabilizar el tiempo que inviertes en cada proyecto. Te hablo de rentabilidad. De productividad.</p>
+            <p>Yo te hablo de otra cosa. Te hablo de ser realista para ser rentable y productivo.</p>
 
             <br>
 
-            <p>Cuando me hice autónoma y trabajaba por horas vi la importancia de llevar ese recuento digitalmente. Por respeto a mi tiempo y al de mis clientes. Necesitamos saber si nuestro esfuerzo realmente es rentable.</p>
+            <p>Cuando me hice autónoma y trabajaba por horas vi la importancia de llevar ese recuento digitalmente.</p>
+
+            <p>Así que creé la plantilla que hoy te comparto.</p>
+            
+            <p> Con esta plantilla puedes contabilizar tu tiempo en Notion, y además puedes hacerlo por tarea, por proyecto o por cliente, como mejor te venga.</p>
 
             <br>
-            <p>Así que creé la plantilla que hoy te comparto. Con esta plantilla puedes contabilizar tu tiempo en Notion, y además puedes hacerlo por tarea, por proyecto o por cliente, como mejor te venga.</p>
 
             <p><b>Para suscribirte y recibir la plantilla, abajo.</b></p>
 
@@ -705,6 +756,239 @@ const templates = [
             textButton: 'Suscribir y recibir plantilla.',
             code: '5218348',
             trackerId: '88509253866751070'
+        },
+        imgs: [
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+        ,
+        tags: [TAG_TEMPLATES_TYPE.student],
+
+    },
+    {
+        title: 'Plantilla Content Calendar para Redes Sociales',
+        id: '8',
+        template_summary: `
+            <p>Da igual si es Instagram, YouTube, LinkedIn o cualquier red en la que sale gente joven haciendo el mono. Podrás crear todo el contenido, categorizarlo, llevar un control de si está listo, y tener un calendario conjunto con tooodo. </p>
+            `,
+        template_body: `
+  
+            <p>Allá por 2020 me quedé desempleada y decidí emprender.</p>
+
+            <p>Como buena ignorante, lo primero que hice fue crearme redes sociales. O sea, Instagram.</p>
+
+            <p>Y le dediqué una cantidad ingente de tiempo. </p>
+
+            <br>
+            
+            <p><b>Daba igual cuánto publicases, cómo publicase o cuántos cursos de “aprende a tener éxito en Instagram” comprase.</b></p>
+
+            <p><b>El alcance era horrible si no pagabas publicidad.</b></p>
+
+            <p>Y yo no estaba como para pagar publicidad amiga. </p>
+            
+            <p>Así que todo el tiempo que invertí en hacer doscientos post increíbles no me sirvieron para nada.</p>
+            
+            <p>Bueno sí. Una cosa sí que me sirvió.</p>
+
+            <br>
+            
+            <p>Por aquella época empezaba a hacer ruido una app de productividad nueva. Se llamaba Notion.</p>
+
+            <p>Y llevaba tal cacao con las redes sociales que creé en Notion una plantilla para organizar los doscientos post que había creado.</p>
+            <p>Y el resto de la historia ya la sabes…</p>
+
+            <p>Instagram siguió funcionando fatal.</p>
+
+            <p>Pero la plantilla de Notion muy muy bien.</p>
+
+            <p>Decidí compartir mi plantilla de Content Calendar en el canal de YouTube que me acababa de crear. </p>
+
+            <p>Pensaba que podría ayudar a más gente en mi situación… Y así fue.</p>
+            
+            <br>
+            
+            <p><b>La plantilla es un organizador de contenidos para RRSS básico. Sin paja. Sin florituras.</b></p>
+
+            <p>Un sitio donde poder organizar todo tu contenido para todas tus redes.</p>
+
+            <p><b>Da igual si es Instagram, YouTube, LinkedIn o cualquier otra en la que sale gente joven haciendo el mono.</b></p>
+
+            <p>Maravilla del Señor. </p>
+
+            <p>Y si estás empezando en Notion es perfecta porque es fácil de usar.</p>
+
+            <p>Y aún mejor porque es gratis. </p>
+
+            <br>
+
+            <p><b>P.D.:En el email que te llegará con la plantilla tendrás también el vídeo sobre cómo utilizarla y personalizarla acorde a tus redes sociales y tipo de contenido. </b></p>
+            
+            <p>P.D.2: <b>Para conseguir la plantilla de CV en Notion, suscríbete abajo. </b></p>
+            `,
+        form: {
+            titleForm: '',
+            textButton: 'Suscribir y recibir plantilla.',
+            code: '',
+            trackerId: ''
+        },
+        imgs: [
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+        ,
+        tags: [TAG_TEMPLATES_TYPE.student],
+
+    },
+    {
+        title: 'Plantilla Crea tu Buyer Persona',
+        id: '9',
+        template_summary: `
+            <p>Por qué crear buyer persona es una pérdida de tiempo si no sabes lo que estás haciendo.</p>
+            `,
+        template_body: `
+  
+            <p>Te voy a ser sincera. </p>
+
+            <p>Y quizá después de leerme pienses que soy una boluda (como dice una amiga de Argentina).</p>
+
+            <p>Porque…</p>
+
+            <p>No me gusta nada lo de crear un buyer persona. Pero nada.</p>
+            
+            <p>Y te estoy regalando una plantilla para crearte uno.</p>
+            
+            <p>Bravo. </p>
+
+            <br>
+            
+            <p>Así que todo el tiempo que invertí en hacer doscientos post increíbles no me sirvieron para nada.</p>
+            
+            <p>Bueno sí. Una cosa sí que me sirvió.</p>
+
+            <br>
+            
+            <p>La cosa es que los emprendedoresquelevitan en internet dicen que es súperimportante crear un buyer persona.</p>
+
+            <p>Y yo que cuando me quedé en paro y emprendí no tenía ni puta idea de la vida dije, pues oye, será verdad.</p>
+
+            <p>Y lo cierto es que para la mayoría de personas es un ejercicio de mierda. </p>
+
+            <p>Digo la mayoría porque si tienes un público súper acotado sí que te puede ir bien. </p>
+
+            <p>En plan, una chica morena de treinta y tres años dos meses y un día que trabaja en una empresa de diseño gráfico en el norte y lleva mechas californianas y solo compra marcas eco y come bio y se tira pedos que huelen a flores. </p>
+
+            <br>
+
+            <p>Si ese no es tu caso, si resulta que tu producto se puede ajustar a emprendedores de 20 años y de 60 años, y da igual su sexo o nacionalidad…</p>
+
+            <p>Mmmmm…</p>
+
+            <p>¿Qué hago? ¿Creo doscientos buyer persona para cada generación? </p>
+
+            <p>Pues sí. Fui así de lista que lo empecé a hacer.</p>
+
+            <p>Sin comentarios. </p>
+
+            <br>
+            
+            <p>Es que es más fácil que todo eso.</p>
+
+            <p>Tú piensa en dos o tres personas que te vayan a comprar. Dos o tres. No doscientas. Solo dos o tres. </p>
+
+            <p>Y piensa cuál es el problema común que tienen todos ellos. Es decir, cuál es el problema que tu producto o servicio resuelve. </p>
+
+            <p>Y ya está. Eso podrás aplicarlo a cualquier persona que sea tu potencial cliente. Dará igual si es millenial o si está jubilado. </p>
+
+            <p>De nada.</p>
+
+            <br>
+
+            <p>A ver, que esto no lo digo yo. Que yo de marketing ni puta idea. Que yo lo he aprendido de Isra Bravo que es el que más vende sobre copywriting hispano. </p>
+
+            <p>Ya es cosa tuya si le crees o no.</p>
+            
+            <br>
+            
+            <p>Total, que si quieres usar esta plantilla para crearte 200 buyer persona e imaginar hasta de qué color tienen las uñas… Fantástico.</p>
+
+            <p>Si quieres utilizarla para encontrar cuál es el punto de dolor que resuelve tu producto… Fantástico también (te recomiendo la última opción, pero tú verás). </p>
+
+            <br>
+
+            <p><b>Para suscribirte y recibir la plantilla, abajo.</b></p>
+
+            <p><b>P.D.: Recibirás un email con el enlace a la plantilla y un vídeo explicándote paso a paso cómo funciona. </b></p>
+            `,
+        form: {
+            titleForm: '',
+            textButton: 'Suscribir y recibir plantilla.',
+            code: '',
+            trackerId: ''
+        },
+        imgs: [
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+        ,
+        tags: [TAG_TEMPLATES_TYPE.student],
+
+    },
+    {
+        title: 'Plantilla Lean Canvas en Notion',
+        id: '10',
+        template_summary: `
+            <p>Si estás empezando a emprender, esto del Lean Canvas te interesa. O sea, si quieres ver cómo ganar dinero con tu idea. </p>
+            `,
+        template_body: `
+  
+            <p>Cuando empiezas a emprender te sientas tan inseguro que pruebas dos mil mierdas para sentirte más profesional: OKRs, MBO, GTD… </p>
+
+            <p>¿Por qué todo tiene siglas raras?</p>
+
+            <p>A ver, entiéndeme, que no digo que esos sistemas en sí sean una mierda.</p>
+
+            <p> Lo que es una mierda es el síndrome del impostor.</p>
+
+            <p>Y es una mierda sentir que tenemos que justificar que somos profesionales cuando en muchos casos tenemos una formación y experiencia increíble.</p>
+            
+            <p>Es una mierda que te pases días generando sistemas de organización o post para redes sociales, cuando lo primero que deberías hacer es ver si tu idea es viable. Sobre todo si estás empezando.</p>
+
+            <br>
+            
+            <p>Como te decía, el Lean Canvas no es una mierda porque no es para justificar si tú vales. (Estoy repitiendo mucho la palabra mierda, ¿verdad?).</p>
+            
+            <p><b>El ejercicio del lienzo Lean Canvas es para ver si tu negocio es rentable.</b></p>
+
+            <p><b>O sea, para ver cómo puedes ganar dinero con tu idea.</b></p>
+
+            <p>Para poner los pies en la tierra.</p>
+
+            <p>Es un ejercicio fácil y de sentido común: qué soluciona tu producto, el coste de llevarlo a cabo, lo que puedes ganar, tiempos, etc. </p>
+
+            <p>O sea, cosas que cualquier persona que empieza un producto debería de plantearse, y esta es una forma metódica de estudiarlo.</p>
+            
+            <br>
+            
+
+            <p>En realidad no hace falta tener ninguna app de productividad especial, ni comprarte ningún máster de emprendimiento carísimo. Qué va.</p>
+
+            <p> Hasta podrías hacerlo con papel y boli.</p>
+
+            <p> Pero como estamos en el siglo XXI y somos ecos y verdes, para ahorrarte el papel te he creado una plantilla de Lienzo Lean Canvas en Notion.</p>
+
+            
+           
+
+            <p>P.D.: Si tienes dudas sobre cómo hacer un Lienzo Lean Canvas, <b>al suscribirte recibirás un email con la plantilla y un vídeo donde te explico cómo completar el Lienzo Lean Canvas paso a paso.</b></p>
+
+            <p>P.D.2: <b>Para suscribirte y recibir la plantilla, abajo.</b></p>
+            `,
+        form: {
+            titleForm: '',
+            textButton: 'Suscribir y recibir plantilla.',
+            code: '',
+            trackerId: ''
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',

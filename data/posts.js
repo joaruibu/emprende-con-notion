@@ -6,71 +6,87 @@ const posts = [
         id: '1',
         post_body: `
 
-       <p>Esta frase (o parecida) la leí por ahí en internet:</p> 
+        <p>Esta frase (o parecida) la leí por ahí en internet:</p> 
 
-        <p>
-        <i> *Notion es un organizador de tareas multiplataforma que te permite llevar tu planificación personal y laboral al siguiente nivel.
-        </i>
-        </p>
+        <p><i> Notion es un organizador de tareas multiplataforma que te permite llevar tu planificación personal y laboral al siguiente nivel.</i></p>
         
-       <p>Y pensé…</p> 
+        <p>Y pensé…</p> 
         
-        <p>Así ni Peter se entera de qué es Notion.  </p>
+        <p>Así ni Peter se entera de qué es Notion.</p>
+
+        <br>
         
         <p>Te lo voy a intentar traducir:</p>
         
         <p>Imagina un montón de esas apps de productividad: Asana, Trello, Todoist, Evernote, Toggl, Hubspot, Calendar... Incluso word y excel. Todas, ¿vale?</p>
         
-        <p><b>Imagina que TODAS se unieran todas en una sola y creasen una macroherramienta con todas las funciones habidas y por haber. Eso es Notion.</b></p>
+        <p><b>IImagina que TODAS se unieran todas en una sola y creasen una macroherramienta con todas las funciones habidas y por haber.</b></p>
+
+        <p><b>Eso es Notion.</b></p>
         
         <p>Y no eres tú el que se tiene que adaptar a esa aplicación (sea cual sea). </p>
         
-        <p><b>Notion es la app de productividad que se adapta a ti</b>.</p>
+        <p><b>Notion es la app de productividad que se adapta a ti.</b>.</p>
+
         <br>
 
         <p>Puedes tomar notas simples en una página en blanco.</p>
 
-        <p>Puedes hacer cronogramas de tus proyectos, además de relacionar tareas con cada proyecto. </p>
+        <p>Puedes hacer cronogramas de tus proyectos, además de relacionar tareas con cada proyecto.</p>
 
         <p>Puedes hacer esto para ti y todo tu equipo. </p>
 
-        <p>O, simplemente, llevar un diario de gratitud personal. </p>
+        <p>O, simplemente, llevar un diario de gratitud personal.</p>
 
-        <p>También puedes construir toda una base de datos donde gestiones tus leads. </p>
+        <p>También puedes construir toda una base de datos donde gestiones tus leads.</p>
 
         <p>Vaya, que puedes hacer casi cualquier cosa.</p>
 
-        <p><b>Ese es el punto fuerte y el flaco de Notion:</b></p>
+        <br>
+
+        <p><b>Ese es el punto fuerte y el flaco de Notion: </b></p>
+
         <p><b>El fuerte es que puedes hacer de todo y ese todo adaptarlo a ti.</b></p>
+
         <p><b>Y el flaco que adaptarlo a ti lleva algo de tiempo.</b></p>
 
 
-        <p>Eso sí… Si estás dispuesto a invertir ese algo de tiempo, ya no podrás dejar de usarlo porque tu vida entera estará ahí volcada. A mí me pasó eso. </p>
+        <p>Eso sí… Si estás dispuesto a invertir ese algo de tiempo, ya no podrás dejar de usarlo porque tu vida entera estará ahí volcada. A mí me pasó eso.</p>
 
-        <p>Y por lo que me dicen en comentarios de mi canal de YouTube, a mucha más gente también le pasa. </p>
+        <p>Y por lo que me dicen en comentarios de mi canal de YouTube, a mucha más gente también le pasa.</p>
 
-        <p>Vaya que no es que yo sea una YouTuber súper adictiva. Es que lo adictivo es Notion.</p>
+        <p>Vaya que no es que yo sea una YouTuber súper adictiva. Es que lo adictivo es Notion. </p>
+
         <br>
 
-        <p>Y como soy interiorista y el tema del diseño me toca la patata… pues hablemos de diseño. </p>
+        <p>Y como soy interiorista y el tema del diseño me toca la patata… pues hablemos de diseño.</p>
 
-        <p><b>Notion es muy minimal. Tanto en forma como en colores.</b></p>
+        <p><b>Notion es muy minimal. Tanto en forma como en colores. Los cuales puedes elegir.</b></p>
+
         <p><b>Tú te lo guisas y tú te lo comes.</b></p>
 
 
         <p>Personalmente esto me parece brutal. </p>
 
-        <p><b>Quizá porque soy rara y sinestésica. Ya sabes, de esas personas que asignamos colores a las cosas en nuestra cabeza.</b></p>
+        <p>Quizá porque soy rara y sinestésica. Ya sabes, de esas personas que asignamos colores a las cosas en nuestra cabeza.</p>
 
-        <p>Si un dos es amarillo, pues no me lo des verde. Porque el dos es amarillo. Sí. Es amarillo. </p>
+        <p>Si un dos es amarillo, pues no me lo des verde. Porque el dos es amarillo. Sí. Es amarillo.</p>
 
-        <p>Y si mi empresa es granate, pues es granate. No quiero que la aplicación con la que la gestiono sea azul. Porque mi empresa es granate. ¿Sabes? </p>
+        <p>Y si mi empresa es granate, pues es granate. No quiero que la aplicación con la que la gestiono sea azul. Porque mi empresa es granate. ¿Sabes?</p>
 
         <p>Pues eso, que <b>Notion me deja ser del color que me salga de los ovarios.</b></p>
 
         <br>
+ 
 
-        <p>Y para que no se haga más largo te explico otra de las cosas que más me gusta de Notion y ya acabo. </p>
+        
+        
+ 
+        
+         
+        
+        O sea, imagina que sois 500 personas en tu equipo. Que cada uno trabaja en una ciudad distinta. Que cada uno se conecta a Notion desde donde le sale de los ovarios. Pues da igual. Todos tendréis la info actualizada al momento si estás online.
+        <p> Y para que no se haga más largo te explico otra de las cosas que más me gusta de Notion y ya acabo.</p>
 
         <p><i>Notion tiene sincronización multiplataforma en la nube.</i></p>
 
@@ -88,16 +104,36 @@ const posts = [
 
         <p>Y la info estará siempre actualizada. </p>
 
-        <p>O sea, <b>imagina que sois 500 personas en tu equipo. Que cada uno trabaja en una ciudad distinta. Que cada uno se conecta a Notion desde donde le sale de los ovarios. Pues da igual. Todos tendréis la info actualizada al momento si estás online.</b></p>
+        <p>O sea, imagina que sois 500 personas en tu equipo. Que cada uno trabaja en una ciudad distinta. Que cada uno se conecta a Notion desde donde le sale de los ovarios. Pues da igual. Todos tendréis la info actualizada al momento si estás online.</p>
+       
         <br>
 
         <p>Pues no sé si te habré respondido a <i>qué es Notion.</i> </p>
 
-        <p>Si no, pues mujer, lo mejor para saberlo es que trastees con Notion.</p>
+        <p><b>Si quieres un ejemplo real de para qué sirve Notion, lee este otro post.</b></p>
 
-        <p>Y lo segundo mejor, que te suscribas abajo. </p>
+        <p>Realmente, creo que es más importante el<i> para qué</i>, que el <i>qué es.</i></p>
 
-        <p>En breves empezaré a enviar emails diarios para enseñarte a usar Notion en tu vida y en tu emprendimiento. Si te parece mucho, pues no te apuntes.</p>
+        <p>Pero lo realmente mejor para saber qué es Notion es que trastees con Notion.</p>
+
+        <p>Y lo segundo mejor, que te suscribas abajo.</p>
+
+        <p>En breves empezaré a enviar emails diarios para enseñarte a usar Notion en tu vida y en tu emprendimiento. Si te parece mucho, pues no te apuntes. </p>
+        
+        <br>
+
+        <p>Un abrazo,</p>
+
+        <p>y que Notion te acompañe.</p>
+
+        <br>
+
+        <p>Laura</p>
+        
+        <br>
+        
+        <p>P.D.: Para suscribirte a la newsletter, aquí abajo. </p>
+
 `
 
         ,

@@ -11,11 +11,11 @@ const navigation = {
 const Footer = () => {
     return (
         <footer >
-            <div className="mx-auto max-w-7xl overflow-hidden px-4 ">
+            <div className="mx-auto max-w-7xl overflow-hidden px-4">
                 <nav className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12" aria-label="Footer" >
                     {
                         navigation.main.map((item) => (
-                            <div key={item.name} className="">
+                            <div key={item.name}>
                                 <a href={item.href} className="text-sm leading-6 font-light text-real-stone hover:text-light-terracota">
                                     {item.name}
                                 </a>

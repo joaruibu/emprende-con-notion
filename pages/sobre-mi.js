@@ -4,7 +4,7 @@ import SubscriptionForm from '../components/Form'
 import { FORM_TYPE } from '../helpers/types'
 
 const TITLE_DATA = {
-    title: 'Sobre mi',
+    title: 'Mi CV',
     subtitle: 'Chismorreos, aquí te cuentos cosas.'
 }
 const FORM_DATA = {

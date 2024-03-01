@@ -12,7 +12,7 @@ const ItemTemplate = ({ item }) => {
 
     return (
         <Link className='block' href={`/plantillas/${getUrltTitle(title)}-${id}`}>
-            <article key={id} className="break-inside mb-9 relative isolate border-2 border-stone-950 rounded-md hover:shadow-dark transition-all">
+            <article key={id} className="break-inside mb-9 relative isolate border-2 border-stone-950 bg-white rounded-md hover:shadow-dark transition-all">
                 <img
                     src={imgs[0]}
                     alt=""
@@ -20,7 +20,7 @@ const ItemTemplate = ({ item }) => {
                 />
 
 
-                <div className='flex items-center justify-between mt-4 mr-3'>
+                <div className='flex items-center justify-between my-4 mr-3'>
 
                     <h4 className=" ml-3">
                         <a href={`/templates/${getUrltTitle(title)}-${id}`}>
@@ -29,7 +29,7 @@ const ItemTemplate = ({ item }) => {
                     </h4>
                 </div>
 
-                <div className="flex items-center gap-x-4 mt-2">
+                {/* <div className="flex items-center gap-x-4 mt-2">
                     {
                         tags.map((tag, index) => {
                             return <h
@@ -41,7 +41,7 @@ const ItemTemplate = ({ item }) => {
                             </h>
                         })
                     }
-                </div>
+                </div> */}
 
                 <div className='h-11 w-11 bg-yellow-300 absolute top-2 rounded-full left-2 grid place-content-center'>
                     <h5 className='text-xs -rotate-6'>Gratis

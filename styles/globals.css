@@ -15,7 +15,6 @@
     column-gap: 3em;
     column-count: 2;
   }
-
   .break-inside {
     break-inside: avoid;
   }
@@ -42,7 +41,7 @@
   }
   p,
   li {
-    @apply font-montserrat text-sm font-normal pb-4;
+    @apply font-montserrat text-base font-normal pb-4;
   }
 
   li {
@@ -56,4 +55,11 @@
   b {
     @apply font-black;
   }
+
+  cite {
+    @apply p-2
+  }
+  /* a{
+    @apply underline cursor-pointer text-terracotta hover:text-light-terracota duration-150
+  } */
 }

@@ -6,7 +6,7 @@ import { useRouter } from 'next/router'
 
 const navigation = [
     { name: 'Plantilla gratuitas', href: '/plantillas' },
-    { name: 'Sobre mi', href: '/sobre-mi' },
+    { name: 'Mi CV', href: '/sobre-mi' },
     { name: 'Blog', href: '/blog', },
 ]
 
@@ -20,7 +20,7 @@ export default function Navbar() {
             <nav className=" mx-auto  border-b-2 border-black flex max-w-4xl items-center justify-between h-16 pt-6 " aria-label="Global">
                 <div className=" flex items-center w-full justify-between ">
                     <Link href="/" legacyBehavior prefetch={false}>
-                        <a className=' flex items-center gap-x-2'>
+                        <a className=' flex items-center gap-x-2 text-black '>
                             <span className="sr-only">Emprende con Notion</span>
                             <span className='hidden sm:block font-sub text-xs sm:text-base'>Emprende con Notion</span>
                             <img className="  h-16 w-auto" src="/img/logo.png" alt="Logo de Emprende con Notion" />
@@ -29,7 +29,7 @@ export default function Navbar() {
                     <div className="hidden sm:flex sm:gap-x-6">
                         {navigation.map((item) => (
                             <Link href={item.href} key={item.name} legacyBehavior prefetch={false}>
-                                <a key={item.name} className={`text-xs font-sub block h-full  hover:text-terracotta ${item.href === pathname ? 'text-terracotta' : ''}`}>
+                                <a key={item.name} className={`text-xs font-sub block h-full text-black  hover:text-terracotta ${item.href === pathname ? 'text-terracotta' : ''}`}>
                                     {item.name}
                                 </a>
                             </Link>
