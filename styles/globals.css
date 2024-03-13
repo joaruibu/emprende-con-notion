@@ -57,9 +57,9 @@
   }
 
   cite {
-    @apply p-2
+    @apply p-2;
   }
-  /* a{
-    @apply underline cursor-pointer text-terracotta hover:text-light-terracota duration-150
-  } */
+  a {
+    @apply underline cursor-pointer text-terracotta hover:text-light-terracota duration-150;
+  }
 }

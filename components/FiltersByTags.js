@@ -1,6 +1,5 @@
 
 import { useState, useEffect } from 'react';
-import templates from '../data/templates';
 import { getFilterByTags } from '../helpers';
 import { TAG_TEMPLATES_TYPE, DATA_TYPE, TAG_POSTS_TYPE } from '../helpers/types';
 
@@ -14,19 +13,15 @@ const FiltersByTags = ({ tags, setTags, setItems, type }) => {
             return { name: item, selected: false }
         })
         setTags(arrayFromTags)
-        console.log(55554, arrayFromTags)
     }, [type, setTags])
 
 
     const onClickTag = (index) => {
-        console.log(2345, type)
         const newTags = [...tags];
         newTags[index].selected = !newTags[index].selected;
         setTags(newTags)
         setItems(getFilterByTags(tags, type))
     }
-
-    console.log(3232323, type, tags)
 
     return (
         <div className='border-2 border-stone-950 bg-white rounded-md p-2 mt-2 min-w-full flex-none overflow-x-scroll'>

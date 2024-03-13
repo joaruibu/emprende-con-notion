@@ -9,8 +9,6 @@ import { getFilterTemplates } from '../helpers/index';
 
 const ItemList = ({ items, type }) => {
 
-    console.log(1212, items)
-
     return (
         <div className={`sm:columns-2 columns-1 gap-9  py-12 mx-auto  `}>
 

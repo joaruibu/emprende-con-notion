@@ -6,7 +6,6 @@ const SearchBar = ({ searchValue, setSearchValue }) => {
 
     const onChangeValueChange = (event) => {
         setSearchValue(event.target.value)
-        console.log(event.target.value)
     }
     return (
         <>

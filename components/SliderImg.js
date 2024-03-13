@@ -2,43 +2,19 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 
 
-
-
 function SliderImg({ imgs }) {
 
-    const slides = [
-        {
-            url: 'https://res.cloudinary.com/dwsa2s0pn/video/upload/v1682344842/premium-autocad-block-mp4/Prueba_dybbmd.mp4'
-        },
-        {
-            url: 'https://res.cloudinary.com/dwsa2s0pn/video/upload/v1682344842/premium-autocad-block-mp4/Prueba_dybbmd.mp4'
-        }
-        // {
-        //     url: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1671648010/free-autocad-block-image/Verner_Panton_-_Amoebe_seat_-_signature_furniture_-_perspective_-_autocad_block_-_bloque_de_autocad_-_be_interior_designer_ky5wcr.png',
-        // },
-        // {
-        //     url: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1671696974/free-autocad-block-image/Verner_Panton_-_Cone_Chair_-_signature_furniture_-_elevation_-_autocad_block_-_bloque_de_autocad_-_be_interior_designer_zevewf.png',
-        // },
-        // {
-        //     url: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1671735554/free-autocad-block-image/Verner_Panton_-_Cone_Chair_-_signature_furniture_-_side_view_-_autocad_block_-_bloque_de_autocad_-_be_interior_designer_ncop4r.png',
-        // },
-
-        // {
-        //     url: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1671748171/free-autocad-block-image/Verner_Panton_-_Heart_Cone_Chair_-_signature_furniture_-_side_view_-_autocad_block_-_bloque_de_autocad_-_be_interior_designer_mvc0lo.png',
-        // },
-
-    ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const prevSlide = () => {
         const isFirstSlide = currentIndex === 0;
-        const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
+        const newIndex = isFirstSlide ? imgs.length - 1 : currentIndex - 1;
         setCurrentIndex(newIndex);
     };
 
     const nextSlide = () => {
-        const isLastSlide = currentIndex === slides.length - 1;
+        const isLastSlide = currentIndex === imgs.length - 1;
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
     };

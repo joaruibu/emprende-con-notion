@@ -83,10 +83,12 @@ const templates = [
         },
         imgs: [
 
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710337527/emprende-con-notion/template/Diario/plantilla-diario_de_agradecimiento_habit_tracker_en_Notion_1-emprende_con_Notion.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710337536/emprende-con-notion/template/Diario/plantilla-diario_de_agradecimiento_habit_tracker_en_Notion_2-emprende_con_Notion.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710337508/emprende-con-notion/template/Diario/plantilla-diario_de_agradecimiento_habit_tracker_en_Notion_3-emprende_con_Notion.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710337508/emprende-con-notion/template/Diario/plantilla-diario_de_agradecimiento_habit_tracker_en_Notion_3-emprende_con_Notion.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.designer, TAG_TEMPLATES_TYPE.entrepeneur],
+        tags: [TAG_TEMPLATES_TYPE.personal],
 
     },
     {
@@ -103,12 +105,11 @@ const templates = [
             <p>Quería independizarme.</p>
             
             <p>Ah. Y follaba mucho.</p>
-            
-            <p>Acababa de conocer a Joaquín, el que a día de hoy sigue siendo mi pareja, y follábamos constantemente. </p>
-            
+                        
             <p>Pero eso es otra historia. </p>
-            <br>
+            
             <p>La cuestión es que necesitaba un trabajo que me diera para pagarme un alquiler. Y Bimba no me daba. </p>
+            
             <br>
             
             <p>Empecé a enviar CVs a empresas del sector de la construcción. Preferiblemente constructoras. Multinacionales. O sea, evitando estudios de arquitectura como tal. </p>
@@ -116,7 +117,9 @@ const templates = [
             <p>Si conocéis el sector, sabréis lo mucho que se explota a los arquitectos pipiolos. </p>
             
             <p>Y yo era una arquitecta pipiola.  </p>
+
             <br>
+            
             <p>La cosa es que conseguí una entrevista en una multinacional del sector cerámico en Castellón. </p>
             
             <p>Una multinacional muy gorda. </p>
@@ -157,13 +160,13 @@ const templates = [
             
             <p>La cosa es que semanas después pillé al cayetano de rrhh en la sala general, junto a la típica impresora blanca enorme. Estaba imprimiendo un montón de CVs en A4 y blanco y negro. Cuando digo un montón, me refiero a cientos. </p>
             
-            <p>Y me dijo, “Pfff tía es que el 99% son iguales… y feos. ¿Sabías que el tuyo me gustó?” </p>
+            <p><b>Y me dijo, “Pfff tía es que el 99% son iguales… y feos. ¿Sabías que el tuyo me gustó?” </b></p>
             
             <p>Y yo en mi mundo inocente pensé: “Normal, Cayetano, normal. Tengo un currículum estupendo para la edad que tengo.” </p>
             
             <p>En lugar de eso le dije: “¿Por qué?” </p>
             
-            <p><b>Cayetano me respondió: “Porque el diseño de tu CV era horizontal. El 99% lo hacen en vertical, tía. Y eso me llamó la atención.”</b></p>
+            <p>Cayetano me respondió: “Porque el diseño de tu CV era horizontal. El 99% lo hacen en vertical, tía. Y eso me llamó la atención.”</p>
             
             <p>Yo por dentro: “Cri, Cri”. </p>
             
@@ -180,7 +183,7 @@ const templates = [
     
             <li><b>Tu CV tiene que diferenciarte. Ojo, he dicho tu CV, no tu experiencia.</b> Es distinto. Da igual si tienes 2, 8 o 15 másters. Eso se lo leen después. Antes han hecho una criba. Criba con algo visual que les ha llamado la atención.  </li>
             
-            <li>No pierdas tiempo pensando en un diseño bonito. Que la mayoría no somos diseñadores gráficos, asúmelo. Es mejor invertir ese tiempo en hacer un CV diferente a la mayoría. No bonito, diferente. Es decir. Si lo hacen en vertical. Pues tu horizontal. Si lo hacen en papel, pues tú online. Así de fácil. </li>
+            <li>No pierdas tiempo pensando en un diseño bonito. Que la mayoría no somos diseñadores gráficos, asúmelo. <b>Es mejor invertir ese tiempo en hacer un CV diferente a la mayoría. No bonito, diferente. Es decir. Si lo hacen en vertical. Pues tu horizontal. Si lo hacen en papel, pues tú online. Así de fácil. </b></li>
             
             </ul>
             <br>
@@ -203,8 +206,8 @@ const templates = [
             
             <p>Y como encima el estilo de Notion es minimalista, tampoco es que puedas cagarla con el diseño, ¿sabes? </p>
             
-            <p>P.D.: <b>Por si tienes dudas sobre cómo utilizar tu CV en Notion, al suscribirte recibirás un email con la plantilla y el vídeo sobre cómo personalizarla y hacerla pública. </b></p>
-            <p>P.D.2: <b>Para conseguir la plantilla de CV en Notion, suscríbete abajo. </b></p>
+            <p><b>P.D.: Por si tienes dudas sobre cómo utilizar tu CV en Notion, al suscribirte recibirás un email con la plantilla y el vídeo sobre cómo personalizarla y hacerla pública. </b></p>
+            <p><b>P.D.2: Para conseguir la plantilla de CV en Notion, suscríbete abajo. </b></p>
                 `,
         form: {
             titleForm: '',
@@ -213,9 +216,10 @@ const templates = [
             trackerId: '88509666982626372'
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710345624/emprende-con-notion/template/CV/Plantilla-CV_en_Notion-1-emprende_con_notion.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710345640/emprende-con-notion/template/CV/Plantilla-CV_en_Notion-2-emprende_con_notion.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710345582/emprende-con-notion/template/CV/Plantilla-CV_en_Notion-3-emprende_con_notion.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710345607/emprende-con-notion/template/CV/Plantilla-CV_en_Notion-4-emprende_con_notion.webp']
         ,
         tags: [TAG_TEMPLATES_TYPE.student],
 
@@ -224,9 +228,7 @@ const templates = [
         title: 'Plantilla Tu primera HOME en Notion',
         id: '3',
         template_summary: `
-            <p>Tener tus páginas de Notion bien clasificadas, sabiendo dónde has guardado cada cosa… </p>
-            <p>¿Te imaginas? Pues para eso sirve una Home de Notion.</p>
-            <p> Aquí te digo cómo conseguirla.  </p>
+            </p>Tener tus páginas de Notion bien clasificadas, sabiendo dónde has guardado cada cosa… ¿Te imaginas? Pues para eso sirve una Home de Notion.</p>
             `,
         template_body: `
             <p>Dónde están las llaves,</p>
@@ -303,8 +305,8 @@ const templates = [
      
     
             <br>
-            <p>P.D.: <b>Al suscribirte recibirás un email con la plantilla Home y un vídeo de YouTube explicándote tips para usarla.</b></p> 
-            <p>P.D.2: <b>Para conseguirla suscríbete abajo. </b></p> 
+            <p><b>P.D.: Al suscribirte recibirás un email con la plantilla Home y un vídeo de YouTube explicándote tips para usarla.</b></p> 
+            <p><b>P.D.2: Para conseguirla suscríbete abajo. </b></p> 
     
      
     
@@ -316,15 +318,14 @@ const templates = [
             trackerId: '88509617170023762'
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710345985/emprende-con-notion/template/Home/Plantilla-Home_en_Notion-emprende_con_notion-1.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710346023/emprende-con-notion/template/Home/Plantilla-Home_en_Notion-emprende_con_notion-2.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.personal],
 
     },
     {
-        title: 'Plantilla Sistema Getting Things Done (GTD) en Notion',
+        title: 'Plantilla Sistema Getting Things Done GTD en Notion',
         id: '4',
         template_summary: `
             <p>Muchas personas confían en su memoria para guardar todas sus ideas y tareas. Resultado: se olvidan de la mitad de sus ideas, de las tareas, y de las llaves. Te cuento qué hacer para que no te pase.</p>
@@ -441,11 +442,12 @@ const templates = [
             trackerId: '88435282372723780'
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710346470/emprende-con-notion/template/gtd/plantilla-GTD_Notion-emprende_con_notion-1.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710346461/emprende-con-notion/template/gtd/plantilla-GTD_Notion-emprende_con_notion-2.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710346444/emprende-con-notion/template/gtd/plantilla-GTD_Notion-emprende_con_notion-3.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710346437/emprende-con-notion/template/gtd/plantilla-GTD_Notion-emprende_con_notion-4.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.personal, TAG_TEMPLATES_TYPE.entrepeneur],
 
     },
     {
@@ -527,16 +529,16 @@ const templates = [
         <p><b>Al suscribirte en el enlace de abajo recibirás un email con:</b></p>
 
         <ul class="list-disc list-inside">
-            <li>Un <b>vídeo detallado explicando cómo utilizar la plantilla. Paso a paso.</b> Gratis.</li>
-            <li>El <b>motivo principal por el que no conseguimos cumplir nuestros objetivos de año nuevo.</b> Gratis, en el vídeo de antes.</li>
-            <li>La <b>técnica de visualización de objetivos que te he contado para hacer unos objetivos realistas y para que, casi con toda seguridad, los cumplas.</b>  También gratis, en el vídeo de antes. </li>
-            <li>Cómo <b>adaptar la plantilla a tu estilo:</b> los colores, las imágenes, los textos… Esto también te lo cuento en el vídeo.</li>
-            <li>Si aún no sabes <b>cómo duplicar una plantilla en tu cuenta de Notion,</b> tranquilo, también te explico cómo hacerlo en otro vídeo que te envío también en el email. También de gratis. Esto no solo te servirá para duplicar esta plantilla de objetivos de nuevo año, si no cualquier otra plantilla de Notion que encuentres por internet.   </li>
-            <li>Por supuesto, <b>la plantilla de objetivos de año nuevo.</b>  Gratis. Verás que es la misma plantilla que te muestro en el vídeo explicativo. Para que no surja ninguna duda para aprender a utilizarla. </li>
-            <li>Y lo mejor para el postre: podrás ver los vídeos de YouTube 24 horas antes de que se hagan oficialmente públicos. Y responderé a TODOS los comentarios o dudas que me hagas durante esas primeras 24 horas. Solo para mis suscriptores. </li>
+            <li><b>Un vídeo detallado explicando cómo utilizar la plantilla. Paso a paso.</b> Gratis.</li>
+            <li><b>El motivo principal por el que no conseguimos cumplir nuestros objetivos de año nuevo.</b> Gratis, en el vídeo de antes.</li>
+            <li><b>Latécnica de visualización de objetivos que te he contado para hacer unos objetivos realistas y para que, casi con toda seguridad, los cumplas.</b>  También gratis, en el vídeo de antes. </li>
+            <li><b>Cómo adaptar la plantilla a tu estilo:</b> los colores, las imágenes, los textos… Esto también te lo cuento en el vídeo.</li>
+            <li><b> Si aún no sabes cómo duplicar una plantilla en tu cuenta de Notion,</b> tranquilo, también te explico cómo hacerlo en otro vídeo que te envío también en el email. También de gratis. Esto no solo te servirá para duplicar esta plantilla de objetivos de nuevo año, si no cualquier otra plantilla de Notion que encuentres por internet.   </li>
+            <li><b>Por supuesto, la plantilla de objetivos de año nuevo.</b>  Gratis. Verás que es la misma plantilla que te muestro en el vídeo explicativo. Para que no surja ninguna duda para aprender a utilizarla. </li>
         </ul>
+        
         <br>
-        <p>P.D.1: ¿Y por qué te regalo todo esto? Porque así te suscribes a mi newsletter y te podré enviar emails diarios para venderte plantillas y cursos en el futuro. Si no te gusta, puedes darte de baja.</p>
+        <p>P.D.1: ¿Y por qué te regalo todo esto? Porque así te suscribes a mi newsletter y te podré enviar emails diarios para venderte plantillas y cursos en el futuro. Si no te gustase, puedes darte de baja cuando quieras.</p>
         <p><b>P.D.2: Para suscribirte y recibir la plantilla, abajo en la casilla de suscripción.</b></p>
 
         
@@ -548,11 +550,13 @@ const templates = [
             trackerId: '88509787147339134'
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347656/emprende-con-notion/template/Objetivos%20a%C3%B1o%20nuevo/plantilla-objetivos_a%C3%B1o_nuevo_Notion-emprende_con_notion1_n6xkj8.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347647/emprende-con-notion/template/Objetivos%20a%C3%B1o%20nuevo/plantilla-objetivos_a%C3%B1o_nuevo_Notion-emprende_con_notion-2_l9zmom.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347637/emprende-con-notion/template/Objetivos%20a%C3%B1o%20nuevo/plantilla-objetivos_a%C3%B1o_nuevo_Notion-emprende_con_notion-3_h4wczs.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347651/emprende-con-notion/template/Objetivos%20a%C3%B1o%20nuevo/plantilla-objetivos_a%C3%B1o_nuevo_Notion-emprende_con_notion-4_qacwrq.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347581/emprende-con-notion/template/Objetivos%20a%C3%B1o%20nuevo/plantilla-objetivos_a%C3%B1o_nuevo_Notion-emprende_con_notion-5_fbbks0.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.personal],
 
     },
     {
@@ -617,11 +621,11 @@ const templates = [
             trackerId: '88509459972752616'
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347396/emprende-con-notion/template/Planificador%20semanal%20principiantes/plantilla-planificador_semanal_principiantes_en_Notion-emprende_con_notion-1.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347415/emprende-con-notion/template/Planificador%20semanal%20principiantes/plantilla-planificador_semanal_principiantes_en_Notion-emprende_con_notion-2.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347435/emprende-con-notion/template/Planificador%20semanal%20principiantes/plantilla-planificador_semanal_principiantes_en_Notion-emprende_con_notion-3.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.personal],
 
     },
     {
@@ -758,11 +762,10 @@ const templates = [
             trackerId: '88509253866751070'
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348049/emprende-con-notion/template/Fichero%20horas/plantilla-fichero_horas_en_Notion-emprende_con_notion-1.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348115/emprende-con-notion/template/Fichero%20horas/plantilla-fichero_horas_en_Notion-emprende_con_notion-2.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.designer],
 
     },
     {
@@ -822,9 +825,9 @@ const templates = [
 
             <br>
 
-            <p><b>P.D.:En el email que te llegará con la plantilla tendrás también el vídeo sobre cómo utilizarla y personalizarla acorde a tus redes sociales y tipo de contenido. </b></p>
+            <p><b>P.D.: En el email que te llegará con la plantilla tendrás también el vídeo sobre cómo utilizarla y personalizarla acorde a tus redes sociales y tipo de contenido. </b></p>
             
-            <p>P.D.2: <b>Para conseguir la plantilla de CV en Notion, suscríbete abajo. </b></p>
+            <p><b>P.D.2: Para conseguir la plantilla de CV en Notion, suscríbete abajo. </b></p>
             `,
         form: {
             titleForm: '',
@@ -833,11 +836,12 @@ const templates = [
             trackerId: ''
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348510/emprende-con-notion/template/Content%20calendar/Plantilla_de_Content_calendar1_en_Notion_-_emprende_con_notion_cni9fq.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348377/emprende-con-notion/template/Content%20calendar/Plantilla_de_Content_calendar2_en_Notion_-_emprende_con_notion_qeylgo.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348367/emprende-con-notion/template/Content%20calendar/Plantilla_de_Content_calendar3_en_Notion_-_emprende_con_notion_nakv2p.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348362/emprende-con-notion/template/Content%20calendar/Plantilla_de_Content_calendar4_en_Notion_-_emprende_con_notion_wci6p1.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur, TAG_TEMPLATES_TYPE.personal],
 
     },
     {
@@ -850,37 +854,39 @@ const templates = [
   
             <p>Te voy a ser sincera. </p>
 
-            <p>Y quizá después de leerme pienses que soy una boluda (como dice una amiga de Argentina).</p>
+            <p>Y quizá después de leerme pienses que soy una boluda, como dice una amiga de Argentina.</p>
 
             <p>Porque…</p>
 
-            <p>No me gusta nada lo de crear un buyer persona. Pero nada.</p>
+            <p>No me mola nada lo de crear un buyer persona. Pero nada.</p>
             
-            <p>Y te estoy regalando una plantilla para crearte uno.</p>
+            <p>Y te estoy regalando una plantilla para crearte uno. Jaja.</p>
             
             <p>Bravo. </p>
 
             <br>
             
-            <p>Así que todo el tiempo que invertí en hacer doscientos post increíbles no me sirvieron para nada.</p>
+            <p>Así que todo el tiempo que invertí en hacer doscientos buyerpersona increíbles, no me sirvieron para nada.</p>
             
-            <p>Bueno sí. Una cosa sí que me sirvió.</p>
+            <p>Bueno sí. Una cosa sí que me sirvió. Y te la voy a contar enseguida.</p>
 
             <br>
             
-            <p>La cosa es que los emprendedoresquelevitan en internet dicen que es súperimportante crear un buyer persona.</p>
+            <p>La cosa es que los <i>wonder</i>emprendedores en internet dicen que es súperimportante crear un buyer persona.</p>
 
             <p>Y yo que cuando me quedé en paro y emprendí no tenía ni puta idea de la vida dije, pues oye, será verdad.</p>
 
-            <p>Y lo cierto es que para la mayoría de personas es un ejercicio de mierda. </p>
+            <p>Pero la verdad es que para la mayoría de personas es un ejercicio horrible. </p>
 
-            <p>Digo la mayoría porque si tienes un público súper acotado sí que te puede ir bien. </p>
+            <p>Digo la mayoría porque si tienes un público súper súper acotado sí que te puede ir bien. </p>
 
             <p>En plan, una chica morena de treinta y tres años dos meses y un día que trabaja en una empresa de diseño gráfico en el norte y lleva mechas californianas y solo compra marcas eco y come bio y se tira pedos que huelen a flores. </p>
 
+            <p>En ese caso súper súper acotado, vale. El resto, no. </p>
+
             <br>
 
-            <p>Si ese no es tu caso, si resulta que tu producto se puede ajustar a emprendedores de 20 años y de 60 años, y da igual su sexo o nacionalidad…</p>
+            <p>Así que si ese NO es tu caso, o sea, si tu producto se puede ajustar a emprendedores de 20 años y de 60 años, y da igual su sexo o nacionalidad…</p>
 
             <p>Mmmmm…</p>
 
@@ -892,15 +898,15 @@ const templates = [
 
             <br>
             
-            <p>Es que es más fácil que todo eso.</p>
+            <p>Y resulta que es más fácil que todo eso.</p>
 
             <p>Tú piensa en dos o tres personas que te vayan a comprar. Dos o tres. No doscientas. Solo dos o tres. </p>
 
             <p>Y piensa cuál es el problema común que tienen todos ellos. Es decir, cuál es el problema que tu producto o servicio resuelve. </p>
 
-            <p>Y ya está. Eso podrás aplicarlo a cualquier persona que sea tu potencial cliente. Dará igual si es millenial o si está jubilado. </p>
+            <p>Y ya está. Dará igual si es millenial o si está jubilado. Eso podrás aplicarlo a cualquier persona que sea tu potencial cliente.  </p>
 
-            <p>De nada.</p>
+            <p><b>De nada.</b></p>
 
             <br>
 
@@ -910,15 +916,15 @@ const templates = [
             
             <br>
             
-            <p>Total, que si quieres usar esta plantilla para crearte 200 buyer persona e imaginar hasta de qué color tienen las uñas… Fantástico.</p>
+            <p><b>Total, que si quieres usar esta plantilla para crearte 200 buyer persona e imaginar hasta de qué color tienen las uñas… Fantástico.</b></p>
 
-            <p>Si quieres utilizarla para encontrar cuál es el punto de dolor que resuelve tu producto… Fantástico también (te recomiendo la última opción, pero tú verás). </p>
+            <p><b>Si quieres utilizarla para encontrar cuál es el punto de dolor que resuelve tu producto… Fantástico también (te recomiendo la última opción, pero tú verás).</b> </p>
 
             <br>
 
             <p><b>Para suscribirte y recibir la plantilla, abajo.</b></p>
 
-            <p><b>P.D.: Recibirás un email con el enlace a la plantilla y un vídeo explicándote paso a paso cómo funciona. </b></p>
+            <p>P.D.: Recibirás un email con el enlace a la plantilla y un vídeo explicándote paso a paso cómo funciona. </p>
             `,
         form: {
             titleForm: '',
@@ -927,11 +933,10 @@ const templates = [
             trackerId: ''
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348741/emprende-con-notion/template/buyer%20persona/Plantilla_de_Buyer_persona1_en_Notion_-_emprende_con_notion_d5g1gx.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348711/emprende-con-notion/template/buyer%20persona/Plantilla_de_Buyer_persona2_en_Notion_-_emprende_con_notion_fbo07a.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur],
 
     },
     {
@@ -956,7 +961,7 @@ const templates = [
 
             <br>
             
-            <p>Como te decía, el Lean Canvas no es una mierda porque no es para justificar si tú vales. (Estoy repitiendo mucho la palabra mierda, ¿verdad?).</p>
+            <p>Como te decía, el Lean Canvas no es una mierda porque no es para justificar si tú vales. (Estoy repitiendo mucho la palabra mierda, ¿verdad? Mierda. Ya paro).</p>
             
             <p><b>El ejercicio del lienzo Lean Canvas es para ver si tu negocio es rentable.</b></p>
 
@@ -980,9 +985,9 @@ const templates = [
             
            
 
-            <p>P.D.: Si tienes dudas sobre cómo hacer un Lienzo Lean Canvas, <b>al suscribirte recibirás un email con la plantilla y un vídeo donde te explico cómo completar el Lienzo Lean Canvas paso a paso.</b></p>
+            <p><b>P.D.: Si tienes dudas sobre cómo hacer un Lienzo Lean Canvas, al suscribirte recibirás un email con la plantilla y un vídeo donde te explico cómo completar el Lienzo Lean Canvas paso a paso.</b></p>
 
-            <p>P.D.2: <b>Para suscribirte y recibir la plantilla, abajo.</b></p>
+            <p><b>P.D.2: Para suscribirte y recibir la plantilla, abajo.</b></p>
             `,
         form: {
             titleForm: '',
@@ -991,11 +996,10 @@ const templates = [
             trackerId: ''
         },
         imgs: [
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_diario_de_agradecimiento_habit_tracker_en_Notion-emprende_con_notion_ynwztd.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169528/emprende-con-notion/template/Plantilla_GTD_Notion-plantilla_de_Notion-emprende_con_notion_nnfzru.jpg',
-            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169504/emprende-con-notion/template/plantilla_de_objetivos_a%C3%B1o_nuevo_2022_con_Notion-emprende_con_notion_z1ujux.jpg']
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348751/emprende-con-notion/template/lean%20canvas/Plantilla_de_Lean_canvas1_en_Notion_-_emprende_con_notion_tceib8.webp',
+            'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348757/emprende-con-notion/template/lean%20canvas/Plantilla_de_Lean_Canvas2_en_Notion_-_emprende_con_notion_cxydey.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.student],
+        tags: [TAG_TEMPLATES_TYPE.entrepeneur],
 
     },
 

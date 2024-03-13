@@ -8,7 +8,7 @@ import SubscriptionForm from '../../components/Form';
 
 const TemplateItem = ({ template }) => {
 
-    const { title, template_body, imgs, tags, form } = template
+    const { title, template_body, imgs, form } = template
 
     return (
         <>
@@ -17,13 +17,6 @@ const TemplateItem = ({ template }) => {
             <div className="border-2 border-stone-950 bg-stone-50 p-4 rounded-xl ">
 
                 {/* Image gallery */}
-
-                {/* <div className=" sm:overflow-hidden sm:rounded-xl">
-                        <img
-                        src={imgs[2]}
-                        className="h-full w-full object-cover object-center"
-                        />
-                    </div> */}
                 <SliderImg imgs={imgs}></SliderImg>
 
                 {/* Product info */}
