@@ -1,5 +1,5 @@
 import { getAllItems, getIdByUrl, getItemById, getUrltTitle } from '../../helpers';
-import { DATA_TYPE, FORM_TYPE } from '../../helpers/types';
+import { DATA_TYPE } from '../../helpers/types';
 import SubscriptionForm from '../../components/Form';
 
 
@@ -21,7 +21,6 @@ const PostItem = ({ post }) => {
 
                     <h1 className='mb-4'>{title}</h1>
                     <SubscriptionForm
-                        type={FORM_TYPE.banner}
                         titleForm={form.titleForm}
                         textButton={form.textButton}
                         code={form.code}
@@ -32,7 +31,6 @@ const PostItem = ({ post }) => {
                     <div dangerouslySetInnerHTML={{ __html: post_body }} />
 
                     <SubscriptionForm
-                        type={FORM_TYPE.banner}
                         titleForm={form.titleForm}
                         textButton={form.textButton}
                         code={form.code}

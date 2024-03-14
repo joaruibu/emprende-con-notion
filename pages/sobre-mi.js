@@ -1,7 +1,7 @@
 import React from 'react'
 import TitlePage from '../components/TitlePage'
 import SubscriptionForm from '../components/Form'
-import { FORM_TYPE } from '../helpers/types'
+
 
 const TITLE_DATA = {
     title: 'Sobre mí',
@@ -139,7 +139,11 @@ const About = () => {
 
             <br></br>
 
-            <SubscriptionForm type={FORM_TYPE.banner} titleForm={FORM_DATA.titleForm} textButton={FORM_DATA.textButton} code={FORM_DATA.code} trackerId={FORM_DATA.trackerId} />
+            <SubscriptionForm
+                titleForm={FORM_DATA.titleForm}
+                textButton={FORM_DATA.textButton}
+                code={FORM_DATA.code}
+                trackerId={FORM_DATA.trackerId} />
 
         </main>
     )

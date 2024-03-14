@@ -17,8 +17,3 @@ export const TAG_POSTS_TYPE = Object.freeze({
     recursosdeGratis: 'recursos',
     favs: 'favoritos',
 })
-
-export const FORM_TYPE = Object.freeze({
-    banner: 'banner',
-    form: 'form'
-}) 

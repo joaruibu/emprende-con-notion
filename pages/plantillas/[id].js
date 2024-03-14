@@ -1,7 +1,7 @@
 import SliderImg from '../../components/SliderImg';
 
 import { getAllItems, getIdByUrl, getItemById, getUrltTitle } from '../../helpers';
-import { DATA_TYPE, FORM_TYPE } from '../../helpers/types';
+import { DATA_TYPE } from '../../helpers/types';
 import SubscriptionForm from '../../components/Form';
 
 
@@ -24,7 +24,6 @@ const TemplateItem = ({ template }) => {
                     <h1 className="">{title}</h1>
 
                     <SubscriptionForm
-                        type={FORM_TYPE.banner}
                         titleForm={form.titleForm}
                         textButton={form.textButton}
                         code={form.code}
@@ -40,7 +39,6 @@ const TemplateItem = ({ template }) => {
                     </div>
 
                     <SubscriptionForm
-                        type={FORM_TYPE.banner}
                         titleForm={form.titleForm}
                         textButton={form.textButton}
                         code={form.code}

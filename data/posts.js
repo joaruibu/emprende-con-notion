@@ -1,4 +1,4 @@
-import { FORM_TYPE, TAG_POSTS_TYPE } from "../helpers/types"
+import { TAG_POSTS_TYPE } from "../helpers/types"
 
 const posts = [
     {
@@ -138,7 +138,6 @@ const posts = [
 
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: 'Hay cosas que no se dan #degratis.<br/> Esas cosas, las especiales, solo se las doy a mi lista de suscriptores.',
             textButton: 'Suscríbete',
             code: '5221946',
@@ -304,7 +303,6 @@ const posts = [
 
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: 'Hay cosas que no se dan #degratis.  <br /> Esas cosas, las especiales, solo se las doy a mi lista de suscriptores.',
             textButton: 'Suscribete',
             code: '5221946',
@@ -406,11 +404,10 @@ const posts = [
 
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710331362/emprende-con-notion/blog/usar_Notion_offline_modo_avion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips],
@@ -498,11 +495,10 @@ const posts = [
     //         <p> Pero te gusta Notion.</p>
     //             `,
     //         form: {
-    //             type: `${FORM_TYPE.banner}`,
     //             titleForm: '________texto pendiente________',
     //             textButton: 'Suscribirme y recibir regalo.',
-    //             code: '5277247',
-    //             trackerId: '88855277615449173'
+    //             code: '5221946',
+    //             trackerId: '88519530185229347'
     //         },
     //         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/Duplicar_templates_en_Notion-emprende_con_notion_i4ux40.jpg',
     //         tags: [TAG_POSTS_TYPE.recursosdeGratis, TAG_POSTS_TYPE.tips],
@@ -654,11 +650,10 @@ const posts = [
         Aquí te cuento los primeros pasos que tienes que dar para no agobiarte. Rápido. Sin paja. </p>
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710321441/emprende-con-notion/blog/que_es_un_bloque_en_Notion-emprende_con_Notion.gif',
         tags: [TAG_POSTS_TYPE.junior],
@@ -774,11 +769,10 @@ const posts = [
         <p> Si no quieres invertir tiempo creando plantillas complejas en Notion, hay una forma de comenzar a usar Notion rápidamente… Esa forma es duplicar plantillas de Notion. </p>
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710332643/emprende-con-notion/blog/duplicar_plantillas_en_Notion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior, TAG_POSTS_TYPE.favs],
@@ -914,11 +908,10 @@ const posts = [
         <p> Que no cunda el pánico. Es súper fácil quitarlo. Aquí te explico paso a paso cómo hacerlo. </p>
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710323751/emprende-con-notion/blog/problema_frecuente_m%C3%A1ximo_1000_bloques-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior],
@@ -1126,11 +1119,10 @@ const posts = [
         <p> No te voy a describir los planes de pago de Notion. Es absurdo, lo explican mejor en su web. Te voy a contar si te conviene pagar según lo que haces, según tu situación. </p>
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710324657/emprende-con-notion/blog/pagar_por_Notion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips],
@@ -1256,11 +1248,10 @@ const posts = [
         <p> ¿Sabes cómo crear columnas en Notion? A mí me costó la vida descubrirlo. Pero es MUY fácil. </p>
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710332635/emprende-con-notion/blog/columnas_en_notion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.junior],
@@ -1322,11 +1313,10 @@ const posts = [
         <p>¿Alguien puede acceder a mis páginas de Notion sin mi consentimiento? ¿Mi info es privada? </p>
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710333851/emprende-con-notion/blog/p%C3%A1ginas_privadas-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips],
@@ -1412,11 +1402,10 @@ const posts = [
         <p>Si quieres encontrar plantillas de Notion en español de calidad y gratuitas, aquí te cuento dónde encontrarlas, (ojo, que no solo te voy a hablar de mi web). </p>
             `,
         form: {
-            type: `${FORM_TYPE.banner}`,
             titleForm: '',
             textButton: 'Suscribirme.',
-            code: '5277247',
-            trackerId: '88855277615449173'
+            code: '5221946',
+            trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710333884/emprende-con-notion/blog/plantillas_de_notion_en_espanol_gratis-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.recursosdeGratis, TAG_POSTS_TYPE.junior],

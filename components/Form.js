@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react'
-import { FORM_TYPE } from '../helpers/types'
 
-const Form = ({ type, titleForm, textButton, code, trackerId }) => {
+const Form = ({ titleForm, textButton, code, trackerId }) => {
 
 
     useEffect(() => {
@@ -25,7 +24,7 @@ const Form = ({ type, titleForm, textButton, code, trackerId }) => {
 
     return (
 
-        <div className={` p-6 mb-6 ${type === FORM_TYPE.banner && 'bg-yellow-300'} border border-stone-950 rounded-md items-center`}>
+        <div className={` p-6 mt-6 mb-6 bg-yellow-300 border border-stone-950 rounded-md items-center`}>
             <div className=" mb-4 sm:mb-2 font-bold lg:col-span-7">
                 <h6 dangerouslySetInnerHTML={{ __html: titleForm }}></h6>
             </div>
@@ -61,7 +60,7 @@ const Form = ({ type, titleForm, textButton, code, trackerId }) => {
                                             <div>
                                                 <button
                                                     type="submit"
-                                                    className={`flex-none rounded-md w-full border border-stone-950  ${type === FORM_TYPE.banner ? ' bg-stone-50 px-16 ' : ' bg-yellow-300 px-2.5'}  py-2.5 text-sm font-sub font-semibold  hover:shadow-dark `}
+                                                    className={`flex-none rounded-md w-full border border-stone-950   bg-stone-50 px-16  py-2.5 text-sm font-sub font-semibold  hover:shadow-dark `}
                                                 >
                                                     {textButton}
                                                 </button>
@@ -76,11 +75,11 @@ const Form = ({ type, titleForm, textButton, code, trackerId }) => {
 
                                     <label className="checkbox flex items-center my-2">
                                         <input required type="checkbox"></input>
-                                        <p className='p-0 ml-2'>Acepto la <a href="https://emprendeconnotion.com/privacidad/" target="_blank">política de privacidad</a>.</p>
+                                        <p className='p-0 ml-2 text-xs sm:text-sm'>Acepto la <a className='underline text-gray-900' href="https://emprendeconnotion.com/privacidad/" target="_blank">política de privacidad</a>.</p>
                                     </label>
 
                                 </div>
-                                <p className=' text-[8px] leading-3 pb-0 text-gray-700'> Para cumplir con el RGPD (Reglamento General de Protección de Datos) y entender que tus datos están seguros, debes leer y aceptar <a href="https://emprendeconnotion.com/politica-de-privacidad/" target="_blank">la política de privacidad.</a> Tus datos serán guardados en MailerLite proveedor de email marketing. MailerLite también cumple con el RGPD, así que todo está bien protegido y amparado por la ley. Recuerda que puedes darte de baja cuando quieras.</p>
+                                <p className=' text-[10px] leading-3 pb-0 text-gray-700'> Para cumplir con el RGPD (Reglamento General de Protección de Datos) y entender que tus datos están seguros, debes leer y aceptar <a className='underline text-gray-900' href="https://emprendeconnotion.com/politica-de-privacidad/" target="_blank">la política de privacidad.</a> Tus datos serán guardados en MailerLite proveedor de email marketing. MailerLite también cumple con el RGPD, así que todo está bien protegido y amparado por la ley. Recuerda que puedes darte de baja cuando quieras.</p>
 
                             </form>
                         </div>
@@ -93,7 +92,7 @@ const Form = ({ type, titleForm, textButton, code, trackerId }) => {
                             >
                                 Formulario enviado.
                                 <br></br>
-                                Revisa tu email. ☺︎ ☻
+                                Revisa tu email. :)
 
                             </div>
                         </div>

@@ -18,7 +18,7 @@ const ItemBlog = ({ item }) => {
                     className="aspect-[16/9] w-full rounded-md bg-gray-100 object-cover sm:aspect-[2/1] lg:aspect-[3/2]"
                 />
                 <div className=" p-3 pb-0">
-                    <h3 className=" text-lg pb-1 font-semibold  leading-6 text-gray-900 group-hover:text-gray-600">
+                    <h3 className="  pb-1 font-bold  leading-6 text-gray-900 group-hover:text-gray-600">
                         <a className='text-gray-900 sm:hover:text-gray-900' href={`/blog/${getUrltTitle(title)}-${id}`}>
                             {title}
                         </a>

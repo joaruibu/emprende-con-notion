@@ -832,8 +832,8 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            code: '',
-            trackerId: ''
+            code: '5218504',
+            trackerId: '88509847557899626'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348510/emprende-con-notion/template/Content%20calendar/Plantilla_de_Content_calendar1_en_Notion_-_emprende_con_notion_cni9fq.webp',
@@ -929,8 +929,8 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            code: '',
-            trackerId: ''
+            code: '5218319',
+            trackerId: '88509139280463367'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348741/emprende-con-notion/template/buyer%20persona/Plantilla_de_Buyer_persona1_en_Notion_-_emprende_con_notion_d5g1gx.webp',
@@ -992,8 +992,8 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            code: '',
-            trackerId: ''
+            code: '5218368',
+            trackerId: '88509318780945509'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348751/emprende-con-notion/template/lean%20canvas/Plantilla_de_Lean_canvas1_en_Notion_-_emprende_con_notion_tceib8.webp',

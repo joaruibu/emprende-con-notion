@@ -1,7 +1,6 @@
 
 import SubscriptionForm from "../components/Form"
 import TitlePage from "../components/TitlePage"
-import { FORM_TYPE } from "../helpers/types"
 
 
 const Home = () => {
@@ -38,7 +37,6 @@ const Home = () => {
             <br></br>
 
             <SubscriptionForm
-                type={FORM_TYPE.banner}
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
                 code={FORM_DATA.code}
@@ -93,7 +91,6 @@ const Home = () => {
             <br></br>
 
             <SubscriptionForm
-                type={FORM_TYPE.banner}
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
                 code={FORM_DATA.code}
@@ -116,7 +113,6 @@ const Home = () => {
             <br></br>
 
             <SubscriptionForm
-                type={FORM_TYPE.banner}
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
                 code={FORM_DATA.code}
@@ -149,7 +145,6 @@ const Home = () => {
             <br></br>
 
             <SubscriptionForm
-                type={FORM_TYPE.banner}
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
                 code={FORM_DATA.code}
@@ -239,7 +234,6 @@ const Home = () => {
             <br></br>
 
             <SubscriptionForm
-                type={FORM_TYPE.banner}
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
                 code={FORM_DATA.code}
