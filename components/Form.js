@@ -93,9 +93,7 @@ const Form = ({ type, titleForm, textButton, code, trackerId }) => {
                             >
                                 Formulario enviado.
                                 <br></br>
-                                1. Revisa tu email y confirma la suscripción.
-                                <br></br>
-                                2. Recibe tu plantilla.
+                                Revisa tu email. ☺︎ ☻
 
                             </div>
                         </div>

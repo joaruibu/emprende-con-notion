@@ -25,11 +25,11 @@ const Index = () => {
         getFilterByTags(tags)
     }, [tags]);
 
-
     const TITLE_INFO = {
         title: 'Plantillas gratis',
-        subtitle: 'Todos los meses, nuevas plantillas sobre Notion'
+        subtitle: ''
     }
+
     return (
         <main>
             {

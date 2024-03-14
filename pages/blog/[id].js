@@ -1,5 +1,3 @@
-import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react'
 import { getAllItems, getIdByUrl, getItemById, getUrltTitle } from '../../helpers';
 import { DATA_TYPE, FORM_TYPE } from '../../helpers/types';
 import SubscriptionForm from '../../components/Form';
@@ -8,7 +6,7 @@ import SubscriptionForm from '../../components/Form';
 
 const PostItem = ({ post }) => {
 
-    const { title, post_body, img, form } = post
+    const { title, post_body, img, form } = post;
 
     return (
         <>
@@ -22,7 +20,13 @@ const PostItem = ({ post }) => {
                 <section className="pt-10 " >
 
                     <h1 className='mb-4'>{title}</h1>
-
+                    <SubscriptionForm
+                        type={FORM_TYPE.banner}
+                        titleForm={form.titleForm}
+                        textButton={form.textButton}
+                        code={form.code}
+                        trackerId={form.trackerId}
+                    ></SubscriptionForm>
 
 
                     <div dangerouslySetInnerHTML={{ __html: post_body }} />

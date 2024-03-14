@@ -2,7 +2,6 @@
 import posts from "../data/posts"
 import templates from "../data/templates"
 import { DATA_TYPE } from "./types"
-import { useEffect } from 'react';
 
 
 export const getUrltTitle = (title) => {

@@ -23,7 +23,7 @@ const ItemTemplate = ({ item }) => {
                 <div className='flex items-center justify-between my-4 mr-3'>
 
                     <h4 className=" ml-3">
-                        <a href={`/templates/${getUrltTitle(title)}-${id}`}>
+                        <a className='text-gray-900 text-lg leading-5 hover:text-gray-800 font-montserrat font-bold no-underline' href={`/templates/${getUrltTitle(title)}-${id}`}>
                             {title}
                         </a>
                     </h4>
@@ -43,7 +43,7 @@ const ItemTemplate = ({ item }) => {
                     }
                 </div> */}
 
-                <div className='h-11 w-11 bg-yellow-300 absolute top-2 rounded-full left-2 grid place-content-center'>
+                <div className='h-11 w-11 bg-yellow-300 text-black absolute top-2 rounded-full left-2 grid place-content-center'>
                     <h5 className='text-xs -rotate-6'>Gratis
                     </h5>
                 </div>

@@ -12,9 +12,10 @@ export const TAG_TEMPLATES_TYPE = Object.freeze({
 })
 
 export const TAG_POSTS_TYPE = Object.freeze({
-    tips: 'Notion tips',
+    tips: 'notion tips',
+    junior: 'iniciarse en notion',
+    recursosdeGratis: 'recursos',
     favs: 'favoritos',
-    deGratis: 'de gratis',
 })
 
 export const FORM_TYPE = Object.freeze({

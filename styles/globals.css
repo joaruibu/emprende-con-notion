@@ -41,7 +41,7 @@
   }
   p,
   li {
-    @apply font-montserrat text-base font-normal pb-4;
+    @apply font-montserrat text-base font-normal pb-4 leading-7;
   }
 
   li {
@@ -60,6 +60,6 @@
     @apply p-2;
   }
   a {
-    @apply underline cursor-pointer text-terracotta hover:text-light-terracota duration-150;
+    @apply cursor-pointer text-terracotta hover:text-light-terracota duration-150;
   }
 }

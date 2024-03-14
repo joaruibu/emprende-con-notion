@@ -20,8 +20,8 @@ const Index = ({ posts }) => {
     }, [tags]);
 
     const TITLE_INFO = {
-        title: 'Blog para frikis de Notion',
-        subtitle: 'El mejor blog sobre Notion en Español, solo para frikis'
+        title: 'Blog',
+        subtitle: 'Blog de Emprende con Notion. Te doy recursos y tipos para ayudarte a implementar Notion en tu día a día.'
     }
 
     return (

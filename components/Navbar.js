@@ -5,9 +5,9 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const navigation = [
-    { name: 'Plantilla gratuitas', href: '/plantillas' },
-    { name: 'Mi CV', href: '/sobre-mi' },
-    { name: 'Blog', href: '/blog', },
+    { name: 'plantillas gratuitas', href: '/plantillas' },
+    { name: 'sobre mí', href: '/sobre-mi' },
+    { name: 'blog', href: '/blog', },
 ]
 
 export default function Navbar() {

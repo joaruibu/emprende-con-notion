@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from 'react';
+
 import { getFilterByTags } from '../helpers';
 import { TAG_TEMPLATES_TYPE, DATA_TYPE, TAG_POSTS_TYPE } from '../helpers/types';
 

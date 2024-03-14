@@ -145,7 +145,7 @@ const posts = [
             trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710331654/emprende-con-notion/blog/que_es_notion-emprende_con_notion-blog.webp',
-        tags: [TAG_POSTS_TYPE.tips],
+        tags: [TAG_POSTS_TYPE.junior],
 
     },
     {
@@ -311,7 +311,7 @@ const posts = [
             trackerId: '88519530185229347'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710331354/emprende-con-notion/blog/que_es_notion-gtd-notion-emprende_con_notion-blog.gif',
-        tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.favs],
+        tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior, TAG_POSTS_TYPE.favs],
 
     },
     {
@@ -505,7 +505,7 @@ const posts = [
     //             trackerId: '88855277615449173'
     //         },
     //         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/Duplicar_templates_en_Notion-emprende_con_notion_i4ux40.jpg',
-    //         tags: [TAG_POSTS_TYPE.tips],
+    //         tags: [TAG_POSTS_TYPE.recursosdeGratis, TAG_POSTS_TYPE.tips],
 
     //     },
     {
@@ -661,7 +661,7 @@ const posts = [
             trackerId: '88855277615449173'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710321441/emprende-con-notion/blog/que_es_un_bloque_en_Notion-emprende_con_Notion.gif',
-        tags: [TAG_POSTS_TYPE.tips],
+        tags: [TAG_POSTS_TYPE.junior],
 
     },
     {
@@ -709,7 +709,7 @@ const posts = [
 
         <br>
 
-        <h2>¿Cómo duplicar una plantilla en Notion?</h2>
+        <h3>¿Cómo duplicar una plantilla en Notion?</h3>
         
         <br>
 
@@ -781,7 +781,7 @@ const posts = [
             trackerId: '88855277615449173'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710332643/emprende-con-notion/blog/duplicar_plantillas_en_Notion-emprende_con_notion-blog.webp',
-        tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.favs],
+        tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior, TAG_POSTS_TYPE.favs],
 
     },
     {
@@ -808,7 +808,7 @@ const posts = [
 
         <br>
 
-        <h2>¿Por qué tengo un límite de 1000 bloques en Notion?</h2>
+        <h3>¿Por qué tengo un límite de 1000 bloques en Notion?</h3>
 
         <br>
 
@@ -855,7 +855,7 @@ const posts = [
 
         <br>
 
-        <h2>Cómo quitar el límite de 1000 bloques en Notion. O dicho de otra forma: cómo volver a plan individual gratuito. </h2>
+        <h3>Cómo quitar el límite de 1000 bloques en Notion. O dicho de otra forma: cómo volver a plan individual gratuito. </h3>
         
         <br>
         
@@ -921,7 +921,7 @@ const posts = [
             trackerId: '88855277615449173'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710323751/emprende-con-notion/blog/problema_frecuente_m%C3%A1ximo_1000_bloques-emprende_con_notion-blog.webp',
-        tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.favs],
+        tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior],
 
     },
     {
@@ -1168,7 +1168,7 @@ const posts = [
 
         <br>
 
-        <h2>Paso a paso cómo crear columnas en Notion</h2>
+        <h3>Paso a paso cómo crear columnas en Notion</h3>
 
         <br>
 
@@ -1263,7 +1263,7 @@ const posts = [
             trackerId: '88855277615449173'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710332635/emprende-con-notion/blog/columnas_en_notion-emprende_con_notion-blog.webp',
-        tags: [TAG_POSTS_TYPE.tips],
+        tags: [TAG_POSTS_TYPE.junior],
 
     },
     {
@@ -1274,7 +1274,7 @@ const posts = [
         
         <br>
 
-        <h2>¿Alguien más puede ver mis páginas de Notion sin mi consentimiento?</h2>
+        <h3>¿Alguien más puede ver mis páginas de Notion sin mi consentimiento?</h3>
         
         <br>
 
@@ -1419,7 +1419,7 @@ const posts = [
             trackerId: '88855277615449173'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710333884/emprende-con-notion/blog/plantillas_de_notion_en_espanol_gratis-emprende_con_notion-blog.webp',
-        tags: [TAG_POSTS_TYPE.tips],
+        tags: [TAG_POSTS_TYPE.recursosdeGratis, TAG_POSTS_TYPE.junior],
 
     },
 ]
