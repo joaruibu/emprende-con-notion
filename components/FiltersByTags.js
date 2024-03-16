@@ -26,7 +26,7 @@ const FiltersByTags = ({ tags, setTags, setItems, type }) => {
 
     return (
         < div className="relative">
-            < div className='sm:hidden h-11 w-6 top-[2px] right-[2px]  bg-gradient-to-r absolute from-gray-100/50 to-gray-300 z-10' ></ div>
+            < div className='sm:hidden h-11 w-6 top-[2px] right-[2px]  bg-gradient-to-r absolute from-gray-100/5 to-gray-800/25 z-10' ></ div>
             <div className='border-2 relative border-stone-950 bg-white rounded-md p-2 mt-2 min-w-full flex-none overflow-x-scroll'>
                 {domLoaded &&
                     <div className='flex gap-2'>
