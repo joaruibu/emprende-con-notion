@@ -88,7 +88,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710337508/emprende-con-notion/template/Diario/plantilla-diario_de_agradecimiento_habit_tracker_en_Notion_3-emprende_con_Notion.webp',
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710337508/emprende-con-notion/template/Diario/plantilla-diario_de_agradecimiento_habit_tracker_en_Notion_3-emprende_con_Notion.webp']
         ,
-        tags: [TAG_TEMPLATES_TYPE.personal],
+        tags: [TAG_TEMPLATES_TYPE.personal, TAG_TEMPLATES_TYPE.entrepeneur],
 
     },
     {
@@ -451,7 +451,7 @@ const templates = [
 
     },
     {
-        title: 'Plantilla de Objetivos y visualizaciones de Nuevo Año ',
+        title: 'Plantilla de Objetivos y visualizaciones de Nuevo Año en Notion',
         id: '5',
         template_summary: `
             <p>Visualización de objetivos: el secreto para crear unos objetivos anuales que se cumplan. Para ponerlo en práctica te regalo una plantilla de objetivos en Notion.</p>
@@ -769,7 +769,7 @@ const templates = [
 
     },
     {
-        title: 'Plantilla Content Calendar para Redes Sociales',
+        title: 'Plantilla Content Calendar para Redes Sociales en Notion',
         id: '8',
         template_summary: `
             <p>Da igual si es Instagram, YouTube, LinkedIn o cualquier red en la que sale gente joven haciendo el mono. Podrás crear todo el contenido, categorizarlo, llevar un control de si está listo, y tener un calendario conjunto con tooodo. </p>
@@ -845,7 +845,7 @@ const templates = [
 
     },
     {
-        title: 'Plantilla Crea tu Buyer Persona',
+        title: 'Plantilla Crea tu Buyer Persona en Notion',
         id: '9',
         template_summary: `
             <p>Por qué crear buyer persona es una pérdida de tiempo si no sabes lo que estás haciendo.</p>

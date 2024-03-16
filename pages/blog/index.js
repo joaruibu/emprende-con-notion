@@ -21,7 +21,7 @@ const Index = ({ posts }) => {
 
     const TITLE_INFO = {
         title: 'Blog',
-        subtitle: 'Blog de Emprende con Notion. Te doy recursos y tipos para ayudarte a implementar Notion en tu día a día.'
+        subtitle: 'El blog de Emprende con Notion. Te doy recursos y tips para ayudarte a implementar Notion en tu día a día.'
     }
 
     return (

@@ -163,11 +163,11 @@ const Home = () => {
 
             <br></br>
 
-            <p className="mx-16"><i>“No sirve”.</i></p>
+            <p className="mx-12 sm:mx-16"><i>“No sirve”.</i></p>
 
             <br></br>
 
-            <p className="mx-16"><i>“No explicas como creas las plantillas, no sirve”.</i></p>
+            <p className="mx-12 sm:mx-16"><i>“No explicas como creas las plantillas, no sirve”.</i></p>
 
             <br></br>
 
@@ -179,22 +179,22 @@ const Home = () => {
 
             <br></br>
 
-            <p className="mx-16"><i>“(…)tu canal ayuda a organizarnos, sea cual sea la razon (negocios, colegio,vida,etc). tu canal me a ayudado Muchisimos a organizar mi vida y mi negocio. EN FIN GRACIAS.”</i></p>
+            <p className="mx-12 sm:mx-16"><i>“(…)tu canal ayuda a organizarnos, sea cual sea la razon (negocios, colegio,vida,etc). tu canal me a ayudado Muchisimos a organizar mi vida y mi negocio. EN FIN GRACIAS.”</i></p>
 
             <br></br>
 
-            <p className="mx-16"><i>“Wow reina! Está increíble, era justo lo que necesitaba! Muchas gracias por el contenido de valor, suscrito para seguir aprendiendo a usar Notion”.</i></p>
+            <p className="mx-12 sm:mx-16"><i>“Wow reina! Está increíble, era justo lo que necesitaba! Muchas gracias por el contenido de valor, suscrito para seguir aprendiendo a usar Notion”.</i></p>
 
-            <p className="mx-16">Esto me escribió el otro día un suscriptor sobre <a href="https://www.emprendeconnotion.com/plantillas/plantilla-contabilizar-horas-de-trabajo-en-notion-7" target="_blank">la plantilla de Fichero de horas</a>, te pongo aquí el enlace por si te interesa.</p>
+            <p className="mx-12 sm:mx-16">Esto me escribió el otro día un suscriptor sobre <a href="https://www.emprendeconnotion.com/plantillas/plantilla-contabilizar-horas-de-trabajo-en-notion-7" target="_blank">la plantilla de Fichero de horas</a>, te pongo aquí el enlace por si te interesa.</p>
 
-
-            <br></br>
-
-            <p className="mx-16"><i>“Hola Laura! Increible el conocimiento que tienes sobre notion. Una pregunta, si una misma tarea tiene interrupciones (…)”.</i></p>
 
             <br></br>
 
-            <p className="mx-16"><i>“Laura, tu contenido me ha enamorado, y lo explicas de forma súper sencilla. Estoy usando Notion para mi empresa de Pinterest Marketing. Me gustaría saber (…) Gracias”.</i></p>
+            <p className="mx-12 sm:mx-16"><i>“Hola Laura! Increible el conocimiento que tienes sobre notion. Una pregunta, si una misma tarea tiene interrupciones (…)”.</i></p>
+
+            <br></br>
+
+            <p className="mx-12 sm:mx-16"><i>“Laura, tu contenido me ha enamorado, y lo explicas de forma súper sencilla. Estoy usando Notion para mi empresa de Pinterest Marketing. Me gustaría saber (…) Gracias”.</i></p>
 
 
             <br></br>
@@ -203,25 +203,25 @@ const Home = () => {
 
             <br></br>
 
-            <p className="mx-16"><i>“(…)Hoy vi estos tutos porque tengo tdah diagnosticado hace poco y ya estoy cansada de no tener control en mi vida, y vengo utilizando notion pero las plantillas que encontre relmente no las utilizaba. Pero hoy te encontre y ya personalize esta plantilla y la de habit tracker  y me gusta mucho. Gracias por compartir tus plantillas gratis . . Super bien explicado todo. Espero poder mantenerme constante, a ver que tal. Voy a sugerir tus videos y plantillas, te mereces todo. Gracias”</i></p>
+            <p className="mx-12 sm:mx-16"><i>“(…)Hoy vi estos tutos porque tengo tdah diagnosticado hace poco y ya estoy cansada de no tener control en mi vida, y vengo utilizando notion pero las plantillas que encontre relmente no las utilizaba. Pero hoy te encontre y ya personalize esta plantilla y la de habit tracker  y me gusta mucho. Gracias por compartir tus plantillas gratis . . Super bien explicado todo. Espero poder mantenerme constante, a ver que tal. Voy a sugerir tus videos y plantillas, te mereces todo. Gracias”</i></p>
 
 
             <br></br>
 
-            <p className="mx-16"><i>“Hola Laura! Estoy encantada con tus vídeos! A parte de que eres un encanto como persona y te expresas súper bien, lo explicas todo súper fácil. Había intentado usar Notion años atrás y no terminaba de encontrarle el punto hasta que te descubrí! Y ahora estoy encantada con el, organizando toda mi vida y mi empresa con él. Así que muchas gracias por tu canal y tu labor también respecto a los consejos que das de desarrollo personal! (…)”</i></p>
+            <p className="mx-12 sm:mx-16"><i>“Hola Laura! Estoy encantada con tus vídeos! A parte de que eres un encanto como persona y te expresas súper bien, lo explicas todo súper fácil. Había intentado usar Notion años atrás y no terminaba de encontrarle el punto hasta que te descubrí! Y ahora estoy encantada con el, organizando toda mi vida y mi empresa con él. Así que muchas gracias por tu canal y tu labor también respecto a los consejos que das de desarrollo personal! (…)”</i></p>
 
-            <p className="mx-16">Comentario de una suscriptora después de ver  <a href="https://www.emprendeconnotion.com/plantillas/plantilla-crea-tu-buyer-persona-9" target="_blank"> la plantilla de Buyer Persona, te la dejo aquí.</a></p>
+            <p className="mx-12 sm:mx-16">Comentario de una suscriptora después de ver  <a href="https://www.emprendeconnotion.com/plantillas/plantilla-crea-tu-buyer-persona-en-notion-9" target="_blank"> la plantilla de Buyer Persona, te la dejo aquí.</a></p>
 
 
-
-            <br></br>
-
-            <p className="mx-16"><i>“Hola, he visto varios videos sobre el tema, y hasta ahora este ha sido el mas pedagógico para comprender e iniciar el uso de esta herramienta, incluso realice un curso on line donde escuche por primera vez de esta plataforma y ni ellos son tan precisos como tu en este video... gracias…”.</i></p>
-            <p className="mx-16">Muchos de estos comentarios me los dejaron tras el tutorial online para aprender a usar Notoin desde 0. Si es tu caso, a parte de cotillear el canal de YouTube <a href="https://www.emprendeconnotion.com/blog" target="_blank">te recomiendo que le eches un vistazo al blog.</a></p>
 
             <br></br>
 
-            <p className="mx-16"><i>“(…)supe de Notion hace varios días, he visto varios muchos videos, ya abrí una cuenta... la cerré porque no me di "mañas", un poco impaciente. Seguí viendo tutoriales, hasta que apareció el tuyo, es fantástico, explicas perfecto y conviertes el vídeo en uno de consulta permanente. El esmero de tu vídeo lo hace muy valioso.”</i></p>
+            <p className="mx-12 sm:mx-16"><i>“Hola, he visto varios videos sobre el tema, y hasta ahora este ha sido el mas pedagógico para comprender e iniciar el uso de esta herramienta, incluso realice un curso on line donde escuche por primera vez de esta plataforma y ni ellos son tan precisos como tu en este video... gracias…”.</i></p>
+            <p className="mx-12 sm:mx-16">Muchos de estos comentarios me los dejaron tras el tutorial online para aprender a usar Notoin desde 0. Si es tu caso, a parte de cotillear el canal de YouTube <a href="https://www.emprendeconnotion.com/blog" target="_blank">te recomiendo que le eches un vistazo al blog.</a></p>
+
+            <br></br>
+
+            <p className="mx-12 sm:mx-16"><i>“(…)supe de Notion hace varios días, he visto varios muchos videos, ya abrí una cuenta... la cerré porque no me di "mañas", un poco impaciente. Seguí viendo tutoriales, hasta que apareció el tuyo, es fantástico, explicas perfecto y conviertes el vídeo en uno de consulta permanente. El esmero de tu vídeo lo hace muy valioso.”</i></p>
 
             <br></br>
 

@@ -48,15 +48,15 @@ const About = () => {
 
             <ul className="mx-8">
 
-                <li>Mi primer trabajo, con apenas 14 años, fue de profesora particular a niños con padres esnobs que les gusta presumir de estar estresados. A mí nunca me han gustado los niños. Y a los <i>padresesnobsquelesgustapresumirdeestarestresados</i> tampoco les gustaban sus niños.
+                <li>Mi primer trabajo, con apenas 14 años, fue de profesora particular a niños con padres esnobs que les gusta presumir de estar estresados. A mí nunca me han gustado los niños. Y a los <i>padres-esnobs-que-les-gusta-presumir-de-estar-estresados</i> tampoco les gustaban sus niños.
                     <br></br>
                     Cuando yo terminaba la clase particular es cuando ellos llegaban a casa de trabajar y casi siempre se quedaban hablando conmigo.
                     <br></br>
-                    Había padres directores de colegio, empresarios e incluso azafatas que pasaban la semana fuera de casa. Y de lo que les encantaba hablar es de lo muy ocupados y estresados que estaban. Y al mismo tiempo, de lo maravillosamente bien que se organizaban, a pesar de todo su trabajo. Como justificándose por no estar en casa porque ellos eran <i>padresesnobsquelesgustapresumirdeestarestresados</i>, sabes.
+                    Había padres directores de colegio, empresarios e incluso azafatas que pasaban la semana fuera de casa. Y de lo que les encantaba hablar es de lo muy ocupados y estresados que estaban. Y al mismo tiempo, de lo maravillosamente bien que se organizaban, a pesar de todo su trabajo. Como justificándose por no estar en casa porque ellos eran <i>padres-esnobs-que-les-gusta-presumir-de-estar-estresados</i>, sabes.
                     <br></br>
                     Pensaba entonces y sigo pensando ahora que con ese nivel de estrés y dejadez de su vida personal… Muy bien organizados no estaban. No sé.</li>
 
-                <li>En 2013 fui dependienta en una óptica en el centro de Valencia. Lo único que sabía de gafas es que yo llevaba unas y, por cierto, las cambiaba aproximadamente cada cinco años. No me interesaban ni las gafas ni venderlas, pero estudiaba en los ratos muertos el teórico de conducir. Entre eso, las clases particulares y la carrera, me sentía más ocupada que los <i>padresesnobsquelesgustapresumirdeestarestresados</i>.  </li>
+                <li>En 2013 fui dependienta en una óptica en el centro de Valencia. Lo único que sabía de gafas es que yo llevaba unas y, por cierto, las cambiaba aproximadamente cada cinco años. No me interesaban ni las gafas ni venderlas, pero estudiaba en los ratos muertos el teórico de conducir. Entre eso, las clases particulares y la carrera, me sentía más ocupada que los <i>padres-esnobs-que-les-gusta-presumir-de-estar-estresados</i>.  </li>
 
                 <li>En 2016 tuve mi primeras prácticas como arquitecta. Estaba en tercero de carrera y tuve claro que no quería dedicarme a la arquitectura.</li>
 
@@ -68,9 +68,9 @@ const About = () => {
 
                 <li>En 2019 conseguí trabajo de arquitecta en una de las multinacionales más importantes a nivel mundial del sector cerámico. Suena importante, ¿verdad? Pues no. Jefes machistas, homófobos y racistas. Lo tenían todo. El regalo de bienvenida era una agenda de polipiel verde con el logo de la empresa en letras doradas. Guau.
                     <br></br>
-                    Una vez se me ocurrió mencionar la idea de utilizar Assana, aún no conocía Notion, pero teníamos prohibido organizarnos con aplicaciones externa por temas de privacidad. Excel estaba permitido, así que pude llevar allí un seguimiento de los clientes. Era desesperante, pero funcionaba mejor que la <i>agendadepolipielverde</i>.
+                    Una vez se me ocurrió mencionar la idea de utilizar Assana, aún no conocía Notion, pero teníamos prohibido organizarnos con aplicaciones externa por temas de privacidad. Excel estaba permitido, así que pude llevar allí un seguimiento de los clientes. Era desesperante, pero funcionaba mejor que la <i>agenda-de-polipiel-verde</i>.
                     <br></br>
-                    Eso sí, la <i>agendadepolipielverde</i> era obligatoria en cualquier reunión.</li>
+                    Eso sí, la <i>agenda-de-polipiel-verde</i> era obligatoria en cualquier reunión.</li>
 
                 <li>A partir de 2020 decidí no aguantar a nadie más, hacerme autónoma y buscarme un trabajo sin jefes. Di muchas formaciones a profesionales que querían especializarse en interiorismo o en herramientas digitales para interioristas como AutoCad, SketchUp, PS, etc. Muchas. Desde carpinteros a metalistas, interioristas, un ingeniero civil de EEUU, una cajera que querían cambiar su profesión y meterse en el sector del interiorismo, e incluso un hombre que hacía chimeneas tradicionales en el País Vasco.
                     <br></br>
@@ -86,7 +86,7 @@ const About = () => {
 
             <ul className="mx-8">
 
-                <li>Con la que más duré fue con una interiorista de Gijón que quería una intraemprendedora. Pasé de una agendadepolipielverde, a un estudio de interiorismo que usaba todo para organizarse: excel, assana, trello, word, toggl. Te puedes imaginar el caos. Le creé en mi tiempo libre todo un ecosistema interno brutal en Notion para que pudiese organizar los proveedores, entregas, clientes, etc., pero ella no quiso implementarlo. A los seis meses corté con ella. Creo que ha habido rupturas menos dramáticas. </li>
+                <li>Con la que más duré fue con una interiorista de Gijón que quería una intraemprendedora. Pasé de una agenda-de-polipiel-verde, a un estudio de interiorismo que usaba todo para organizarse: excel, assana, trello, word, toggl. Te puedes imaginar el caos. Le creé en mi tiempo libre todo un ecosistema interno brutal en Notion para que pudiese organizar los proveedores, entregas, clientes, etc., pero ella no quiso implementarlo. A los seis meses corté con ella. Creo que ha habido rupturas menos dramáticas. </li>
 
                 <li>En 2022 seguía siendo autónoma. Y ser autónoma en España es difícil. Cosas de la vida me obligaron a necesitar ingresos fáciles, no difíciles. O sea, volver al trabajo por cuenta ajena. Trabajé como interiorista en una importante cadena de restauración valenciana. Y a diferencia de las anteriores empresas, aquí no imponían un control absurdo al empleado: lo que importaba es que cumpliera objetivos. Mientras cumpliera tenía libertad para organizarme como quisiera. Y cumplía, vaya si cumplía. Además creé en Notion todo un ecosistema interno para gestionar los proyectos, entregas, fichajes de horas, etc.  </li>
 
@@ -125,7 +125,7 @@ const About = () => {
 
             <br></br>
 
-            <p>Sigo creando plantillas y formaciones para que otros profesionales puedan implementar Notion y no convertirse en aquellos <i>padresesnobsquelesgustapresumirdeestarestresados</i> que conocí en mi primer trabajo. </p>
+            <p>Sigo creando plantillas y formaciones para que otros profesionales puedan implementar Notion y no convertirse en aquellos <i>padres-esnobs-que-les-gusta-presumir-de-estar-estresados</i> que conocí en mi primer trabajo. </p>
 
             <p>Eso sí, el acceso a mis formaciones privadas y a mis plantillas de pago, son solo para mis suscriptores.</p>
 
