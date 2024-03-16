@@ -26,12 +26,11 @@ const FiltersByTags = ({ tags, setTags, setItems, type }) => {
 
     return (
         <div className='border-2 border-stone-950 bg-white rounded-md p-2 mt-2 min-w-full flex-none overflow-x-scroll'>
-            {/* <p>{type === DATA_TYPE.posts ? 'Filtra las entradas:' : 'Filtra tus plantillas:'}</p> */}
             {domLoaded &&
                 <div className='flex gap-2'>
                     {
                         tags.map((tag, index) => {
-                            return <h4 key={index} onClick={() => onClickTag(index)} className={`inline-flex items-center rounded px-4 py-1 text-xs font-medium border border-stone-50 hover:border hover:border-stone-950 cursor-pointer transition-all ${tag.selected && ' border-stone-900 '}`}>
+                            return <h4 key={index} onClick={() => onClickTag(index)} className={`inline-flex items-center rounded px-4 py-1 text-xs font-medium border-2 border-stone-200 hover:border-2 hover:border-stone-950 cursor-pointer transition-all ${tag.selected && ' border-2 border-stone-800 '}`}>
                                 {tag.name}
                             </h4>
                         })
