@@ -116,7 +116,7 @@ const Privacidad = () => {
 
       <ul>
         <li><strong>Hosting:</strong> <a href="https://vercel.com/legal/privacy-policy">Vercel</a></li>
-        <li><strong>Proveedor de Email Marketing:</strong> <a href="https://www.mailerlite.com/legal">MailerLite</a></li>
+        <li><strong>Proveedor de Email Marketing:</strong> <a href="https://www.campaingmonitor.com/legal">campaingmonitor</a></li>
         <li><strong>Servicios de analítica web:</strong> <a href="https://www.google.com/intl/es/policies/privacy/">Google Analytics</a></li>
         <li><strong>Sistemas de Pago:</strong> PayPal y Stripe</li>
       </ul>

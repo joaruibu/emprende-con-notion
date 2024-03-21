@@ -141,6 +141,7 @@ const posts = [
             titleForm: 'Hay cosas que no se dan #degratis.<br/> Esas cosas, las especiales, solo se las doy a mi lista de suscriptores.',
             textButton: 'Suscríbete',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710331654/emprende-con-notion/blog/que_es_notion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.junior],
@@ -305,6 +306,7 @@ const posts = [
             titleForm: 'Hay cosas que no se dan #degratis.  <br /> Esas cosas, las especiales, solo se las doy a mi lista de suscriptores.',
             textButton: 'Suscribete',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710331354/emprende-con-notion/blog/que_es_notion-gtd-notion-emprende_con_notion-blog.gif',
         tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior, TAG_POSTS_TYPE.favs],
@@ -405,6 +407,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710331362/emprende-con-notion/blog/usar_Notion_offline_modo_avion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips],
@@ -495,6 +498,7 @@ const posts = [
     //             titleForm: '________texto pendiente________',
     //             textButton: 'Suscribirme y recibir regalo.',
     //             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+    //             name: 'cm-tlsuij-tlsuij'
     //             
     //         },
     //         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1684169713/emprende-con-notion/blog/Duplicar_templates_en_Notion-emprende_con_notion_i4ux40.jpg',
@@ -650,6 +654,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710321441/emprende-con-notion/blog/que_es_un_bloque_en_Notion-emprende_con_Notion.gif',
         tags: [TAG_POSTS_TYPE.junior],
@@ -768,6 +773,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710332643/emprende-con-notion/blog/duplicar_plantillas_en_Notion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior, TAG_POSTS_TYPE.favs],
@@ -906,6 +912,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710323751/emprende-con-notion/blog/problema_frecuente_m%C3%A1ximo_1000_bloques-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.junior],
@@ -1116,6 +1123,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710324657/emprende-con-notion/blog/pagar_por_Notion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips],
@@ -1244,6 +1252,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710332635/emprende-con-notion/blog/columnas_en_notion-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.junior],
@@ -1308,6 +1317,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710333851/emprende-con-notion/blog/p%C3%A1ginas_privadas-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.tips],
@@ -1394,6 +1404,7 @@ const posts = [
             titleForm: '',
             textButton: 'Suscribirme.',
             id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
+            name: 'cm-tlsuij-tlsuij'
         },
         img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710333884/emprende-con-notion/blog/plantillas_de_notion_en_espanol_gratis-emprende_con_notion-blog.webp',
         tags: [TAG_POSTS_TYPE.recursosdeGratis, TAG_POSTS_TYPE.junior],

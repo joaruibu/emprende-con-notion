@@ -23,7 +23,8 @@ const PostItem = ({ post }) => {
                     <SubscriptionForm
                         titleForm={form.titleForm}
                         textButton={form.textButton}
-                        id={form.id} />
+                        id={form.id}
+                        name={form.name} />
 
 
                     <div dangerouslySetInnerHTML={{ __html: post_body }} />
@@ -31,7 +32,8 @@ const PostItem = ({ post }) => {
                     <SubscriptionForm
                         titleForm={form.titleForm}
                         textButton={form.textButton}
-                        id={form.id} />
+                        id={form.id}
+                        name={form.name} />
 
 
                 </section>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const SubscriptionForm = ({ titleForm, textButton, id }) => {
+const SubscriptionForm = ({ titleForm, textButton, id, name }) => {
     const [domLoaded, setDomLoaded] = useState(false);
 
     useEffect(() => {
@@ -37,7 +37,7 @@ const SubscriptionForm = ({ titleForm, textButton, id }) => {
                         <form class="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id={id}>
                             <div className='flex space-x-2 mb-2'>
 
-                                <input autocomplete="Email" aria-label="Dirección de email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name="cm-tlsuij-tlsuij" placeholder="Introduce de email" required="required" type="email" className="grow outline-none min-w-0  rounded-md border w-full bg-stone-50 hover:shadow-dark  transition-all border-stone-950 px-3.5 py-2 text-stone-950 sm:text-sm sm:leading-6" ></input>
+                                <input autocomplete="Email" aria-label="Dirección de email" class="js-cm-email-input qa-input-email" id="fieldEmail" maxlength="200" name={name} placeholder="Introduce de email" required="required" type="email" className="grow outline-none min-w-0  rounded-md border w-full bg-stone-50 hover:shadow-dark  transition-all border-stone-950 px-3.5 py-2 text-stone-950 sm:text-sm sm:leading-6" ></input>
                                 <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true"></input>
                                 <button className={`grow-0 rounded-md w-full border border-stone-950 bg-stone-50  py-2.5 text-sm font-sub font-semibold duration-150 hover:shadow-dark `} type="submit">{textButton}</button>
 
@@ -49,7 +49,7 @@ const SubscriptionForm = ({ titleForm, textButton, id }) => {
                             <label className='text-xs sm:text-sm font-light' for="cm-privacy-consent">Acepto la  <a className='underline text-gray-900' href="https://emprendeconnotion.com/privacidad/" target="_blank">política de privacidad</a> y suscribirme.</label>
                         </div>
 
-                        <p className=' text-[10px] leading-3 pb-0 text-gray-700'> Para cumplir con el RGPD (Reglamento General de Protección de Datos) y entender que tus datos están seguros, debes leer y aceptar <a className='underline text-gray-900' href="https://emprendeconnotion.com/politica-de-privacidad/" target="_blank">la política de privacidad.</a> Tus datos serán guardados en MailerLite proveedor de email marketing. MailerLite también cumple con el RGPD, así que todo está bien protegido y amparado por la ley. Recuerda que puedes darte de baja cuando quieras.</p>
+                        <p className=' text-[10px] leading-3 pb-0 text-gray-700'> Para cumplir con el RGPD (Reglamento General de Protección de Datos) y entender que tus datos están seguros, debes leer y aceptar <a className='underline text-gray-900' href="https://emprendeconnotion.com/politica-de-privacidad/" target="_blank">la política de privacidad.</a> Tus datos serán guardados en Campaing Monitor proveedor de email marketing. Campaing Monitor también cumple con el RGPD, así que todo está bien protegido y amparado por la ley. Recuerda que puedes darte de baja cuando quieras.</p>
                     </div>
 
                 </>

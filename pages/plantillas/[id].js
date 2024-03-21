@@ -26,7 +26,8 @@ const TemplateItem = ({ template }) => {
                     <SubscriptionForm
                         titleForm={form.titleForm}
                         textButton={form.textButton}
-                        id={form.id} />
+                        id={form.id}
+                        name={form.name} />
 
                     {/* Body description */}
                     <div>
@@ -39,7 +40,8 @@ const TemplateItem = ({ template }) => {
                     <SubscriptionForm
                         titleForm={form.titleForm}
                         textButton={form.textButton}
-                        id={form.id} />
+                        id={form.id}
+                        name={form.name} />
                 </div>
             </div>
         </>
