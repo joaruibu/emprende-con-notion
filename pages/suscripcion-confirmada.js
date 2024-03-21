@@ -6,8 +6,8 @@ const Suscripcion = () => {
 
         <div className='min-h-[80vh]  border-2 border-stone-950 bg-stone-50 p-4 rounded-xl my-8 text-center px-4 grid place-content-center'>
             <h1>Suscripción confirmada.</h1>
-            <p><b>Si te has suscrito para recibir una plantilla gratuita, te llegará en los próximos minutos.</b></p>
-            <p>Si no lo recibes en tu bandeja de entrada, por favor comprueba en tu carpeta de spam. Si no te llega la plantilla, escríbeme a: laura@emprendeconnotion.com.</p>
+            <p><b>Comprueba tu bandeja de entrada para ver tu email de bienvenida. </b></p>
+            <p>Puede que esté en spam, en ese caso añade la dirección <i> laura@emprendeconnotion.com  </i>a tus lista de contactos.</p>
         </div>
     )
 }

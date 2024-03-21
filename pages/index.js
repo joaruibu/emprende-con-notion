@@ -1,4 +1,3 @@
-
 import SubscriptionForm from "../components/Form"
 import TitlePage from "../components/TitlePage"
 
@@ -13,8 +12,7 @@ const Home = () => {
     const FORM_DATA = {
         titleForm: '',
         textButton: 'Suscribirme',
-        code: '5221946',
-        trackerId: '88519530185229347'
+        id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017',
     }
 
     return (
@@ -36,11 +34,12 @@ const Home = () => {
 
             <br></br>
 
+
+
             <SubscriptionForm
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
-                code={FORM_DATA.code}
-                trackerId={FORM_DATA.trackerId} />
+                id={FORM_DATA.id} />
 
             <br></br>
 
@@ -93,8 +92,7 @@ const Home = () => {
             <SubscriptionForm
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
-                code={FORM_DATA.code}
-                trackerId={FORM_DATA.trackerId} />
+                id={FORM_DATA.id} />
 
             <br></br>
 
@@ -115,8 +113,7 @@ const Home = () => {
             <SubscriptionForm
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
-                code={FORM_DATA.code}
-                trackerId={FORM_DATA.trackerId} />
+                id={FORM_DATA.id} />
 
             <br></br>
 
@@ -147,8 +144,7 @@ const Home = () => {
             <SubscriptionForm
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
-                code={FORM_DATA.code}
-                trackerId={FORM_DATA.trackerId} />
+                id={FORM_DATA.id} />
 
             <br></br>
             <br></br>
@@ -236,8 +232,7 @@ const Home = () => {
             <SubscriptionForm
                 titleForm={FORM_DATA.titleForm}
                 textButton={FORM_DATA.textButton}
-                code={FORM_DATA.code}
-                trackerId={FORM_DATA.trackerId} />
+                id={FORM_DATA.id} />
 
             <br></br>
 
