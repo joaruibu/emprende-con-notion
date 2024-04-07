@@ -78,8 +78,10 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC2628C0321C387892D2C515C903313D4BDFFB815AADD2F0C2DF10E51382417754E250A5FAD6F88536369444C24BC4651BFF',
-            name: 'cm-tlgjtl-tlgjtl'
+            label: 'template-habitTracker',
+            id: 'fieldjkthbi',
+            name: 'cm-f-jkthbi'
+
         },
         imgs: [
 
@@ -89,6 +91,7 @@ const templates = [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710337508/emprende-con-notion/template/Diario/plantilla-diario_de_agradecimiento_habit_tracker_en_Notion_3-emprende_con_Notion.webp']
         ,
         tags: [TAG_TEMPLATES_TYPE.personal, TAG_TEMPLATES_TYPE.entrepeneur],
+
 
     },
     {
@@ -212,8 +215,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC26EE3CF9E3A05C82CA271E6AFA847A8DFCC76089EC1DFD96296CC2ECE73B24AA65D18C85E7EEA30D0F0C3EFCF6EED4149E',
-            name: 'cm-tlgjjr-tlgjjr'
+            label: 'template-CV',
+            id: 'fieldjkthbj',
+            name: 'cm-f-jkthbj'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710345624/emprende-con-notion/template/CV/Plantilla-CV_en_Notion-1-emprende_con_notion.webp',
@@ -314,8 +318,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC2670EC0F20271B9D3282617290E6C78D7DF8F570B8466AD4389D69F45F0E146F27952A7790469131CDA761FEBB17471A4E',
-            name: 'cm-tlgjji-tlgjji'
+            label: 'template-home',
+            id: 'fieldjkthod',
+            name: 'cm-f-jkthod'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710345985/emprende-con-notion/template/Home/Plantilla-Home_en_Notion-emprende_con_notion-1.webp',
@@ -438,8 +443,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC2686CACAF36C0AF420F12CC4C3BA597971778411CBF6B03D4DCE152534D9758090040616BDAA56F37EE5E0862AB3F4C2BD',
-            name: 'cm-tlgjty-tlgjty'
+            label: 'template-gtd',
+            id: 'fieldjkthoh',
+            name: 'cm-f-jkthoh'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710346470/emprende-con-notion/template/gtd/plantilla-GTD_Notion-emprende_con_notion-1.webp',
@@ -546,8 +552,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC2629690ABA8B086826CF613EFDD3DB29918FB161827B56F044BFFC8E29ED0FD53E56566AFB8D6DB162F64EC463A5A6A4C5',
-            name: 'cm-tlgjjt-tlgjjt'
+            label: 'template-objetivosAñoNuevo',
+            id: 'fieldjkthbh',
+            name: 'cm-f-jkthbh'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347656/emprende-con-notion/template/Objetivos%20a%C3%B1o%20nuevo/plantilla-objetivos_a%C3%B1o_nuevo_Notion-emprende_con_notion1_n6xkj8.webp',
@@ -617,8 +624,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC26B1745E38AB9420BA949EE91E62463B85AF356AE1FC3E1C119ECBA40FC41345C09036C4E663E52ED1E98A7B48FAAA58DC',
-            name: 'cm-tlgjjh-tlgjjh'
+            label: 'template-planificadorSemanal',
+            id: 'fieldjkthbk',
+            name: 'cm-f-jkthbk'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710347396/emprende-con-notion/template/Planificador%20semanal%20principiantes/plantilla-planificador_semanal_principiantes_en_Notion-emprende_con_notion-1.webp',
@@ -758,8 +766,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC26D0E9B7CAC2CA2A41E5F08D3985B25FC201AB0839D442A3FF500C15CA60BE9EACB2D34DEEA836D50582046DE27C52BE6B',
-            name: 'cm-tlgjjk-tlgjjk'
+            label: 'template-fichajeHora',
+            id: 'fieldjkthbt',
+            name: 'cm-f-jkthbt'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348049/emprende-con-notion/template/Fichero%20horas/plantilla-fichero_horas_en_Notion-emprende_con_notion-1.webp',
@@ -832,8 +841,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC261B22DF42A07F57FA8E365879FB3B54454911C2BED9A4A38D5B64A18923347141062BF15ECC39E66A388DECA0EBA19C3F',
-            name: 'cm-tlgjjj-tlgjjj'
+            label: 'template-contentCalendar',
+            id: 'fieldjkthby',
+            name: 'cm-f-jkthby'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348510/emprende-con-notion/template/Content%20calendar/Plantilla_de_Content_calendar1_en_Notion_-_emprende_con_notion_cni9fq.webp',
@@ -929,8 +939,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC26AF8389DC8CA797A8CF4C8A105427D9B80A8CEF189B742C09150DFFE2F602688544164CEA8A79457684CA988F0A852DF7',
-            name: 'cm-tlgjju-tlgjju'
+            label: 'template-buyerPersona',
+            id: 'fieldjkthbr',
+            name: 'cm-f-jkthbr'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348741/emprende-con-notion/template/buyer%20persona/Plantilla_de_Buyer_persona1_en_Notion_-_emprende_con_notion_d5g1gx.webp',
@@ -982,9 +993,6 @@ const templates = [
 
             <p> Pero como estamos en el siglo XXI y somos ecos y verdes, para ahorrarte el papel te he creado una plantilla de Lienzo Lean Canvas en Notion.</p>
 
-            
-           
-
             <p><b>P.D.: Si tienes dudas sobre cómo hacer un Lienzo Lean Canvas, al suscribirte recibirás un email con la plantilla y un vídeo donde te explico cómo completar el Lienzo Lean Canvas paso a paso.</b></p>
 
             <p><b>P.D.2: Para suscribirte y recibir la plantilla, abajo.</b></p>
@@ -992,8 +1000,9 @@ const templates = [
         form: {
             titleForm: '',
             textButton: 'Suscribir y recibir plantilla.',
-            id: '191722FC90141D02184CB1B62AB3DC26C17F3712AA17995F469B668D635351055C38797314DF60FB0B7E7F1C2EF78FB7CC5BA8A7610BAE2F014A264128257C33',
-            name: 'cm-tlgkii-tlgkii'
+            label: 'template-LeanCanvas',
+            id: 'fieldjkthbd',
+            name: 'cm-f-jkthbd'
         },
         imgs: [
             'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348751/emprende-con-notion/template/lean%20canvas/Plantilla_de_Lean_canvas1_en_Notion_-_emprende_con_notion_tceib8.webp',

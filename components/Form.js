@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const SubscriptionForm = ({ titleForm, textButton, id, name }) => {
+const SubscriptionForm = ({ titleForm, textButton, label, id, name }) => {
     const [domLoaded, setDomLoaded] = useState(false);
 
     useEffect(() => {
@@ -34,11 +34,12 @@ const SubscriptionForm = ({ titleForm, textButton, id, name }) => {
                             <h6 dangerouslySetInnerHTML={{ __html: titleForm }}></h6>
                         </div>
 
-                        <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id={id}>
+                        <form className="js-cm-form" id="subForm" action="https://www.createsend.com/t/subscribeerror?description=" method="post" data-id="191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E">
                             <div className='flex space-x-2 mb-2'>
 
-                                <input autoComplete="Email" aria-label="Dirección de email" id="fieldEmail" maxLength="200" name={name} placeholder="Introduce de email" required="required" type="email" className="grow outline-none min-w-0  rounded-md border w-full bg-stone-50 hover:shadow-dark  transition-all border-stone-950 px-3.5 py-2 text-stone-950 sm:text-sm sm:leading-6 js-cm-email-input qa-input-email" ></input>
+                                <input autoComplete="Email" aria-label="Dirección de email" id="fieldEmail" maxLength="200" name="cm-tlsuij-tlsuij" placeholder="Introduce de email" required="required" type="email" className="grow outline-none min-w-0  rounded-md border w-full bg-stone-50 hover:shadow-dark  transition-all border-stone-950 px-3.5 py-2 text-stone-950 sm:text-sm sm:leading-6 js-cm-email-input qa-input-email" ></input>
                                 <input id="cm-privacy-consent-hidden" name="cm-privacy-consent-hidden" type="hidden" value="true"></input>
+                                <div><input type="hidden" value="1" aria-label={label} id={id} maxlength="200" name={name}></input></div>
                                 <button className={`grow-0 rounded-md w-full border border-stone-950 bg-stone-50  py-2.5 text-sm font-sub font-semibold duration-150 hover:shadow-dark `} type="submit">{textButton}</button>
 
                             </div>

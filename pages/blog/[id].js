@@ -20,21 +20,24 @@ const PostItem = ({ post }) => {
                 <section className="pt-10 " >
 
                     <h1 className='mb-4'>{title}</h1>
+
                     <SubscriptionForm
                         titleForm={form.titleForm}
                         textButton={form.textButton}
+                        label={form.label}
                         id={form.id}
-                        name={form.name} />
-
+                        name={form.name}
+                    />
 
                     <div dangerouslySetInnerHTML={{ __html: post_body }} />
 
                     <SubscriptionForm
                         titleForm={form.titleForm}
                         textButton={form.textButton}
+                        label={form.label}
                         id={form.id}
-                        name={form.name} />
-
+                        name={form.name}
+                    />
 
                 </section>
             </article>

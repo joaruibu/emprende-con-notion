@@ -14,9 +14,9 @@ const Home = () => {
     const FORM_DATA = {
         titleForm: '',
         textButton: 'Suscribirme',
-        id: '191722FC90141D02184CB1B62AB3DC2666CEB8A31636BD4D3A71BB2DBA449EDE3FCCE6D48BABF849F8F4C6E50A91FD85E19A5610F60343109DECB5668DDE017E',
-        name: 'cm-tlsuij-tlsuij'
-
+        label: 'subs-home',
+        id: 'fieldjkthny',
+        name: 'cm-f-jkthny'
     }
 
     useEffect(() => {
@@ -45,13 +45,13 @@ const Home = () => {
 
                     <br></br>
 
-
-
                     <SubscriptionForm
                         titleForm={FORM_DATA.titleForm}
                         textButton={FORM_DATA.textButton}
+                        label={FORM_DATA.label}
                         id={FORM_DATA.id}
-                        name={FORM_DATA.name} />
+                        name={FORM_DATA.name}
+                    />
 
 
 
@@ -106,9 +106,10 @@ const Home = () => {
                     <SubscriptionForm
                         titleForm={FORM_DATA.titleForm}
                         textButton={FORM_DATA.textButton}
+                        label={FORM_DATA.label}
                         id={FORM_DATA.id}
-                        name={FORM_DATA.name} />
-
+                        name={FORM_DATA.name}
+                    />
 
                     <br></br>
 
@@ -129,8 +130,10 @@ const Home = () => {
                     <SubscriptionForm
                         titleForm={FORM_DATA.titleForm}
                         textButton={FORM_DATA.textButton}
+                        label={FORM_DATA.label}
                         id={FORM_DATA.id}
-                        name={FORM_DATA.name} />
+                        name={FORM_DATA.name}
+                    />
 
                     <br></br>
 
@@ -161,8 +164,10 @@ const Home = () => {
                     <SubscriptionForm
                         titleForm={FORM_DATA.titleForm}
                         textButton={FORM_DATA.textButton}
+                        label={FORM_DATA.label}
                         id={FORM_DATA.id}
-                        name={FORM_DATA.name} />
+                        name={FORM_DATA.name}
+                    />
 
                     <br></br>
                     <br></br>
@@ -250,8 +255,10 @@ const Home = () => {
                     <SubscriptionForm
                         titleForm={FORM_DATA.titleForm}
                         textButton={FORM_DATA.textButton}
+                        label={FORM_DATA.label}
                         id={FORM_DATA.id}
-                        name={FORM_DATA.name} />
+                        name={FORM_DATA.name}
+                    />
 
                     <br></br>
 
