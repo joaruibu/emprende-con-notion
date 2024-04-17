@@ -1,5 +1,5 @@
 import React from 'react';
-import SubscriptionForm from '../../components/Form';
+import SubscriptionForm from './Form';
 
 
 const CoverFreePageSection = ({ cover }) => {

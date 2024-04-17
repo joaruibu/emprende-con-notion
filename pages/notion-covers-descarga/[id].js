@@ -1,8 +1,8 @@
 import DownloadCoverItem from '../../components/DownloadCoverItem';
 import { getAllItems, getIdByUrl, getItemById, getUrltTitle } from '../../helpers';
 import { DATA_TYPE } from '../../helpers/types';
-import FormDescargaCovers from './FormDescargaCovers';
-import { useState } from 'react';
+import FormDescargaCovers from '../../components/FormDescargaCovers';
+import { useState, useEffect } from 'react';
 
 
 
@@ -14,14 +14,18 @@ const CoverItem = ({ cover }) => {
     const [isErrorPassword, setIsErrorPassword] = useState(false)
     const [showCovers, setShowCovers] = useState(false)
 
-    const formCoverConfig = {
-        cover: cover,
-        formPassword: formPassword,
-        setFormPassword: setFormPassword,
-        isErrorPassword: isErrorPassword,
-        setIsErrorPassword: setIsErrorPassword,
-        setShowCovers: setShowCovers
-    }
+    useEffect(() => {
+        const formCoverConfig = {
+            cover: cover,
+            formPassword: formPassword,
+            setFormPassword: setFormPassword,
+            isErrorPassword: isErrorPassword,
+            setIsErrorPassword: setIsErrorPassword,
+            setShowCovers: setShowCovers
+        }
+        console.log(4343434, formCoverConfig)
+
+    }, []);
 
 
 
@@ -29,10 +33,10 @@ const CoverItem = ({ cover }) => {
         <>
             <main className='mt-6'>
 
-
+                {/* //Esto rompia al subir a prodccuión, no se le pasaba valor al formCoverConfig
                 {!showCovers &&
                     <FormDescargaCovers formCoverConfig={formCoverConfig}></FormDescargaCovers>
-                }
+                } */}
 
                 {showCovers &&
                     <>

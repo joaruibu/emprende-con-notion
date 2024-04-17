@@ -1,9 +1,9 @@
+import CoverFreePageSection from '../../components/CoverFreePageSection';
+import CoverPaidPageSection from '../../components/CoverPaidPageSection';
 import SliderImg from '../../components/SliderImg';
 import { getAllItems, getIdByUrl, getItemById, getUrltTitle } from '../../helpers';
 import { DATA_TYPE } from '../../helpers/types';
-import SubscriptionForm from '../../components/Form';
-import CoverFreePageSection from './CoverFreePageSection';
-import CoverPaidPageSection from './CoverPaidPageSection';
+
 
 
 
@@ -12,7 +12,7 @@ import CoverPaidPageSection from './CoverPaidPageSection';
 
 const CoverItem = ({ cover }) => {
 
-    const { title, covers_body, isFree, price, previewCovers, form } = cover
+    const { title, isFree, price, previewCovers } = cover
     console.log(cover)
 
     return (

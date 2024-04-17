@@ -6,7 +6,7 @@ const FormDescargaCovers = ({ formCoverConfig }) => {
     const { title, id, password } = formCoverConfig.cover
     const { formPassword, setFormPassword, isErrorPassword, setIsErrorPassword, setShowCovers } = formCoverConfig
 
-    // const [formPassword, setFormPassword] = useState("")
+
 
 
 

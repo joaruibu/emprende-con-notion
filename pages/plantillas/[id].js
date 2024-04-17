@@ -1,10 +1,11 @@
 import SliderImg from '../../components/SliderImg';
+import TemplateFreePageSection from '../../components/TemplateFreePageSection';
+import TemplatePaidPageSection from '../../components/TemplatePaidPageSection';
 
 import { getAllItems, getIdByUrl, getItemById, getUrltTitle } from '../../helpers';
 import { DATA_TYPE } from '../../helpers/types';
 
-import TemplateFreePageSection from './TemplateFreePageSection';
-import TemplatePaidPageSection from './TemplatePaidPageSection';
+
 
 
 const TemplateItem = ({ template }) => {
