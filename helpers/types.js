@@ -1,7 +1,8 @@
 
 export const DATA_TYPE = Object.freeze({
     posts: 'posts',
-    templates: 'templates'
+    templates: 'templates',
+    covers: 'covers'
 })
 
 export const TAG_TEMPLATES_TYPE = Object.freeze({

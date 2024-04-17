@@ -1,6 +1,7 @@
 
 import posts from "../data/posts"
 import templates from "../data/templates"
+import covers from "../data/covers"
 import { DATA_TYPE } from "./types"
 
 
@@ -18,8 +19,9 @@ export const getIdByUrl = (title) => {
 
 export const getAllItems = (dataType) => {
     if (!DATA_TYPE[dataType]) return console.error(`No existe el tipo de dato ${dataType}`)
-    if (dataType === DATA_TYPE.posts) return posts
-    if (dataType === DATA_TYPE.templates) return templates
+    if (dataType === DATA_TYPE.posts) return posts;
+    if (dataType === DATA_TYPE.templates) return templates;
+    if (dataType === DATA_TYPE.covers) return covers;
 
 }
 
@@ -28,6 +30,7 @@ export const getItemById = (dataType, id) => {
 
     if (dataType === DATA_TYPE.posts) return posts.find((ele => ele.id === id))
     if (dataType === DATA_TYPE.templates) return templates.find((ele => ele.id === id))
+    if (dataType === DATA_TYPE.covers) return covers.find((ele => ele.id === id))
     return
 }
 

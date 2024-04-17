@@ -5,9 +5,11 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 
 const navigation = [
-    { name: 'plantillas gratuitas', href: '/plantillas' },
+    { name: 'plantillas', href: '/plantillas' },
     { name: 'sobre mí', href: '/sobre-mi' },
     { name: 'blog', href: '/blog', },
+    // { name: 'notion covers', href: '/notion-covers', },
+
 ]
 
 export default function Navbar() {
@@ -26,7 +28,7 @@ export default function Navbar() {
                             <img className="  h-16 w-auto" src="/img/logo.png" alt="Logo de Emprende con Notion" />
                         </a>
                     </Link>
-                    <div className="hidden sm:flex sm:gap-x-6">
+                    <div className="hidden sm:flex sm:gap-x-4">
                         {navigation.map((item) => (
                             <Link href={item.href} key={item.name} legacyBehavior prefetch={false}>
                                 <a key={item.name} className={`text-xs font-sub block h-full text-black  hover:text-terracotta ${item.href === pathname ? 'text-terracotta' : ''}`}>

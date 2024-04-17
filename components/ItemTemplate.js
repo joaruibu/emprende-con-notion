@@ -7,8 +7,7 @@ import { getUrltTitle } from '../helpers/index';
 
 const ItemTemplate = ({ item }) => {
 
-    const { title, id, imgs, tags } = item
-
+    const { title, id, imgs, isFree } = item
 
     return (
         <Link className='block' href={`/plantillas/${getUrltTitle(title)}-${id}`}>
@@ -43,10 +42,14 @@ const ItemTemplate = ({ item }) => {
                     }
                 </div> */}
 
-                <div className='h-11 w-11 bg-yellow-300 text-black absolute top-2 rounded-full left-2 grid place-content-center'>
-                    <h5 className='text-xs -rotate-6'>Gratis
-                    </h5>
-                </div>
+
+                {
+                    isFree &&
+                    <div className='h-11 w-11 bg-yellow-300 text-black absolute top-2 rounded-full left-2 grid place-content-center'>
+                        <h5 className='text-xs -rotate-6'>Gratis
+                        </h5>
+                    </div>
+                }
 
             </article>
         </Link>

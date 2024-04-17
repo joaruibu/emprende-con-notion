@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
 
     return (
-        <Html lang='es'>
+        <Html lang='es' className="bg-stone-200">
             <Head>
                 <meta name="description" content="Plantillas de Notion para mejorar tu productividad" />
                 <meta httpEquiv="content-language" content="es"></meta>
@@ -15,7 +15,6 @@ export default function Document() {
                 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet" />
                 <link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap" rel="stylesheet" />
-
 
             </Head>
             <body className=' text-stone-950 '>

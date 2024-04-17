@@ -4,6 +4,7 @@ const templates = [
     {
         title: 'Plantilla Diario de agradecimiento + Habit Tracker en Notion',
         id: '1',
+        isFree: true,
         template_summary: `
         <p > Está demostrado que llevar diario de agradecimiento mejora nuestra productividad 1,5h en promedio. Es bestia este dato, ¿eh? Te cuento más dentro. </p>
         `,
@@ -97,6 +98,7 @@ const templates = [
     {
         title: 'Plantilla CV en Notion',
         id: '2',
+        isFree: true,
         template_summary: `
             <p >Si todavía haces tu CV en word y pdf… Lee esto. En serio, te interesa. Tener tu CV en Notion es muy fácil. Y gratis. Y diferenciador. Y fácil. Y bonito. Y fácil. </p>
             `,
@@ -231,6 +233,7 @@ const templates = [
     {
         title: 'Plantilla Tu primera HOME en Notion',
         id: '3',
+        isFree: true,
         template_summary: `
             </p>Tener tus páginas de Notion bien clasificadas, sabiendo dónde has guardado cada cosa… ¿Te imaginas? Pues para eso sirve una Home de Notion.</p>
             `,
@@ -332,6 +335,7 @@ const templates = [
     {
         title: 'Plantilla Sistema Getting Things Done GTD en Notion',
         id: '4',
+        isFree: true,
         template_summary: `
             <p>Muchas personas confían en su memoria para guardar todas sus ideas y tareas. Resultado: se olvidan de la mitad de sus ideas, de las tareas, y de las llaves. Te cuento qué hacer para que no te pase.</p>
             `,
@@ -459,6 +463,7 @@ const templates = [
     {
         title: 'Plantilla de Objetivos y visualizaciones de Nuevo Año en Notion',
         id: '5',
+        isFree: true,
         template_summary: `
             <p>Visualización de objetivos: el secreto para crear unos objetivos anuales que se cumplan. Para ponerlo en práctica te regalo una plantilla de objetivos en Notion.</p>
             `,
@@ -569,6 +574,7 @@ const templates = [
     {
         title: 'Plantilla Planificador semanal para principiantes en Notion',
         id: '6',
+        isFree: true,
         template_summary: `
             <p>Para personas que están iniciándose en Notion y necesitan una plantilla rápida, funcional e intuitiva con la que planificar su semana. Sin paja. </p>
             `,
@@ -639,6 +645,7 @@ const templates = [
     {
         title: 'Plantilla Contabilizar horas de trabajo en Notion',
         id: '7',
+        isFree: true,
         template_summary: `
             <p>Contabilizar el tiempo que inviertes en cada proyecto es fundamental para medir nuestra productividad. Pero si encima eres freelance y cobras por horas, medir tu tiempo es más importante si cabe. Necesitamos saber si nuestro esfuerzo realmente es rentable.</p>
             `,
@@ -780,6 +787,7 @@ const templates = [
     {
         title: 'Plantilla Content Calendar para Redes Sociales en Notion',
         id: '8',
+        isFree: true,
         template_summary: `
             <p>Da igual si es Instagram, YouTube, LinkedIn o cualquier red en la que sale gente joven haciendo el mono. Podrás crear todo el contenido, categorizarlo, llevar un control de si está listo, y tener un calendario conjunto con tooodo. </p>
             `,
@@ -857,6 +865,7 @@ const templates = [
     {
         title: 'Plantilla Crea tu Buyer Persona en Notion',
         id: '9',
+        isFree: true,
         template_summary: `
             <p>Por qué crear buyer persona es una pérdida de tiempo si no sabes lo que estás haciendo.</p>
             `,
@@ -953,6 +962,7 @@ const templates = [
     {
         title: 'Plantilla Lean Canvas en Notion',
         id: '10',
+        isFree: true,
         template_summary: `
             <p>Si estás empezando a emprender, esto del Lean Canvas te interesa. O sea, si quieres ver cómo ganar dinero con tu idea. </p>
             `,
@@ -1011,6 +1021,73 @@ const templates = [
         tags: [TAG_TEMPLATES_TYPE.entrepeneur],
 
     },
+    //Plantilla de pago, descomentar cuando Laura tenga la 1ª de pago
+    // {
+    //     title: 'Plantilla Lean Canvas en Notion de pago',
+    //     id: '11',
+    //     isFree: false,
+    //     price: 30,
+
+    //     template_summary: `
+    //         <p>Si estás empezando a emprender, esto del Lean Canvas te interesa. O sea, si quieres ver cómo ganar dinero con tu idea. </p>
+    //         `,
+    //     template_body: [
+    //         `
+    //         <p>Cuando empiezas a emprender te sientas tan inseguro que pruebas dos mil mierdas para sentirte más profesional: OKRs, MBO, GTD… </p>
+
+    //         <p>¿Por qué todo tiene siglas raras?</p>
+
+    //         <p>A ver, entiéndeme, que no digo que esos sistemas en sí sean una mierda.</p>
+
+    //         <p> Lo que es una mierda es el síndrome del impostor.</p>
+
+    //         <p>Y es una mierda sentir que tenemos que justificar que somos profesionales cuando en muchos casos tenemos una formación y experiencia increíble.</p>
+
+    //         <p>Es una mierda que te pases días generando sistemas de organización o post para redes sociales, cuando lo primero que deberías hacer es ver si tu idea es viable. Sobre todo si estás empezando.</p>
+
+    //         `,
+    //         `
+
+    //         <p>Como te decía, el Lean Canvas no es una mierda porque no es para justificar si tú vales. (Estoy repitiendo mucho la palabra mierda, ¿verdad? Mierda. Ya paro).</p>
+
+    //         <p><b>El ejercicio del lienzo Lean Canvas es para ver si tu negocio es rentable.</b></p>
+
+    //         <p><b>O sea, para ver cómo puedes ganar dinero con tu idea.</b></p>
+
+    //         <p>Para poner los pies en la tierra.</p>
+
+    //         <p>Es un ejercicio fácil y de sentido común: qué soluciona tu producto, el coste de llevarlo a cabo, lo que puedes ganar, tiempos, etc. </p>
+
+    //         <p>O sea, cosas que cualquier persona que empieza un producto debería de plantearse, y esta es una forma metódica de estudiarlo.</p>
+
+    //         <br>
+
+    //         `,
+    //         `
+    //         <p>En realidad no hace falta tener ninguna app de productividad especial, ni comprarte ningún máster de emprendimiento carísimo. Qué va.</p>
+
+    //         <p> Hasta podrías hacerlo con papel y boli.</p>
+
+    //         <p> Pero como estamos en el siglo XXI y somos ecos y verdes, para ahorrarte el papel te he creado una plantilla de Lienzo Lean Canvas en Notion.</p>
+
+    //         <p><b>P.D.: Si tienes dudas sobre cómo hacer un Lienzo Lean Canvas, al suscribirte recibirás un email con la plantilla y un vídeo donde te explico cómo completar el Lienzo Lean Canvas paso a paso.</b></p>
+
+    //         <p><b>P.D.2: Para suscribirte y recibir la plantilla, abajo.</b></p>
+    //         `
+    //     ],
+
+
+    //     stripeButton: {
+    //         textButton: 'Comprar plantilla',
+    //         url: 'https://buy.stripe.com/test_8wM4hVfiTctodRC001',
+    //     },
+    //     imgs: [
+    //         'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348751/emprende-con-notion/template/lean%20canvas/Plantilla_de_Lean_canvas1_en_Notion_-_emprende_con_notion_tceib8.webp',
+    //         'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1710348757/emprende-con-notion/template/lean%20canvas/Plantilla_de_Lean_Canvas2_en_Notion_-_emprende_con_notion_cxydey.webp']
+    //     ,
+    //     tags: [TAG_TEMPLATES_TYPE.entrepeneur],
+
+    // },
 
 
 ]

@@ -2,13 +2,14 @@ import SliderImg from '../../components/SliderImg';
 
 import { getAllItems, getIdByUrl, getItemById, getUrltTitle } from '../../helpers';
 import { DATA_TYPE } from '../../helpers/types';
-import SubscriptionForm from '../../components/Form';
 
+import TemplateFreePageSection from './TemplateFreePageSection';
+import TemplatePaidPageSection from './TemplatePaidPageSection';
 
 
 const TemplateItem = ({ template }) => {
 
-    const { title, template_body, imgs, form } = template
+    const { title, imgs, isFree } = template
 
     return (
         <>
@@ -23,31 +24,11 @@ const TemplateItem = ({ template }) => {
                 <div className=" pt-10  ">
                     <h1 className="">{title}</h1>
 
-                    <SubscriptionForm
-                        titleForm={form.titleForm}
-                        textButton={form.textButton}
-                        label={form.label}
-                        id={form.id}
-                        name={form.name}
-                    />
-
-
-                    {/* Body description */}
-                    <div>
-                        <h3 className="sr-only">Description</h3>
-                        <div className="space-y-6">
-                            <p className='list-disc list-inside' dangerouslySetInnerHTML={{ __html: template_body }}></p>
-                        </div>
-                    </div>
-
-                    <SubscriptionForm
-                        titleForm={form.titleForm}
-                        textButton={form.textButton}
-                        label={form.label}
-                        id={form.id}
-                        name={form.name}
-                    />
-
+                    {isFree ?
+                        <TemplateFreePageSection template={template}></TemplateFreePageSection>
+                        :
+                        <TemplatePaidPageSection template={template}></TemplatePaidPageSection>
+                    }
                 </div>
             </div>
         </>
