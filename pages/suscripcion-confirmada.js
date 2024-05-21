@@ -9,7 +9,7 @@ const Suscripcion = () => {
                 <br></br>
                 <p><b>Comprueba tu bandeja de entrada para ver tu email de bienvenida. </b></p>
 
-                <p>Puede que esté en spam, en ese caso añade la dirección laura@emprendeconnotion.com a tus lista de contactos.</p>
+                <p>Puede puede tardar hasta 10 minutos en llegar o que esté en spam, en ese caso añade la dirección laura@emprendeconnotion.com a tus lista de contactos.</p>
             </div>
         </div>
     )

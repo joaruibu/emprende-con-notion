@@ -1421,6 +1421,167 @@ const posts = [
         tags: [TAG_POSTS_TYPE.recursosdeGratis, TAG_POSTS_TYPE.junior],
 
     },
+    {
+        title: '15 Atajos de Teclado para Notion en español',
+        id: '11',
+        post_body: `
+
+        <br>
+
+        <p>Verás…</p>
+
+        <p>Hay un tipo de memoria que nos funciona muy bien a un gran porcentaje de personas.</p>
+
+        <p><b>Aunque no tengas memoria visual ni seas capaz de recordar a veces tu edad. Sí, a mí me pasa.</b></p>
+
+        <p>De lo que te hablo es de la memoria mecánica.</p>
+
+        <p>Es la memoria de la repetición. Del movimiento. De las acciones.</p>
+
+        <br>
+
+        <p>Piénsalo así…</p>
+
+        <p>¿Alguna vez piensas tu contraseña del móvil, piensas en cada número que contiene la contraseña?</p>
+
+        <p>¿O son tus dedos los que se mueven solos en la pantalla?</p>
+
+        <p>Y aunque tengas Face ID, en esas veces que el Iphone se marea y no te reconoce la cara y te toca meter tu contraseña… ¿Qué va antes, tus dedos, o tu cerebro?</p>
+
+        <p>Esa es la memoria mecánica.</p>
+
+        <p>Y con los atajos del teclado es la memoria que se usa. No se trata de que recuerdes que tienes que pulsar control + mayúsculas + L. No.</p>
+
+        <p>No va de eso.</p>
+
+        <br>
+
+        <p>Se trata de que las 10 primeras veces pulses control + mayúsculas + L mientras lo miras en una chuleta, la que te comparto en esta página.</p>
+
+        <p>O sea, miras qué teclas tienes que apretar.</p>
+
+        <p>Ojo, no memorizas.</p>
+
+        <p>Lo miras.</p>
+
+        <p>Lo miras, y lo haces.</p>
+
+        <p>Después de varias repeticiones mirando y haciendo el atajo, dejarás de necesitar mirarlo. Simplemente lo harás.</p>
+
+        <br>
+
+
+        <p>Esto se ha demostrado en muchísimos experimentos. Por repetición, llega un punto en el que tu cuerpo, en este caso tus dedos, se mueven por ti.</p>
+
+        <p>Y puede que ni te acuerdes de qué teclas estás apretando.</p>
+
+        <p>Seguro que te ha pasado que alguien te pregunta cómo haces tal cosa, y tú respondes “es que si no lo hago no te lo sé decir”.</p>
+
+        <br>
+
+        <p>Bueno, pues es una suerte que nuestro cerebro funcione así, porque se ha demostrado que utilizar atajos del teclado puede ahorrarnos hasta 64 horas al año.</p>
+
+        <p>Sí, has leído bien.</p>
+
+        <br>
+
+        <p><b>Te lo demuestro…</b></p>
+
+        <ol class="list-disc list-inside">
+
+            <li>Prueba a duplicar un bloque de Notion usando comando + D.
+            <br>
+            Tardas menos de 1 segundo en hacerlo, ¿verdad? No puedes ni cronometrarlo.</li>
+
+            <li>Luego prueba a duplicar un bloque de Notion a mano: clica en los seis puntitos que están a la izquierda del bloque, busca la opción de duplicar, y clica. Cronométralo.
+            <br>
+            ¿Cuánto has tardado? ¿1, 2 segudos?</li>
+            
+            <li>Vale, pues ahora supongamos que solo usas 1 atajo cada minuto. Realmente es poco, según en lo que trabajes. Si usas Notion de continuo, sabrás que se duplican / crean bloques constantemente, pero para este experimento vamos a tirar por lo bajo.
+            <br>
+            Si en tu jornada laboral trabajas 8horas, significa que cada día ahorras 16 minutos al día.</li>
+
+            <li>En un año entero, supongamos 240 días laborables.
+            <br>
+            Si multiplicamos 240 días por 16 minutos, nos da un total de 64horas. 
+            <br>
+            <b>O sea, 8 días laborables enteros.</b>
+            <br>
+            Es muy bestia este dato.</li>
+
+        </ol>   
+
+        <br>
+
+        <p>¿Te parece mucho? ¿Poco?</p>
+
+        <p>Yo cuando trabajo en AutoCad o SKP (además de friki de Notion soy interiorista), utilizo bastante más de 1 atajo al minuto.</p>
+
+        <p>Cuando edito vídeos en DaVinci, igual.</p>
+
+        <p>Si eres desarrollador es probable que te pase lo mismo usando Visual.</p>
+
+        <p>Y si eres diseñador gráfico, en programas como Photoshop o Illustrator pasa exactamente lo mismo. Se tarda menos pulsando B para pintar, que buscar el icono y clicar.</p>
+
+        <p>Es así.</p>
+
+        <p>Puedes no creerme. No pasa nada.</p>
+
+        <p>Pruébalo.</p>
+
+        <br>
+
+        <p>Por supuesto la decisión de incorporarlo en tu día a día tuya.</p>
+
+        <p>Pero si usas Notion a diario yo te recomiendo, sin ninguna duda, que trates de implementar como mínimo los básicos que te enseño en este listado.</p>
+
+        <br>
+        
+        <p><b>En caso de que te interese todo esto, suscríbete abajo y recibirás por email:</b></p>
+
+        <ul class="list-disc list-inside">
+
+            <li><b>El listado a los 15 atajos de teclado que yo más uso, a. diario, en Notion.</b></li>
+            <li><b>Vídeo explicando paso a paso cómo usar estos 15 atajos.</b></li>
+            <li><b>La forma de añadir recordatorios con alarma en Notion, usando dichos atajos, y en solo dos pasos. Podrás aplicarlo en cualquier lugar de Notion. Este es uno de los atajos que más uso actualmente en Notion, y reconozco que no lo conocía hasta hace bien poco.</li>
+            <li><b>Si se te queda corto, te enseño dónde encontrar todos los atajos que tiene Notion.</b></li>
+            <li><b>La manera que a mí me funciona para memorizar atajos de cualquier aplicación.</b></li>
+
+        </ul>
+
+        <br>
+
+        <br>
+
+        <p>Un abrazo,</p>
+
+        <p>y que Notion te acompañe.</p>
+
+        <p>Laura</p>
+
+        <br>
+
+        <p><b>P.D.: Para recibir los mejores 15 atajos de teclado de Notion, suscríbete abajo.</b></p>
+                
+     
+
+`
+        ,
+        post_summary: `
+        <p>Se ha demostrado que utilizar atajos del teclado puede ahorrarnos hasta 64 horas al año. Si usas Notion a diario, tú también puedes ahorrarte este tiempo.</p>
+        <p>Te cuento los 15 atajos de teclado imprescindibles en Notion. </p>
+            `,
+        form: {
+            titleForm: 'Suscríbete para recibir los 15 mejores atajos de teclado en Notion.',
+            textButton: 'Suscribirme.',
+            label: 'post-atajos',
+            id: 'fieldjkkhkku',
+            name: 'cm-f-jkkhkku'
+        },
+        img: 'https://res.cloudinary.com/dwsa2s0pn/image/upload/v1716318611/emprende-con-notion/blog/15_atajos_del_teclado_Notion-emprende_con_notion.webp',
+        tags: [TAG_POSTS_TYPE.recursosdeGratis, TAG_POSTS_TYPE.tips, TAG_POSTS_TYPE.favs],
+
+    },
 ]
 
 export default posts

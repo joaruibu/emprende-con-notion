@@ -12,7 +12,7 @@ const UltimoPaso = () => {
                 <p>Puede que esté en spam, en ese caso añade la dirección laura@emprendeconnotion.com a tus lista de contactos.</p>
                 <br></br>
                 <h2>MUY IMPORTANTE:</h2>
-                <p> <b>Una vez confirmes tu suscripción se abrirá una nueva página con tu plantilla.</b> </p>
+                <p> <b>Una vez confirmes tu suscripción se abrirá una nueva página con tu plantilla, puede tardar hasta 10 minutos en llegar, pero llega.</b> </p>
                 {/* <p>P.D.: Te llegará también al email junto con otros recursos para poder implementarla. </p> */}
             </div>
         </div>
