@@ -52,6 +52,14 @@
     @apply list-decimal;
   }
 
+  ol {
+    @apply list-decimal list-inside;
+  }
+
+  ul {
+    @apply list-disc list-inside;
+  }
+
   b {
     @apply font-black;
   }
