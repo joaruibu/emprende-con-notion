@@ -3,8 +3,8 @@ import StripeButton from "../components/StripeButton";
 
 const EmpezarEnNotionEsFacil = () => {
   const STRIPE_BUTTON_CONFIG = {
-    title: " Taller Empezar en Notion es fácil",
-    buttonText: "Comprar taller",
+    title: " Masterclass: 9 errores en Notion",
+    buttonText: "Comprar Masterclass",
     price: "60€",
     urlStripe: "https://buy.stripe.com/test_14kdUX6n6geJbSw288",
   };
