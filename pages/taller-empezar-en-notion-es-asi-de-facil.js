@@ -1,7 +1,7 @@
 import React from "react";
 import StripeButton from "../components/StripeButton";
 
-const EmpezarEnNotionEsFacil = () => {
+const TallerEmpezarEnNotionEsFacil = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Taller Empezar en Notion es fácil",
     buttonText: "Comprar taller",
@@ -783,4 +783,4 @@ const EmpezarEnNotionEsFacil = () => {
   );
 };
 
-export default EmpezarEnNotionEsFacil;
+export default TallerEmpezarEnNotionEsFacil;
