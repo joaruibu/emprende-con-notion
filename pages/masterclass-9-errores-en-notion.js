@@ -6,7 +6,8 @@ const masterclass9ErroresNotion = () => {
     title: " Masterclass: 9 errores en Notion",
     buttonText: "Comprar Masterclass",
     price: "9€",
-    urlStripe: "https://buy.stripe.com/test_14kdUX6n6geJbSw288",
+    urlStripe:
+      "https://lauradearquer.quadernoapp.com/checkout/link/912a9c484e699412ef02f484203a4a1541d0a22f",
   };
   return (
     <>

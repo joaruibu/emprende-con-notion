@@ -6,7 +6,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
     title: " Taller Empezar en Notion es fácil",
     buttonText: "Comprar taller",
     price: "60€",
-    urlStripe: "https://buy.stripe.com/test_14kdUX6n6geJbSw288",
+    urlStripe:
+      "https://lauradearquer.quadernoapp.com/checkout/link/97c9a5e8df421dc8981dbfb5ccbb12825b12eac1",
   };
   return (
     <>
