@@ -5,7 +5,7 @@ const masterclass9ErroresNotion = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Masterclass: 9 errores en Notion",
     buttonText: "Comprar Masterclass",
-    price: "60€",
+    price: "9€",
     urlStripe: "https://buy.stripe.com/test_14kdUX6n6geJbSw288",
   };
   return (
@@ -14,9 +14,10 @@ const masterclass9ErroresNotion = () => {
         <div className=" sm:overflow-hidden sm:rounded-xl"></div>
         <section className="pt-10 ">
           <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
-            Los 9 errores que toda persona que empieza con Notion, hace mal y
-            que solo la pérdida de tiempo y frustración en Notion, harán que
-            descubra. Si lo hace.
+            Los 9 errores que toda persona que empieza en Notion, hace mal y que
+            solo la pérdida de tiempo y frustración en Notion, harán que
+            descubra. <br></br>{" "}
+            <span className="text-3xl pt-12 block">Si lo hace.</span>
           </h1>
 
           <br></br>
@@ -35,18 +36,19 @@ const masterclass9ErroresNotion = () => {
             Pensé en un producto que pudiera ayudar al que acaba de empezar en
             Notion y no termina de adaptarse a la app.
           </p>
+          <div className="pl-8">
+            <p>Al que le está robando mucho tiempo aprenderlo.</p>
 
-          <p>Al que le está robando mucho tiempo aprenderlo.</p>
+            <p>
+              Al que lleva usando Notion meses, incluso años, y la gestión cada
+              vez se le hace más compleja sin saber bien por qué.{" "}
+            </p>
 
-          <p>
-            Al que lleva usando Notion meses, incluso años, y la gestión cada
-            vez se le hace más compleja sin saber bien por qué.{" "}
-          </p>
-
-          <p>
-            Al que ni siquiera ha empezado pero sabe que cuando empiece tendrá
-            dudas porque, si no, por qué coño hay tanto tutorial en internet.
-          </p>
+            <p>
+              Al que ni siquiera ha empezado pero sabe que cuando empiece tendrá
+              dudas porque, si no, por qué coño hay tanto tutorial en internet.
+            </p>
+          </div>
 
           <br></br>
           <p>
@@ -67,8 +69,8 @@ const masterclass9ErroresNotion = () => {
             Estoy segura que después de muchos meses usando Notion, viendo
             vídeos en inglés, asistir a webinars de Notion en inglés,
             descargándote 20 plantillas, leyendo artículos en blogs de Notion…
-            Segurísimo, que después serías capaz de solucionar alguno de los 9
-            fallos que te explico en esta masterclass de 24 minutos.
+            Segurísimo, que después, serías capaz de solucionar alguno de los 9
+            errores que te explico en esta masterclass de 24 minutos.
           </p>
           <br></br>
           <br></br>
@@ -86,7 +88,7 @@ const masterclass9ErroresNotion = () => {
           <br></br>
 
           <ul>
-            <li>
+            <li className="mb-4">
               El error que comete casi todo el mundo que empieza en Notion y que
               es{" "}
               <b>
@@ -98,13 +100,15 @@ const masterclass9ErroresNotion = () => {
               (y que ningún gurú de la productividad te dice porque son los
               primeros que cometen este fallo).{" "}
             </li>
-            <li>
+            <li className="mb-4">
               Los 3 problemas que un 99% de usuarios de Notion experimentan al
               empezar en Notion y que cuando veas su solución te sentirás un
-              manazas por lo fácil que es. Bueno, no todas.{" "}
+              manazas por lo fácil que es.{" "}
+            </li>
+            <li className="mb-4">
               <b>
-                Una de esas soluciones no se la he visto explicar a ningún gurú
-                de Notion en todo YouTube. Ninguno.
+                La solución a un problema que no la he visto resolver a ningún
+                gurú de Notion en todo YouTube. Ninguno.
               </b>{" "}
               Es más, solo he visto que apliquen la solución unos cuantos gurús
               de habla inglesa (aplicarla, no explicarla). Yo la he aprendido
@@ -113,7 +117,7 @@ const masterclass9ErroresNotion = () => {
               Si tú encuentras a alguien que la explique, prometo invitarte a un
               vino.{" "}
             </li>
-            <li>
+            <li className="mb-4">
               Una de las grandes ventajas de usar Notion es que te evitas usar
               otras 7 apps de gestión de notas distintas, ¿verdad? Pues te
               contaré la razón por{" "}
@@ -123,14 +127,14 @@ const masterclass9ErroresNotion = () => {
                 no conocen el truco que doy en el minuto 05:44.{" "}
               </b>
             </li>
-            <li>
+            <li className="mb-4">
               <b>
                 La forma más sencilla de no complicarte la vida, ni complicar tu
                 Notion.{" "}
               </b>{" "}
               En el minuto 00:55.
             </li>
-            <li>
+            <li className="mb-4">
               <b>
                 La manera de tener organizadas todas tus páginas de Notion como
                 lo hacen las empresas serias,
@@ -139,7 +143,7 @@ const masterclass9ErroresNotion = () => {
               no parecer un desastre en tu organización interna (aunque lo
               seas).{" "}
             </li>
-            <li>
+            <li className="mb-4">
               <b>
                 Te enseñaré de forma práctica y con ejemplos reales (o sea, que
                 puedes aplicar nada más ver la masterclass), cómo podrás dejar

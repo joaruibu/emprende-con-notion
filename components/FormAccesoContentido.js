@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FormAccesoContentido = ({ correctPassword, setPassword }) => {
+const FormAccesoContentido = ({ correctPassword, setPassword, title }) => {
   const [isErrorPassword, setIsErrorPassword] = useState(false);
   const [inputPassword, setInputPassword] = useState("");
 
@@ -24,7 +24,7 @@ const FormAccesoContentido = ({ correctPassword, setPassword }) => {
     <>
       <div>
         <div className="  bg-stone-50 py-4 rounded-xl  leading-10">
-          <h1 className="mb-4">Introduce contraseña</h1>
+          <h1 className="mb-4 font-alternate">{title}</h1>
 
           <form className="flex space-x-2" onSubmit={(e) => handleSumbit(e)}>
             <input

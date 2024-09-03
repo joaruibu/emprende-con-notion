@@ -14,6 +14,9 @@ const masterclass9ErroresNotionEstasDentro = () => {
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
+              title={
+                "Acceso a la Masterclass: Los 9 Errores más Frecuentes en Notion."
+              }
               correctPassword={PASWORDS}
               setPassword={setPassword}
               password={password}
@@ -30,7 +33,7 @@ const masterclass9ErroresNotionEstasDentro = () => {
             <br></br>
             <br></br>
             <br></br>
-            <p>
+            <p className="text-terracotta">
               <i>
                 En esta página te doy muchos recursos, no solo el taller. Por
                 favor,{" "}
@@ -50,21 +53,19 @@ const masterclass9ErroresNotionEstasDentro = () => {
               </h2>
               <p>
                 <i>
-                  Nota importante: esta masterclass contiene mucha información,
-                  muchos detalles. Puedes volver a verla tantas veces como
-                  quieras, te recomiendo que lo hagas.
+                  * Nota importante: esta masterclass contiene mucha
+                  información, muchos detalles. Puedes volver a verla tantas
+                  veces como quieras, te recomiendo que lo hagas.
                 </i>
               </p>
               <br></br>
-              TODO: Add link to the directo
-              <a href={""} target="_blank">
-                <button
-                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
-                  type="submit"
-                >
-                  Acceder al directo
-                </button>
-              </a>
+
+              <iframe
+                src="https://drive.google.com/file/d/1bIPmkcpXn7sJCUh8fZlLzJ3DIYJmgtse/preview"
+                width="100%"
+                height="432px"
+                allowFullScreen
+              ></iframe>
             </div>
             <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
@@ -73,10 +74,10 @@ const masterclass9ErroresNotionEstasDentro = () => {
 
               <ol className="px-8">
                 <li>
-                  Recomiendo ver la masterclass por orden. La masterclass es muy
-                  progresiva, es decir, si ves el Error 8 sin ver antes el Error
-                  1, no lo entenderás bien y no podrás solucionarlo. No seas
-                  ansias y ve paso a paso.
+                  Te recomiendo ver la masterclass por orden. La masterclass es
+                  muy progresiva, es decir, si ves el Error 8 sin ver antes el
+                  Error 1, no lo entenderás bien y no podrás solucionarlo. No
+                  seas ansias y ve paso a paso.
                 </li>
 
                 <li>
@@ -98,12 +99,14 @@ const masterclass9ErroresNotionEstasDentro = () => {
               <p>
                 He decidido regalarte este bonus de bienvenida para que puedas
                 tomar apuntes de la masterclass fácilmente. Haz el favor, y toma
-                notas acorde a lo que veas en la masterclass.
+                las notas poniendo en práctica todo lo que te cuento en la
+                masterclass.
               </p>
-              <p>
+              <p className="mb-8">
                 <i>
-                  Por cierto, si aún no sabes cómo duplicar plantillas,{" "}
+                  * Por cierto, si aún no sabes cómo duplicar plantillas,{" "}
                   <a
+                    className="underline"
                     href="https://youtu.be/Y6rBNkV4rnY?si=KULTn9bAVqY3BwrO"
                     target="_blank"
                   >
@@ -125,6 +128,12 @@ const masterclass9ErroresNotionEstasDentro = () => {
                   Clica aquí para acceder a la plantilla
                 </button>
               </a>
+            </div>
+
+            <p className="pt-24 pl-8">Espero que la aproveches mucho.</p>
+            <div className="pl-16">
+              <p>Un abrazo, y que Notion te acompañe.</p>
+              <p>Laura, de Emprende con Notion.</p>
             </div>
           </section>
         </article>

@@ -16,7 +16,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
           <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
             Si te digo que busques dónde tienes tus contraseñas, o los apuntes
             del último curso que has hecho, o el listado de tareas de ayer…
-            ¿sabrías decirme dónde está? ¿y en cuántos sitios diferentes?
+            ¿sabrías decirme dónde está? <br></br>¿Y en cuántos sitios
+            diferentes?
           </h1>
           <br></br>
           <br></br>
@@ -112,33 +113,39 @@ const TallerEmpezarEnNotionEsFacil = () => {
             Y da igual que sea el listado básico de to-do’s que te has hecho
             esta mañana…{" "}
           </p>
-          <p>O el título de esa serie que estaban comentando en el trabajo…</p>
-          <p>
-            O las ideas que has tenido mientras estabas haciendo caca esta
-            mañana, sobre ese proyecto profesional que estás desarrollando...{" "}
-          </p>
-          <p>
-            O el libro que te acaban de recomendar en tu podcast favorito...{" "}
-          </p>
-          <p>
-            O llevar un seguimiento de tus proyectos u objetivos personales,
-            ojo, llevar seguimiento, no solo apuntarlos en un folio y que se
-            qeuden en el cajón…{" "}
-          </p>
+          <div className="pl-6">
+            <p>
+              O el título de esa serie que estaban comentando en el trabajo…
+            </p>
+            <p>
+              O las ideas que has tenido mientras estabas haciendo caca esta
+              mañana, sobre ese proyecto profesional que estás desarrollando...{" "}
+            </p>
+            <p>
+              O el libro que te acaban de recomendar en tu podcast favorito...{" "}
+            </p>
+            <p>
+              O llevar un seguimiento de tus proyectos u objetivos personales,
+              ojo, llevar seguimiento, no solo apuntarlos en un folio y que se
+              qeuden en el cajón…{" "}
+            </p>
+          </div>
           <br></br>
           <p>Bueno. </p>
           <p>
             Que Notion es muy guay y todo lo que quieras, pero un par de días
             después…{" "}
           </p>
-          <p>Cris estaba desquiciada. </p>
+          <p>
+            Cris estaba <span className="text-terracotta">desquiciada</span> .{" "}
+          </p>
           <br></br>
           <p>
             Me dijo que le había picado el gusanillo de Notion. Hasta aquí todo
             bien.{" "}
           </p>
           <br></br>
-          <h3 className="font-alternate pl-8">
+          <h3 className="font-alternate px-16 ">
             Pero también me dijo que estaba perdiendo horas y horas viendo
             tutoriales gratuitos y duplicando plantillas de supuestos gurús de
             Notion que luego no le servían para nada, porque por muy bonitos que
@@ -150,8 +157,10 @@ const TallerEmpezarEnNotionEsFacil = () => {
           <p>Y te aseguro que tonta, no es. </p>
           <br></br>
           <p>
-            Lo malo: esto no le ha pasado solo a Cris, es que le pasa a un 99%
-            de gente que empieza en Notion.{" "}
+            Lo malo: esto no le ha pasado solo a Cris,{" "}
+            <span className="text-terracotta">
+              <b> le pasa a un 99% de gente que empieza en Notion</b>.{" "}
+            </span>
           </p>
           <p>
             Lo bueno: igual que Cris salió del bucle, tú también puedes. ¿Cómo?
@@ -160,8 +169,10 @@ const TallerEmpezarEnNotionEsFacil = () => {
           <br></br>
           <p>
             Notion es tan personalizable, que si empezamos a usarlo sin tener a
-            alguien que nos guíe podemos terminar trabajando PARA Notion en
-            lugar de CON Notion.
+            alguien que nos guíe{" "}
+            <b>
+              podemos terminar trabajando PARA Notion en lugar de CON Notion.
+            </b>
           </p>
           <p>Es una sutil diferencia.</p>
           <p>
@@ -240,7 +251,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
                 La herramienta más práctica y potente de Notión y cómo
                 utilizarla,
               </b>{" "}
-              <span className="text-red-500">
+              <span className="text-terracotta font-bold">
                 que conseguirá que tus recetas, vacunas de tu perro, tus gastos,
                 apuntes, lo-que-sea, estén categorizadas aunque seas un puto
                 desastre.
@@ -266,7 +277,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
 
           <ul className="pl-6">
             <li>
-              Empezar la casa por el tejado: lo primero que debes saber{" "}
+              Empezar la casa por el tejado: lo{" "}
+              <span className="text-terracotta">primero</span> que debes saber{" "}
               <b>
                 cuando abras Notion por primera vez, y que casi todo el mundo
                 aprende mal.
@@ -281,19 +293,18 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </li>
 
             <li>
-              <b>
-                ¿Sabes eso de buscar una aguja en un pajar… te enseñaré la
-                sencilla forma en la que puedas encontrar cualquier documento o
-                página en Notion aunque lo hayas dado por perdido.
-              </b>
+              <b>¿Sabes eso de buscar una aguja en un pajar… </b>te enseñaré la
+              sencilla forma en la que puedas encontrar cualquier documento o
+              página en Notion aunque lo hayas dado por perdido.
             </li>
 
             <li>
               Notion tiene muchas cosas de configuración. Muchísimas. Pero en
-              este taller te diré las que realmente te interesan ahora, no como
-              otros gurús que enseñan en un vídeo introductorio hasta cómo
-              gestionar el panel-de-control-de-usuarios-administrados. Solo lo
-              importante, todo lo importante, en la lección 4.
+              este taller te diré las que realmente te interesan{" "}
+              <span className="text-terracotta">ahora</span> , no como otros
+              gurús que enseñan en un vídeo introductorio hasta cómo gestionar
+              el panel-de-control-de-usuarios-administrados. Solo lo importante,
+              todo lo importante.
             </li>
 
             <li>
@@ -312,7 +323,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
           <br></br>
           <br></br>
 
-          <h2 className="text-2xl text-red-500">
+          <h2 className="text-2xl text-terracotta">
             Y esto es lo que incluye la plantilla que te doy con el taller…
           </h2>
 
@@ -338,8 +349,10 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </li>
 
             <li>
-              Incluye una template sin la que yo no podría vivir, y que llevo
-              usando desde hace más de 3 años.{" "}
+              <b>
+                Incluye una template sin la que yo no podría vivir, y que llevo
+                usando desde hace más de 3 años.
+              </b>{" "}
             </li>
             <li>
               Mi madre trabajaba como enfermera, cuidaba de 7 hijos, y siempre
@@ -352,7 +365,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
                 puedas llevar un registro igual de eficaz que su agenda de
                 anillas.
               </b>{" "}
-              Te lo contaré en la última lección 15.
+              Te lo contaré en la última lección.
             </li>
             <li>
               Cuando llega nochevieja todo el mundo escribe en una nota que hará
@@ -419,7 +432,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </b>
           </p>
 
-          <h3 className="font-alternate pl-8">Te lo digo claro,</h3>
+          <h3 className="font-alternate pl-8 py-8">Te lo digo claro,</h3>
 
           <br></br>
 
@@ -429,7 +442,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
             y recordatorios, todas a la vez. Y no te culpo por ello.
           </p>
 
-          <p className="text-red-500">Pero te equivocas.</p>
+          <p className="text-terracotta">Pero te equivocas.</p>
 
           <p>
             Dividir tu información entre 5 aplicaciones diferentes no solo hace
@@ -466,18 +479,18 @@ const TallerEmpezarEnNotionEsFacil = () => {
             <br></br>
             <p>
               Te podría decir que es un curso de Notion que va de nivel básico
-              hasta a nivel medio, pero no es eso. O más bien, no sólo es eso
-              (porque eso lo puedes aprender más o menos con otros gurús de
+              hasta a nivel medio, pero no es eso. O más bien, no <i>sólo</i> es
+              eso (porque eso lo puedes aprender más o menos con otros gurús de
               notion).{" "}
             </p>
             <p>
               Lo que conseguirás con este taller es ser capaz de crear tus
-              propios sistemas de organización hechos en Notion. Podrás de
-              crearte tus propias plantillas, sencillas, o con relaciones y
-              fórmulas, tú decidirás con criterio. Y si te descargas/compras
-              plantillas de internet, también sabrás perfectamente cómo
-              adaptarlas a ti sin miedo a editarlas, porque serás capaz de
-              entender la configuración interna de cualquier plantilla.
+              propios sistemas de organización hechos en Notion. Podrás crearte
+              tus propias plantillas, sencillas, o con relaciones y fórmulas, tú
+              decidirás con criterio. Y si te descargas/compras plantillas de
+              internet, también sabrás perfectamente cómo adaptarlas a ti sin
+              miedo a editarlas porque serás capaz de entender la configuración
+              interna de cualquier plantilla.
             </p>
           </div>
 
@@ -488,7 +501,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
             <br></br>
             <p>
               <b>
-                <span className="text-red-500">
+                <span className="text-terracotta">
                   El taller consiste en un directo el día 6 de octubre a las
                   18:00 (hora España, Madrid).
                 </span>{" "}
@@ -499,30 +512,29 @@ const TallerEmpezarEnNotionEsFacil = () => {
               Además del directo,{" "}
               <b>
                 {" "}
-                recibirás una <span className="text-red-500">
-                  {" "}
-                  plantilla
-                </span>{" "}
-                de Notion
+                recibirás una{" "}
+                <span className="text-terracotta"> plantilla</span> de Notion
               </b>
             </p>
 
             <p className="pl-6">
               {" "}
-              <i>Importante</i>: Esta plantilla tendrá un nivel acorde al que
-              vas a recibir en el taller, ese es el motivo de que{" "}
-              <b>
-                no comparta contigo la plantilla hasta que el directo haya
-                finalizado.{" "}
-              </b>
-              Me interesa que aprendas, no que te frustres con una plantilla que
-              seguramente no sepas personalizar aún.{" "}
+              <i>
+                Importante: Esta plantilla tendrá un nivel acorde al que vas a
+                recibir en el taller, ese es el motivo de que{" "}
+                <b>
+                  no comparta contigo la plantilla hasta que el directo haya
+                  finalizado.{" "}
+                </b>
+                Me interesa que aprendas, no que te frustres con una plantilla
+                que seguramente no sepas personalizar aún.{" "}
+              </i>
             </p>
 
             <p>
               Nada más hacer la compra recibirás un email con las instruccioens
               de cómo acceder al taller y{" "}
-              <span className="font-bold text-red-500">algo más… </span> Pero
+              <span className="font-bold text-terracotta">algo más… </span> Pero
               esto solo lo descubrirá la gente que acceda al taller.
             </p>
           </div>
@@ -626,24 +638,27 @@ const TallerEmpezarEnNotionEsFacil = () => {
             <h2 className="text-2xl">¿Tiene soporte? ¿Y si tengo dudas?</h2>
             <br></br>
             <p>
-              <span className="font-bold text-red-500">Resolveré dudas</span>,
-              pero no en directo, si no se alargará demasiado y quiero poder
-              atender al máximo número de personas posible.{" "}
+              <span className="font-bold text-terracotta">Resolveré dudas</span>
+              , pero no en directo, si no se alargará demasiado y quiero poder
+              atender el máximo número de personas posible.{" "}
             </p>
             <p>
               Cuando finalice el taller en directo, me podrás enviar tus dudas
               durante dos semanas. Me parece tiempo más que de sobra para que si
               no has podido acudir al directo, puedas verlo. Pasado ese tiempo
               resvisaré todas las dudas, las agruparé y te compartiré las
-              respuestas. O sea, no solo contestaré a tu duda, si no que podrás
-              ver las preguntas de otras personas y que seguramente también te
-              ayuden.{" "}
+              respuestas. O sea,
+              <span className="text-terracotta">
+                {" "}
+                no solo contestaré a tu duda, si no que podrás ver las preguntas
+                de otras personas y que seguramente también te ayuden.{" "}
+              </span>
             </p>
             <p>
               Eso sí, responderé dudas que tengan que ver con el taller. Me
               explico. si me preguntas cómo hacer una fórmula avanzada para que
-              puedas contabilizar los pelos de tu mano… pues no. No porque tenga
-              nada en contra de los pelos de tu mano, sino porque{" "}
+              puedas contabilizar los pelos de tu pie pues no. No porque tenga
+              nada en contra de los pelos de tu pie, sino porque{" "}
               <b>
                 {" "}
                 este taller va de un nivel básico a nivel medio, todo lo que se
@@ -687,7 +702,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
           </div>
 
           <div className="pb-12">
-            <h2 className="text-2xl">¿En qué plataforma será el directo?</h2>
+            <h2 className="text-2xl">¿Cómo acceder al directo?</h2>
             <br></br>
             <p>
               Será una conferencia por una paltaforma online. Unas horas antes
@@ -696,8 +711,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </p>
             <p>
               De todas formas, toda la información de acceso la encontrarás
-              también en la página principal del taller a la que tendrás acceso
-              nada más comprar.{" "}
+              también en la página principal del taller a la que solo tienen
+              acceso los compradores del taller.{" "}
             </p>
           </div>
 
@@ -734,11 +749,14 @@ const TallerEmpezarEnNotionEsFacil = () => {
               ponerte un ejemplo.{" "}
             </p>
             <p>
-              ¿Esto quiere decir que Notion es fácil de aprender? No te voy a
-              mentir, si fuera tan intuitivo no estarías comprando esto, ¿no?
+              <span className="text-terracotta">
+                ¿Esto quiere decir que Notion es fácil de aprender? No te voy a
+                mentir, si fuera tan intuitivo no estarías comprando esto, ¿no?
+              </span>{" "}
               Pero el taller está pensado para que el aprendizaje sea tan
               sencillo, que cuando acabes digas joder, pues en realidad sí que
-              era fácil.{" "}
+              era fácil. Es decir, Notion no es así de fácil, el Tallre sí es
+              así de fácil.{" "}
             </p>
           </div>
 
@@ -760,7 +778,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </h2>
             <br></br>
             <p>
-              El precio de este taller en directo es de 40 € y nunca bajará.
+              El precio de este taller en directo es de{" "}
+              {STRIPE_BUTTON_CONFIG.price} y nunca bajará.
             </p>
             <p>
               Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más,

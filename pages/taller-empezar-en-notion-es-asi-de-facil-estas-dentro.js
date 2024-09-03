@@ -14,6 +14,9 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
+              title={
+                " Acceso al Taller en Directo: Empezar en Notion es así de Fácil."
+              }
               correctPassword={PASWORDS}
               setPassword={setPassword}
               password={password}
@@ -25,14 +28,14 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
           <div className=" sm:overflow-hidden sm:rounded-xl"></div>
           <section className="pt-10 ">
             <h1 className="mb-4 font-alternate text-4xl leading-[52px] text-center">
-              Taller en Directo Empezar en Notion es así de Fácil
+              Taller en Directo: Empezar en Notion es así de Fácil.
             </h1>
             <br></br>
             <br></br>
             <br></br>
 
-            <p>
-              En esta página te doy muchos recursos, no solo el taller. Por
+            <p className="italic text-terracotta">
+              ** En esta página te doy muchos recursos, no solo el taller. Por
               favor,{" "}
               <b>
                 {" "}
@@ -63,8 +66,8 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                 </i>
               </p>
               <br></br>
-              TODO: Add link to the directo
-              <a href={""} target="_blank">
+
+              <a href={""} className="pointer-events-none" target="_blank">
                 <button
                   className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
                   type="submit"
@@ -76,16 +79,16 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
 
             <div className="mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
-                - Bonus - Audio privado.{" "}
+                - Bonus - Video privado.{" "}
               </h2>
               <p className="">
-                He decidido darte regalarte este bonus de bienvenida, pero no
-                quiero que pienses que tiene poco valor por el hecho de que sea
-                un regalo.
+                He decidido regalarte este bonus de bienvenida, pero no quiero
+                que pienses que tiene poco valor por el hecho de que sea un
+                regalo.
               </p>
               <p>
-                Si aplicas lo que veas en este bonus para ti (uses Notion para
-                proyectos personales, emprendimeintos o trabajes por cuenta
+                Si aplicas lo que vas a ver en este bonus para ti (uses Notion
+                para proyectos personales, emprendimeintos o trabajes por cuenta
                 ajena), amortizarás con creces el precio completo de este
                 taller. Míralo tantas veces como necesites.
               </p>
@@ -105,7 +108,7 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
               </h2>
               <p>
                 <i>
-                  Importante: Te la enseñaré durante el directo, y estará
+                  * Importante: Te la enseñaré durante el directo, y estará
                   disponible en cuanto termine el directo. En cualquier caso, te
                   avisaré por email cuando puedas acceder a la plantilla.
                 </i>
@@ -128,17 +131,20 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
               <ol className="px-8">
                 <li className="pb-12">
                   Créate con antelación una cuenta de Notion si es que no la
-                  tienes ya creada, puedes hacerlo desde //TODO: Añadir enlace a
-                  la sección
-                  <a href="https://www.notion.so/signup" target="_blank">
+                  tienes ya creada, puedes hacerlo desde{" "}
+                  <a
+                    href="https://www.notion.so/signup"
+                    className="underline"
+                    target="_blank"
+                  >
                     aquí
                   </a>
                   . Es importante que crees una cuenta individual (no para
                   equipos) si quieres mantener el plan gratuito de Notion. Si le
                   has dado sin querer a crear una cuenta para equipos y tienes
-                  un límite de mil bloques, don’t panic, //TODO: Añadir enlace a
-                  la sección de FAQ.{" "}
+                  un límite de mil bloques, don’t panic,{" "}
                   <a
+                    className="underline"
                     href="https://emprendeconnotion.com/blog/problema-frecuente:-tengo-límite-de-1000-bloques-en-notion-y-no-sé-por-qué-6"
                     target="_blank"
                   >
@@ -147,10 +153,10 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                   <br></br>
                   Dicho esto, quiero que por lo menos hayas visto Notion por
                   dentro alguna vez. La razón es que como mejor se aprende es
-                  haciendo. Y yo quiero que aprendas. Si te explican algo de
-                  nuevas y ni siquiera sabes la forma que tiene, es más difícil
-                  interiorizar conceptos que si ya en tu cabeza te has formado
-                  una imagen mental.
+                  haciendo. <br></br> <b> Y yo quiero que aprendas.</b>{" "}
+                  <br></br> Si te explican algo de nuevas y ni siquiera sabes la
+                  forma que tiene, es más difícil interiorizar conceptos que si
+                  ya en tu cabeza te has formado una imagen mental.
                 </li>
 
                 <li className="pb-12">
@@ -173,7 +179,7 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                 </li>
               </ol>
             </div>
-            <div className="mb-24">
+            <div>
               <h2 className="text-2xl">- Sesión de dudas post-directo.</h2>
               <br></br>
               <h2 className="text-center">Cómo enviarme tus dudas.</h2>
@@ -204,12 +210,24 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
 
                 <li className="pb-12">
                   Una semana después, el día 27 de octubre 2024, publicaré las
-                  respuestas aquí. O sea, no solo contestaré a tu duda, si no
-                  que podrás ver las preguntas de otras personas y que
-                  seguramente también te ayuden. Como siempre, te avisaré por
-                  email.{" "}
+                  respuestas aquí. O sea,{" "}
+                  <b>
+                    {" "}
+                    no solo contestaré a tu duda, si no que podrás ver las
+                    preguntas de otras personas y que seguramente también te
+                    ayuden.
+                  </b>{" "}
+                  Como siempre, te avisaré por email.{" "}
                 </li>
               </ul>
+            </div>
+
+            <p className="pt-24 pl-8">
+              Espero que lo aproveches mucho. Nos vemos el 6 a las 6.
+            </p>
+            <div className="pl-16">
+              <p>Un abrazo, y que Notion te acompañe.</p>
+              <p>Laura, de Emprende con Notion.</p>
             </div>
           </section>
         </article>
