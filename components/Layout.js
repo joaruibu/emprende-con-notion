@@ -19,7 +19,8 @@ const Layout = ({ children }) => {
     masterclass9Errores: "/masterclass-9-errores-en-notion",
     masterclass9ErroresEstasDentro:
       "/masterclass-9-errores-en-notion-estas-dentro",
-    compraConfirmada: "/confirmacion-compra",
+    confirmacionCompra: "/confirmacion-compra",
+    errorCompra: "/error-compra",
   };
 
   const showNavbarPage = (pathname) => {
