@@ -18,9 +18,9 @@ const masterclass9ErroresNotion = () => {
         <div className=" sm:overflow-hidden sm:rounded-xl"></div>
 
         <header>
-          <p className="text-center text-terracotta font-bold">
+          <p className="text-center text-terracotta mt-8 font-bold">
             *Suscripción confirmada. <br></br>Ya tienes tu plantilla en tu email{" "}
-            (pueden tardar unos minutos en llegar, pero llegan).
+            (puede tardar unos minutos en llegar, pero llegan).
           </p>
           <br></br> <br></br>{" "}
           <p className="text-4xl underline  text-left  pb-12 font-bold ">
