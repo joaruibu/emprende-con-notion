@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import StripeButton from "../components/StripeButton";
+import CountdownTimer from "../components/CountDown";
 
 const masterclass9ErroresNotion = () => {
+  const [isTimOver, setIsTimeOver] = useState(false);
+
   const STRIPE_BUTTON_CONFIG = {
     title: " Masterclass: 9 errores en Notion",
     buttonText: "Comprar Masterclass",
@@ -13,17 +16,36 @@ const masterclass9ErroresNotion = () => {
     <>
       <article className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
         <div className=" sm:overflow-hidden sm:rounded-xl"></div>
-        <section className="pt-10 ">
+
+        <header>
+          <p className="text-center text-terracotta font-bold">
+            *Suscripción confirmada. <br></br>Ya tienes tu plantilla en tu email{" "}
+            (pueden tardar unos minutos en llegar, pero llegan).
+          </p>
+          <br></br> <br></br>{" "}
+          <p className="text-4xl underline  text-left  pb-12 font-bold ">
+            Si piensas usar tu plantilla esto te interesa...
+          </p>
+          <div className="border rounded-lg p-4  border-4 text-center border-terracotta my-8">
+            <p className="font-bold sm:text-3xl  text-terracotta pb-0">
+              Tienes 30 minutos para leer esto.
+            </p>
+            <CountdownTimer timer={30} setIsTimeOver={setIsTimeOver} />
+          </div>
+          <br></br>
+          <br></br>
           <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
             Los 9 errores que toda persona que empieza en Notion, hace mal y que
             solo la pérdida de tiempo y frustración en Notion, harán que
             descubra. <br></br>{" "}
             <span className="text-3xl pt-12 block">Si lo hace.</span>
           </h1>
+        </header>
 
+        <section className="pt-10 ">
           <br></br>
           <br></br>
-          <br></br>
+
           <p>
             Cuando lancé emprendeconnotion.com empecé a pensar qué producto
             podía venderte nada más suscribirte.

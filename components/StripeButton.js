@@ -18,10 +18,7 @@ const StripeButton = ({ urlStripe, children, title, price }) => {
           {children}
         </button>
       </a>
-      <p className=" pt-2 italic text-xs">
-        ** Si necesitas retención del IRPF en tu facura porque eres autonomo o
-        empresa español escríbenos a laura@emprendeconnotion.com.
-      </p>
+
       <div className="flex mt-3 justify-center">
         <img
           className="text-center"
