@@ -93,9 +93,9 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                 taller. Míralo tantas veces como necesites.
               </p>
               <br></br>
-              TODO: Add link to the video
+
               <iframe
-                src="https://drive.google.com/file/d/1O7yy0XXGoqNcedAvUPuT-K_499hP-lE5/preview"
+                src="https://drive.google.com/file/d/1CE9WZLpDY2BFQWD9itqzXtnFcNlCJQpS/preview"
                 width="100%"
                 height="432px"
                 allowFullScreen
