@@ -5,7 +5,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Taller Empezar en Notion es fácil",
     buttonText: "Comprar taller",
-    price: "100€",
+    price: "120€",
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/97c9a5e8df421dc8981dbfb5ccbb12825b12eac1",
   };
