@@ -638,11 +638,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
           <div className="pb-12">
             <h2 className="text-2xl">¿Tiene soporte? ¿Y si tengo dudas?</h2>
             <br></br>
-            <p>
-              <span className="font-bold text-terracotta">Resolveré dudas</span>
-              , pero no en directo, si no se alargará demasiado y quiero poder
-              atender el máximo número de personas posible.{" "}
-            </p>
+
             <p>
               Cuando finalice el taller en directo, me podrás enviar tus dudas
               durante dos semanas. Me parece tiempo más que de sobra para que si

@@ -41,7 +41,7 @@
   }
   p,
   li {
-    @apply font-montserrat text-base font-normal pb-4 leading-7;
+    @apply font-montserrat text-base font-normal pb-6 ;
   }
 
   li {
