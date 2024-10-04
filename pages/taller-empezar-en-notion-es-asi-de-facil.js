@@ -4,8 +4,9 @@ import StripeButton from "../components/StripeButton";
 const TallerEmpezarEnNotionEsFacil = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Taller Empezar en Notion es fácil",
-    buttonText: "Comprar taller",
+    buttonText: "Upps llegas tarde",
     price: "140€",
+    isDisabled: true,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/97c9a5e8df421dc8981dbfb5ccbb12825b12eac1",
   };
@@ -194,6 +195,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
             price={STRIPE_BUTTON_CONFIG.price}
             title={STRIPE_BUTTON_CONFIG.title}
+            isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
           >
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
@@ -404,6 +406,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
             price={STRIPE_BUTTON_CONFIG.price}
             title={STRIPE_BUTTON_CONFIG.title}
+            isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
           >
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
@@ -466,6 +469,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
             price={STRIPE_BUTTON_CONFIG.price}
             title={STRIPE_BUTTON_CONFIG.title}
+            isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
           >
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
@@ -790,6 +794,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
             price={STRIPE_BUTTON_CONFIG.price}
             title={STRIPE_BUTTON_CONFIG.title}
+            isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
           >
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
