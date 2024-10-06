@@ -59,15 +59,7 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                 para acceder.
               </p>
               <br></br>
-              <p>
-                <i>
-                  * Una vez termine el directo, colgaré aquí la grabación para
-                  que puedas volver a verla tantas veces como quieras.
-                </i>
-              </p>
-              <br></br>
-
-              <a href={""} className="pointer-events-none" target="_blank">
+              <a href={"https://meet.google.com/zmb-yvdf-urj"} target="_blank">
                 <button
                   className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
                   type="submit"
@@ -75,6 +67,14 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                   Acceder al directo
                 </button>
               </a>
+              <br></br>
+              <br></br>
+              <p>
+                <i>
+                  * Una vez termine el directo, colgaré aquí la grabación para
+                  que puedas volver a verla tantas veces como quieras.
+                </i>
+              </p>
             </div>
 
             <div className="mb-24">
@@ -125,6 +125,54 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
             </div>
 
             <div className="mb-24">
+              <h2 className="text-2xl">
+                {" "}
+                - Plantilla para tomar apuntes del Taller.
+              </h2>
+              <p>
+                Novedad: duplica en tu cuenta de Notion esta plantilla para
+                poder tomar apuntes durante del taller de forma ordenada,
+                directamente en tu cuenta de Notion.
+              </p>
+              <a
+                href={
+                  "https://emprendecon.notion.site/Apuntes-Taller-Empezar-en-Notion-es-as-de-f-cil-59cc711371cd4f3b81987d909977cf80"
+                }
+                target="_blank"
+                className=" block"
+              >
+                <button
+                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
+                  type="submit"
+                >
+                  Plantilla de apuntes
+                </button>
+              </a>
+            </div>
+
+            <div className="mb-24">
+              <h2 className="text-2xl">
+                {" "}
+                - Si no sabes duplicar una plantilla en Notion...
+              </h2>
+              <p>
+                Si aún no sabes cómo duplicar una plantilla en tu cuenta de
+                Notion, te he preparado este vídeo de 1 min.
+              </p>
+              <a
+                href={"https://youtu.be/Y6rBNkV4rnY"}
+                target="_blank"
+                className=" block"
+              >
+                <button
+                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
+                  type="submit"
+                >
+                  Ver video
+                </button>
+              </a>
+            </div>
+            <div className="mb-24">
               <h2 className="text-2xl">- Recomendaciones para el directo.</h2>
               <br></br>
 
@@ -170,12 +218,14 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                   sabemos que no es la misma energía que ver un directo.
                 </li>
                 <li className="pb-12">
-                  Créate una página en blanco en Notion para anotar dudas (si
-                  aún no sabes, pues la app de notas o papel y boli, qué
-                  remedio), y si durante el taller te entra una duda, apúntala.
-                  A todos nos ha pasado que nos asalta una pregunta pero a la
-                  hora ya se ha olvidado. Tienes la oportunidad de resolver tus
-                  dudas conmigo, no la desaproveches.
+                  Prepárate para tomar apuntes en el taller. Puedes{" "}
+                  <b>duplicar la plantilla para tomar apuntes </b>que te he
+                  dejado más arriba. Y si aún no te aclaras, pues la app de
+                  notas o papel y boli, qué remedio. Si durante el taller te
+                  entra una duda, apúntala. A todos nos ha pasado que nos asalta
+                  una pregunta pero a la hora ya se ha olvidado. Tienes la
+                  oportunidad de resolver tus dudas conmigo, no la
+                  desaproveches.
                 </li>
               </ol>
             </div>
