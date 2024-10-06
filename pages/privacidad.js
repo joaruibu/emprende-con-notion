@@ -4,7 +4,7 @@ const Privacidad = () => {
   return (
     <main className="my-12">
       <h1>
-        <strong>Política De Privacidad</strong>
+        <strong>Política De Privacidad.</strong>
       </h1>
       <p>Si estás leyendo esto es porque me obliga la ley.</p>
       <p>
