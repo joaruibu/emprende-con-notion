@@ -1,10 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import StripeButton from "../components/StripeButton";
-import CountdownTimer from "../components/CountDown";
 
 const masterclass9ErroresNotion = () => {
-  const [isTimOver, setIsTimeOver] = useState(false);
-
   const STRIPE_BUTTON_CONFIG = {
     title: " Masterclass: 9 errores en Notion",
     buttonText: "Comprar Masterclass",
