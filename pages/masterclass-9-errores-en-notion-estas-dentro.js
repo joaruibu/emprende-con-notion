@@ -3,14 +3,18 @@ import FormAccesContent from "../components/FormAccesoContentido";
 
 const masterclass9ErroresNotionEstasDentro = () => {
   const [password, setPassword] = useState("");
-
+  console.log(1111, password);
   const PASWORDS = {
     PASWORD_1: "NoLaCaguesMásEnNotion",
   };
 
+  const isCorrectPassword = (password) => {
+    return !Object.values(PASWORDS).includes(password);
+  };
+
   return (
     <>
-      {password !== PASWORDS.PASWORD_1 ? (
+      {false ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
@@ -92,15 +96,32 @@ const masterclass9ErroresNotionEstasDentro = () => {
             </div>
 
             <div className="mb-12">
+              <h2 className="text-2xl"> - Bonus exclusivo.</h2>
+              <p>
+                No quiero que pienses que este bonus tiene poco valor por el
+                hecho de que sea un regalo. Es más, ten claro que lo que vas a
+                ver es una masterclass en sí misma.
+              </p>
+
+              <iframe
+                src="https://drive.google.com/file/d/18DqMApCzTg1-SmkGsNIJWDIh5owv2A-H/preview"
+                width="100%"
+                height="432px"
+                allowFullScreen
+              ></iframe>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <div className="mb-12">
               <h2 className="text-2xl">
                 {" "}
                 - Bonus de bienvenida - Plantilla de Notion para tomar apuntes.
               </h2>
               <p>
-                He decidido regalarte este bonus de bienvenida para que puedas
-                tomar apuntes de la masterclass fácilmente. Haz el favor, y toma
-                las notas poniendo en práctica todo lo que te cuento en la
-                masterclass.
+                Haz el favor, y toma las notas poniendo en práctica todo lo que
+                te cuento en la masterclass.
               </p>
               <p className="mb-8">
                 <i>

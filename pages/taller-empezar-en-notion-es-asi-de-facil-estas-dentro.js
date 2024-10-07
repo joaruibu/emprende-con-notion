@@ -51,30 +51,48 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - El Taller.
               </h2>
-              <p className="pb-0">
-                El directo es el día 6 de Octubre a las 18:00 (Madrid, España).
-              </p>
-              <p>
-                Cuando llegue la hora del directo, clica en el botón de abajo
-                para acceder.
-              </p>
-              <br></br>
-              <a href={"https://meet.google.com/zmb-yvdf-urj"} target="_blank">
-                <button
-                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
-                  type="submit"
+
+              <iframe
+                src="https://drive.google.com/file/d/1D4T4eNeP4YjpWkFJUmb1j4rrX0PRaqoZ/preview"
+                width="100%"
+                height="432px"
+                allowFullScreen
+              ></iframe>
+
+              <h4 className="my-8">
+                <a
+                  href={
+                    "https://emprendecon.notion.site/Guion-del-taller-117868683e7880c78feae4e25815a15e?pvs=4"
+                  }
+                  target="_blank"
+                  className=" block"
                 >
-                  Acceder al directo
-                </button>
-              </a>
-              <br></br>
-              <br></br>
-              <p>
-                <i>
-                  * Una vez termine el directo, colgaré aquí la grabación para
-                  que puedas volver a verla tantas veces como quieras.
-                </i>
-              </p>
+                  {" "}
+                  Ver índice del taller
+                </a>
+              </h4>
+
+              <div className="mb-24 mt-24">
+                <h2 className="text-2xl mb-4">
+                  {" "}
+                  - Plantilla molona del taller.
+                </h2>
+
+                <a
+                  href={
+                    "https://emprendecon.notion.site/Plantilla-Empezar-en-Notion-es-as-de-f-cil-cc283a0f6ef64ac88410c7e586dfcfb7"
+                  }
+                  target="_blank"
+                  className=" block"
+                >
+                  <button
+                    className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
+                    type="submit"
+                  >
+                    Plantilla del Taller
+                  </button>
+                </a>
+              </div>
             </div>
 
             <div className="mb-24">
@@ -101,28 +119,6 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                 allowFullScreen
               ></iframe>
             </div>
-            <div className="mb-24">
-              <h2 className="text-2xl">
-                {" "}
-                - Plantilla de Notion Empezar en Notion es Así de Fácil.
-              </h2>
-              <p>
-                <i>
-                  * Importante: Te la enseñaré durante el directo, y estará
-                  disponible en cuanto termine el directo. En cualquier caso, te
-                  avisaré por email cuando puedas acceder a la plantilla.
-                </i>
-              </p>
-              <p>
-                <i>
-                  Esta plantilla tendrá un nivel acorde al que vas a recibir en
-                  el taller, ese es el motivo de que la no comparta contigo
-                  hasta que el directo haya finalizado. Me interesa que
-                  aprendas, no que te frustres con una plantilla que seguramente
-                  no sepas personalizar aún.
-                </i>
-              </p>
-            </div>
 
             <div className="mb-24">
               <h2 className="text-2xl">
@@ -130,9 +126,9 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                 - Plantilla para tomar apuntes del Taller.
               </h2>
               <p>
-                Novedad: duplica en tu cuenta de Notion esta plantilla para
-                poder tomar apuntes durante del taller de forma ordenada,
-                directamente en tu cuenta de Notion.
+                Duplica en tu cuenta de Notion esta plantilla para poder tomar
+                apuntes durante del taller de forma ordenada, directamente en tu
+                cuenta de Notion.
               </p>
               <a
                 href={
