@@ -4,12 +4,13 @@ import FormAccesContent from "../components/FormAccesoContentido";
 const masterclass9ErroresNotionEstasDentro = () => {
   const [password, setPassword] = useState("");
   console.log(1111, password);
-  const PASWORDS = {
-    PASWORD_1: "NoLaCaguesMásEnNotion",
+  const PASSWORDS = {
+    PASSWORD_1: "NoLaCaguesMásEnNotion",
+    PASSWORD_2: "VamosALlevarnosBien",
   };
 
   const isCorrectPassword = (password) => {
-    return !Object.values(PASWORDS).includes(password);
+    return !Object.values(PASSWORDS).includes(password);
   };
 
   return (
@@ -21,7 +22,7 @@ const masterclass9ErroresNotionEstasDentro = () => {
               title={
                 "Acceso a la Masterclass: Los 9 Errores más Frecuentes en Notion."
               }
-              correctPassword={PASWORDS}
+              correctPassword={PASSWORDS}
               setPassword={setPassword}
               password={password}
             />
@@ -95,24 +96,28 @@ const masterclass9ErroresNotionEstasDentro = () => {
               </ol>
             </div>
 
-            <div className="mb-12">
-              <h2 className="text-2xl"> - Bonus exclusivo.</h2>
-              <p>
-                No quiero que pienses que este bonus tiene poco valor por el
-                hecho de que sea un regalo. Es más, ten claro que lo que vas a
-                ver es una masterclass en sí misma.
-              </p>
+            {password === PASSWORDS.PASSWORD_1 && (
+              <>
+                <div className="mb-12">
+                  <h2 className="text-2xl"> - Bonus exclusivo.</h2>
+                  <p>
+                    No quiero que pienses que este bonus tiene poco valor por el
+                    hecho de que sea un regalo. Es más, ten claro que lo que vas
+                    a ver es una masterclass en sí misma.
+                  </p>
 
-              <iframe
-                src="https://drive.google.com/file/d/18DqMApCzTg1-SmkGsNIJWDIh5owv2A-H/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
-            </div>
-            <br></br>
-            <br></br>
-            <br></br>
+                  <iframe
+                    src="https://drive.google.com/file/d/18DqMApCzTg1-SmkGsNIJWDIh5owv2A-H/preview"
+                    width="100%"
+                    height="432px"
+                    allowFullScreen
+                  ></iframe>
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+              </>
+            )}
 
             <div className="mb-12">
               <h2 className="text-2xl">
