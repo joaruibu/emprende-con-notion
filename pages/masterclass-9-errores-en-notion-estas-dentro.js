@@ -99,7 +99,7 @@ const masterclass9ErroresNotionEstasDentro = () => {
             {password === PASSWORDS.PASSWORD_1 && (
               <>
                 <div className="mb-12">
-                  <h2 className="text-2xl"> - Bonus exclusivo.</h2>
+                  <h2 className="text-2xl"> - Bonus exclusivo - I</h2>
                   <p>
                     No quiero que pienses que este bonus tiene poco valor por el
                     hecho de que sea un regalo. Es más, ten claro que lo que vas
@@ -118,6 +118,27 @@ const masterclass9ErroresNotionEstasDentro = () => {
                 <br></br>
               </>
             )}
+
+            <div className="mb-12">
+              <h2 className="text-2xl"> - Bonus exclusivo - II</h2>
+              <br></br>
+              <a
+                href={
+                  "https://emprendecon.notion.site/Empieza-con-tus-libretas-digitales-masterclass-9-errores-9dbb7b2704f24209aabe2ede9b868143"
+                }
+                target="_blank"
+              >
+                <button
+                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
+                  type="submit"
+                >
+                  Clica para acceder a plantilla bonus
+                </button>
+              </a>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
 
             <div className="mb-12">
               <h2 className="text-2xl">
@@ -151,7 +172,7 @@ const masterclass9ErroresNotionEstasDentro = () => {
                   className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
                   type="submit"
                 >
-                  Clica aquí para acceder a la plantilla
+                  Clica para acceder a plantilla apuntes
                 </button>
               </a>
             </div>
