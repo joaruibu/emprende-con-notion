@@ -5,8 +5,9 @@ const masterclass9ErroresNotionEstasDentro = () => {
   const [password, setPassword] = useState("");
   console.log(1111, password);
   const PASSWORDS = {
-    PASSWORD_1: "NoLaCaguesMásEnNotion",
-    PASSWORD_2: "VamosALlevarnosBien",
+    PASSWORD_1: "NoLaCaguesMásEnNotion", // bonus I y II y bienvenida
+    PASSWORD_2: "VamosALlevarnosBien", // solo bonus II y bievenida
+    PASSWORD_3: "SeñoraDamePaciencia", // solo Bonus Bienvenida
   };
 
   const isCorrectPassword = (password) => {
@@ -119,26 +120,31 @@ const masterclass9ErroresNotionEstasDentro = () => {
               </>
             )}
 
-            <div className="mb-12">
-              <h2 className="text-2xl"> - Bonus exclusivo - II</h2>
-              <br></br>
-              <a
-                href={
-                  "https://emprendecon.notion.site/Empieza-con-tus-libretas-digitales-masterclass-9-errores-9dbb7b2704f24209aabe2ede9b868143"
-                }
-                target="_blank"
-              >
-                <button
-                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
-                  type="submit"
-                >
-                  Clica para acceder a plantilla bonus
-                </button>
-              </a>
-            </div>
-            <br></br>
-            <br></br>
-            <br></br>
+            {(password === PASSWORDS.PASSWORD_1 ||
+              password === PASSWORDS.PASSWORD_2) && (
+              <>
+                <div className="mb-12">
+                  <h2 className="text-2xl"> - Bonus exclusivo - II</h2>
+                  <br></br>
+                  <a
+                    href={
+                      "https://emprendecon.notion.site/Empieza-con-tus-libretas-digitales-masterclass-9-errores-9dbb7b2704f24209aabe2ede9b868143"
+                    }
+                    target="_blank"
+                  >
+                    <button
+                      className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
+                      type="submit"
+                    >
+                      Clica para acceder a plantilla bonus
+                    </button>
+                  </a>
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+              </>
+            )}
 
             <div className="mb-12">
               <h2 className="text-2xl">
