@@ -226,51 +226,17 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
               </ol>
             </div>
             <div>
-              <h2 className="text-2xl">- Sesión de dudas post-directo.</h2>
+              <h2 className="text-2xl">- Dudas del directo.</h2>
               <br></br>
-              <h2 className="text-center">Cómo enviarme tus dudas.</h2>
-
-              <br></br>
-
-              <ul className="px-8">
-                <li className="pb-12">
-                  <b>
-                    Podrás enviarme tus dudas por email hasta el día 20 de
-                    octubre a las 23:59 (Madrid, España).{" "}
-                  </b>
-                  Pasado ese día, ya no responderé dudas.
-                </li>
-                <li className="pb-12">
-                  <b>
-                    El ASUNTO del email deberá ser: DUDAS PARA NO MANDAR A LA
-                    MIERDA NOTION.
-                  </b>
-                  Es decir, filtraré los emails con ese asunto, si no has puesto
-                  ese asunto, tu duda no me aparecerá y no la podré responder.
-                </li>
-                <li className="pb-12">
-                  Responderé dudas que tengan que ver con el taller. Me explico.
-                  Si me preguntas cómo hacer una fórmula advance para contar los
-                  pelos de tus pies… Pues no.
-                </li>
-
-                <li className="pb-12">
-                  Una semana después, el día 27 de octubre 2024, publicaré las
-                  respuestas aquí. O sea,{" "}
-                  <b>
-                    {" "}
-                    no solo contestaré a tu duda, si no que podrás ver las
-                    preguntas de otras personas y que seguramente también te
-                    ayuden.
-                  </b>{" "}
-                  Como siempre, te avisaré por email.{" "}
-                </li>
-              </ul>
+              <iframe
+                src="https://drive.google.com/file/d/1cG0_cvO6qukiz3nDRm03xhS3z93qACBS/preview"
+                width="100%"
+                height="432px"
+                allowFullScreen
+              ></iframe>
             </div>
 
-            <p className="pt-24 pl-8">
-              Espero que lo aproveches mucho. Nos vemos el 6 a las 6.
-            </p>
+            <p className="pt-24 pl-8">Espero que lo aproveches mucho.</p>
             <div className="pl-16">
               <p>Un abrazo, y que Notion te acompañe.</p>
               <p>Laura, de Emprende con Notion.</p>
