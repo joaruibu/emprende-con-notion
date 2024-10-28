@@ -453,8 +453,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
             P.D.2: Si te parece barato, es porque lo es. Y aún no sabes todo lo
             barato que es... Ni lo vas saber... Aún.<br></br>El día del
             workshop, solo las personas que hayan participado recibirán un
-            bonus. Es un bonus que hará que este workshop te haya salido gratis,
-            casi que a devolver.{" "}
+            regalo. Es un regalo que hará que este workshop te haya salido
+            gratis, casi que a devolver.{" "}
           </p>
           <p>
             P.D.3: Disponible solo hasta el día 7 de noviembre a las 23:59h.
