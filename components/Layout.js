@@ -21,6 +21,9 @@ const Layout = ({ children }) => {
       "/masterclass-9-errores-en-notion-estas-dentro",
     confirmacionCompra: "/confirmacion-compra",
     errorCompra: "/error-compra",
+    notionCalendar: "/formacion/workshop-implementa-notion-calendar",
+    notionCalendarEstasDentro:
+      "/formacion/workshop-implementa-notion-calendar-estas-dentro",
   };
 
   const showNavbarPage = (pathname) => {
