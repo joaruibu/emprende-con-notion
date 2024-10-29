@@ -70,4 +70,8 @@
   a {
     @apply cursor-pointer text-terracotta hover:text-light-terracota duration-150;
   }
+
+  p{
+  @apply leading-7;
+  }
 }

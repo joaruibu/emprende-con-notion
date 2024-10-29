@@ -154,6 +154,20 @@ const TallerEmpezarEnNotionEsFacil = () => {
           </ul>
           <br></br>
           <br></br>
+
+          <div className="flex justify-center">
+            <img
+              className="text-center"
+              src={"/img/gato-calendar.png"}
+              alt="Imagen meme ventilador"
+              width={250}
+              height={100}
+            />
+          </div>
+
+          <br></br>
+          <br></br>
+
           <p>Y algunas cosas más “técnicas” como:</p>
           <br></br>
           <ul className="pl-6">

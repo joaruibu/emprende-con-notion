@@ -96,6 +96,28 @@ const workshopNotionCalendarEstasDentro = () => {
 
             <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
+                - Bonus de bienvenida.
+              </h2>
+
+              <p>
+                Un error y un tip. Eso es lo que vas a encontrar en este bonus
+                no solicitado de bienvenida. ¿Sobre? Sobre, cómo aplicando el
+                método de productividad que te explico, aprenderás a fijar
+                fechas límite de forma efectiva en tu calendario.
+              </p>
+
+              <div className="flex justify-center">
+                <audio controls controlsList="nodownload">
+                  <source
+                    src="https://res.cloudinary.com/dh2hwwzpy/video/upload/v1730233460/ECN-workshop-notionCalendar-bonus-bienvenida_z5u3bw.mp3"
+                    type="audio/mp3"
+                  ></source>
+                </audio>
+              </div>
+            </div>
+
+            <div className=" mb-24">
+              <h2 className="font-alternate text-2xl leading-[52px]">
                 - Recomendaciones antes del directo.
               </h2>
 
