@@ -64,17 +64,14 @@ const workshopNotionCalendarEstasDentro = () => {
               </p>
 
               <a
-                href={
-                  "https://emprendecon.notion.site/Empieza-con-tus-libretas-digitales-masterclass-9-errores-9dbb7b2704f24209aabe2ede9b868143"
-                }
+                href={"https://meet.google.com/vog-gjzo-tbd?authuser=2"}
                 target="_blank"
               >
                 <button
-                  disabled
-                  className="disabled opacity-30 cursor-default rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
+                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
                   type="submit"
                 >
-                  Clica para acceder al workshop
+                  Clica para acceder al directo
                 </button>
               </a>
               {/* <p>
