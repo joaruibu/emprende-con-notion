@@ -4,9 +4,9 @@ import StripeButton from "../../components/StripeButton";
 const TallerEmpezarEnNotionEsFacil = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: "Workshop: implementa Notion Calendar",
-    buttonText: "Comprar Workshop",
+    buttonText: "Upps llegas tarde",
     price: "9€",
-    isDisabled: false,
+    isDisabled: true,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/session/22802460d61220b5df498d96f111806582a92ba2/init",
   };
