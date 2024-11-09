@@ -53,8 +53,7 @@ const workshopNotionCalendarEstasDentro = () => {
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - El workshop.
               </h2>
-
-              <p>
+              {/* <p>
                 <i>
                   El directo es el viernes 8 de Noviembre a las 16:00 (Madrid,
                   España). Cuando falten 24 horas para el taller activaremos
@@ -73,8 +72,8 @@ const workshopNotionCalendarEstasDentro = () => {
                 >
                   Clica para acceder al directo
                 </button>
-              </a>
-              {/* <p>
+              </a> */}
+              <p>
                 <i>
                   * Nota importante: esta masterclass contiene mucha
                   información, muchos detalles. Puedes volver a verla tantas
@@ -84,11 +83,23 @@ const workshopNotionCalendarEstasDentro = () => {
               <br></br>
 
               <iframe
-                src="https://drive.google.com/file/d/1bIPmkcpXn7sJCUh8fZlLzJ3DIYJmgtse/preview"
+                src="https://drive.google.com/file/d/10zmLJePRGWWevkAf03X3poKsYr8GXM4P/preview"
                 width="100%"
                 height="432px"
                 allowFullScreen
-              ></iframe> */}
+              ></iframe>
+              <h4 className="my-8">
+                <a
+                  href={
+                    "https://emprendecon.notion.site/ndice-de-contenidos-Workshop-implementa-Notion-Calendar-eb2354ecdd444580b6c9969132a28985"
+                  }
+                  target="_blank"
+                  className=" block"
+                >
+                  {" "}
+                  Ver índice del taller
+                </a>
+              </h4>
             </div>
 
             <div className=" mb-24">

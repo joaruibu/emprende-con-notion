@@ -92,8 +92,8 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <p>
           {" "}
-          <span class="text-red-500 italic">Lo sé</span> porque yo también me he
-          dicho esas cosas.{" "}
+          <span className="text-red-500 italic font-bold">Lo sé</span> porque yo
+          también me he dicho esas cosas.{" "}
         </p>
         <p>Pero no. </p>
 
@@ -126,7 +126,9 @@ const TallerSistemaGestionTiempo = () => {
           Si te interesa solucionarlo apúntate al taller: Sistema gestión de tu
           tiempo.
         </p>
-
+        <br></br>
+        <br></br>
+        <br></br>
         <StripeButton
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
           price={STRIPE_BUTTON_CONFIG.price}
@@ -141,13 +143,13 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
 
-        <h3 className="font-alternate px-16 ">
+        <h2 className="font-alternate px-16 ">
           Se trata de un taller de dos días.{" "}
-        </h3>
-        <h3 className="font-alternate px-16 ">
+        </h2>
+        <h2 className="font-alternate px-16 ">
           Y esto es lo que vas a aprender en el{" "}
           <span className="text-red-500">primer día…</span>
-        </h3>
+        </h2>
 
         <br></br>
 
@@ -162,32 +164,42 @@ const TallerSistemaGestionTiempo = () => {
           </li>
 
           <li>
-            Mi madre tenía la agenda más gorda y organizada del mundo. Consistía
-            en una carpeta muy pequeña con tapas de piel granate y anillas
-            interiores donde iba añadiendo, minuto a minuto, sus tareas del día.
+            Mi madre tenía la agenda más gorda y organizada del mundo. <br></br>
+            <br></br> Consistía en una carpeta muy pequeña con tapas de piel
+            granate y anillas interiores donde iba añadiendo, minuto a minuto,
+            sus tareas del día.<br></br>
+            <br></br>
             Con siete hijos, trabajando y su agenda, llegó a ser tremendamente
-            productiva. En el vídeo que te incluyo te enseñaré todo lo que
-            aprendí sobre el conocido time blocking, y cómo poder adaptar el
-            método de bloques de tiempo a ti y a tu empresa sin necesidad de
-            tener una agenda de ama de casa ni ser rígida minuto a minuto.
+            productiva. <br></br>
+            <br></br>{" "}
+            <b>
+              En el vídeo que te incluyo te enseñaré todo lo que aprendí sobre
+              el conocido <i>time blocking</i> , y cómo poder adaptar el método
+              de bloques de tiempo a ti y a tu empresa{" "}
+            </b>
+            sin necesidad de tener una agenda de ama de casa ni ser rígida
+            minuto a minuto.
           </li>
 
           <li>
-            Las 3 cosas que casi nadie sabe de la gestión del tiempo y hace que
-            sientas que el día se te escapa y cómo solucionarlo en una sola
-            tarde. Y eso que el taller son dos días.
+            Las <b>3 cosas que casi nadie sabe de la gestión del tiempo</b> y
+            hace que sientas que el día se te escapa y cómo solucionarlo en una
+            sola tarde. Y eso que el taller son dos días.
           </li>
 
           <li>
             Un detalle crucial para que tu tiempo trabaje a tu favor (y no al
-            revés). Te lo contaré el primer día del taller.
+            revés). <b> Te lo contaré el primer día del taller.</b>
           </li>
 
           <li>
-            La forma en la que organices tus horas va a definir si tu negocio
-            crece o si simplemente te quedas como estás. En este taller te
-            enseño cómo hacerlo. Y cuando digo negocio, puede ser trabajo,
-            estudios, oposición, proyecto… Tu vida.
+            La forma en la que organices tus horas{" "}
+            <b>
+              va a definir si tu negocio crece o si simplemente te quedas como
+              estás.
+            </b>{" "}
+            En este taller te enseño cómo hacerlo. Y cuando digo negocio, puede
+            ser trabajo, estudios, oposición, proyecto… Tu vida.
           </li>
 
           <li>
@@ -201,55 +213,63 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
         <p>
-          Por cierto. Seguro que tú tb te has dicho alguna vez eso de: esto es
-          solo para los “organizados”. Bueno. Con el primer día del taller
-          aprenderás un Sistema de gestión del tiempo que te hará tomar el
-          control de tus objetivos incluso si odias planificar.
+          Por cierto. Seguro que tú tb te has dicho alguna vez eso de:{" "}
+          <b> esto es solo para los “organizados”.</b> Bueno. Con el primer día
+          del taller aprenderás un Sistema de gestión del tiempo que te hará
+          tomar el control de tus objetivos incluso si odias planificar.
         </p>
 
+        <br></br>
+        <br></br>
         <br></br>
         <br></br>
 
         <ul className="pl-6">
           <li>
+            La manera en la que usas tu tiempo define si avanzas o te estancas.
+            Este taller te da una estructura para que{" "}
+            <b> nunca más sientas que pierdes el control.</b>
+          </li>
+
+          <li>
+            <b>Una manera muy sutil de ganar tiempo cada día… </b>que no se te
+            había ocurrido porque nadie te la ha explicado.
+          </li>
+
+          <li>
+            El error que muchos cometen con el tiempo y que les deja{" "}
+            <b>sintiéndose agotados</b> pero sin avanzar. Aquí tendrás la forma
+            de solucionarlo.
+          </li>
+
+          <li>
+            Una manera muy sutil de ser{" "}
+            <b>mucho más productivo (sin hacer más horas).</b> Te enseño cómo.
+          </li>
+
+          <li>
+            La pregunta que transforma cómo te organizas cada día:{" "}
             <b>
-              La manera en la que usas tu tiempo define si avanzas o te
-              estancas. Este taller te da una estructura para que nunca más
-              sientas que pierdes el control.
-            </b>
-          </li>
-
-          <li>
-            Una manera muy sutil de ganar tiempo cada día… que no se te había
-            ocurrido porque nadie te la ha explicado.
-          </li>
-
-          <li>
-            El error que muchos cometen con el tiempo y que les deja sintiéndose
-            agotados pero sin avanzar. Aquí tendrás la forma de solucionarlo.
-          </li>
-
-          <li>
-            Una manera muy sutil de ser mucho más productivo (sin hacer más
-            horas). Te enseño cómo.
-          </li>
-
-          <li>
-            La pregunta que transforma cómo te organizas cada día: ¿Estás
-            trabajando hacia tus objetivos o solo tachando tareas? Con este
-            taller de Notion lo verás claro.
-          </li>
-
-          <li>
-            <b>
-              La razón de que pasen los días sin que hayas avanzado con tu
-              proyecto, con esa sensación de “solo he estado en reunions” “solo
-              he contestado emails”, y la forma de evitarlo para focalizarte en
-              lo que realmente quieres.
+              {" "}
+              ¿Estás trabajando hacia tus objetivos o solo tachando tareas?
             </b>{" "}
+            Con este taller de Notion lo verás claro.
+          </li>
+
+          <li>
+            La razón de que pasen los días sin que hayas avanzado con tu
+            proyecto, con esa sensación de{" "}
+            <b> “solo he estado en reunions” “solo he contestado emails”,</b> y
+            la forma de evitarlo para focalizarte en lo que realmente quieres.
           </li>
         </ul>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
 
         <StripeButton
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
@@ -264,10 +284,11 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <br></br>
-        <h3 className="font-alternate px-16 ">
+        <h2 className="font-alternate px-16 ">
           Vale, pero soy un ansias de las plantillas de Notion y quiero saber de
           qué va la plantilla que me vas a dar.
-        </h3>
+        </h2>
+        {/* Voy por aquí */}
         <br></br>
         <br></br>
         <br></br>
