@@ -17,10 +17,7 @@ const TallerSistemaGestionTiempo = () => {
         <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
           Tienes tu día planeado, vas a madrugar y ser responsable.
           <br></br>
-          <br></br>
           Vas a hacer lo que se supone que debes hacer y no te vas a desviar.
-          <br></br>
-          <br></br>
           <br></br>O no.
         </h1>
         <br></br>
@@ -305,8 +302,10 @@ const TallerSistemaGestionTiempo = () => {
           exactamente cuál te conviene usar.
         </p>
         <br></br>
+        <br></br>
+        <br></br>
 
-        <h2>
+        <h2 className="text-2xl">
           Dicho esto, te cuento las 9 herramientas que incluyen las plantillas:
         </h2>
         <br></br>
@@ -437,7 +436,7 @@ const TallerSistemaGestionTiempo = () => {
               </span>{" "}
               sistema para gestionar tu tiempo. <br></br>{" "}
               <span className="text-terracotta font-bold">
-                Día 14 de diciembre a las 16.00 h(Valencia):{" "}
+                Día 15 de diciembre a las 16.00 h(Valencia):{" "}
               </span>{" "}
               taller para aprender a usar e implementar las plantillas en tu
               flujo de trabajo (aplicando las técnicas que vimos el día
@@ -469,10 +468,10 @@ const TallerSistemaGestionTiempo = () => {
           {/* Voy por aqui */}
           <p>
             No sé cuánto durará, estaremos el tiempo que haga falta, ni me
-            enrollaré con paja ni cortaré a una hora. Si te tienes que ir antes,
-            no pasa nada. Se quedará grabado y podrás verlo cuando quieras y las
-            veces que quieras. En cuanto la compres recibirás un mensaje de
-            correo eléctrónico de cómo acceder.
+            enrollaré con paja ni cortaré a una hora. <br></br> Si te tienes que
+            ir antes, no pasa nada. <br></br>Se quedará grabado y podrás verlo
+            cuando quieras y las veces que quieras. <br></br>En cuanto la
+            compres recibirás un mensaje de correo eléctrónico de cómo acceder.
           </p>
         </div>
 
@@ -482,15 +481,19 @@ const TallerSistemaGestionTiempo = () => {
           </h2>
           <br></br>
           <p>
-            La respuesta a esta pregunta es muy sencilla. No te voy a decir una
-            frase motivacional del tipo “cualquier persona que quiera despedir a
-            su jefe y ser más libre”. No. No hace falta despedir a tu jefe para
-            tener el control de tu tiempo, de eso va este taller. Este taller es
-            para cualquier persona que quiera gestionar su tiempo de forma
-            consciente. Qué tiempo dedicas en el trabajo y, por tanto, qué
-            tiempo te dedicas a ti misma, trabajes solo, en equipo, vendas
-            pisos, o hagas mentorías. En cualquier caso, nadie mejor que tú para
-            saber si te conviene.
+            La respuesta a esta pregunta es muy sencilla. <br></br>No te voy a
+            decir una frase motivacional del tipo “cualquier persona que quiera
+            despedir a su jefe y ser más libre”.<br></br> No. No hace falta
+            despedir a tu jefe para tener el control de tu tiempo, de eso va
+            este taller. <br></br>Este taller es para cualquier persona que
+            quiera gestionar su tiempo de forma consciente.<br></br>{" "}
+            <b>
+              Qué tiempo dedicas en el trabajo y, por tanto, qué tiempo te
+              dedicas a ti misma, trabajes solo, en equipo, vendas pisos, o
+              hagas mentorías.
+            </b>
+            <br></br> En cualquier caso, nadie mejor que tú para saber si te
+            conviene.
           </p>
         </div>
 
@@ -498,12 +501,12 @@ const TallerSistemaGestionTiempo = () => {
           <h2 className="text-2xl">¿Tiene sorporte?</h2>
           <br></br>
           <p>
-            Sí. Incluye soporte durante 1 mes desde el día 15. La resolución
-            será grupal, es decir, no solo recibirás soporte a tus dudas, sino
-            que recibirás las preguntas y respuestas del resto de los
-            asistentes. La experiencia me ha demostrado que hacerlo duplica el
-            valor del soporte dado, porque respondes dudas que aún no tienes,
-            pero seguramente en el futuro sí.{" "}
+            Sí. Incluye soporte durante 1 mes desde el día 15. <br></br>La
+            resolución será grupal, es decir, no solo recibirás soporte a tus
+            dudas, sino que recibirás las preguntas y respuestas del resto de
+            los asistentes.<br></br> La experiencia me ha demostrado que hacerlo
+            duplica el valor del soporte dado, porque respondes dudas que aún no
+            tienes, pero seguramente en el futuro sí.{" "}
           </p>
         </div>
 
@@ -514,10 +517,10 @@ const TallerSistemaGestionTiempo = () => {
           </h2>
           <br></br>
           <p>
-            No solo seguirá funcionando, es que funcionará mejor. Cualquier
-            actualización que Notion saque y afecte al uso o interfaz de la
-            plantilla te la comunicaré por email, para que tanto tú como la
-            plantilla estéis actualizados.{" "}
+            No solo seguirá funcionando, es que funcionará mejor.<br></br>{" "}
+            Cualquier actualización que Notion saque y afecte al uso o interfaz
+            de la plantilla te la comunicaré por email, para que tanto tú como
+            la plantilla estéis actualizados.{" "}
           </p>
         </div>
 
@@ -529,12 +532,12 @@ const TallerSistemaGestionTiempo = () => {
 
           <p>
             Nadie puede acceder a tu información de Notion sin tu
-            consentimiento. Es así de fácil la respuesta. Una vez dupliques la
-            plantilla en tu cuenta de Notion (te explico cómo hacerlo en el
-            vídeo), la plantilla ya es tuya y nadie más que tú podrá acceder a
-            esa información. En el caso de que trabajes en equipo, podrás dar
-            permisos específicamente a esas personas para que tengan acceso a la
-            plantilla.
+            consentimiento. <br></br>Es así de fácil la respuesta.<br></br> Una
+            vez dupliques la plantilla en tu cuenta de Notion (te explico cómo
+            hacerlo en el vídeo), la plantilla ya es tuya y nadie más que tú
+            podrá acceder a esa información. <br></br>En el caso de que trabajes
+            en equipo, podrás dar permisos específicamente a esas personas para
+            que tengan acceso a la plantilla.
           </p>
         </div>
 
@@ -545,13 +548,14 @@ const TallerSistemaGestionTiempo = () => {
           <br></br>
           <p>
             No te voy a decir que es como ir en barca porque si usas Notion,
-            sabes que tiene una curva de aprendizaje. Pero es eso, con que
-            conozcas Notion te vale. El sistema de gestión de tiempo podrías
-            aplicarlo en cualquier herramienta, no solo Notion. Pero obviamente
-            lo aplicaremos usando Notion. Respecto a las plantillas, ya vienen
-            con todo predefinido y en el taller veremos cómo usarlas paso a
-            paso, y posteriormente recibirás la grabación por si en el futuro te
-            entrasen dudas.
+            sabes que tiene una curva de aprendizaje.<br></br> Pero es eso, con
+            que conozcas Notion te vale. <br></br>El sistema de gestión de
+            tiempo podrías aplicarlo en cualquier herramienta, no solo Notion.
+            <br></br>
+            Pero obviamente lo aplicaremos usando Notion. <br></br>Respecto a
+            las plantillas, ya vienen con todo predefinido y en el taller
+            veremos cómo usarlas paso a paso, y posteriormente recibirás la
+            grabación por si en el futuro te entrasen dudas.
           </p>
         </div>
 
