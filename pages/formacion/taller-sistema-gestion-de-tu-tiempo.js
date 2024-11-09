@@ -288,21 +288,21 @@ const TallerSistemaGestionTiempo = () => {
           Vale, pero soy un ansias de las plantillas de Notion y quiero saber de
           qué va la plantilla que me vas a dar.
         </h2>
-        {/* Voy por aquí */}
         <br></br>
         <br></br>
         <br></br>
         <p className="pl-6">Dos cosas antes de seguir.</p>
+        <br></br>
         <p>Dos.</p>
         <p>
-          Primero, no es una plantilla lo que estás comprando, es un sistema
-          para aprender a gestionar tu tiempo.
+          <b> Primero,</b> no es una plantilla lo que estás comprando,{" "}
+          <b>es un sistema para aprender a gestionar tu tiempo.</b>
         </p>
         <p>
-          Segundo, no solo te doy una plantilla, te doy dos, con dos niveles de
-          complejidad diferentes según lo que se adapte más a ti o a tu empresa
-          (trabajes en equipos o no). Y al acabar el taller sabrás exactamente
-          cuál te conviene usar.
+          <b> Segundo,</b> no solo te doy una plantilla, te doy dos, con dos
+          niveles de complejidad diferentes según lo que se adapte más a ti o a
+          tu empresa (trabajes en equipos o no). Y al acabar el taller sabrás
+          exactamente cuál te conviene usar.
         </p>
         <br></br>
 
@@ -317,12 +317,12 @@ const TallerSistemaGestionTiempo = () => {
             Es fácil decirte que{" "}
             <strong>
               si cobras por hora la plantilla calcula el total ganado por cada
-              proyecto
-            </strong>
-            . Sí, también hace eso. Pero lo que duele más es saber si has
+              proyecto.
+            </strong>{" "}
+            Sí, también hace eso.<br></br> Pero lo que duele más es saber si has
             cumplido las horas que estimabas al principio o si te has pasado y,
-            por tanto, quién paga el pato: tú cobrando menos, o el cliente. Con
-            esta plantilla podrás calcularlo.
+            por tanto, quién paga el pato: tú cobrando menos, o el cliente.
+            <br></br> Con esta plantilla podrás calcularlo.
           </li>
 
           <li>
@@ -333,6 +333,7 @@ const TallerSistemaGestionTiempo = () => {
               es jodido ver que cuánto más tiempo inviertes en un proyecto,
               menos rentable te sale la hora.
             </strong>{" "}
+            <br></br>
             Pero saberlo te mete un petardo en tu culo para ser más productivo.
             Podrás establecer ese presupuesto en la plantilla y saber con
             fórmulas automatizadas, o sea, sin que tengas que hacer tú nada,
@@ -355,9 +356,9 @@ const TallerSistemaGestionTiempo = () => {
               comunes
             </strong>{" "}
             cuando se empieza a trabajar en equipo: decenas de reuniones no
-            contabilizadas e inútiles. Podrás programarlas, definir asistentes,
-            objetivos, conclusiones y, sobre todo, contabilizarlas. Sabrás
-            exactamente cuánto tiempo de cada proyecto se ha invertido en
+            contabilizadas e inútiles. <br></br> Podrás programarlas, definir
+            asistentes, objetivos, conclusiones y, sobre todo, contabilizarlas.
+            Sabrás exactamente cuánto tiempo de cada proyecto se ha invertido en
             reuniones.
           </li>
 
@@ -371,11 +372,12 @@ const TallerSistemaGestionTiempo = () => {
 
           <li>
             Los gurús de productividad pusieron de moda hace unos años los{" "}
-            <strong>cronogramas de proyectos</strong>. Pero si no tienes forma
-            de contabilizar el avance… de poco te sirve ver los proyectos en una
-            gráfica cuqui. En esta plantilla tienes la gráfica <em>cuqui</em>{" "}
-            junto con barras de progreso asociadas a las tareas que vas
-            completando. Y como la plantilla es un Time Tracker, podrás{" "}
+            <strong>cronogramas de proyectos</strong>. <br></br> Pero si no
+            tienes forma de contabilizar el avance… de poco te sirve ver los
+            proyectos en una gráfica cuqui. <br></br> En esta plantilla tienes
+            la gráfica <em>cuqui</em> junto con barras de progreso asociadas a
+            las tareas que vas completando. Y como la plantilla es un Time
+            Tracker, podrás{" "}
             <strong>
               fijarte objetivos de tiempo para cada proyecto y ver a tiempo real
               las horas trabajadas por proyecto
@@ -428,24 +430,33 @@ const TallerSistemaGestionTiempo = () => {
           <br></br>
           <ul>
             <li>
-              Dos directos y si no puedes asistir, las grabaciones:<br></br>
-              <span className="text-terracotta">
+              <b> Dos directos y si no puedes asistir, las grabaciones:</b>{" "}
+              <br></br>
+              <span className="text-terracotta font-bold">
                 Día 14 de diciembre a las 16.00 h(Valencia):{" "}
               </span>{" "}
               sistema para gestionar tu tiempo. <br></br>{" "}
-              <span className="text-terracotta">
+              <span className="text-terracotta font-bold">
                 Día 14 de diciembre a las 16.00 h(Valencia):{" "}
               </span>{" "}
               taller para aprender a usar e implementar las plantillas en tu
               flujo de trabajo (aplicando las técnicas que vimos el día
               anterior.{" "}
             </li>
-            <li>Soporte durante un mes con resolución de dudas grupales. </li>
-            <li>Vídeo privado para aprender a usar Notion Calendar</li>
             <li>
-              Las plantillas de Notion para conocer cuánto has ganado
-              contabilizando tus horas con este gestor de proyectos, tareas y
-              clientes (para equipos, o no).{" "}
+              {" "}
+              <b>Soporte durante un mes</b> con resolución de dudas grupales.{" "}
+            </li>
+            <li>
+              {" "}
+              <b>Vídeo privado </b>para aprender a usar Notion Calendar
+            </li>
+            <li>
+              Las <b>plantillas de Notion </b> para conocer cuánto has ganado
+              <b>
+                contabilizando tus horas con este gestor de proyectos, tareas y
+                clientes (para equipos, o no).{" "}
+              </b>
             </li>
           </ul>
         </div>
@@ -455,6 +466,7 @@ const TallerSistemaGestionTiempo = () => {
             ¿Cuánto durarán los directos del día 14 y 15?
           </h2>
           <br></br>
+          {/* Voy por aqui */}
           <p>
             No sé cuánto durará, estaremos el tiempo que haga falta, ni me
             enrollaré con paja ni cortaré a una hora. Si te tienes que ir antes,

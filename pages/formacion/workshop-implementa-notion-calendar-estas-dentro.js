@@ -156,6 +156,7 @@ const workshopNotionCalendarEstasDentro = () => {
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - ¿Cómo funcionan las dudas?
               </h2>
+
               <p>
                 {" "}
                 Como sabes, este workshop incluye resolución de dudas en el
@@ -167,26 +168,18 @@ const workshopNotionCalendarEstasDentro = () => {
                 sale muchísimo valor extra al ya dado en el curso, así que…
               </p>
               <p>
-                En el taller dejaré unos minutos al final para resolución de
-                dudas. Pero, quizás no haya mucho tiempo, quizás seamos muchos,
-                quizás no puedas asistir al directo y veas la grabación…
+                Así que, tienes 1 semana entera (hasta el viernes que viene, día
+                15 a las 23:59h), para enviarme todas las dudas que tengas sobre
+                el workshop, por email. Dos días después, el domingo 17,
+                publicaré la resolución de dudas grupal y ya no responderé más. 
               </p>
               <p>
-                <b>
-                  {" "}
-                  Así que, para asegurarte que priorice tus dudas, puedes
-                  enviarme un email con antelación, al menos 48h antes del
-                  directo (o sea, como tarde el miércoles 6 de noviembre a las
-                  23:59h).
-                </b>{" "}
-                Si me las envías más tarde no las contestaré.{" "}
+                {" "}
+                Envíamelas por email a laura@emprendeconnotion.com El asunto
+                deberá ser: DUDAS PARA ACLARARME EN CALENDAR. O sea, cuando las
+                prepare filtraré por ese asunto y si no me aparece no
+                contestaré.
               </p>
-              <p>
-                <b> El asunto deberá ser: DUDAS PARA ACLARARME EN CALENDAR. </b>
-                O sea, cuando me las prepare filtraré por ese asunto y, si no me
-                aparece, no contestaré.
-              </p>
-              <p>Nos vemos pronto!</p>
             </div>
 
             {/* <div className=" mb-24">
