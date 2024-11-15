@@ -18,7 +18,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
-              title={"Acceso al Taller: Sistema gestion de tu tiempo."}
+              title={"Acceso al Taller: Sistema gestión de tu tiempo."}
               correctPassword={PASSWORDS}
               setPassword={setPassword}
               password={password}
@@ -30,7 +30,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
           <div className=" sm:overflow-hidden sm:rounded-xl"></div>
           <section className="pt-10 ">
             <h1 className="mb-4 font-alternate text-4xl leading-[52px] text-center">
-              Taller: Sistema gestion de tu tiempo.
+              Taller: Sistema gestión de tu tiempo.
             </h1>
             <br></br>
             <br></br>
