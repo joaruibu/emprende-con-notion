@@ -24,6 +24,9 @@ const Layout = ({ children }) => {
     notionCalendar: "/formacion/workshop-implementa-notion-calendar",
     notionCalendarEstasDentro:
       "/formacion/workshop-implementa-notion-calendar-estas-dentro",
+    tallerGestionHoras: "/formacion/taller-sistema-gestion-de-tu-tiempo",
+    tallerGestionHorasEstasDentro:
+      "/formacion/taller-sistema-gestion-de-tu-tiempo-estas-dentro",
   };
 
   const showNavbarPage = (pathname) => {

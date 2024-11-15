@@ -14,11 +14,11 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
 
   return (
     <>
-      {isCorrectPassword(password) ? (
+      {!isCorrectPassword(password) ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
-              title={"Acceso al Taller: Sistema gestión de tu tiempo."}
+              title={"Acceso al Taller: El Sistema De Gestión De Tu Tiempo."}
               correctPassword={PASSWORDS}
               setPassword={setPassword}
               password={password}
@@ -30,7 +30,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
           <div className=" sm:overflow-hidden sm:rounded-xl"></div>
           <section className="pt-10 ">
             <h1 className="mb-4 font-alternate text-4xl leading-[52px] text-center">
-              Taller: Sistema gestión de tu tiempo.
+              Taller: El Sistema De Gestión De Tu Tiempo.
             </h1>
             <br></br>
             <br></br>
@@ -50,7 +50,59 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
             <br></br>
             <br></br>
 
-            <div className=" mb-24">
+            <div className=" mb-40">
+              <h2 className="font-alternate text-2xl leading-[36px]">
+                - Taller: Sistema gestión de tu tiempo.
+              </h2>
+              <p>
+                <i>
+                  - Primer día del directo: sábado día 14 de diciembre a las
+                  16:00h (Valencia). <br></br>- Segundo directo: domingo 15 de
+                  diciembre a las 16:00h (Valencia). <br></br>Cuando falten 24
+                  horas para el taller activaremos este botón con un enlace al
+                  directo. Te enviaré un recordatorio por email. :)
+                </i>
+              </p>
+
+              <a href={""} target="_blank">
+                <button
+                  disabled
+                  className=" opacity-30 rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
+                  type="submit"
+                >
+                  Clica para acceder al directo
+                </button>
+              </a>
+              {/* <p>
+                <i>
+                  * Nota importante: esta masterclass contiene mucha
+                  información, muchos detalles. Puedes volver a verla tantas
+                  veces como quieras, te recomiendo que lo hagas.
+                </i>
+              </p> */}
+              <br></br>
+
+              {/* <iframe
+                src="https://drive.google.com/file/d/1VYKfAdQLuokoF-eXxTC56QHLXntutXWW/preview"
+                width="100%"
+                height="432px"
+                allowFullScreen
+              ></iframe>
+              <h4 className="my-8">
+                <a
+                  href={
+                    "https://emprendecon.notion.site/ndice-de-contenidos-workshop-gesti-n-de-calendarios-fe913358e1bc42c9a593005224c2838a?pvs=4"
+                  }
+                  target="_blank"
+                  className=" block"
+                >
+                  {" "}
+                  Ver índice del taller
+                </a>
+              </h4> */}
+            </div>
+
+            <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - Bonus de bienvenida.
               </h2>
@@ -77,10 +129,10 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               </div>
             </div>
 
-            <div className=" mb-24">
+            <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[36px]">
-                - Workshop: aprende a gestionar tu calendario e implementa (o
-                no) Notion Calendar..
+                - Bonus Workshop: aprende a gestionar tu calendario e implementa
+                (o no) Notion Calendar.
               </h2>
               {/* <p>
                 <i>
@@ -126,12 +178,12 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                   className=" block"
                 >
                   {" "}
-                  Ver índice del taller
+                  Ver índice del Workshop
                 </a>
               </h4>
             </div>
 
-            <div className=" mb-24">
+            <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - Recomendaciones antes del directo.
               </h2>
@@ -184,7 +236,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               </ol>
             </div>
 
-            <div className=" mb-24">
+            <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[36px]">
                 - Plantillas de gestión de tiempo y fichaje de horas pro.
               </h2>
@@ -230,7 +282,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               <br></br>
             </div>
 
-            <div className=" mb-24">
+            <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - ¿Cómo funcionan las dudas?
               </h2>
@@ -260,7 +312,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               </ol>
             </div>
 
-            {/* <div className=" mb-24">
+            {/* <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - Recomendaciones para ver la Masterclass.
               </h2>
