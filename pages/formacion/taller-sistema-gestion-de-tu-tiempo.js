@@ -28,7 +28,6 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <br></br>
-
         <p>
           Vas a madrugar, desayunar en condiciones, ir al gym, trabajar sin
           permitir interrupciones que te sacan del foco, vas a salir a tu hora y
@@ -78,9 +77,7 @@ const TallerSistemaGestionTiempo = () => {
         <p>
           Porque en realidad tú estás <i> motivada, tú quieres hacerlo.</i>
         </p>
-
         <br></br>
-
         <p>
           Simplemente, es que <i> “no tienes tiempo”. </i>
         </p>
@@ -115,9 +112,7 @@ const TallerSistemaGestionTiempo = () => {
         <p>
           Me lo escribí a <b>mí </b> hace un tiempo.
         </p>
-
         <p>¿Y sabes qué?? que la solución, duele, acojona, escuece.</p>
-
         <p>
           <b>Tu mayor dificultad,</b> tu mayor enemigo, lo que te impide hacer
           lo que deberías hacer y, por tanto, conseguir lo que quieres
@@ -129,19 +124,16 @@ const TallerSistemaGestionTiempo = () => {
           {" "}
           <b>Porque te acojona. </b>
         </p>
-
         <br></br>
         <p>
           No quieres asumirla, porque eso significa aprender a priorizar y
           esforzarte, y porque es más fácil decir “me falta tiempo”.
         </p>
         <p>Y también, más de pobres, por cierto. </p>
-
         <p>
           Cómo le gusta a la gente decir: “estoy muy liado”, “ no tengo tiempo
           para nada”.
         </p>
-
         <p>
           Si tú también “estás muy liada” y “no tienes tiempo para nada”,
           quédate con una cosa, solo con una. Esta.
@@ -168,12 +160,10 @@ const TallerSistemaGestionTiempo = () => {
         >
           {STRIPE_BUTTON_CONFIG.buttonText}
         </StripeButton>
-
         <br></br>
         <br></br>
         <br></br>
         <br></br>
-
         <h2 className="font-alternate px-16 ">
           Se trata de un taller de dos días.{" "}
         </h2>
@@ -181,11 +171,8 @@ const TallerSistemaGestionTiempo = () => {
           Y esto es lo que vas a aprender en el{" "}
           <span className="text-red-500">primer día…</span>
         </h2>
-
         <br></br>
-
         <br></br>
-
         <ul className="pl-6">
           <li>
             <b>
@@ -238,7 +225,6 @@ const TallerSistemaGestionTiempo = () => {
             primer día.{" "}
           </li>
         </ul>
-
         <br></br>
         <br></br>
         <br></br>
@@ -249,13 +235,11 @@ const TallerSistemaGestionTiempo = () => {
         <p>
           <b>Por cierto.</b>
         </p>
-
         <p>
           Si piensas que hay dos grupos de personas, los que son productivos y
           orgnaizados y los que son un desastre y caos, y crees que es algo
           imposible de aprender.
         </p>
-
         <p>
           Si no tienes una rutina diaria. Si cada día empiezas de cero,
           improvisando, apagando incendios. Sin un plan claro, sin una
@@ -266,7 +250,6 @@ const TallerSistemaGestionTiempo = () => {
             sin caer en tópicos como “date recompensas”.
           </b>
         </p>
-
         <p>
           Esto NO lo veremos en el taller, lo recibirás en un BONUS{" "}
           <b>en cuanto compres.</b>{" "}
@@ -275,10 +258,8 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <br></br>
-
         <p>Sigo</p>
         <br></br>
-
         <ul className="pl-6">
           <li>
             Hay gente que no se planifica la semana, y gente que se la planifica
@@ -321,21 +302,16 @@ const TallerSistemaGestionTiempo = () => {
             culpa de estos miedos. El primer día.{" "}
           </li>
         </ul>
-
         <br></br>
         <br></br>
         <br></br>
         <br></br>
-
         <h2 className="font-alternate px-16 ">
           Y esto es lo que vas a aprender en el{" "}
           <span className="text-red-500">segundo día…</span>
         </h2>
-
         <br></br>
-
         <br></br>
-
         <ul className="pl-6">
           <li>
             <b>
@@ -393,12 +369,10 @@ const TallerSistemaGestionTiempo = () => {
             la forma de evitarlo para focalizarte en lo que realmente quieres.{" "}
           </li>
         </ul>
-
         <br></br>
         <br></br>
         <br></br>
         <br></br>
-
         <StripeButton
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
           price={STRIPE_BUTTON_CONFIG.price}
@@ -407,7 +381,6 @@ const TallerSistemaGestionTiempo = () => {
         >
           {STRIPE_BUTTON_CONFIG.buttonText}
         </StripeButton>
-
         <br></br>
         <br></br>
         <br></br>
@@ -435,7 +408,6 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <br></br>
-
         <h2 className="text-2xl">
           Dicho esto, te cuento las 9 herramientas que incluyen las plantillas:
         </h2>
@@ -524,6 +496,20 @@ const TallerSistemaGestionTiempo = () => {
           </li>
         </ol>
 
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+        <iframe
+          src="https://drive.google.com/file/d/1vv0i66CBv-BICN6M7Yu65IZPQ8VgEfkg/preview"
+          width="100%"
+          height="432px"
+          allowFullScreen
+        ></iframe>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
         <StripeButton
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
           price={STRIPE_BUTTON_CONFIG.price}
@@ -536,7 +522,6 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <h1 className="pb-12">Preguntas frecuentes</h1>
-
         <div className="pb-12">
           <h2 className="text-2xl">Realmente, ¿qué incluye?</h2>
           <br></br>
@@ -590,7 +575,6 @@ const TallerSistemaGestionTiempo = () => {
             </li>
           </ul>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">
             ¿Cuánto durarán los directos del día 14 y 15?
@@ -604,7 +588,6 @@ const TallerSistemaGestionTiempo = () => {
             compres recibirás un mensaje de correo eléctrónico de cómo acceder.
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">
             Si no puedo asistir al directo… ¿Queda grabado? ¿Durante cuánto
@@ -627,7 +610,6 @@ const TallerSistemaGestionTiempo = () => {
             pago que tienen que estar en funcionamiento para poder ofrecerlo.
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">
             ¿Qué perfil de persona le sacará mejor partido? ¿Sirve para equipos?
@@ -707,7 +689,6 @@ const TallerSistemaGestionTiempo = () => {
             En cualquier caso, nadie mejor que tú para saber si te conviene.{" "}
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">¿Tiene sorporte?</h2>
           <br></br>
@@ -739,7 +720,23 @@ const TallerSistemaGestionTiempo = () => {
             tienes pero seguramente en el futuro sí.{" "}
           </p>
         </div>
-
+        <div className="pb-12">
+          <h2 className="text-2xl">
+            ¿Puedo ver la plantilla antes de comprarla?
+          </h2>
+          <br></br>
+          <p>
+            Por supuesto. En esta carta de ventas encontrarás el vídeo. Míralo.
+            Y míralo bien. <br></br> La que te enseño es la plantilla más
+            completa que sirve para equipos. Si trabajas tú sola, te daré la
+            opción de utilizar una plantilla con las mismas funcionalidades,
+            pero simplificada al trabajo individual. <br></br> Dicho esto, tú
+            sabrás mejor que nadie si te interesa perder tiempo replicando la
+            plantilla después de verla, el video lo tienes arriba y no recibir
+            toda la formación de gestión de tiempo. A esos vídeos, obviamente,
+            no puedes acceder si no compras.
+          </p>
+        </div>
         <div className="pb-12">
           <h2 className="text-2xl">
             ¿Si hay una actualización de Notion, seguirá funcionando la
@@ -753,7 +750,6 @@ const TallerSistemaGestionTiempo = () => {
             la plantilla estéis actualizados.{" "}
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">
             ¿Una vez obtenga la plantilla, la información de dentro es privada?
@@ -770,7 +766,6 @@ const TallerSistemaGestionTiempo = () => {
             que tengan acceso a la plantilla.
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">
             ¿Será complicado si yo no tengo ni idea de Notion?
@@ -794,7 +789,6 @@ const TallerSistemaGestionTiempo = () => {
             verlo.
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">
             ¿Necesito algún material para realizar el taller?
@@ -811,7 +805,6 @@ const TallerSistemaGestionTiempo = () => {
             mientras te tocas un pie.
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">
             ¿Existe algún tipo de garantía de devolución?
@@ -824,7 +817,6 @@ const TallerSistemaGestionTiempo = () => {
             hagas.
           </p>
         </div>
-
         <div className="pb-12">
           <h2 className="text-2xl">¿Cuál es su precio? ¿Bajará alguna vez?</h2>
           <br></br>
@@ -848,7 +840,6 @@ const TallerSistemaGestionTiempo = () => {
           </p>
           <p>Dicho esto, la decisión final por supuesto, es tuya.</p>
         </div>
-
         <StripeButton
           urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
           price={STRIPE_BUTTON_CONFIG.price}
