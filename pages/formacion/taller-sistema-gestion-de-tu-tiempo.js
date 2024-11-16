@@ -15,10 +15,15 @@ const TallerSistemaGestionTiempo = () => {
       <div className=" sm:overflow-hidden sm:rounded-xl"></div>
       <section className="pt-10 ">
         <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
-          Tienes tu día planeado, vas a madrugar y ser responsable.
+          {" "}
+          Tienes tu día planeado, vas a madrugar y ser productivo, mucho.
           <br></br>
-          Vas a hacer lo que se supone que debes hacer y no te vas a desviar.
-          <br></br>O no.
+          <br></br>
+          Vas a hacer lo que se supone que debes hacer y no te vas a desviar de
+          tu plan.
+          <br></br>
+          <br></br>
+          Hoy no.
         </h1>
         <br></br>
         <br></br>
@@ -26,13 +31,16 @@ const TallerSistemaGestionTiempo = () => {
 
         <p>
           Vas a madrugar, desayunar en condiciones, ir al gym, trabajar sin
-          permitir interrupciones, vas a salir a cierta hora y regresar a casa
-          para empezar tu proyecto personal.
+          permitir interrupciones que te sacan del foco, vas a salir a tu hora y
+          regresar a casa para empezar tu proyecto personal.
         </p>
         <p>
-          Y vas a dormir pronto sin mirar el móvil dos horas antes que dicen que
-          va fatal para el insomnio.
+          Y por supuesto te vas a ir dormir pronto, nada de transnochar viendo
+          series de neftlix, y sin no vas a mirar el móvil dos horas antes de
+          dormir, que los que saben dicen que va fatal para el insomnio.
         </p>
+        <br></br>
+        <p>Tienes tu día planeado.</p>
         <br></br>
         <p>Pero…</p>
         <br></br>
@@ -49,14 +57,18 @@ const TallerSistemaGestionTiempo = () => {
         <p>Ay, entonces.</p>
         <br></br>
         <p>
-          Entonces cancelas el gym, sales dos horas más tarde y te abrazas al
-          móvil hasta la hora de dormir que, por supuesto, es tres horas después
-          de lo que deberías.
+          Entonces el desayuno en condiciones se convierte en una paquete de
+          galletas y un café rápido, cancelas el gym, sales dos horas más tarde
+          y cuando llegas a casa de comprar en Mercadona y hacerte el táper para
+          el próximo día, te tiras al sofá y solo quieres ver Neftlix y vídeos
+          de gatos en tu móvil hasta la hora de dormir, que, por supuesto, es
+          tres horas después de lo que deberías.
         </p>
         <p>
-          Te dices cosas como que ya la vida es así, que mañana irá mejor, que
-          conseguirás sacar tiempo para tu proyecto alguna tarde, o que
-          necesitas un rato de desconexión.
+          Te dices cosas como que la vida es así, que nos pasa a todos, que
+          mañana irá mejor, que conseguirás sacar tiempo para tu proyecto alguna
+          tarde, o que mas adelante estarás más tranquilo, cuando te asciendan,
+          o cuando te echen y así cobras el paro…
         </p>
         <br></br>
         <p>¿Te das cuenta?</p>
@@ -64,24 +76,32 @@ const TallerSistemaGestionTiempo = () => {
         <p>Sigo por si no te das cuenta. </p>
         <p>Por si no lo entiendes.</p>
         <p>
-          Porque tú estás <i>motivada</i> .
+          Porque en realidad tú estás <i> motivada, tú quieres hacerlo.</i>
         </p>
 
         <br></br>
 
-        <p>Simplemente, es que “no tienes tiempo”. </p>
-        <p>Es que “siempre pasan cosas”. </p>
+        <p>
+          Simplemente, es que <i> “no tienes tiempo”. </i>
+        </p>
+        <p>
+          Es que <i>“siempre pasan cosas”. </i>{" "}
+        </p>
         <br></br>
         <p>Pero tú estás motivada. </p>
         <br></br>
-        <p>Y sé lo que piensas.</p>
-        <p>Sé que piensas que es el dinero, si tuvieras más. </p>
-        <p>O el conocimiento, esa cosa que te queda por aprender. </p>
+        <p>Tú quieres, es la vida… que está de que no.</p>
+        <p>La vida…, o si tuvieras más dinero.</p>
         <p>
-          El carisma, la inteligencia o la belleza, que no tienes suficiente.{" "}
+          O esa cosa que te queda por aprender, ese curso que te falta por
+          hacer.{" "}
         </p>
         <p>
-          Esa cosa que acabar o solucionar y que cuando esté hecha entonces ya
+          Si tuvieras carisma, la inteligencia o la belleza, que no tienes
+          suficiente.{" "}
+        </p>
+        <p>
+          Esa tarea que acabar o solucionar y que cuando esté hecha entonces ya
           sí, por fin podrás hacer lo que te propongas.
         </p>
         <br></br>
@@ -89,10 +109,14 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <p>
           {" "}
-          <span className="text-red-500 italic font-bold">Lo sé</span> porque yo
-          también me he dicho esas cosas.{" "}
+          <span className="text-red-500 italic font-bold">Lo sé</span> porque no
+          te he escrito esto a ti.
         </p>
-        <p>Pero no. </p>
+        <p>
+          Me lo escribí a <b>mí </b> hace un tiempo.
+        </p>
+
+        <p>¿Y sabes qué?? que la solución, duele, acojona, escuece.</p>
 
         <p>
           <b>Tu mayor dificultad,</b> tu mayor enemigo, lo que te impide hacer
@@ -109,19 +133,29 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <p>
           No quieres asumirla, porque eso significa aprender a priorizar y
-          esforzarte, y porque más fácil decir “me falta tiempo”.
+          esforzarte, y porque es más fácil decir “me falta tiempo”.
         </p>
         <p>Y también, más de pobres, por cierto. </p>
-        <br></br>
+
         <p>
-          Eso es lo que te quería decir en esta carta de ventas. Que la
-          responsabilidad sobre tu tiempo es todo, es la primera pieza del
-          efecto dominó que lo arregla todo.
+          Cómo le gusta a la gente decir: “estoy muy liado”, “ no tengo tiempo
+          para nada”.
+        </p>
+
+        <p>
+          Si tú también “estás muy liada” y “no tienes tiempo para nada”,
+          quédate con una cosa, solo con una. Esta.
+        </p>
+        <p>
+          <b>
+            La responsabilidad sobre tu tiempo es todo, es la primera pieza del
+            efecto dominó que lo arregla todo.
+          </b>
         </p>
         <br></br>
         <p>
-          Si te interesa solucionarlo apúntate al taller: Sistema gestión de tu
-          tiempo.
+          Si te interesa solucionarlo apúntate al Taller: El Sistema De Gestión
+          De Tu Tiempo.
         </p>
         <br></br>
         <br></br>
@@ -155,55 +189,53 @@ const TallerSistemaGestionTiempo = () => {
         <ul className="pl-6">
           <li>
             <b>
-              A solucionar la sensación de culpa al acostarte sin haber hecho lo
-              que querías y decir, “bueno, mañana lo vuelvo a intentar.”
+              No volverte a acostar con la sensación de culpa por no haber hecho
+              lo que querías y decir, “bueno, mañana lo vuelvo a intentar.”
             </b>
           </li>
 
           <li>
-            Mi madre tenía la agenda más gorda y organizada del mundo. <br></br>
-            <br></br> Consistía en una carpeta muy pequeña con tapas de piel
-            granate y anillas interiores donde iba añadiendo, minuto a minuto,
-            sus tareas del día.<br></br>
-            <br></br>
-            Con siete hijos, trabajando y su agenda, llegó a ser tremendamente
-            productiva. <br></br>
-            <br></br>{" "}
             <b>
-              En el vídeo que te incluyo te enseñaré todo lo que aprendí sobre
-              el conocido <i>time blocking</i> , y cómo poder adaptar el método
-              de bloques de tiempo a ti y a tu empresa{" "}
+              El extraño y sencillo hábito que hacen el 100% de los asalariados{" "}
             </b>
-            sin necesidad de tener una agenda de ama de casa ni ser rígida
-            minuto a minuto.
-          </li>
-
-          <li>
-            Las <b>3 cosas que casi nadie sabe de la gestión del tiempo</b> y
-            hace que sientas que el día se te escapa y cómo solucionarlo en una
-            sola tarde. Y eso que el taller son dos días.
-          </li>
-
-          <li>
-            Un detalle crucial para que tu tiempo trabaje a tu favor (y no al
-            revés). <b> Te lo contaré el primer día del taller.</b>
-          </li>
-
-          <li>
-            La forma en la que organices tus horas{" "}
-            <b>
-              va a definir si tu negocio crece o si simplemente te quedas como
-              estás.
-            </b>{" "}
-            En este taller te enseño cómo hacerlo. Y cuando digo negocio, puede
-            ser trabajo, estudios, oposición, proyecto… Tu vida.
+            (y casi ningún emprendedor), por el que son capaces de tomarse una
+            cerveza al salir del trabajo, o ir al gym, o hacer cerámica, o
+            tocarse la minga, sin sentir culpa por no seguir hincando codos.
+            Esto me pasó mucho tiempo a mí.
           </li>
 
           <li>
             <b>
-              La pregunta que debes hacerte cada vez que te sientas a trabajar.
-              El primer día del taller.
+              Si empiezas el día apagando fuegos (que algunos ni son tuyos), y
+              dejas lo importante para después,
+            </b>
+            necesitas saber lo que te explico en el primer día
+          </li>
+          <li>
+            <b>
+              Las 5 sencillas técnicas que casi nadie aplica de la gestión del
+              tiempo{" "}
             </b>{" "}
+            y hace que sientas que el día se te escapa y cómo solucionarlo en
+            una sola tarde (y eso que el taller son dos días).{" "}
+          </li>
+
+          <li>
+            La manera en la que usas tu tiempo define si avanzas o te estancas.
+            e explicaré las herramientas para que{" "}
+            <b>
+              {" "}
+              nunca más sientas que pierdes el control y aun si lo pierdes, cómo
+              retomarlo de un día para otro. Porque imprevistos tenemos todos.
+            </b>
+          </li>
+
+          <li>
+            <b>La razón real de que tengas mil cosas empezadas </b> (proyectos,
+            tareas, ideas…) y ninguna terminada, todo a medias, sientes que no
+            avanzas, y eso te frustra más todavía.{" "}
+            <b>Y la solución a ese problema de prioridades,</b> durante el
+            primer día.{" "}
           </li>
         </ul>
 
@@ -212,54 +244,153 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <p>
-          Por cierto. Seguro que tú tb te has dicho alguna vez eso de:{" "}
-          <b> esto es solo para los “organizados”.</b> Bueno. Con el primer día
-          del taller aprenderás un Sistema de gestión del tiempo que te hará
-          tomar el control de tus objetivos incluso si odias planificar.
+          <b>Por cierto.</b>
+        </p>
+        <p>
+          <b>Por cierto.</b>
         </p>
 
+        <p>
+          Si piensas que hay dos grupos de personas, los que son productivos y
+          orgnaizados y los que son un desastre y caos, y crees que es algo
+          imposible de aprender.
+        </p>
+
+        <p>
+          Si no tienes una rutina diaria. Si cada día empiezas de cero,
+          improvisando, apagando incendios. Sin un plan claro, sin una
+          constante, y al final del día, te preguntas por qué no avanzas en lo
+          que realmente importa.{" "}
+          <b>
+            Si quieres saber cómo generar un sistema de gestión de tiempo diario
+            sin caer en tópicos como “date recompensas”.
+          </b>
+        </p>
+
+        <p>
+          Esto NO lo veremos en el taller, lo recibirás en un BONUS{" "}
+          <b>en cuanto compres.</b>{" "}
+        </p>
         <br></br>
         <br></br>
         <br></br>
+        <br></br>
+
+        <p>Sigo</p>
         <br></br>
 
         <ul className="pl-6">
           <li>
-            La manera en la que usas tu tiempo define si avanzas o te estancas.
-            Este taller te da una estructura para que{" "}
-            <b> nunca más sientas que pierdes el control.</b>
+            Hay gente que no se planifica la semana, y gente que se la planifica
+            mal. <b>Siento decirte que, posiblemente, lo estés haciendo mal.</b>{" "}
+          </li>
+          <li>
+            La forma en la que organices tus horas{" "}
+            <b>
+              {" "}
+              va a definir si tu negocio crece o si simplemente te quedas como
+              estás.
+            </b>{" "}
+            Te enseño cómo hacerlo. Y cuando digo negocio, puede ser trabajo,
+            estudios, oposición, proyecto… Tu vida.
+          </li>
+          <li>
+            Si tú también te pones excusas como “mi vida es más complicada” “yo
+            no puedo hacer esto”, al principio del primer día del taller
+            hablaremos sobre por qué victimizarte te está robando tiempo por qué
+            tu situación en realidad es igual que la tu vecino.{" "}
+            <b>
+              ¿No te gusta esta idea? Apúntate porque lo necesitas más que
+              nadie.
+            </b>{" "}
+          </li>
+          <li>
+            <b>
+              La solución a sentirte atrapado donde no quieres estar, viendo
+              cómo otros sí avanzan,
+            </b>{" "}
+            y la solución a no ser capaz de sacar ni 30 minutos al día para
+            cambiar tu situación.{" "}
+          </li>
+          <li>
+            <b>
+              ¿Y si lo intento y no funciona cómo pago la hipoteca / alquiler?
+            </b>
+            Aunque sepas que esa estabilidad te está deprimiendo. Veremos cómo
+            responsabilizarte del tiempo que inviertes en lo que no te gusta por
+            culpa de estos miedos. El primer día.{" "}
+          </li>
+        </ul>
+
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
+
+        <h2 className="font-alternate px-16 ">
+          Y esto es lo que vas a aprender en el{" "}
+          <span className="text-red-500">segundo día…</span>
+        </h2>
+
+        <br></br>
+
+        <br></br>
+
+        <ul className="pl-6">
+          <li>
+            <b>
+              {" "}
+              La pregunta que debes hacerte cada vez que te sientas a trabajar y
+              cada vez que te fijas una meta.
+            </b>{" "}
+            Durante la última lección del último día del taller.{" "}
+          </li>
+          <li>
+            Si has probado toggl, Notion, assana, trello… Y aún así nada te
+            funciona porque sientes que pierdes más tiempo organizando tus
+            objetivos que trabajando. Te diré cómo volcar esa situación,{" "}
+            <b>
+              usando la herramienta que uses, con una idea totalmente
+              contraintuitiva.{" "}
+            </b>
+          </li>
+          <li>
+            Un detalle crucial, y muy sutil, para que tu tiempo trabaje a tu
+            favor (y no al revés).{" "}
+            <b> Te lo contaré el segundo día del taller.</b>
+          </li>
+          <li>
+            <b>
+              Puedes seguir autoengañándote y decirte que "ya habrá tiempo" para
+              ese proyecto.{" "}
+            </b>{" "}
+            Pero en el fondo sabes que si no haces algo ahora, seguirás
+            esperando el "momento perfecto" forever and ever.
+          </li>
+          <li>
+            Si piensas que este tipo de talleres no te funcionan porque{" "}
+            <b> “es solo para los organizados” </b>con el segundo día del taller
+            aprenderás un Sistema de gestión del tiempo muy sencillo, que de tan
+            sencillo te hará tomar el control de tus metas incluso si odias
+            planificar.
           </li>
 
           <li>
-            <b>Una manera muy sutil de ganar tiempo cada día… </b>que no se te
-            había ocurrido porque nadie te la ha explicado.
+            El error que muchos cometen al gestionar sus objetivos y que les
+            deja
+            <b>sintiéndose agotados pero sin avanzar.</b> El segundo día veremos
+            la solución.
           </li>
-
-          <li>
-            El error que muchos cometen con el tiempo y que les deja{" "}
-            <b>sintiéndose agotados</b> pero sin avanzar. Aquí tendrás la forma
-            de solucionarlo.
-          </li>
-
           <li>
             Una manera muy sutil de ser{" "}
             <b>mucho más productivo (sin hacer más horas).</b> Te enseño cómo.
           </li>
-
           <li>
-            La pregunta que transforma cómo te organizas cada día:{" "}
-            <b>
-              {" "}
-              ¿Estás trabajando hacia tus objetivos o solo tachando tareas?
-            </b>{" "}
-            Con este taller de Notion lo verás claro.
-          </li>
-
-          <li>
-            La razón de que pasen los días sin que hayas avanzado con tu
-            proyecto, con esa sensación de{" "}
-            <b> “solo he estado en reunions” “solo he contestado emails”,</b> y
-            la forma de evitarlo para focalizarte en lo que realmente quieres.
+            <b>¿Estás trabajando hacia tus metas o solo tachando tareas? </b>La
+            razón de que pasen los días sin que hayas avanzado con tu proyecto,
+            con esa sensación de{" "}
+            <b> “solo he estado en reunions” “solo he contestado emails”</b>, y
+            la forma de evitarlo para focalizarte en lo que realmente quieres.{" "}
           </li>
         </ul>
 
@@ -281,7 +412,7 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <br></br>
-        <h2 className="font-alternate px-16 ">
+        <h2 className="font-alternate ">
           Vale, pero soy un ansias de las plantillas de Notion y quiero saber de
           qué va la plantilla que me vas a dar.
         </h2>
@@ -311,72 +442,55 @@ const TallerSistemaGestionTiempo = () => {
         <br></br>
         <br></br>
         <br></br>
-        <ol>
+        <ol className="pl-6">
           <li>
-            Es fácil decirte que{" "}
+            <span className="font-bold ">
+              ¿Quién paga el pato: tú o tu cliente?
+            </span>
+            <br></br>Si trabajas por hora, descubre en tiempo real si estás
+            quemando horas de más en un proyecto y decide si ajustas tu bolsillo
+            o ajustas el presupuesto. Esta plantilla lo calcula todo por ti.
+          </li>
+
+          <li>
+            <strong>¿Cobras por proyecto fijo? Esto te interesa.</strong>{" "}
+            <br></br> A cada hora extra que dedicas, tu rentabilidad se
+            desploma. Pero con esta herramienta sabrás exactamente cuánto estás
+            perdiendo (o ganando) y pondrás un petardo en el culo a tu
+            productividad.
+          </li>
+
+          <li>
+            <strong> Fichar nunca fue tan honesto.</strong> <br></br> ¿Equipo o
+            solitario? Con esta plantilla sabrás al minuto cuánto tiempo dedicas
+            a cada tarea, proyecto o cliente. Y si trabajas en equipo, todos
+            verán la verdad del tiempo invertido. Si emprendes solo serás
+            honesto contigo mismo y con tu tiempo, que no es poco.
+          </li>
+
+          <li>
+            <strong> El kit anti-reuniones absurdas.</strong> <br></br>Programa,
+            define asistentes, establece objetivos y calcula el tiempo que te
+            roban (o te aportan).
+          </li>
+
+          <li>
             <strong>
-              si cobras por hora la plantilla calcula el total ganado por cada
-              proyecto.
+              Lo peor que te puede pasar en una reunión es no sirva para nada.{" "}
             </strong>{" "}
-            Sí, también hace eso.<br></br> Pero lo que duele más es saber si has
-            cumplido las horas que estimabas al principio o si te has pasado y,
-            por tanto, quién paga el pato: tú cobrando menos, o el cliente.
-            <br></br> Con esta plantilla podrás calcularlo.
+            <br></br>Con plantillas específicas para cada tipo de reunión: 1to1,
+            brainstorming, retrospectiva… podrás añadir recursos útiles y
+            asegurarte de que todos llegan preparados. Reuniones que funcionan,
+            punto.
           </li>
 
           <li>
-            Si en cambio{" "}
-            <strong>trabajas con presupuestos fijos por proyecto</strong>, como
-            es mi caso actualmente,{" "}
-            <strong>
-              es jodido ver que cuánto más tiempo inviertes en un proyecto,
-              menos rentable te sale la hora.
-            </strong>{" "}
-            <br></br>
-            Pero saberlo te mete un petardo en tu culo para ser más productivo.
-            Podrás establecer ese presupuesto en la plantilla y saber con
-            fórmulas automatizadas, o sea, sin que tengas que hacer tú nada,
-            cuánto repercute cada hora a tiempo real vs el tiempo que estimabas
-            invertir.
-          </li>
-
-          <li>
-            Si trabajáis en <strong>equipo</strong> tendréis la{" "}
-            <strong>herramienta más completa y honesta para fichar</strong>,
-            siendo accesible para todos el tiempo que dedica cada persona por
-            proyecto, por tarea, por día… Si emprendes solo serás honesto
-            contigo mismo y con tu tiempo, que no es poco.
-          </li>
-
-          <li>
-            La herramienta de{" "}
-            <strong>
-              gestión de reuniones que te hará evitar uno de los errores más
-              comunes
-            </strong>{" "}
-            cuando se empieza a trabajar en equipo: decenas de reuniones no
-            contabilizadas e inútiles. <br></br> Podrás programarlas, definir
-            asistentes, objetivos, conclusiones y, sobre todo, contabilizarlas.
-            Sabrás exactamente cuánto tiempo de cada proyecto se ha invertido en
-            reuniones.
-          </li>
-
-          <li>
-            El gestor de reuniones también incluye{" "}
-            <strong>plantillas específicas según el tipo de reunión</strong>:
-            1to1, brainstorming, retrospectiva… podrás definir los objetivos de
-            la reunión antes de que empiece o añadir recursos para que los
-            asistentes vayan preparados.
-          </li>
-
-          <li>
-            Los gurús de productividad pusieron de moda hace unos años los{" "}
-            <strong>cronogramas de proyectos</strong>. <br></br> Pero si no
-            tienes forma de contabilizar el avance… de poco te sirve ver los
-            proyectos en una gráfica cuqui. <br></br> En esta plantilla tienes
-            la gráfica <em>cuqui</em> junto con barras de progreso asociadas a
-            las tareas que vas completando. Y como la plantilla es un Time
-            Tracker, podrás{" "}
+            <strong>No necesitas gráficos cuquis; necesitas resultados.</strong>
+            . <br></br> Si no tienes forma de contabilizar el avance… de poco te
+            sirve ver los proyectos en una gráfica cuqui. <br></br> En esta
+            plantilla tienes la gráfica <em>cuqui</em> junto con barras de
+            progreso asociadas a las tareas que vas completando. Y como la
+            plantilla es un Time Tracker, podrás{" "}
             <strong>
               fijarte objetivos de tiempo para cada proyecto y ver a tiempo real
               las horas trabajadas por proyecto
@@ -385,29 +499,28 @@ const TallerSistemaGestionTiempo = () => {
           </li>
 
           <li>
-            Con esta plantilla podrás personalizar y contabilizar bloques de
-            gestión de tiempo, para saber dónde pierdes más tiempo (llamadas,
-            reuniones, emails), qué te bloquea, qué puedes delegar.
+            <strong>Dónde pierdes el tiempo y cómo dejar de perderlo.</strong>{" "}
+            <br></br>
+            Personaliza y contabiliza bloques de gestión de tiempo, para saber
+            dónde pierdes más tiempo (llamadas, reuniones, emails), qué te
+            bloquea, qué puedes delegar.
           </li>
 
           <li>
-            El tiempo que perdía obcecada en una misma tarea, una hora, tras
-            otra, no lo sabe nadie. Yo tampoco. Con esta plantilla de Time
-            Tracker no solo se calcula automáticamente la{" "}
+            <strong>Ponle un límite al tiempo que pierdes.</strong> <br></br>
+            Calcula automáticamente la{" "}
             <strong>suma del tiempo invertido en una tarea</strong>, además
             marcarás de antemano <strong>límites de tiempo</strong> para ser
             consciente de si algo te está bloqueando.
           </li>
 
           <li>
-            Cuando intraemprendí con una interiorista tenía que fichar en toggl
-            las tareas, para luego añadir a mano esas mismas tareas en un
-            Trello, donde se desarrollaban. Con esta plantilla{" "}
-            <strong>
-              no perderás tiempo duplicando información de tus proyectos
-            </strong>
-            . Tiempos, tareas, proyectos, clientes… Todo queda enlazado
-            automáticamente.
+            <strong>Olvídate de duplicar datos.</strong>
+            <br></br>
+            Registra tus tareas una sola vez: fichar en toggl, para luego añadir
+            a mano esas mismas tareas en Trello, y hacer el cronograma en excel.
+            Deja que todo se enlace automáticamente. Tiempos, proyectos,
+            clientes… Todo sincronizado sin malgastar un segundo más.
           </li>
         </ol>
 
@@ -427,20 +540,20 @@ const TallerSistemaGestionTiempo = () => {
         <div className="pb-12">
           <h2 className="text-2xl">Realmente, ¿qué incluye?</h2>
           <br></br>
-          <ul>
+          <ul className="pl-6">
             <li>
-              <b> Dos directos y si no puedes asistir, las grabaciones:</b>{" "}
+              <b>
+                {" "}
+                Dos directos y si no puedes asistir, tendrás las grabaciones:
+              </b>{" "}
               <br></br>
-              <span className="text-terracotta font-bold">
-                Día 14 de diciembre a las 16.00 h(Valencia):{" "}
-              </span>{" "}
-              sistema para gestionar tu tiempo. <br></br>{" "}
-              <span className="text-terracotta font-bold">
-                Día 15 de diciembre a las 16.00 h(Valencia):{" "}
-              </span>{" "}
-              taller para aprender a usar e implementar las plantillas en tu
-              flujo de trabajo (aplicando las técnicas que vimos el día
-              anterior.{" "}
+              <span className="text-red-500 font-bold ml-8">
+                Día 14 de diciembre a las 16.00 h(Valencia)
+              </span>
+              <br></br>
+              <span className="text-red-500 font-bold ml-8">
+                Día 15 de diciembre a las 16.00 h(Valencia)
+              </span>
             </li>
             <li>
               {" "}
@@ -451,11 +564,29 @@ const TallerSistemaGestionTiempo = () => {
               <b>Vídeo privado </b>para aprender a usar Notion Calendar
             </li>
             <li>
-              Las <b>plantillas de Notion </b> para conocer cuánto has ganado
+              Las <b>plantillas de Notion </b> para conocer cuánto has ganado{" "}
               <b>
                 contabilizando tus horas con este gestor de proyectos, tareas y
                 clientes (para equipos, o no).{" "}
               </b>
+            </li>
+          </ul>
+
+          <p>
+            <i>
+              Importante: Estas plantillas tendrá un nivel acorde al que vas a
+              recibir en el taller, ese es el motivo de que no comparta contigo
+              la plantilla hasta que el directo haya finalizado. Me interesa que
+              aprendas, no que te frustres con una plantilla que seguramente no
+              sepas personalizar aún. Después del taller, sabrás.
+            </i>
+          </p>
+
+          <ul className="pl-6">
+            <li>
+              Un <b>bonus de bienvenida </b> sobre gestión de tiempo diario que
+              solo por el valor que te va a aportar (si lo implementas), ya
+              justifica con creces el precio del taller.{" "}
             </li>
           </ul>
         </div>
@@ -465,7 +596,6 @@ const TallerSistemaGestionTiempo = () => {
             ¿Cuánto durarán los directos del día 14 y 15?
           </h2>
           <br></br>
-          {/* Voy por aqui */}
           <p>
             No sé cuánto durará, estaremos el tiempo que haga falta, ni me
             enrollaré con paja ni cortaré a una hora. <br></br> Si te tienes que
@@ -477,23 +607,104 @@ const TallerSistemaGestionTiempo = () => {
 
         <div className="pb-12">
           <h2 className="text-2xl">
-            ¿Qué perfil de persona le sacará mejor partido? ¿Sirve para equipos?
+            Si no puedo asistir al directo… ¿Queda grabado? ¿Durante cuánto
+            tiempo tendré acceso a la grabación?
           </h2>
           <br></br>
           <p>
-            La respuesta a esta pregunta es muy sencilla. <br></br>No te voy a
-            decir una frase motivacional del tipo “cualquier persona que quiera
-            despedir a su jefe y ser más libre”.<br></br> No. No hace falta
-            despedir a tu jefe para tener el control de tu tiempo, de eso va
-            este taller. <br></br>Este taller es para cualquier persona que
-            quiera gestionar su tiempo de forma consciente.<br></br>{" "}
-            <b>
-              Qué tiempo dedicas en el trabajo y, por tanto, qué tiempo te
-              dedicas a ti misma, trabajes solo, en equipo, vendas pisos, o
-              hagas mentorías.
-            </b>
-            <br></br> En cualquier caso, nadie mejor que tú para saber si te
-            conviene.
+            Sí. Todo se quedará grabado, podrás acceder a él cuando quieras, las
+            veces que quieras. Además el taller tendrá lecciones bien
+            estructuradas, para que cuando vuelvas a ver la grabación te sea
+            mucho más fácil el aprendizaje. Estará colgado durante al menos un
+            año, eso está garantizado, aunque probablemente será más. No sé
+            cuánto, pero vamos, que podrás verlo 100 veces si eso es lo que te
+            mola.
+          </p>
+
+          <p>
+            Esto es así porque alojarlo cuesta dinero, me puedo morir y mil
+            otras cosas.<br></br> Al ser un curso online hay varios servicios de
+            pago que tienen que estar en funcionamiento para poder ofrecerlo.
+          </p>
+        </div>
+
+        <div className="pb-12">
+          <h2 className="text-2xl">
+            ¿Qué perfil de persona le sacará mejor partido? ¿Sirve para equipos?
+          </h2>
+          <br></br>
+
+          <ul className="pl-6">
+            <li>
+              Si sientes que <b> no tienes las herramientas adecuadas,</b> que
+              has probado Notion, assana, trello, toggl, google, tooodas, pero
+              no hay forma de tener objetivos y tareas claras.
+            </li>
+            <li>
+              Si no has probado ninguna de esas herramientas, y solo usabas una
+              agenda de papel.
+            </li>
+            <li>
+              <b>
+                Si pasan los días, meses, semanas, sin que avances en tu
+                proyecto y sin embargo no paras de trabajar.{" "}
+              </b>
+              ¿El problema está en tus metas, en tus tareas? ¡¿Qué está mal?!
+            </li>
+            <li>
+              Si estás hasta el moño de que{" "}
+              <b> tus vacaciones dependan de lo que dice un convenio </b>y del
+              mood de tu jefe machirulo cuando le vas a pedir las vacaciones.
+            </li>
+            <li>
+              Si has probado{" "}
+              <b>
+                {" "}
+                gestión de objetivos con Smart goals, con OKRs, el método Woop,
+                la Matriz de Prioridades… De todo.
+              </b>{" "}
+              Y te dedicas a perder tiempo probando otro nuevo método de
+              objetivos para tu equipo, y sigues viendo que no funciona. Y
+              pruebas otro método. Y vuelves a ver que no funciona.
+            </li>
+            <li>
+              Si sufres de <b>procrastinación constante </b> pero no te ves
+              capaz de dejar de ver la tele 2 horas por la noche antes de
+              dormir.{" "}
+            </li>
+
+            <li>
+              <b>
+                Si te sientes agotada constantemente y trabajas un huevo, pero a
+                la vez no llegas a tus metas.
+              </b>{" "}
+              Veremos cómo puedes gestionar bien tu energía y tus prioridades.
+            </li>
+            <li>
+              <b>Si tienes sentimiento de culpa</b> cuando te dedicas tiempo a
+              ti, pensando en lo que no has hecho para avanzar. Pero realmente
+              no tienes{" "}
+              <b>
+                ni puta idea de cuánto tiempo le dedicas al trabajo, y por
+                tanto, qué tiempo te dedicas a ti misma,
+              </b>{" "}
+              trabajes solo, en equipo, vendas pisos, o hagas mentorías.{" "}
+            </li>
+          </ul>
+
+          <p>
+            Si estás en al menos una de las situaciones anteriores,{" "}
+            <b> deberías apuntarte.</b>{" "}
+          </p>
+          <p>
+            Y si estás ahí, sabes que son situaciones que se sufren tanto a
+            nivel individual, pero tb cuando se trabaja en equipo. Además, una
+            de las plantillas está específicamente pensada para trabajo en
+            equipo y para gestión de tiempo en equipo. ¿Que trabajas solo?
+            Perfecto, tendrás otra plantilla adaptada a trabajo individual.{" "}
+          </p>
+          <p>
+            En cualquier caso, nadie mejor que tú para saber si te conviene.{" "}
           </p>
         </div>
 
@@ -501,12 +712,31 @@ const TallerSistemaGestionTiempo = () => {
           <h2 className="text-2xl">¿Tiene sorporte?</h2>
           <br></br>
           <p>
-            Sí. Incluye soporte durante 1 mes desde el día 15. <br></br>La
-            resolución será grupal, es decir, no solo recibirás soporte a tus
-            dudas, sino que recibirás las preguntas y respuestas del resto de
-            los asistentes.<br></br> La experiencia me ha demostrado que hacerlo
+            Cuando finalice el taller en directo, me podrás enviar tus dudas
+            durante 1 mes. <br></br>Me parece tiempo más que de sobra para que
+            si no has podido acudir al directo, puedas verlo. Pasado ese tiempo
+            resvisaré todas las dudas, las agruparé y te compartiré las
+            respuestas. O sea, no solo contestaré a tu duda, si no que podrás
+            ver las preguntas de otras personas y que seguramente también te
+            ayuden.
+          </p>
+
+          <p>
+            Eso sí, responderé dudas que tengan que ver con el taller. Me
+            explico. si me preguntas cómo hacer una fórmula avanzada para
+            contabilizar el tiempo en el que te quitas los pelos de tu pie, pues
+            no. No porque tenga nada en contra de los pelos de tu pie, sino{" "}
+            <b>
+              {" "}
+              por respeto a mi tiempo y al de quienes lo compréis que vais a
+              recibir las respuestas.
+            </b>
+          </p>
+
+          <p>
+            La experiencia me ha demostrado que hacer la resolución grupal
             duplica el valor del soporte dado, porque respondes dudas que aún no
-            tienes, pero seguramente en el futuro sí.{" "}
+            tienes pero seguramente en el futuro sí.{" "}
           </p>
         </div>
 
@@ -548,21 +778,38 @@ const TallerSistemaGestionTiempo = () => {
           <br></br>
           <p>
             No te voy a decir que es como ir en barca porque si usas Notion,
-            sabes que tiene una curva de aprendizaje.<br></br> Pero es eso, con
-            que conozcas Notion te vale. <br></br>El sistema de gestión de
-            tiempo podrías aplicarlo en cualquier herramienta, no solo Notion.
-            <br></br>
-            Pero obviamente lo aplicaremos usando Notion. <br></br>Respecto a
-            las plantillas, ya vienen con todo predefinido y en el taller
-            veremos cómo usarlas paso a paso, y posteriormente recibirás la
-            grabación por si en el futuro te entrasen dudas.
+            sabes que tiene una curva de aprendizaje. Esto lo sabemos todos y
+            decir lo contrario sería mentirte. Pero con que conozcas Notion, te
+            vale.
+          </p>
+          <p>
+            Las técnicas de gestión de tiempo que voy a enseñar podrías
+            aplicarlas con cualquier herramienta, no solo Notion. Pero
+            obviamente todo lo aplicaremos usando Notion.{" "}
+          </p>
+          <p>
+            Respecto a las plantillas, ya vienen con todo predefinido y en el
+            taller veremos cómo usarlas paso a paso. Además recibirás la
+            grabación por si en el futuro te entrasen dudas puedas volver a
+            verlo.
           </p>
         </div>
 
         <div className="pb-12">
-          <h2 className="text-2xl">¿Das algún bonus?</h2>
+          <h2 className="text-2xl">
+            ¿Necesito algún material para realizar el taller?
+          </h2>
           <br></br>
-          <p>Puede que sí. O no. Lo sabrás cuando compres.</p>
+          <p>
+            En la página principal del taller tendrás todas las recomendacioens
+            para venir preparada al directo. Por resumir,{" "}
+            <b>
+               tener una cuenta de Notion creada, y no sirve estar de oyente
+              pasivo,
+            </b>
+             no aprenderás. Este no es un taller que puedas ponerte de fondo
+            mientras te tocas un pie.
+          </p>
         </div>
 
         <div className="pb-12">
@@ -579,24 +826,6 @@ const TallerSistemaGestionTiempo = () => {
         </div>
 
         <div className="pb-12">
-          <h2 className="text-2xl">¿Es muy caro? ¿Es barato?</h2>
-          <br></br>
-          <p>Si te planteas eso, entonces no lo compres. </p>
-          <p>
-            Te lo digo completamente en serio. No es una estrategia de venta, no
-            lo compres, porque si valoras un contenido formativo por su duración
-            o cantidad de contenido no tienes la mentalidad adecuada para
-            sacarle provecho al taller.
-          </p>
-          <p>
-            Es decir, lo entenderás e incluso lo podrás poner en práctica, pero
-            hay pequeños detalles, cuestiones de actitud, cosas casi
-            imperceptibles, que te harán tomar decisiones incorrectas que harán
-            que lo que cuento en el taller no te sirva de nada.
-          </p>
-        </div>
-
-        <div className="pb-12">
           <h2 className="text-2xl">¿Cuál es su precio? ¿Bajará alguna vez?</h2>
           <br></br>
           <p>
@@ -604,9 +833,18 @@ const TallerSistemaGestionTiempo = () => {
             {STRIPE_BUTTON_CONFIG.price} y nunca bajará.
           </p>
           <p>
-            Nunca hago ofertas, ni black fridays, ni rebajas, ni nada. Es más,
-            si de algo puedes estar seguro es que con el paso del tiempo el
+            <b>Nunca hago ofertas, ni black fridays, ni rebajas, ni nada.</b> Es
+            más, si de algo puedes estar seguro es que con el paso del tiempo el
             precio subirá.
+          </p>
+          <p>
+            ¿Por? Porque el contenido es de alto valor. Y si tú eres la típica
+            persona que juzga una formación por la cantidad de horas de
+            formación en vídeo que recibe, no tienes la mentalidad adecuada para
+            sacarle provecho al taller. Es decir, lo entenderás e incluso lo
+            podrás poner en práctica, pero habrá pequeños detalles, cuestiones
+            de actitud, cosas sutiles, que te harán tomar decisiones incorrectas
+            que harán que lo que cuento en el taller no te sirva de nada.
           </p>
           <p>Dicho esto, la decisión final por supuesto, es tuya.</p>
         </div>
