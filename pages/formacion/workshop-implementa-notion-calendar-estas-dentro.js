@@ -152,7 +152,28 @@ const workshopNotionCalendarEstasDentro = () => {
                 </li>
               </ol>
             </div>
+
             <div className=" mb-24">
+              <h2 className="font-alternate text-2xl leading-[52px]">
+                - Resolución dudas.
+              </h2>
+
+              <a
+                href={
+                  "https://emprendecon.notion.site/Resoluci-n-de-dudas-grupal-Workshop-Integra-Notion-Calendar-c0e20469f0864d5d8d07ed6301ae0387?pvs=74"
+                }
+                target="_blank"
+              >
+                <button
+                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
+                  type="submit"
+                >
+                  Ver resolución dudas
+                </button>
+              </a>
+            </div>
+
+            {/* <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - ¿Cómo funcionan las dudas?
               </h2>
@@ -180,7 +201,7 @@ const workshopNotionCalendarEstasDentro = () => {
                 prepare filtraré por ese asunto y si no me aparece no
                 contestaré.
               </p>
-            </div>
+            </div> */}
 
             {/* <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
@@ -222,10 +243,10 @@ const workshopNotionCalendarEstasDentro = () => {
                       Clica para acceder a plantilla bonus
                     </button>
                   </a>
-                </div>
-                <br></br>
-                <br></br>
-                <br></br> */}
+                </div> */}
+            <br></br>
+            <br></br>
+            <br></br>
 
             {/* <div className="mb-12">
               <h2 className="text-2xl">
