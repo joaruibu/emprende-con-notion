@@ -27,6 +27,7 @@ const Layout = ({ children }) => {
     tallerGestionHoras: "/formacion/taller-sistema-gestion-de-tu-tiempo",
     tallerGestionHorasEstasDentro:
       "/formacion/taller-sistema-gestion-de-tu-tiempo-estas-dentro",
+    consultoria: "/consultoria-de-notion",
   };
 
   const showNavbarPage = (pathname) => {

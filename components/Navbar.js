@@ -8,6 +8,7 @@ const navigation = [
   { name: "plantillas", href: "/plantillas" },
   { name: "sobre mí", href: "/sobre-mi" },
   { name: "blog", href: "/blog" },
+  { name: "consultoria", href: "/consultoria-de-notion", target: "_blank" },
   // { name: 'notion covers', href: '/notion-covers', },
 ];
 
@@ -45,6 +46,7 @@ export default function Navbar() {
               >
                 <a
                   key={item.name}
+                  target={item.target}
                   className={`text-xs font-sub block h-full text-black  hover:text-terracotta ${
                     item.href === pathname ? "text-terracotta" : ""
                   }`}
