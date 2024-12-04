@@ -5,7 +5,7 @@ const TallerSistemaGestionTiempo = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: "Taller: Sistema Gestión de tu tiempo",
     buttonText: "Empieza a gestionar tu tiempo",
-    price: "130€",
+    price: "140€",
     isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/session/554f7fe9d84b056197db3559dac594fe0acd1e92/init",
