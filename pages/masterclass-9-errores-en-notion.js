@@ -5,7 +5,7 @@ const masterclass9ErroresNotion = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: " Masterclass: 9 errores en Notion",
     buttonText: "Comprar Masterclass",
-    price: "40€",
+    price: "9€",
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/912a9c484e699412ef02f484203a4a1541d0a22f",
   };
