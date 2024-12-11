@@ -58,21 +58,19 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                 <i>
                   - Primer día del directo: sábado día 14 de diciembre a las
                   16:00h (Valencia). <br></br>- Segundo directo: domingo 15 de
-                  diciembre a las 16:00h (Valencia). <br></br>Cuando falten 24
-                  horas para el taller activaremos este botón con un enlace al
-                  directo. Te enviaré un recordatorio por email. :)
+                  diciembre a las 16:00h (Valencia).
                 </i>
               </p>
 
-              <a href={""} target="_blank">
+              <a href={"https://meet.google.com/ukr-xigc-pgf"} target="_blank">
                 <button
-                  disabled
-                  className=" opacity-30 rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
+                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark "
                   type="submit"
                 >
-                  Clica para acceder al directo
+                  Clica para acceder al directo del SABADO 14
                 </button>
               </a>
+
               {/* <p>
                 <i>
                   * Nota importante: esta masterclass contiene mucha
