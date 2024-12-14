@@ -14,7 +14,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
 
   return (
     <>
-      {isCorrectPassword(password) ? (
+      {!isCorrectPassword(password) ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
@@ -62,12 +62,12 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                 </i>
               </p>
 
-              <a href={"https://meet.google.com/ukr-xigc-pgf"} target="_blank">
+              <a href={"https://meet.google.com/dsg-cdfe-ohf"} target="_blank">
                 <button
                   className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark "
                   type="submit"
                 >
-                  Clica para acceder al directo del SABADO 14
+                  Clica para acceder al directo del DOMIGO 15
                 </button>
               </a>
 
@@ -79,14 +79,19 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                 </i>
               </p> */}
               <br></br>
+            </div>
 
-              {/* <iframe
-                src="https://drive.google.com/file/d/1VYKfAdQLuokoF-eXxTC56QHLXntutXWW/preview"
+            <div className=" mb-40">
+              <h2 className="font-alternate text-2xl leading-[36px]">
+                - Grabación Taller: Sistema gestión de tu tiempo - SÁBADO.
+              </h2>
+              <iframe
+                src="https://drive.google.com/file/d/1-Tygz_rUmVmkm4XcFB1wOXgLr0rKNHLu/preview"
                 width="100%"
                 height="432px"
                 allowFullScreen
               ></iframe>
-              <h4 className="my-8">
+              {/* <h4 className="my-8">
                 <a
                   href={
                     "https://emprendecon.notion.site/ndice-de-contenidos-workshop-gesti-n-de-calendarios-fe913358e1bc42c9a593005224c2838a?pvs=4"
@@ -98,6 +103,10 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                   Ver índice del taller
                 </a>
               </h4> */}
+              <i>
+                * Te publicaré el índice del taller cuando estén las dos
+                grabaciones
+              </i>
             </div>
 
             <div className=" mb-40">
@@ -238,38 +247,20 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               <h2 className="font-alternate text-2xl leading-[36px]">
                 - Plantillas de gestión de tiempo y fichaje de horas pro.
               </h2>
-              <p>
-                <i>
-                  Importante: Estas plantillas tendrá un nivel acorde al que vas
-                  a recibir en el taller, ese es el motivo de que
-                  <b>
-                    {" "}
-                     no comparta contigo la plantilla hasta que el directo haya
-                    finalizado.
-                  </b>
-                   Me interesa que aprendas, no que te frustres con una
-                  plantilla que seguramente no sepas personalizar aún.
-                </i>
-              </p>
 
-              <p>
-                <i>
-                  Cuando estén disponibles para duplicarlas, te avisaré por
-                  email.{" "}
-                </i>
-              </p>
-              {/*
               <a
-                href={"https://meet.google.com/vog-gjzo-tbd?authuser=2"}
+                href={
+                  "https://emprendecon.notion.site/plantilla-time-tracker-super-pro"
+                }
                 target="_blank"
               >
                 <button
                   className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
                   type="submit"
                 >
-                  Clica para acceder al directo
+                  Clica para duplicar plantilla
                 </button>
-              </a> */}
+              </a>
               {/* <p>
                 <i>
                   * Nota importante: esta masterclass contiene mucha
