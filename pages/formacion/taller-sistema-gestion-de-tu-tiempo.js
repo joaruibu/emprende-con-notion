@@ -4,9 +4,9 @@ import StripeButton from "../../components/StripeButton";
 const TallerSistemaGestionTiempo = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: "Taller: Sistema Gestión de tu tiempo",
-    buttonText: "Empieza a gestionar tu tiempo",
+    buttonText: "Upss, llegas tarde",
     price: "140€",
-    isDisabled: false,
+    isDisabled: true,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/session/554f7fe9d84b056197db3559dac594fe0acd1e92/init",
   };
