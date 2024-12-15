@@ -14,7 +14,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
 
   return (
     <>
-      {!isCorrectPassword(password) ? (
+      {isCorrectPassword(password) ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
@@ -107,6 +107,27 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                 * Te publicaré el índice del taller cuando estén las dos
                 grabaciones
               </i>
+            </div>
+
+            <div className=" mb-40">
+              <h2 className="font-alternate text-2xl leading-[36px]">
+                - Plantillas de gestión de tiempo y fichaje de horas pro.
+              </h2>
+
+              <a
+                href={
+                  "https://emprendecon.notion.site/plantilla-time-tracker-super-pro"
+                }
+                target="_blank"
+              >
+                <button
+                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
+                  type="submit"
+                >
+                  Clica para duplicar plantilla
+                </button>
+              </a>
+              <br></br>
             </div>
 
             <div className=" mb-40">
@@ -241,34 +262,6 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                   directo.{" "}
                 </li>
               </ol>
-            </div>
-
-            <div className=" mb-40">
-              <h2 className="font-alternate text-2xl leading-[36px]">
-                - Plantillas de gestión de tiempo y fichaje de horas pro.
-              </h2>
-
-              <a
-                href={
-                  "https://emprendecon.notion.site/plantilla-time-tracker-super-pro"
-                }
-                target="_blank"
-              >
-                <button
-                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
-                  type="submit"
-                >
-                  Clica para duplicar plantilla
-                </button>
-              </a>
-              {/* <p>
-                <i>
-                  * Nota importante: esta masterclass contiene mucha
-                  información, muchos detalles. Puedes volver a verla tantas
-                  veces como quieras, te recomiendo que lo hagas.
-                </i>
-              </p> */}
-              <br></br>
             </div>
 
             <div className=" mb-40">
