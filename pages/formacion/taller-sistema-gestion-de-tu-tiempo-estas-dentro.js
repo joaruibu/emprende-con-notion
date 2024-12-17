@@ -50,7 +50,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
             <br></br>
             <br></br>
 
-            <div className=" mb-40">
+            {/* <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[36px]">
                 - Taller: Sistema gestión de tu tiempo.
               </h2>
@@ -69,49 +69,66 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                 >
                   Clica para acceder al directo del DOMIGO 15
                 </button>
-              </a>
+              </a> */}
 
-              {/* <p>
+            {/* <p>
                 <i>
                   * Nota importante: esta masterclass contiene mucha
                   información, muchos detalles. Puedes volver a verla tantas
                   veces como quieras, te recomiendo que lo hagas.
                 </i>
-              </p> */}
+              </p> 
               <br></br>
-            </div>
+            </div>*/}
 
             <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[36px]">
-                - Grabación Taller: Sistema gestión de tu tiempo - SÁBADO.
+                - Taller en directo.
               </h2>
+
+              <h4 className="pl-12 pt-3">
+                <a
+                  href={
+                    "https://emprendecon.notion.site/indice-taller-gestion-tiempo-bonus"
+                  }
+                  target="_blank"
+                  className=" block"
+                >
+                  {" "}
+                  Ver índice del taller + BONUS regalados en directo.
+                </a>
+              </h4>
+              <p className="text-xs pl-12 pt-2">
+                <i>
+                  *Duplica el índice para tomar apuntes y conseguir tus bonus
+                  exclusivos del directo.
+                </i>
+              </p>
+              <h4 className="font-alternate text-xl pl-12 pt-12 pb-4">
+                - Sábado.
+              </h4>
               <iframe
                 src="https://drive.google.com/file/d/1-Tygz_rUmVmkm4XcFB1wOXgLr0rKNHLu/preview"
                 width="100%"
                 height="432px"
                 allowFullScreen
               ></iframe>
-              {/* <h4 className="my-8">
-                <a
-                  href={
-                    "https://emprendecon.notion.site/ndice-de-contenidos-workshop-gesti-n-de-calendarios-fe913358e1bc42c9a593005224c2838a?pvs=4"
-                  }
-                  target="_blank"
-                  className=" block"
-                >
-                  {" "}
-                  Ver índice del taller
-                </a>
-              </h4> */}
-              <i>
-                * Te publicaré el índice del taller cuando estén las dos
-                grabaciones
-              </i>
+
+              <h4 className="font-alternate text-xl pl-12 pt-12 pb-4">
+                - Domingo.
+              </h4>
+
+              <iframe
+                src="https://drive.google.com/file/d/1TvoE2uE5cC3NvO3gSiK0zL7ZuHYLsAra/preview"
+                width="100%"
+                height="432px"
+                allowFullScreen
+              ></iframe>
             </div>
 
             <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[36px]">
-                - Plantillas de gestión de tiempo y fichaje de horas pro.
+                - Plantillas de gestión de tiempo y fichaje de horas.
               </h2>
 
               <a
@@ -121,10 +138,24 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                 target="_blank"
               >
                 <button
+                  className=" mt-6 mb-16 rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
+                  type="submit"
+                >
+                  Plantilla Time Tracker Super Pro
+                </button>
+              </a>
+
+              <a
+                href={
+                  "https://emprendecon.notion.site/plantilla-time-tracker-pro"
+                }
+                target="_blank"
+              >
+                <button
                   className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
                   type="submit"
                 >
-                  Clica para duplicar plantilla
+                  Plantilla Time Tracker Pro
                 </button>
               </a>
               <br></br>
@@ -211,7 +242,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               </h4>
             </div>
 
-            <div className=" mb-40">
+            {/* <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - Recomendaciones antes del directo.
               </h2>
@@ -262,7 +293,7 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
                   directo.{" "}
                 </li>
               </ol>
-            </div>
+            </div> */}
 
             <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[52px]">
