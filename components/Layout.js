@@ -30,6 +30,10 @@ const Layout = ({ children }) => {
       "/formacion/taller-sistema-gestion-de-tu-tiempo-estas-dentro",
     consultoria: "/consultoria-de-notion",
     cursoNotion: "/formacion/curso-notion-estas-dentro",
+    grupoPrivadoPlantillaZettelkasten:
+      "/formacion/grupo-privado-plantilla-zettelkasten",
+    rupoPrivadoPlantillaZettelkastenEstasDentro:
+      "/formacion/grupo-privado-plantilla-zettelkasten-estas-dentro",
   };
 
   const showNavbarPage = (pathname) => {

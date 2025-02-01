@@ -3,14 +3,23 @@ import React from "react";
 const StripeButton = ({ urlStripe, children, title, price, isDisabled }) => {
   return (
     <div className="py-12">
-      <span className="block italic">*Pago seguro con tarjeta de crédito</span>
-      <span className="block text-center text-4xl py-8 font-alternate">
-        {title} <span className="text-terracotta">{price} </span>
-      </span>
-      <span className="block text-center underline pb-12">
-        {" "}
-        Impuestos incluidos
-      </span>
+      {price && (
+        <span className="block italic">
+          *Pago seguro con tarjeta de crédito
+        </span>
+      )}
+      {(title || price) && (
+        <span className="block text-center text-4xl py-8 font-alternate">
+          {title} <span className="text-terracotta">{price} </span>
+        </span>
+      )}
+
+      {price && (
+        <span className="block text-center underline pb-12">
+          {" "}
+          Impuestos incluidos
+        </span>
+      )}
       <a href={urlStripe} target="_self">
         <button
           disabled={isDisabled}
