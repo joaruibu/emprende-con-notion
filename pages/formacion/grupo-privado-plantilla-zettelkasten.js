@@ -19,9 +19,9 @@ const GrupoPrivadoPlantillaZettelkasten = () => {
             {" "}
             Plantilla Zettelkasten para grupo privado.
           </h1>
-          <p>Si estás aquí ya sabes lo que es esto.</p>
+
           <p>
-            zettelkasten template, plantilla knowledge hub, second brain,
+            Zettelkasten template, plantilla knowledge hub, second brain,
             knowledge pool,  o como coño quieras llamarla. En castellano, tu
             propio centro de conocimiento en Notion. 
           </p>
@@ -34,11 +34,8 @@ const GrupoPrivadoPlantillaZettelkasten = () => {
               allowFullScreen
             ></iframe>
           </div>
-          <p className="py-12">
-            ¿Te queda alguna duda? Me puedes escribir{" "}
-            <a href="mailto:laura@emprendeconnotion.com"> aquí</a>
-          </p>
-          <p>Si no, accedes aquí abajo</p>
+          <p>Si estás aquí ya sabes lo que es esto.</p>
+          <p>Accedes al grupo privado aquí: </p>
           <br></br>
           <br></br>
           <br></br>
@@ -144,14 +141,17 @@ const GrupoPrivadoPlantillaZettelkasten = () => {
           <div className="pb-12">
             <h2 className="text-2xl">¿Bajará de precio alguna vez?</h2>
             <br></br>
-            <p>El precio es de {STRIPE_BUTTON_CONFIG.price} y nunca bajará.</p>
             <p>
-              <b>Nunca hago ofertas, ni black fridays, ni rebajas, ni nada.</b>{" "}
-              Es más, si de algo puedes estar seguro es que con el paso del
-              tiempo el precio subirá.
+              El precio es de {STRIPE_BUTTON_CONFIG.price} y nunca bajará. Es
+              más, en la próximas semanas subirá.
             </p>
           </div>
           <br></br>
+
+          <p>
+            Accedes al grupo reducido, con precio reducido (hasta el día 28 a
+            las 23:59 horas), aquí:{" "}
+          </p>
 
           <StripeButton
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}

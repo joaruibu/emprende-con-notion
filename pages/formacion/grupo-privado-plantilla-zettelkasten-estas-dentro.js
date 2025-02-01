@@ -169,7 +169,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
                   type="submit"
                 >
-                  Clica para acceder a plantilla bonus
+                  Clica para acceder a plantilla
                 </button>
               </a>
               <br></br>
