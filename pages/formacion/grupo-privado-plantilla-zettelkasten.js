@@ -33,12 +33,15 @@ const GrupoPrivadoPlantillaZettelkasten = () => {
               height="432px"
               allowFullScreen
             ></iframe>
+            <br></br>
+            <br></br>
+            <br></br>
           </div>
-          <p>Si estás aquí ya sabes lo que es esto.</p>
-          <p>Accedes al grupo privado aquí: </p>
-          <br></br>
-          <br></br>
-          <br></br>
+          <p>Si has llegado a esta página ya sabes lo que es esto.</p>
+          <p>
+            <b>Accedes al grupo privado aquí: </b>{" "}
+          </p>
+
           <StripeButton
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
             price={STRIPE_BUTTON_CONFIG.price}
@@ -138,20 +141,18 @@ const GrupoPrivadoPlantillaZettelkasten = () => {
             </p>
           </div>
 
-          <div className="pb-12">
+          <div className="pb-6">
             <h2 className="text-2xl">¿Bajará de precio alguna vez?</h2>
             <br></br>
             <p>
               El precio es de {STRIPE_BUTTON_CONFIG.price} y nunca bajará. Es
               más, en la próximas semanas subirá.
             </p>
+            <p>
+              Accedes al grupo reducido, con precio reducido (hasta el día 28 a
+              las 23:59 horas), aquí:{" "}
+            </p>
           </div>
-          <br></br>
-
-          <p>
-            Accedes al grupo reducido, con precio reducido (hasta el día 28 a
-            las 23:59 horas), aquí:{" "}
-          </p>
 
           <StripeButton
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}

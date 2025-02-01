@@ -39,15 +39,13 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 - Enlace a los directos.
               </h2>
               <p>
-                <i>
-                  Los directos serán los días 7, 14, 21, y 28 de febrero a las
-                  16:00 (Valencia).{" "}
-                  <b>
-                    {" "}
-                    Si no puedes asistir quedará grabado y se publicarán en esta
-                    misma página.
-                  </b>
-                </i>
+                Los directos serán los días 7, 14, 21, y 28 de febrero a las
+                16:00 (Valencia).{" "}
+                <b>
+                  {" "}
+                  Si no puedes asistir quedará grabado y se publicarán en esta
+                  misma página.
+                </b>
               </p>
 
               <p className="text-[10px]">
