@@ -48,23 +48,14 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </b>
               </p>
 
-              <p className="text-[10px]">
-                <i>*El enlace estará disponible 48 horas antes del directo</i>
-              </p>
-
-              <a
-                href={"https://meet.google.com/vog-gjzo-tbd?authuser=2"}
-                target="_blank"
-              >
+              <a href={"https://meet.google.com/uhz-ajaw-cwz"} target="_blank">
                 <button
-                  disabled
-                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold opacity-30 "
+                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold "
                   type="submit"
                 >
                   Clica para acceder al directo
                 </button>
               </a>
-
               {/* 
               <p>
                 <i>
