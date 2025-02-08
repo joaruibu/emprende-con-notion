@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FormAccesContent from "../../components/FormAccesoContentido";
+import Desplegable from "../../components/Desplegable";
 
 const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
   const [password, setPassword] = useState("");
@@ -50,12 +51,24 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
               <a href={"https://meet.google.com/uhz-ajaw-cwz"} target="_blank">
                 <button
-                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold "
+                  disabled
+                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold opacity-30"
                   type="submit"
                 >
                   Clica para acceder al directo
                 </button>
               </a>
+
+              <div className="mt-12">
+                <Desplegable title="Grabación directo 7 Febrero">
+                  <iframe
+                    src="https://drive.google.com/file/d/1DW-XPgu2bKJUseUSMwTARo5hfRDln3iJ/preview"
+                    width="100%"
+                    height="322px"
+                    allowFullScreen
+                  ></iframe>
+                </Desplegable>
+              </div>
               {/* 
               <p>
                 <i>
