@@ -5,7 +5,7 @@ const GrupoPrivadoPlantillaZettelkasten = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: "Plantilla Zettelkasten para grupo privado.",
     buttonText: " Acceder ahora",
-    price: "60 €",
+    price: "70 €",
     isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/session/6c1300c58f98ba86fdbf82ac6869f4fdc730f739/init",
