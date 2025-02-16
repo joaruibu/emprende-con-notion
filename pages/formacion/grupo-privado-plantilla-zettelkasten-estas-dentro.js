@@ -69,6 +69,15 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   ></iframe>
                 </Desplegable>
               </div>
+              <div className="mt-12">
+                <Desplegable title="Grabación directo 14 Febrero">
+                  <iframe
+                    src="https://drive.google.com/file/d/1AkMBVvhBOUmzBo8yqx8quyjAM_6sDFe6/preview"
+                    width="100%"
+                    height="322px"
+                  ></iframe>
+                </Desplegable>
+              </div>
               {/* 
               <p>
                 <i>
