@@ -66,12 +66,15 @@ const masterclass9ErroresNotionEstasDentro = () => {
               </p>
               <br></br>
 
-              <iframe
-                src="https://drive.google.com/file/d/1bIPmkcpXn7sJCUh8fZlLzJ3DIYJmgtse/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/1bIPmkcpXn7sJCUh8fZlLzJ3DIYJmgtse/preview"
+                  width="100%"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
             <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
@@ -107,12 +110,15 @@ const masterclass9ErroresNotionEstasDentro = () => {
                     a ver es una masterclass en sí misma.
                   </p>
 
-                  <iframe
-                    src="https://drive.google.com/file/d/18DqMApCzTg1-SmkGsNIJWDIh5owv2A-H/preview"
-                    width="100%"
-                    height="432px"
-                    allowFullScreen
-                  ></iframe>
+                  <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                    <iframe
+                      src="https://drive.google.com/file/d/18DqMApCzTg1-SmkGsNIJWDIh5owv2A-H/preview"
+                      width="100%"
+                      class="absolute inset-0 w-full h-full"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </div>
                 <br></br>
                 <br></br>

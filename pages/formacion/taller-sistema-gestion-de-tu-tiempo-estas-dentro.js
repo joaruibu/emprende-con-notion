@@ -50,37 +50,6 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
             <br></br>
             <br></br>
 
-            {/* <div className=" mb-40">
-              <h2 className="font-alternate text-2xl leading-[36px]">
-                - Taller: Sistema gestión de tu tiempo.
-              </h2>
-              <p>
-                <i>
-                  - Primer día del directo: sábado día 14 de diciembre a las
-                  16:00h (Valencia). <br></br>- Segundo directo: domingo 15 de
-                  diciembre a las 16:00h (Valencia).
-                </i>
-              </p>
-
-              <a href={"https://meet.google.com/dsg-cdfe-ohf"} target="_blank">
-                <button
-                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark "
-                  type="submit"
-                >
-                  Clica para acceder al directo del DOMIGO 15
-                </button>
-              </a> */}
-
-            {/* <p>
-                <i>
-                  * Nota importante: esta masterclass contiene mucha
-                  información, muchos detalles. Puedes volver a verla tantas
-                  veces como quieras, te recomiendo que lo hagas.
-                </i>
-              </p> 
-              <br></br>
-            </div>*/}
-
             <div className=" mb-40">
               <h2 className="font-alternate text-2xl leading-[36px]">
                 - Taller en directo.
@@ -107,23 +76,29 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               <h4 className="font-alternate text-xl pl-12 pt-12 pb-4">
                 - Sábado.
               </h4>
-              <iframe
-                src="https://drive.google.com/file/d/1-Tygz_rUmVmkm4XcFB1wOXgLr0rKNHLu/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/1-Tygz_rUmVmkm4XcFB1wOXgLr0rKNHLu/preview"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
 
               <h4 className="font-alternate text-xl pl-12 pt-12 pb-4">
                 - Domingo.
               </h4>
 
-              <iframe
-                src="https://drive.google.com/file/d/1TvoE2uE5cC3NvO3gSiK0zL7ZuHYLsAra/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/1TvoE2uE5cC3NvO3gSiK0zL7ZuHYLsAra/preview"
+                  width="100%"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
 
             <div className=" mb-40">
@@ -222,12 +197,16 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
               </p> */}
               <br></br>
 
-              <iframe
-                src="https://drive.google.com/file/d/1VYKfAdQLuokoF-eXxTC56QHLXntutXWW/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/1VYKfAdQLuokoF-eXxTC56QHLXntutXWW/preview"
+                  width="100%"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
               <h4 className="my-8">
                 <a
                   href={

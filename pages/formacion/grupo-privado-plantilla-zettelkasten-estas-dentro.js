@@ -12,6 +12,17 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
     return !Object.values(PASSWORDS).includes(password);
   };
 
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/hHOhBRGf_FM?si=bijyA2lgvRSTmDQd"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen
+  ></iframe>;
+
   return (
     <>
       {isCorrectPassword(password) ? (
@@ -61,21 +72,27 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
               <div className="mt-12">
                 <Desplegable title="Grabación directo 7 Febrero">
-                  <iframe
-                    src="https://drive.google.com/file/d/1DW-XPgu2bKJUseUSMwTARo5hfRDln3iJ/preview"
-                    width="100%"
-                    height="322px"
-                    allowFullScreen
-                  ></iframe>
+                  <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                    <iframe
+                      src="https://drive.google.com/file/d/1DW-XPgu2bKJUseUSMwTARo5hfRDln3iJ/preview"
+                      class="absolute inset-0 w-full h-full"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
                 </Desplegable>
               </div>
               <div className="mt-12">
                 <Desplegable title="Grabación directo 14 Febrero">
-                  <iframe
-                    src="https://drive.google.com/file/d/1AkMBVvhBOUmzBo8yqx8quyjAM_6sDFe6/preview"
-                    width="100%"
-                    height="322px"
-                  ></iframe>
+                  <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                    <iframe
+                      src="https://drive.google.com/file/d/1AkMBVvhBOUmzBo8yqx8quyjAM_6sDFe6/preview"
+                      class="absolute inset-0 w-full h-full"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                  ;
                 </Desplegable>
               </div>
               {/* 

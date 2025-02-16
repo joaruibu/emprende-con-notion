@@ -82,12 +82,16 @@ const workshopNotionCalendarEstasDentro = () => {
               </p>
               <br></br>
 
-              <iframe
-                src="https://drive.google.com/file/d/10zmLJePRGWWevkAf03X3poKsYr8GXM4P/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/10zmLJePRGWWevkAf03X3poKsYr8GXM4P/preview"
+                  width="100%"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
+
               <h4 className="my-8">
                 <a
                   href={

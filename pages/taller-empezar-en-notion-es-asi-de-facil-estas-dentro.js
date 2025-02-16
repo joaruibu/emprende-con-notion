@@ -52,12 +52,15 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
                 - El Taller.
               </h2>
 
-              <iframe
-                src="https://drive.google.com/file/d/1D4T4eNeP4YjpWkFJUmb1j4rrX0PRaqoZ/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/1D4T4eNeP4YjpWkFJUmb1j4rrX0PRaqoZ/preview"
+                  width="100%"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
 
               <h4 className="my-8">
                 <a
@@ -112,12 +115,15 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
               </p>
               <br></br>
 
-              <iframe
-                src="https://drive.google.com/file/d/1CE9WZLpDY2BFQWD9itqzXtnFcNlCJQpS/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/1CE9WZLpDY2BFQWD9itqzXtnFcNlCJQpS/preview"
+                  width="100%"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
 
             <div className="mb-24">
@@ -228,12 +234,16 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
             <div>
               <h2 className="text-2xl">- Dudas del directo.</h2>
               <br></br>
-              <iframe
-                src="https://drive.google.com/file/d/1cG0_cvO6qukiz3nDRm03xhS3z93qACBS/preview"
-                width="100%"
-                height="432px"
-                allowFullScreen
-              ></iframe>
+
+              <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                <iframe
+                  src="https://drive.google.com/file/d/1cG0_cvO6qukiz3nDRm03xhS3z93qACBS/preview"
+                  width="100%"
+                  class="absolute inset-0 w-full h-full"
+                  frameborder="0"
+                  allowfullscreen
+                ></iframe>
+              </div>
             </div>
 
             <p className="pt-24 pl-8">Espero que lo aproveches mucho.</p>
