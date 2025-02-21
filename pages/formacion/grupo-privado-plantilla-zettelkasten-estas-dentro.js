@@ -12,17 +12,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
     return !Object.values(PASSWORDS).includes(password);
   };
 
-  <iframe
-    width="560"
-    height="315"
-    src="https://www.youtube.com/embed/hHOhBRGf_FM?si=bijyA2lgvRSTmDQd"
-    title="YouTube video player"
-    frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin"
-    allowfullscreen
-  ></iframe>;
-
   return (
     <>
       {isCorrectPassword(password) ? (
@@ -60,10 +49,9 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </b>
               </p>
 
-              <a href={"https://meet.google.com/uhz-ajaw-cwz"} target="_blank">
+              <a href={"https://meet.google.com/rmx-fwcp-yzv"} target="_blank">
                 <button
-                  disabled
-                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold opacity-30"
+                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold"
                   type="submit"
                 >
                   Clica para acceder al directo
