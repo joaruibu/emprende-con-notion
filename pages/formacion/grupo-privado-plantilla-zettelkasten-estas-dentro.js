@@ -14,15 +14,15 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
   const eventsRecords = [
     {
-      date: "7 Febrero",
+      date: "Grabación directo 7 Febrero",
       link: "https://drive.google.com/file/d/1DW-XPgu2bKJUseUSMwTARo5hfRDln3iJ/preview",
     },
     {
-      date: "14 Febrero",
+      date: "Grabación directo 14 Febrero",
       link: "https://drive.google.com/file/d/1AkMBVvhBOUmzBo8yqx8quyjAM_6sDFe6/preview",
     },
     {
-      date: "21 Febrero",
+      date: "Grabación directo 21 Febrero",
       link: "https://drive.google.com/file/d/1hK5bdP7QW8A1hIL0TvrKUPu_z995XJ7G/preview",
     },
   ];
@@ -71,42 +71,23 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   Clica para acceder al directo
                 </button>
               </a>
-              <div className="mt-12">
-                <Desplegable title="Grabación directo 7 Febrero">
-                  <div class="relative w-full max-w-2xl mx-auto aspect-video">
-                    <iframe
-                      src="https://drive.google.com/file/d/1DW-XPgu2bKJUseUSMwTARo5hfRDln3iJ/preview"
-                      class="absolute inset-0 w-full h-full"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </Desplegable>
-              </div>
-              <div className="mt-12">
-                <Desplegable title="Grabación directo 14 Febrero">
-                  <div class="relative w-full max-w-2xl mx-auto aspect-video">
-                    <iframe
-                      src="https://drive.google.com/file/d/1AkMBVvhBOUmzBo8yqx8quyjAM_6sDFe6/preview"
-                      class="absolute inset-0 w-full h-full"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                  ;
-                </Desplegable>
-              </div>
-              <div className="mt-12">
-                <Desplegable title="Grabación directo 21 Febrero">
-                  <div class="relative w-full max-w-2xl mx-auto aspect-video">
-                    <iframe
-                      src="https://drive.google.com/file/d/1hK5bdP7QW8A1hIL0TvrKUPu_z995XJ7G/preview"
-                      class="absolute inset-0 w-full h-full"
-                      frameborder="0"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </Desplegable>
+              <div>
+                {eventsRecords.map((event) => {
+                  return (
+                    <div className="mt-12" key={event.date}>
+                      <Desplegable title={event.date}>
+                        <div className="relative w-full max-w-2xl mx-auto aspect-video">
+                          <iframe
+                            src={event.link}
+                            className="absolute inset-0 w-full h-full"
+                            frameBorder="0"
+                            allowFullScreen
+                          ></iframe>
+                        </div>
+                      </Desplegable>
+                    </div>
+                  );
+                })}
               </div>
 
               {/* 
