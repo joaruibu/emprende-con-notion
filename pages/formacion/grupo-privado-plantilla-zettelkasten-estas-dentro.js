@@ -12,6 +12,21 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
     return !Object.values(PASSWORDS).includes(password);
   };
 
+  const eventsRecords = [
+    {
+      date: "7 Febrero",
+      link: "https://drive.google.com/file/d/1DW-XPgu2bKJUseUSMwTARo5hfRDln3iJ/preview",
+    },
+    {
+      date: "14 Febrero",
+      link: "https://drive.google.com/file/d/1AkMBVvhBOUmzBo8yqx8quyjAM_6sDFe6/preview",
+    },
+    {
+      date: "21 Febrero",
+      link: "https://drive.google.com/file/d/1hK5bdP7QW8A1hIL0TvrKUPu_z995XJ7G/preview",
+    },
+  ];
+
   return (
     <>
       {isCorrectPassword(password) ? (
@@ -48,8 +63,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   misma página.
                 </b>
               </p>
-
-              <a href={"https://meet.google.com/rmx-fwcp-yzv"} target="_blank">
+              <a href={"https://meet.google.com/jko-btsh-yqp"} target="_blank">
                 <button
                   className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold"
                   type="submit"
@@ -57,7 +71,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   Clica para acceder al directo
                 </button>
               </a>
-
               <div className="mt-12">
                 <Desplegable title="Grabación directo 7 Febrero">
                   <div class="relative w-full max-w-2xl mx-auto aspect-video">
@@ -83,6 +96,19 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   ;
                 </Desplegable>
               </div>
+              <div className="mt-12">
+                <Desplegable title="Grabación directo 21 Febrero">
+                  <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                    <iframe
+                      src="https://drive.google.com/file/d/1hK5bdP7QW8A1hIL0TvrKUPu_z995XJ7G/preview"
+                      class="absolute inset-0 w-full h-full"
+                      frameborder="0"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </Desplegable>
+              </div>
+
               {/* 
               <p>
                 <i>
