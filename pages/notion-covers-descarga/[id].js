@@ -9,31 +9,36 @@ import { DATA_TYPE } from "../../helpers/types";
 import FormDescargaCovers from "../../components/FormDescargaCovers";
 import { useState, useEffect } from "react";
 
-const CoverItem = ({ cover }) => {
+const CoverItemDownloadPage = ({ cover }) => {
   const { title, downloadCovers } = cover;
   const [formPassword, setFormPassword] = useState("");
   const [isErrorPassword, setIsErrorPassword] = useState(false);
   const [showCovers, setShowCovers] = useState(false);
+  const [formCoverConfig, setFormCoverConfig] = useState(null);
 
   useEffect(() => {
-    const formCoverConfig = {
-      cover: cover,
-      formPassword: formPassword,
-      setFormPassword: setFormPassword,
-      isErrorPassword: isErrorPassword,
-      setIsErrorPassword: setIsErrorPassword,
-      setShowCovers: setShowCovers,
-    };
-    console.log(4343434, formCoverConfig);
-  }, []);
+    if (cover) {
+      const newFormCoverConfig = {
+        cover: cover,
+        formPassword: formPassword,
+        setFormPassword: setFormPassword,
+        isErrorPassword: isErrorPassword,
+        setIsErrorPassword: setIsErrorPassword,
+        setShowCovers: setShowCovers,
+      };
+      setFormCoverConfig(newFormCoverConfig);
+      console.log(4343434, newFormCoverConfig);
+    }
+  }, [cover, formPassword, isErrorPassword]);
 
   return (
     <>
       <main className="mt-6">
-        {/* //Esto rompia al subir a prodccuión, no se le pasaba valor al formCoverConfig
-                {!showCovers &&
-                    <FormDescargaCovers formCoverConfig={formCoverConfig}></FormDescargaCovers>
-                } */}
+        {!showCovers && formCoverConfig && (
+          <FormDescargaCovers
+            formCoverConfig={formCoverConfig}
+          ></FormDescargaCovers>
+        )}
 
         {showCovers && (
           <>
@@ -87,7 +92,7 @@ const CoverItem = ({ cover }) => {
   );
 };
 
-export default CoverItem;
+export default CoverItemDownloadPage;
 
 export async function getStaticProps({ params }) {
   console.log({ params });
