@@ -14,20 +14,26 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
   const eventsRecords = [
     {
-      date: "Grabación directo 7 Febrero",
+      title: "Grabación directo 7 Febrero",
       link: "https://drive.google.com/file/d/1DW-XPgu2bKJUseUSMwTARo5hfRDln3iJ/preview",
     },
     {
-      date: "Grabación directo 14 Febrero",
+      title: "Grabación directo 14 Febrero",
       link: "https://drive.google.com/file/d/1AkMBVvhBOUmzBo8yqx8quyjAM_6sDFe6/preview",
     },
     {
-      date: "Grabación directo 21 Febrero",
+      title: "Grabación directo 21 Febrero",
       link: "https://drive.google.com/file/d/1hK5bdP7QW8A1hIL0TvrKUPu_z995XJ7G/preview",
+    },
+    {
+      title: "Grabación directo 28 Febrero",
+      link: "https://drive.google.com/file/d/1l1sZaKGrgbrCpoh9s8gqdM2Cl8yla1A9/preview",
     },
   ];
 
-  return (
+  //drive.google.com/file/d/1l1sZaKGrgbrCpoh9s8gqdM2Cl8yla1A9/view
+
+  https: return (
     <>
       {isCorrectPassword(password) ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
@@ -74,8 +80,8 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
               <div>
                 {eventsRecords.map((event) => {
                   return (
-                    <div className="mt-12" key={event.date}>
-                      <Desplegable title={event.date}>
+                    <div className="mt-12" key={event.title}>
+                      <Desplegable title={event.title}>
                         <div className="relative w-full max-w-2xl mx-auto aspect-video">
                           <iframe
                             src={event.link}
