@@ -31,8 +31,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
     },
   ];
 
-  //drive.google.com/file/d/1l1sZaKGrgbrCpoh9s8gqdM2Cl8yla1A9/view
-
   https: return (
     <>
       {isCorrectPassword(password) ? (
@@ -58,25 +56,8 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
             <br></br>
             <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
-                - Enlace a los directos.
+                - Directos.
               </h2>
-              <p>
-                Los directos serán los días 7, 14, 21, y 28 de febrero a las
-                16:00 (Valencia).{" "}
-                <b>
-                  {" "}
-                  Si no puedes asistir quedará grabado y se publicarán en esta
-                  misma página.
-                </b>
-              </p>
-              <a href={"https://meet.google.com/jko-btsh-yqp"} target="_blank">
-                <button
-                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold"
-                  type="submit"
-                >
-                  Clica para acceder al directo
-                </button>
-              </a>
               <div>
                 {eventsRecords.map((event) => {
                   return (
