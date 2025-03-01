@@ -32,7 +32,7 @@ export default function Document() {
         />
         <script
           src="https://kit.fontawesome.com/618d0a5e66.js"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
       </Head>
       <body className=" text-stone-950 ">
