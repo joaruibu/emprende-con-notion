@@ -1,34 +1,45 @@
 import React from "react";
+import { FaCheckCircle } from "react-icons/fa";
+import TitlePage from "../components/TitlePage";
+
+const TITLE_DATA = {
+  title: " Dedícate solo a lo que mejor sabes hacer.",
+  subtitle: "",
+};
 
 const ConsultoriaDeNotion = () => {
   return (
     <article className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
       <div className=" sm:overflow-hidden sm:rounded-xl"></div>
       <section className="pt-10 ">
-        <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
-          Consultorías, ambiciosas y completas, para ti o tu negocio. Con
-          Notion.
-        </h1>
+        <TitlePage subtitle={TITLE_DATA.subtitle}>{TITLE_DATA.title}</TitlePage>
         <br></br>
         <br></br>
+        <div className="flex flex-col space-y-6 mb-12">
+          <h2>√ Centraliza toda tu organización digital en un solo sitio.</h2>
+          <h2>
+            √ Deja de perder tiempo probando decenas de herramientas digitales
+            que luego no terminas de implementar.
+          </h2>
+          <h2>
+            √ Libera tu mente de inputs innecesarios en tu día a día y conecta
+            con tus prioridades reales.{" "}
+          </h2>
+        </div>
         <br></br>
-        <p>El precio de la consultoría empieza en 1000€.</p>
+        <h2>
+          Pero, ¿sabes? Conseguir esto lleva algo de tiempo, y quien te diga lo
+          contrario no te dice la verdad.{" "}
+        </h2>
+        <br></br>
+        <br></br>
+        <p>Déjame que te lo explique con una breve historia sobre Amazon</p>
         <p>
-          Si ahora no puedes invertir esa cantidad, no quiero hacerte perder tu
-          tiempo, tengo plantillas que te pueden ayudar, son gratis.
-        </p>
-        <br></br>
-        <p>Dicho esto.</p>
-        <br></br>
-        <p>
-          No lo sabes todavía, pero lo que te voy a contar a continuación sobre
-          Amazon, es algo en lo que no has dejado de pensar durante días y que,
-          probablemente cambie la relación que tienes con tu negocio y la
-          transforme en algo mucho más excitante y rentable.
-        </p>
-        <p>
-          Es una historia fabulosa y breve con grandes aprendizajes que vamos a
-          ver aquí y ahora.{" "}
+          Ahora todo el mundo conoce Amazon, claro, pero pocos conocen esta
+          breve historia sobre cómo surgió lo que ellos mismos llaman su
+          “sistema cáotico” de gestión de almacenes, que contiene grandes
+          aprendizajes para transformar tu negocio en algo mucho más rentable y
+          eficaz…
         </p>
         <br></br>
         <br></br>
@@ -43,17 +54,15 @@ const ConsultoriaDeNotion = () => {
           Un colaborador se atreve a decirle a Jeff Bezos “Jeff, si seguimos
           así, el barco se hunde.”,
         </p>
-        <p>Y Bezos tomó una decisión radical:</p>
+        <p>Así que Bezos tomó una decisión radical…</p>
         <br></br>
-        <p className="italic pl-6">
-          “Si el problema es el caos, vamos a eliminarlo de raíz. Y no me
-          importa cuánto nos cueste hacerlo.”
-        </p>
+        <p>Verás.</p>
         <br></br>
         <br></br>
         <p>
           Amazon no era antes lo que es ahora, no mandaban los paquetes en 24
-          horas.
+          horas. ¿Y sabes por qué no lo hacían…? Porque sus almacenes eran un
+          puto caos.
         </p>
         <p>¿Sabes cómo estaban sus almacenes? Un puto caos. </p>
         <p>
@@ -63,9 +72,11 @@ const ConsultoriaDeNotion = () => {
           veías un trabajador revisando un estante lleno de libros porque no
           encontraba uno.
         </p>
-        <p>¿El resultado? Retrasos. Envíos costosos. Clientes cabreados.</p>
+        <p>¿El resultado? Retrasos. Envíos costosos. Clientes cabreados. </p>
         <p>
           Y, lo peor de todo, <b> millones de dólares perdiéndose.</b>
+          Concretamente, $720 millones de pérdidas netos frente a 124 del año
+          anterior.
         </p>
         <br></br>
         <br></br>
@@ -74,11 +85,12 @@ const ConsultoriaDeNotion = () => {
         <br></br>
         <p>
           Bien. Creo que todos conocemos al menos de oídas a este personaje
-          público. También puede que conozcas de oídas sus excentricidades.{" "}
+          público y también puede que conozcas de oídas sus excentricidades…. Lo
+          que nadie se esperaba, no es que rediseñara los almacenes desde
+          cero…{" "}
         </p>
         <p>
-          Lo que nadie se esperaba, no es que rediseñara los almacenes desde
-          cero, es <i> cómo </i>lo hizo.{" "}
+          Es el <i> cómo </i>lo hizo.{" "}
         </p>
         <br></br>
         <br></br>
@@ -99,8 +111,8 @@ const ConsultoriaDeNotion = () => {
           Cada producto tiene un código único, y un sistema informático sabe
           exactamente dónde está cada cosa.{" "}
           <b>
-            Lo importante no es dónde está el producto, sino que el sistema te
-            diga cómo llegar a él en segundos. 
+            Lo importante no es dónde está el producto, sino tener un sistema
+            centralizado que te diga cómo llegar a él en segundos. 
           </b>
         </p>
         <br></br>
@@ -128,24 +140,25 @@ const ConsultoriaDeNotion = () => {
             su negocio sea mucho más rentable.
           </b>{" "}
         </p>
-        <p>Y en todo negocio, se puede aplicar un sistema de organización.</p>
-        <br></br>
         <p>
-          El tiempo perdido en la organización es el gran problema de nuestro
-          tiempo, seas una empresa millonaria o una veinteañera desde una
-          habitación en casa de sus padres.
+          La falta de organización digital y{" "}
+          <b>
+            tener diez herramientas diferentes (OneNote, Monday, Assana,
+            Calendar…), sin llegar a implementar ninguna definitivamente en
+            lugar de centralizar un sistema,
+          </b>{" "}
+          es uno de los grandes problemas de nuestro tiempo. Seas una empresa
+          millonaria como Amazon o una veinteañera como era yo.{" "}
+        </p>
+        <p>
+          Incluso da igual que los negocios sean físicos, online, de un solo
+          servicio, de lo que quieras.
         </p>
         <br></br>
         <br></br>
         <br></br>
         <p>
-          Da igual que los negocios sean físicos, online, de un solo servicio,
-          de lo que quieras. Te puedo poner tantos ejemplos que nos
-          aburriríamos.{" "}
-        </p>
-        <br></br>
-        <p>
-          Se calcula que los ejecutivos dedican alrededor de{" "}
+          Se calcula que los directivos dedican alrededor de{" "}
           <b> seis semanas al año a localizar información extraviada.</b>
         </p>
         <p>
@@ -159,7 +172,6 @@ const ConsultoriaDeNotion = () => {
         </p>
         <br></br>
         <p>Curioso.</p>
-
         <p>
           Curioso porque nunca jamás en la historia habíamos tenido a nuestro
           alcance herramientas de productividad tan eficientes y gratuitas como
@@ -168,11 +180,21 @@ const ConsultoriaDeNotion = () => {
         <br></br>
         <p>
           Pero tener herramientas, no es lo mismo que un sistema de
-          organización.{" "}
+          organización. <i>¿Verdad?</i>
         </p>
         <br></br>
+        <br></br>
+        <p className="mx-10 block text-gray-500 text-sm ">
+          {" "}
+          <b>
+            ≪Efficiency is doing things right; effectiveness is doing the right
+            things.≫ – Peter Drucker.
+          </b>{" "}
+        </p>
+        <br></br> <br></br>
+        <br></br>
         <p>
-          Y te aseguro que{" "}
+          Está claro que no soy Peter Drucker, aunque{" "}
           <span className="text-red-500 font-bold">
             {" "}
             sé de lo que estoy hablando.{" "}
@@ -181,169 +203,189 @@ const ConsultoriaDeNotion = () => {
         <br></br>
         <p>
           Desde que comencé mi vida laboral como arquitecta, ninguna empresa en
-          la que he trabajado tenía sistemas claros de organización. Pero sí
-          muchas herramientas.
+          la que he trabajado tenía sistemas claros de organización.
         </p>
-        <p>Y desde entonces es a lo que me he dedicado. </p>
         <p>
-          En 2021 decidí lanzar Emprende con Notion porque estaba harta de ver
-          profesionales que hacían perder tiempo a sus trabajadoras buscando
-          archivos perdidos, repitiendo fechas en 3 calendarios distintos (el de
-          google, en el cronograma de assana, y en el excel que compartían con
-          el cliente), o perdiendo el tiempo concretando procesos que se repiten
-          una y otra vez al inicio de un proyecto, pero nadie se había molestado
-          en generar una plantilla definiendo esos procesos.
+          <b>Ninguna tenía tiempo.</b>
         </p>
-        <br></br>
         <p>
-          Sé como crear sistemas de organización, adaptados a cada empresa con
-          la que he trabajado. Reduciendo herramientas. Simplemente, tengo esta
-          habilidad.{" "}
+          Pero sí perdían tiempo en muchas herramientas (Trello, Assana, Excel,
+          Toggl, Calendar…){" "}
+          <b>
+            que finalmente no terminaban implementando, o peor aún,
+            implementaban todas a la vez. Hacían perder tiempo a sus
+            trabajadoras buscando archivos perdidos, duplicando fechas, o
+            repitiendo procesos una y otra vez
+          </b>{" "}
+          porque nadie se había molestado en generar una plantilla definiendo
+          esos procesos.{" "}
         </p>
-        <p>Y por ello decidí hacer consultorías, ambiciosas y completas. </p>
-        <p>La formación que recibirás, será del más alto nivel al respecto. </p>
         <p>
-          Y el sistema que crearemos, adaptado a ti tengas el tipo de negocio
-          que tengas, eso sí, solo si estás dispuesto.{" "}
+          Por eso en 2020 decidí lanzar Emprende con Notion. Y desde entonces
+          esto es lo que yo implemento a otras empresas y profesionales:
         </p>
         <br></br>
         <br></br>
-        <p>Te cuento lo que incluye para que lo mires con calma. </p>
         <br></br>
-        <p className="text-red-500">Allá va:</p>
-        <br></br>
-        <div className="pl-6">
-          <p>
-            <b>
-              √ Auditoría de los sistemas existentes y tus puntos de dolor. {" "}
-            </b>
-            Trabajaremos en sesiones 1:1 para ver qué te está quitando tiempo,
-            energía o dinero. Me reuniré contigo y con tus personas de
-            confianza. Analizando todo el proceso, de principio a fin.
-          </p>
-          <p>
-            <b>√ Construcción de un sistema a medida.  </b>
-            No uno genérico, sino algo que funcione para tus necesidades
-            específicas. Escalable y fácil. Hecho en Notion y si es necesario
-            integración con con herramientas No Code (como Zapier).
-          </p>
-          <p>
-            <b>√ Migración e implementación. </b>
-            Tú decides si quieres que migre tus datos de tus antiguas
-            herramientas, o si prefieres que te explique cómo hacerlo y
-            gestionarlo tú mismo.
-          </p>
-          <p>
-            <b> √ Formación y onboarding: </b>No te voy a dejar solo con una
-            herramienta que no sabes usar. Te ayudo a ti y a tu equipo a que
-            realmente utilicen tu nuevo sistema hecho en Notion de forma
-            eficiente, además de generar la documentación para nuevos miembros.
-          </p>
+        <div className="grid grid-cols-6 gap-8 mb-12 px-4">
+          <div className="text-left col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-briefcase fa-2x"></i>
+            <span className="block my-2 font-alternate ">
+              Gestiona proyectos
+            </span>
+            <span className="font-montserrat text-xs">
+              Ya seas autónomo, empresario o asalariado.
+            </span>
+          </div>
+          <div className="text-left col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-people-group fa-2x"></i>
+            <span className="block my-2 font-alternate ">
+              Gestiona a tu equipo
+            </span>
+            <span className="font-montserrat text-xs">
+              Logros, tiempo, tareas por persona...
+            </span>
+          </div>
 
-          <p>
-            <b> √ Acompañamiento: </b> durante un mes desde que recibas la
-            formación y tu nuevo sistema hecho en Notion.
-          </p>
+          <div className="text-left col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-list-check fa-2x"></i>
+            <span className="block my-2 font-alternate ">
+              Procesos y tareas
+            </span>
+            <span className="font-montserrat text-xs">
+              Centralizados en un solo lugar.
+            </span>
+          </div>
 
-          <p>
-            <b>
-               √ Opción a apuntarte a una membresía de acompañamiento mensual.{" "}
-            </b>
-            Para tener tu espacio al día con las actualizaciones que lance
-            Notion y resolución de dudas.
-          </p>
+          <div className="text-left col-start-2 col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-coins fa-2x"></i>
+            <span className="block my-2 font-alternate ">CRM</span>
+            <span className="font-montserrat text-xs">
+              Tus clientes y proveedores sin necesidad de Holded, HubSpot o
+              Salesforce.
+            </span>
+          </div>
+
+          <div className="text-left  col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-money-bill fa-2x"></i>
+            <span className="block my-2 font-alternate ">Finanzas</span>
+            <span className="font-montserrat text-xs">
+              Gestiona, clasifica, y descubre en qué gastas y cuánto ahorras.
+            </span>
+          </div>
+
+          <div className="text-left  col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-box-open fa-2x"></i>
+            <span className="block my-2 font-alternate ">
+              Recursos, notas, formación.
+            </span>
+            <span className="font-montserrat text-xs">
+              Lo importante no es dónde lo guardas, sino encontrarlo rápido.
+            </span>
+          </div>
+
+          <div className="text-left  col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-bullseye fa-2x"></i>
+            <span className="block my-2 font-alternate ">
+              Objetivos y prioridades.
+            </span>
+            <span className="font-montserrat text-xs">
+              Con un progreso cuantificable, los tuyos y los de tu equipo.
+            </span>
+          </div>
+
+          <div className="text-left  col-span-2 p-4 border border-stone-300 rounded-lg  place-content-center text-sm bg-stone-100 font-alternate ">
+            <i class="fa-solid fa-handshake fa-2x"></i>
+            <span className="block my-2 font-alternate ">Reuniones</span>
+            <span className="font-montserrat text-xs">
+              Programa, prepara, anota, y concluye, en un solo lugar para todos.
+            </span>
+          </div>
         </div>
         <br></br>
         <br></br>
-        <br></br>
-        <br></br>
-        <h2 className="font-alternate px-16 ">
-          <span className="text-red-500">El precio, DESDE 1000€.</span>
-        </h2>
-        <br></br>
-        <br></br>
-        <p>Para freelancers. Si trabajas en equipo, obviamente será más.</p>
         <p>
-          Porque esto no es para todos. Si quieres algo barato, hay miles de
-          consultorías y cursos por ahí.{" "}
-        </p>
-        <br></br>
-        <p>
-          <b>Lo que te ofrezco no es un atajo, sino un mapa.</b>
-        </p>
-        <br></br>
-        <p>
-          Porque esto no va solo de productividad y eficiencia, va de vivir
-          mejor. Piensa un momento en la historia de Amazon.
+          Decidí hacer consultorías de Notion{" "}
+          <b>
+            para que la organización para ti deje de ser un problema y puedas
+            centrarte en aquello que mejor sabes hacer.
+          </b>{" "}
         </p>
         <p>
-          Al margen de si las condiciones laborales son buenas o malas, no entro
-          ahí. Cuándo crees que los ejecutivos y trabajadores vivían más
-          alineados y con menos estrés: ¿buscando un libro entre una pila de
-          tres mil libros mezclados, o después, yendo directos a su objetivo?
-        </p>
-        <br></br>
-        <br></br>
-        <div className="flex justify-center">
-          <img
-            className="text-center"
-            src={"/img/gato-consultoria.png"}
-            alt="Imagen meme ventilador"
-            width={400}
-            height={100}
-          />
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <p>Por eso esto es un compromiso por las dos partes:</p>
-        <br></br>
-        <ul className="pl-6">
-          <li>
-            Si estás buscando una solución mágica o alguien que te haga el
-            trabajo mientras tú sigues con el piloto automático,{" "}
-            <b>no tenemos nada que hacer juntas.</b>
-          </li>
-          <li>
-            Si crees que simplemente “bajar otra plantilla” de internet va a
-            resolver tus problemas y los de tu equipo, ahórrate la inversión.
-          </li>
-          <li>
-            <b>
-              Si tú no estás dispuesto a cambiar ciertos hábitos en tu día a día
-              con la gestión, tampoco tenemos nada que hacer juntas.
-            </b>{" "}
-          </li>
-          <li>
-            Si no estás dispuesto a deshacerte de procesos inútiles,{" "}
-            <b>no quiero trabajar contigo.</b>
-          </li>
-        </ul>
-        <br></br>
-        <br></br>
-        <p>
-          Y esto es solo para personas que están comprometidas con hacer un
-          cambio real, desde dentro.
-        </p>
-        <p>
-          Aquí el enfoque no es solo técnico, sino humano. Crearemos un sistema
-          que respete tu forma de trabajar y la de tu equipo, que te permita
-          liberar tu mente de inputs innecesarios y conecte con vuestros valores
-          y prioridades reales.
+          Sé como crear sistemas centralizados de organización adaptados a cada
+          empresa con la que he trabajado. Ahora, puedo ayudarte a ti.
+          Simplemente, tengo esta habilidad.{" "}
         </p>
         <br></br>
         <br></br>
         <br></br>
-        <h2 className="font-alternate px-10 ">
+        <br></br>
+        <br></br>
+        <p className="mx-10">
+          Te cuento{" "}
+          <span className="text-red-500 font-bold">lo que incluye</span> para
+          que lo mires con calma:{" "}
+        </p>
+        <br></br>
+        <br></br>
+        <p>
+          <b>√ Auditoría de los sistemas existentes y tus puntos de dolor.</b>
+           Trabajaremos en sesiones 1:1 para ver qué te está quitando tiempo,
+          energía o dinero, y cuántas herramientas digitales utilizas ahora. Me
+          reuniré contigo y con tus personas de confianza. Analizando todo el
+          proceso, de principio a fin.{" "}
+        </p>
+        <br></br>
+        <p>
+          <b>√ Construcción de un sistema a medida en Notion. </b>No uno
+          genérico, no con doscientas herramientas. Sino algo que centralice
+          todas las necesidades de tu negocio. Escalable. Hecho en Notion y si
+          es necesario con integración de herramientas No Code (como
+          Zapier).{" "}
+        </p>
+        <br></br>
+        <p>
+          <b>√ Migración e implementación. </b>Tú decides si quieres que migre
+          tus datos de tus antiguas herramientas, o si prefieres que te explique
+          cómo hacerlo y gestionarlo tú mismo. .{" "}
+        </p>
+        <br></br>
+        <p>
+          <b>√ Formación </b>No te voy a dejar solo con una herramienta que no
+          sabes usar. Os enseñaré a ti y a tu equipo a usar el nuevo sistema en
+          Notion de forma eficiente, además de generar la documentación para
+          nuevos miembros.{" "}
+        </p>
+        <br></br>
+        <p>
+          <b>√ Onboarding.  </b>Es fácil decirte que te ayudo a crear e
+          implementar un sistema de organización adaptado a tu negocio. Lo
+          difícil es <b>mantenerlo en el tiempo.</b> Con las sesiones de
+          formación y onboarding crearemos hábitos de trabajo que puedas
+          mantener en tu nuevo sistema.{" "}
+        </p>
+        <br></br>
+        <p>
+          <b>√ Acompañamiento.  </b> Por mucho que hagamos formación,{" "}
+          <b>el uso diario es lo que genera las dudas reales.</b> Durante un mes
+          desde que recibas tu nuevo sistema hecho en Notion tendrás
+          acompañamiento y la posibilidad de ajustar procesos.{" "}
+        </p>
+        <br></br>
+        <p>
+          <b>
+            √ Opción a apuntarte a una membresía de acompañamiento mensual.  
+          </b>
+          Si te preocupa el mantenimiento posterior de tu espacio de trabajo,
+          poder integrar las actualizaciones que lance Notion o resolución de
+          dudas.{" "}
+        </p>
+        <br></br>
+        <br></br>
+        <h2>
           Tu próxima acción: completa el formulario para ver si me interesa que
-          trabajemos juntas.
+          trabajemos juntas.{" "}
         </h2>
-        <br></br>
-        <br></br>
-        <p>
-          Repito, si te interesa saber más,{" "}
-          <span className="text-red-500">el primer paso es clicar aquí:</span>{" "}
-        </p>
         <a
           href={
             "https://emprendecon.notion.site/9133f8c1cc5a4f64b1239027eafc943e?pvs=105"
@@ -351,13 +393,14 @@ const ConsultoriaDeNotion = () => {
           target="_blank"
         >
           <button
-            className=" my-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-sub font-semibold duration-150 hover:shadow-dark "
+            className=" my-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
             type="submit"
           >
             Formulario consultoría de Notion
           </button>
         </a>
-
+        <br></br>
+        <br></br>
         <br></br>
         <br></br>
         <br></br>
@@ -366,7 +409,36 @@ const ConsultoriaDeNotion = () => {
         <br></br>
         <br></br>
         <h1 className="pb-12">Preguntas frecuentes</h1>
-
+        <br></br>
+        <div className="pb-12">
+          <h2 className="text-2xl">
+            ¿Es Notion seguro? Me da miedo volcar toda mi información y que
+            luego, no sé, desaparezca o algo.
+          </h2>
+          <br></br>
+          <p>
+            Yo no soy ninguna experta en ciberseguridad. Diosa me libre. Pero
+            aunque lo fuera, dudo que supiera más que los equipos con los que
+            asesoran empresas como Toyota, Figma, Vercel, Headspace, Blinkist,
+            Typeform... Quiero decir, no niego que tu empresa trate con datos
+            sensibles. Mi pregunta es, ¿más sensibles que los de estas empresas
+            que usan Notion?
+          </p>
+        </div>
+        <br></br>
+        <div className="pb-12">
+          <h2 className="text-2xl">¿Y si aparece una aplicación mejor?</h2>
+          <br></br>
+          <p>
+            Seguramente ocurra. Ninguna empresa se mantiene en el top
+            eternamente. Y después de que aparezca esa nueva, vendrá otra. Y
+            luego otra. Lo importante no es encontar la herramienta perfecta,
+            que como te digo nunca va a existir. Es encontar la que más se pueda
+            adaptar a ti. Con eso en la cabeza, tú deccides si quieres seguir
+            excusándote en utopías o empezar ya a centralizar un sistema de
+            organización en tu empresa.
+          </p>
+        </div>
         <br></br>
         <div className="pb-12">
           <h2 className="text-2xl">
@@ -375,10 +447,11 @@ const ConsultoriaDeNotion = () => {
           </h2>
           <br></br>
           <p>
-            Por supuesto que no. Hoy están de moda los Second Brain. Mañana
-            volverá el GTD. Y pasado saldrá otro. El sistema que crearemos
-            estará adaptado a ti, no al sistema de productividad de moda del
-            momento, tengas el tipo de negocio que tengas.
+            Por supuesto que no. Hoy están de moda los Second Brain. Ayer el
+            Zettelkasten. Mañana volverá el GTD. Y pasado saldrá otro. El
+            sistema que crearemos estará adaptado a ti, no al sistema de
+            productividad de moda del momento, tengas el tipo de negocio que
+            tengas.
           </p>
         </div>
         <br></br>
@@ -391,8 +464,9 @@ const ConsultoriaDeNotion = () => {
               <br></br>
               Migrar siempre es complicado. Y ser capaces de identificar lo que
               hay que migrar para no llevarte mierda de un lado a otro, más. Te
-              puedo ayudar a migrar tu información desde otras herramientas,
-              pero solo si tú estás dispuesto a hacer limpieza.
+              puedo ayudar a migrar tu información desde otras herramientas, y
+              es un momento perfecto para hacer una limpieza de lo que no
+              necesitas.
             </li>
             <li>
               <b>
@@ -444,17 +518,19 @@ const ConsultoriaDeNotion = () => {
             </li>
           </ul>
         </div>
-
         <br></br>
         <div className="pb-12">
           <h2 className="text-2xl">
-            Yo solo quería una plantilla por encargo, ya sé un poco de Notion y
-            tengo bastante claro el esquema. ¿El precio será menos?
+            Yo solo quería una plantilla por encargo, ¿se puede?
           </h2>
           <br></br>
           <p>
-            Si preguntas esto, es porque no has entendido bien lo que te he
-            explicado arriba. En todo caso, será más.
+            Si quieres que el proceso consista en que te haga una plantilla y
+            hasta luego maricarmen, nada en contra, simplemente yo no trabajo
+            así. Lo vi con los primeros emprendedores con los que trabajé: no
+            sirve que te haga un sistema si luego no hacemos un proceso de
+            implementación, ni aunque me digas que sabes Notion. No lo
+            mantendrás en el tiempo.
           </p>
         </div>
         <br></br>
@@ -476,20 +552,52 @@ const ConsultoriaDeNotion = () => {
         </div>
         <br></br>
         <div className="pb-12">
+          <h2 className="text-2xl">¿Llevará tiempo?</h2>
+          <br></br>
+          <p>
+            <i>Tiene que</i> llevarlo. Quien te diga que implementar un sistema
+            de organización centralizado (sea Notion, Obsidian, Google Suite o
+            el que sea) no requiere de tu tiempo, no te dice la verdad. De la
+            creación me encargo yo, pero cuando os guíe en la fase de
+            implementación y formación el protagonista serás tú (y tu equipo).
+            Simplemente, debe ser así. Si ahora no puedes invertir ese tiempo o
+            darle prioridad, no es el momento contratar este servicio.
+          </p>
+        </div>
+        <br></br>
+        <div className="pb-12">
+          <h2 className="text-2xl">
+            Ya sé un poco de Notion y tengo bastante claro el esquema de lo que
+            quiero. ¿El precio será menos?{" "}
+          </h2>
+          <br></br>
+          <p>
+            Quizás no necesites la parte de formación en Notion, lo que tendré
+            en cuenta para el presupuesto, por supuesto. Más allá de eso, por
+            experiencia sé que nunca es sólo una plantilla a la carta. En
+            cualquier caso, escríbeme con tu caso para verlo juntas.
+          </p>
+        </div>
+        <br></br>
+        <div className="pb-12">
           <h2 className="text-2xl">¿Qué precio tiene?</h2>
           <br></br>
           <p>
-            A partir de 1000€. Depende de la complejidad de los procesos que
-            requieras en Notion o de si trabajas en equipo. Por supuesto será
-            más si trabajas en equipo ya que los sistemas en Notion conllevan
-            mayor extensión si trabajan varios miembros, y por supuesto la
-            formación a equipos es más costosa que hacerla únicamente 1to1.
+            Es imposible que te pueda dar una estimación en frío. Esto no es
+            ninguna técnica de marketing de no querer decirte el precio ya que
+            es un precio alto ni nada por el estilo. Simplemente depende de la
+            complejidad de los procesos que requieras en Notion, de si necesitas
+            formación, del tamaño del equipo…
           </p>
+
           <br></br>
           <br></br>
           <p className="font-bold">
-            Completa el formulario para ver si me interesa que trabajemos
-            juntas, <span className="text-red-500">aquí:</span>
+            Repito, si te interesa saber más,{" "}
+            <span className="text-red-500">
+              el primer paso es rellenar este formulario para ponerme en
+              contacto contigo:
+            </span>
             {""}
           </p>
 
@@ -500,7 +608,7 @@ const ConsultoriaDeNotion = () => {
             target="_blank"
           >
             <button
-              className=" my-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-sub font-semibold duration-150 hover:shadow-dark "
+              className=" my-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
               type="submit"
             >
               Formulario consultoría de Notion

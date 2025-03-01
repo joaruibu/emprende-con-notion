@@ -23,7 +23,7 @@ const StripeButton = ({ urlStripe, children, title, price, isDisabled }) => {
       <a href={urlStripe} target="_self">
         <button
           disabled={isDisabled}
-          className={`rounded-md w-full border border-stone-950 bg-yellow-300  text-2xl text-stone-950 p-4 font-sub font-semibold duration-150 hover:shadow-dark `}
+          className={`rounded-md w-full border border-stone-950 bg-yellow-300  text-2xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark `}
         >
           {children}
         </button>

@@ -4,7 +4,6 @@ import Desplegable from "../../components/Desplegable";
 
 const cursoNotion = () => {
   const [password, setPassword] = useState("");
-  console.log(1111, password);
   const PASSWORDS = {
     PASSWORD_1: "notion",
   };
@@ -49,7 +48,37 @@ const cursoNotion = () => {
             <br></br>
             <br></br>
             <Desplegable title="Cápitulo 1: ¿Qué es Notion?">
-              <div>
+              <Desplegable
+                type="secondary"
+                title="Cápitulo 1.1: ¿Qué es Notion?"
+              >
+                <p>
+                  * Nota importante: esta masterclass contiene mucha
+                  información, muchos detalles. Puedes volver a verla tantas
+                  veces como quieras, te recomiendo que lo hagas.
+                </p>
+              </Desplegable>
+              <Desplegable
+                type="secondary"
+                title="Cápitulo 1.1: ¿Qué es Notion?"
+              >
+                <p>
+                  * Nota importante: esta masterclass contiene mucha
+                  información, muchos detalles. Puedes volver a verla tantas
+                  veces como quieras, te recomiendo que lo hagas.
+                </p>
+              </Desplegable>
+              <Desplegable
+                type="secondary"
+                title="Cápitulo 1.1: ¿Qué es Notion?"
+              >
+                <p>
+                  * Nota importante: esta masterclass contiene mucha
+                  información, muchos detalles. Puedes volver a verla tantas
+                  veces como quieras, te recomiendo que lo hagas.
+                </p>
+              </Desplegable>
+              {/* <div>
                 <p>
                   * Nota importante: esta masterclass contiene mucha
                   información, muchos detalles. Puedes volver a verla tantas
@@ -75,7 +104,7 @@ const cursoNotion = () => {
                     Ver índice del taller
                   </a>
                 </h4>
-              </div>
+              </div> */}
             </Desplegable>
             <Desplegable title="Cápitulo 2: Duplicar y personalizar plantillas">
               <div>

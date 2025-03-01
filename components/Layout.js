@@ -2,7 +2,6 @@ import { useRouter } from "next/router";
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
-import cursoNotion from "../pages/formacion/curso-notion-estas-dentro";
 
 const Layout = ({ children }) => {
   const { pathname } = useRouter();
@@ -29,7 +28,8 @@ const Layout = ({ children }) => {
     tallerGestionHorasEstasDentro:
       "/formacion/taller-sistema-gestion-de-tu-tiempo-estas-dentro",
     consultoria: "/consultoria-de-notion",
-    cursoNotion: "/formacion/curso-notion-estas-dentro",
+    cursoNotion: "/formacion/curso-aprende-notion",
+    cursoNotionEstasDentro: "/formacion/curso-aprende-notion-estas-dentro",
     grupoPrivadoPlantillaZettelkasten:
       "/formacion/grupo-privado-plantilla-zettelkasten",
     rupoPrivadoPlantillaZettelkastenEstasDentro:

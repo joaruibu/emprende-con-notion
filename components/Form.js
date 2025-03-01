@@ -66,7 +66,7 @@ const SubscriptionForm = ({ titleForm, textButton, label, id, name }) => {
                   ></input>
                 </div>
                 <button
-                  className={`grow-0 rounded-md w-full border border-stone-950 bg-stone-50  py-2.5 text-sm font-sub font-semibold duration-150 hover:shadow-dark `}
+                  className={`grow-0 rounded-md w-full border border-stone-950 bg-stone-50  py-2.5 text-sm font-alternate font-bold duration-150 hover:shadow-dark uppercase `}
                   type="submit"
                 >
                   {textButton}

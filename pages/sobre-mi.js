@@ -4,12 +4,11 @@ import SubscriptionForm from "../components/Form";
 
 const TITLE_DATA = {
   title: "Sobre mí",
-  subtitle: "Currículum Vitae. El CV que siempre quise escribir... ",
+  subtitle: "",
 };
 
 const FORM_DATA = {
-  titleForm:
-    "El acceso a mis formaciones privadas y a mis plantillas de pago es exclusivo para mis suscriptores. Si te interesa, es aquí.",
+  titleForm: "",
   textButton: "Suscribirme",
   label: "subs-about",
   id: "fieldjkthnl",
@@ -21,21 +20,14 @@ const About = () => {
     <main className=" border-2 border-stone-950 bg-stone-50 p-4 rounded-xl my-8">
       <TitlePage subtitle={TITLE_DATA.subtitle}>{TITLE_DATA.title}</TitlePage>
       <br></br>
-      <h2> Laura de Arquer</h2>
-      <p>
-        Santa Cruz de Tenerife, España <br></br>
-        Contacto personal: Suscríbete y tendrás mi email.{" "}
-      </p>
-      <br></br>
-      <h2>Estudios</h2>
-      <br></br>
       <p>
         {" "}
         En mi infancia no tenía muchos recursos. A ver, mi familia no pasaba
-        hambre pero la situación familiar era terrible. Algún día te hablaré de
+        hambre en absoluto, pero la situación familiar era terrible (abusos,
+        jerarquías, religión por defensa). Algún día supongo que hablaré de
         ello, pero la cosa es que aprendí a ser productiva porque tenía que
-        conseguir suficiente dinero para pagar esa vida social “normal” que
-        tenían mis compañeros, y cosas del día a día como ropa nueva.
+        conseguir dinero para pagar esa vida social “normal” que tenían mis
+        compañeros, y cosas del día a día (como ropa interior nueva).
       </p>
       <p>
         A partir de los 14 tuve trabajo, practicaba deporte, estudiaba, ayudaba
@@ -55,220 +47,212 @@ const About = () => {
         </b>
       </p>
       <p>
+        <b>Aprendí a ser productiva porque no tenía otra alternativa.</b>
+      </p>
+      <p>
+        <b>Y, gracias a ello, estamos aquí ahora.</b>
+      </p>
+      <br></br>
+
+      <div className="flex justify-center">
+        <img
+          className="text-center"
+          src={"/img/lauradearquer_perfil.webp"}
+          alt="Foto de Laura de Arquer sobre fondo amarillo."
+          width={400}
+          height={100}
+        />
+      </div>
+      <br></br>
+      <h1>Soy Laura de Arquer</h1>
+      <br></br>
+
+      <p>
+        En 2020 creé mi canal de YouTube Emprende con Notion para enseñar cómo
+        me organizaba. Nunca me propuse ser una “experta en productividad” ni
+        una “gurú” ni nada similar. De hecho, cuando comencé mi canal no sabía
+        realmente qué era la productividad.
+      </p>
+      <p>
+        Simplemente trataba de compartir los sistemas de organización que a mí
+        me funcionaban, creados con una nueva herramienta que había descubierto
+        y que se adaptaba a mi situación:
+      </p>
+
+      <ul className="mx-10">
+        <li>
+          compaginar trabajo por cuenta ajena de 8 horas (soy
+          arquitecta-interiorista y en lugar de sistemas de organización, a
+          veces diseño espacios);
+        </li>
+
+        <li>
+          un emprendimiento de formación para interioristas que si te interesa
+          es{" "}
+          <a href="https://beinteriordesigner.com/" target="_blank">
+            aquí
+          </a>
+          ;
+        </li>
+
+        <li>y mi crecimiento personal en terapia, hábitos y demás;</li>
+      </ul>
+
+      <p>
+        Esa herramienta como te imaginarás, es Notion. Y cada sistema de
+        organización que creaba lo compartía de forma gratuita. Aún lo
+        hago.{" "}
+      </p>
+      <br></br>
+      <p>
+        Tratar de compaginarlo todo y al mismo tiempo disfrutar por el camino,
+        fue lo que me llevó a investigar la ciencia detrás de la productividad.
+        Hasta el punto de que a la lista anterior súmale que estoy estudiando
+        una nueva carrera, psicología. Desde entonces me dedico a comprender y
+        enseñar todo lo que puedo sobre la productividad sana, para que{" "}
         <b>
-          Aprendí a ser productiva porque no tenía otra alternativa. Y, gracias
-          a ello, estamos aquí ahora.
-        </b>
+          todos podamos hacer{" "}
+          <i>más de aquellas cosas que de verdad nos importan.</i>
+        </b>{" "}
       </p>
       <br></br>
-      <br></br>
-      <h2>Trabajos</h2>
-      <br></br>
-      <ul>
-        <li>
-          Mi primer trabajo, con apenas 14 años, fue de profesora particular. A
-          mí nunca me han gustado los niños. Pero a esos padres esnobs tampoco
-          les gustaban mucho sus niños.
-          <br></br>
-          Cuando yo terminaba la clase particular es cuando ellos llegaban a
-          casa de trabajar y casi siempre se quedaban hablando conmigo.
-          <br></br>
-          Había padres directores de colegio, empresarios e incluso azafatas que
-          pasaban la semana fuera de casa. Y de lo que les encantaba hablar es
-          de lo muy ocupados y estresados que estaban. Y al mismo tiempo, de lo
-          maravillosamente bien que se organizaban, a pesar de todo su trabajo.
-          Como justificándose por no estar en casa porque ellos eran{" "}
-          <i>padres-esnobs-que-presumen-de-estar-estresados</i>, sabes.
-          <br></br>
-          Pensaba entonces y sigo pensando ahora que con ese nivel de estrés y
-          dejadez de su vida personal… Muy bien organizados no estaban. No sé.
-        </li>
-
-        <li>
-          En 2013 fui dependienta en una óptica en el centro de Valencia. Lo
-          único que sabía de gafas es que yo llevaba unas y, por cierto, las
-          cambiaba aproximadamente cada cinco años. No me interesaban ni las
-          gafas ni venderlas, pero estudiaba en los ratos muertos el teórico de
-          conducir. Entre eso, las clases particulares y la carrera, me sentía
-          más ocupada que los{" "}
-          <i>padres-esnobs-que-presumen-de-estar-estresados</i>.{" "}
-        </li>
-
-        <li>
-          En 2016 tuve mi primeras prácticas como arquitecta. Estaba en tercero
-          de carrera y tuve claro que no quería trabajar como arquitecta.
-        </li>
-
-        <li>
-          En 2017 trabajé en otro despacho de proyectos más instagrameables.
-          Eran tres socios, de los cuales realmente hincaba codos solo uno.
-          Pero, claro, no había ningún tipo de organización interna. Ni un
-          calendario. Nada. Así que, ¿cómo iban a ser conscientes de cuánto
-          tiempo le metía cada uno a la empresa? Un día tenía médico y salí
-          pronto. Me dijeron que sin problema pero que tendría que recuperar
-          esas horas. Les contesté que ya las había recuperado. No lo
-          entendieron y les envié por email mi registro de horas con todos los
-          días que me había quedado de más. Era un excel, todavía no existía
-          Notion.
-        </li>
-
-        <li>
-          En 2018 estaba de Erasmus en Milán. No me daba para pagarme una
-          habitación propia así que compartía habitación en un piso antiguo
-          cerca de la universidad. Me gestioné mis ahorros, una pequeña
-          asignación familiar y las becas para poder pasar ese año sin trabajar.
-          Me apuntaba hasta las botellas de agua que compraba en excel (no
-          existía Notion). Al volver tuve un trabajo temporal recorriendo toda
-          la universidad politécnica de Valencia para actualizar las medidas de
-          evacuación acorde a la SUA (una normativa). A mano. Las horas también
-          las apuntábamos a mano, claro.
-        </li>
-
-        <li>
-          Poco después fui dependienta en Bimba y Lola: a punto de
-          independizarme necesitaba volver a ahorrar. A una semana vista, nos
-          pasaban el calendario con los turnos. Llamarlo calendario es un poco
-          denigrante para los calendarios. Era una captura de pantalla cutre de
-          un excel cutre. Los turnos variaban entre las 10.00 y las 22.00, de
-          forma totalmente arbitraria. A una semana vista era imposible
-          organizarse nada. Al mes envié una carta de renuncia.
-        </li>
-
-        <li>
-          En 2019 conseguí trabajo de arquitecta en una de las multinacionales
-          más importantes a nivel mundial del sector cerámico. Suena importante,
-          ¿verdad? Pues no. Jefes machistas, homófobos y racistas. Lo tenían
-          todo. El regalo de bienvenida era una agenda de polipiel verde con el
-          logo de la empresa en letras doradas. Guau.
-          <br></br>
-          DEbía usar Excel para llevar un seguimiento de los clientes. Era
-          desesperante, pero funcionaba mejor que la{" "}
-          <i>agenda-de-polipiel-verde</i>.<br></br>
-          Eso sí, la <i>agenda-de-polipiel-verde</i> era obligatoria en
-          cualquier reunión.
-        </li>
-
-        <li>
-          A partir de 2020 decidí no aguantar a nadie más, hacerme autónoma y
-          buscarme un trabajo sin jefes. Di muchas formaciones a profesionales
-          que querían especializarse en interiorismo o en herramientas digitales
-          para interioristas como AutoCad, SketchUp, PS, etc. Muchas. Desde
-          carpinteros a metalistas, interioristas, un ingeniero civil de EEUU,
-          una cajera que querían cambiar su profesión y meterse en el sector del
-          interiorismo, e incluso un hombre que hacía chimeneas tradicionales en
-          el País Vasco.
-          <br></br>
-          <b>
-            Esta fue mi mejor escuela. Donde aprendí a escuchar lo que cada
-            profesional necesita.
-          </b>
-          <br></br>
-          Todos los calendarios y recursos que creaba y compartía los gestionaba
-          a través de Notion, por supuesto.{" "}
-        </li>
-
-        <li>
-          A finales de 2020 empecé mi canal de Emprende con Notion en YouTube, y
-          para 2021 ya me escribían las primeras personas pidiéndome
-          consultorías después de haber probado mis plantillas
-        </li>
-      </ul>
-      <p>
-        Esos meses combiné las formaciones con colaborar con otros estudios e
-        inmobiliarias haciendo planos y renders de sus proyectos. Pero me
-        equivoqué de estrategia. Acabé teniendo muchos jefes en lugar de
-        ninguno. Te cuento...
-      </p>
-      <ul>
-        <li>
-          Con la que más duré fue con una interiorista de Gijón que quería una
-          intraemprendedora. Pasé de una agenda-de-polipiel-verde, a un estudio
-          de interiorismo que usaba todo para organizarse: excel, assana,
-          trello, word, toggl. Te puedes imaginar el caos. Le creé en mi tiempo
-          libre todo un ecosistema interno brutal en Notion para que pudiese
-          organizar los proveedores, entregas, clientes, etc., pero ella no
-          quiso implementarlo. A los seis meses corté con ella. Creo que ha
-          habido rupturas menos dramáticas.{" "}
-        </li>
-
-        <li>
-          En 2022 seguía siendo autónoma. Pero cosas de la vida me obligaron a
-          necesitar ingresos fáciles, no difíciles (y ser autónomo es difícil).
-          O sea, volver al trabajo por cuenta ajena. Trabajé como interiorista
-          en una importante cadena de restauración valenciana. Y a diferencia de
-          las anteriores empresas, aquí no imponían un control absurdo al
-          empleado: lo que importaba es que cumpliera objetivos. Mientras
-          cumpliera tenía libertad para organizarme como quisiera. Y cumplía,
-          vaya si cumplía. Además creé en Notion todo un ecosistema interno para
-          gestionar los proyectos, entregas, fichajes de horas, etc.{" "}
-        </li>
-
-        <li>
-          En 2023 estuve en un proceso de contratación en Notion para un puesto
-          como creadora de plantillas. Me salí del proceso tras la primera
-          entrevista. El ritmo frenético americano no lo quiero para mí ni para
-          la gente que se forma conmigo.{" "}
-        </li>
-
-        <li>
-          Hasta ahora, en 2024, cuando mi canal ha superado ya los 10.000
-          suscriptores. He creado plantillas en consultoría para muchos
-          emprendedores: estudios de interiorismo, CRMs para desarrolladores
-          web, consultores inmobiliarios, o ideas de emprendimiento menos
-          convencionales como crear desayunos para profesionales. <br></br>Por
-          cierto, ya no acepto consultorías.{" "}
-        </li>
-      </ul>
-      <br></br>
-      <br></br>
-      <h2>Detalles que quizás te interesen</h2>
       <br></br>
       <p>
-        Fui de las cinco primeras creadoras de un canal de difusión sobre Notion
-        de habla hispana. Cuando empecé, Notion tenía solo dos años de vida y ni
-        siquiera estaba traducido a español. Así que sí, también fui de las
-        primeras en hacer consultorías de Notion en España.
+        Desde 2024 escribo una newsletter semanal donde comparto consejos de
+        productividad para tu negocio y vida personal, o como a mí me gusta
+        llamarlos: tips para tocarte la papaya (porque si sigues estos tips
+        tendrás más tiempo para tocártela), a veces también doy algún regalo
+        pero, claro, solo a los suscriptores.{" "}
+      </p>
+      <p>Si te gusta la idea te apuntas ahí: </p>
+
+      <SubscriptionForm
+        titleForm={FORM_DATA.titleForm}
+        textButton={FORM_DATA.textButton}
+        label={FORM_DATA.label}
+        id={FORM_DATA.id}
+        name={FORM_DATA.name}
+      />
+      <br></br>
+      <br></br>
+      <br></br>
+      <h2>
+        Algunos comentarios no solicitados de mis vídeos de formación sobre
+        productividad con Notion.
+      </h2>
+      <br></br>
+      <br></br>
+
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          “fui a parar a tu canal buscando algún tutorial de Notion... Y total,
+          que acabé apuntada a tu boletín y sólo quería decirte que siempre
+          consigues sacarme una sonrisa y darme esa colleja que tanta falta me
+          hace para dejar de procrastinar y ponerme de una vez con el proyecto
+          con el que llevo, literalmente, años soñando.”
+        </i>
       </p>
       <br></br>
-      <br></br>
-      <h2>Aptitudes</h2>
-      <br></br>
-      <p>
-        Me ahorro y te ahorro las idioteces de: trabajo en equipo, productiva y
-        tal. Verás, acabé hasta los ovarios de los jefes que te dicen lo
-        importante que es el trabajo en equipo mientras ellos se tocaban las
-        pelotas literal y figuradamente en el despacho. Entonces si te interesa
-        lo que hago te suscribes. Si no, no lo hagas.
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          “Hola, he visto varios videos sobre el tema, y hasta ahora este ha
+          sido el mas pedagógico para comprender e iniciar el uso de esta
+          herramienta, incluso realice un curso on line donde escuche por
+          primera vez de esta plataforma y ni ellos son tan precisos como tu en
+          este video... gracias…”.
+        </i>
       </p>
       <br></br>
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          “Laura, tu contenido me ha enamorado, y lo explicas de forma súper
+          sencilla. Estoy usando Notion para mi empresa de Pinterest Marketing.
+          Me gustaría saber (…) Gracias”
+        </i>
+      </p>
       <br></br>
-      <h2>Qué hago en la actualidad</h2>
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          “Wow reina! Está increíble, era justo lo que necesitaba! Muchas
+          gracias por el contenido de valor, suscrito para seguir aprendiendo a
+          usar Notion”.
+        </i>
+      </p>
+      <br></br>
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          “(…) tengo tdah diagnosticado hace poco y ya estoy cansada de no tener
+          control en mi vida, y vengo utilizando notion pero las plantillas que
+          encontre relmente no las utilizaba. Pero hoy te encontre y ya
+          personalize esta plantilla y la de habit tracker y me gusta mucho.
+          Gracias por compartir tus plantillas gratis. Super bien explicado
+          todo. Espero poder mantenerme constante, a ver que tal. Voy a sugerir
+          tus videos y plantillas, te mereces todo. Gracias”
+        </i>
+      </p>
       <br></br>
       <p>
         {" "}
-        Soy cocreadora de un negocio llamado Be Interior Designer, donde vendo
-        formaciones de alto nivel a más de 10k arquitectos e interioristas, esa
-        formación sin colores rosas que yo siempre quise recibir pero que ni la
-        universidad ni los másters de miles de euros enseñan.
+        <b>
+          Por cierto, si quieres ver las plantillas de Notion a las que hacen
+          referencia, es{" "}
+          <a href="https://emprendeconnotion.com/plantillas" target="_blank">
+            aquí
+          </a>
+          .{" "}
+        </b>
       </p>
-      <p>Pero quizás eso te interese poco si no eres arqutiecto. </p>
-
-      <p>
-        Lo que sí te puede interesar es que tanto Be Interior Designer como
-        Emprende con Notion son las dos líneas de negocio que me han permitido
-        alcanzar la libertad sobre mi tiempo, eso que siempre había buscado y
-        que ahora te puedo enseñar a encontrar aquí, en Emprende con Notion,
-        donde enseño a cualquier persona a implementar Notion en sus negocios y
-        en sus vidas para no convertirse en aquellos{" "}
-        <i>padres-esnobs-que-presumen-de-estar-estresados</i> que conocí en mi
-        primer trabajo.{" "}
-      </p>
-      <p>
-        Eso sí, el acceso a mis formaciones privadas y a mis plantillas de pago,
-        son solo para mis suscriptores.
-      </p>
-      <p>Si quieres entrar, abajo en la caja de suscripción.</p>
       <br></br>
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          “Hola Laura! Estoy encantada con tus vídeos! A parte de que eres un
+          encanto como persona y te expresas súper bien, lo explicas todo súper
+          fácil. Había intentado usar Notion años atrás y no terminaba de
+          encontrarle el punto hasta que te descubrí! Y ahora estoy encantada
+          con el, organizando toda mi vida y mi empresa con él.”
+        </i>
+      </p>
+      <br></br>
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          “(…)tu canal ayuda a organizarnos, sea cual sea la razon (negocios,
+          colegio,vida,etc). tu canal me a ayudado Muchisimos a organizar mi
+          vida y mi negocio. EN FIN GRACIAS.”
+        </i>
+      </p>
+      <br></br>
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          {" "}
+          “(…)supe de Notion hace varios días, he visto varios muchos videos, ya
+          abrí una cuenta... la cerré porque no me di "mañas", un poco
+          impaciente. Seguí viendo tutoriales, hasta que apareció el tuyo, es
+          fantástico, explicas perfecto y conviertes el vídeo en uno de consulta
+          permanente. El esmero de tu vídeo lo hace muy valioso.”
+        </i>
+      </p>
+      <br></br>
+      <p className="mx-20 ">
+        <i className=" bg-gray-200">
+          {" "}
+          “muchas gracias por tu canal y tu labor también respecto a los
+          consejos que das de desarrollo personal!”
+        </i>
+      </p>
+      <br></br>
+      <p>
+        {" "}
+        Lo que está claro es que las personas no ganan nada por recomendarme.
+        Nadie les ha pedido que me dejen un comentario, no les doy un jamón a
+        cambio.{" "}
+      </p>
+      <br></br>
+      <p>
+        Si tú también quieres formar parte de los más de 2000 personas suscritas
+        que reciben la newsletter semanal gratuita donde comparto recursos y
+        consejos de productividad (ya sabes, para hacer más de aquello que de
+        verdad te importa), es aquí:
+      </p>
       <SubscriptionForm
         titleForm={FORM_DATA.titleForm}
         textButton={FORM_DATA.textButton}

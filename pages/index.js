@@ -6,9 +6,8 @@ const Home = () => {
   const [domLoaded, setDomLoaded] = useState(false);
 
   const TITLE_DATA = {
-    title: "Suscríbete",
-    subtitle:
-      "Suscríbete a mi lista y recibe los mejores consejos para ser mucho más productivo con Notion, en tu trabajo y en tu vida.",
+    title: "La gente que usa Notion, NO es más productiva.",
+    subtitle: "",
   };
 
   const FORM_DATA = {
@@ -30,55 +29,25 @@ const Home = () => {
           <TitlePage subtitle={TITLE_DATA.subtitle}>
             {TITLE_DATA.title}
           </TitlePage>
-          <p>
-            Ir a clases de cerámica mientras tenía proyectos pendientes, me daba
-            bastante remordimiento y no me dejaba disfrutarlo. Y te podría decir
-            que ahora es diferente. Que mi tiempo libre ha aumentado sin
-            rechazar proyectos ni invertir ni un euro más, y que voy a cerámica
-            sin remordimientos y disfrutando. Lo siento. No es verdad.
-          </p>
-          <p>
-            No es verdad lo de que no tenga remordimiento. Lo de que mi tiemop
-            libre ha aumentado sin rechazar proyectos ni invertir ni un euro más
-            sí es verdad.
-          </p>
+          <br></br>
           <br></br>
           <p>
-            Lo que pasa es que buena parte de ese nuevo tiempo libre lo dedico a
-            hacer más proyectos para no sentirme mal... ¿Culpa emprendedora? ¿No
-            sentirse nunca lo suficiente productiva? Puede ser. Sigo
-            trabajándomelo. Lo que está claro es que yo enseño a mis
-            suscriptores{" "}
-            <b>
+            <p className="mx-10 block text-gray-500 text-sm ">
               {" "}
-              cómo aumentar su tiempo libre sin rechazar proyectos ni invertir
-              ni un euro más. Lo que luego hagas con ese tiempo libre de más...
-              Ya es cosa tuya, claro.{" "}
-            </b>{" "}
+              <b>
+                ≪El éxito es hacer lo que quieres, cuando quieres, donde
+                quieres, con quién quieres y tanto como quieres.≫ – Tony
+                Robbins.
+              </b>{" "}
+            </p>
           </p>
-          <br></br>
+          <br></br> <br></br>
           <p>
-            Si te interesa empezar a aprender conmigo, es abajo, en la caja de
-            suscripción.
+            Mucha gente llega de mi canal de YouTube, Emprende con Notion,
+            pensando que{" "}
+            <b>solo por empezar a utilizar Notion van a ser productivos.</b>
           </p>
-          <br></br>
-          <SubscriptionForm
-            titleForm={FORM_DATA.titleForm}
-            textButton={FORM_DATA.textButton}
-            label={FORM_DATA.label}
-            id={FORM_DATA.id}
-            name={FORM_DATA.name}
-          />
-          <br></br>
-          <br></br>
-          <p>Y hablando de culpa emprendedora... </p>
-          <p>
-            Muchas personas que llegan a mi canal de YouTube, Emprende con
-            Notion, piensan que solo por empezar a utilizar Notion van a empezar
-            a ser más productivos.{" "}
-          </p>
-          <p>Que Notion es igual a productividad. Y ojalá fuera tan fácil.</p>
-          <br></br>
+          <p>Que Notion, es igual a productividad. </p>
           <p>
             La gente quiere cumplir objetivos muy rápido y muy fácil. No les
             culpo, pero es complicado. Bastante. Ahora, como ese sueño está ahí,
@@ -87,69 +56,85 @@ const Home = () => {
             Notion y la productividad tipo…
           </p>
           <br></br>
-          <p>
-            <i>"8 AÑOS de MÁXIMA PRODUCTIVIDAD personal."</i>{" "}
+          <p className="mx-8 block text-gray-700 text-sm ">
+            <i>
+              ¿Cómo cambiaría tu vida si fueras una persona ESTRUCTURADA y
+              ORGANIZADA? 8 AÑOS de MÁXIMA PRODUCTIVIDAD personal.
+            </i>
           </p>
-          <p>
-            <i>"AVANZA 2 DÍAS EN 1, usando NOTION."</i>
+          <p className="mx-8 block text-gray-700 text-sm ">
+            <i> AVANZA 2 DÍAS EN 1, usando NOTION.</i>
           </p>
-          <p>
-            <i>"Los 5 SECRETOS de la PRODUCTIVIDAD EXTREMA."</i>
+          <p className="mx-8 block text-gray-700 text-sm ">
+            <i>Los 5 SECRETOS de la PRODUCTIVIDAD EXTREMA.</i>
           </p>
-          <p>
-            <i>"Vive la EFECTIVIDAD y sé FELIZ."</i>{" "}
+          <p className="mx-8 block text-gray-700 text-sm ">
+            <i>Vive la EFECTIVIDAD y sé FELIZ.</i>
           </p>
-          <p>
-            <i>"Cómo logro hacer TODO."</i>{" "}
+          <p className="mx-8 block text-gray-700 text-sm ">
+            <i>Cómo logro hacer TODO. </i>
           </p>
           <br></br>
-          <p>¿Pero sabes qué?</p>
+          <p>¿Pero sabes qué? </p>
           <p>
-            <b>Son idioteces para incautos. </b> No lo digo porque no puedas ser
-            más efectivo, pero jamás durante 8 AÑOS SEGUIDOS. Uses Notion, o una
-            agenda de papel.
+            Son idioteces para incautos. No lo digo porque no puedas lograr ser
+            más estructurado y organizado, pero jamás durante 8 años seguidos.
+            Uses Notion, o una agenda de papel.
           </p>
           <p>
-            Y desde luego, lo que sí te digo es que no vas a lograr hacerlo TODO
-            siempre. No lo harás. La efectividad extrema no te hará feliz.{" "}
-          </p>
-          <p>
-            Lo único que hará será frustrarte más y perder el dinero y el tiempo
+            Y desde luego, lo que sí te digo es que{" "}
+            <b> no vas a lograr hacerlo TODO siempre. </b> No lo harás. La
+            efectividad extrema no existe e intentarlo no te hará feliz. Lo
+            único que hará será frustrarte más y perder el dinero y el tiempo
             del curso de productividad que hayas hecho.{" "}
           </p>
           <br></br>
+          <p>Entonces.</p>
           <p>
-            Ahora, hay una manera bastante sensata de mejorar tu productividad
-            vital y laboral, incluso si eres un despiste que se olvida las
-            llaves al salir de casa o aunque tengas poquísimas horas libres por
-            todas las horas extras que te obligan a hacer. No es nada milagroso
-            ni es un “secreto” que conozcamos solo unos pocos y que te lo voy a
-            revelar porque soy así de maja.
+            <b>
+              {" "}
+              Hay una manera bastante sensata de mejorar tu productividad
+              personal y laboral{" "}
+            </b>
+            (aunque ahora pienses que no tienes tiempo ni de salir a caminar 30
+            minutos todos los días, ni de cocinar con calma, ni hablamos de
+            intentar lanzar ese negocio que llevas en la cabeza desde hace
+            meses);{" "}
+            <b>
+              no es nada milagroso ni es un “secreto” que conozcamos solo unos
+              pocos…
+            </b>
           </p>
           <br></br>
-          <p>
-            El “secreto” es entender que la productividad es una habilidad que
-            se puede aprender, como cualquier otra, pero con la que tienes que
-            gestionar tu vida. Estructurarla. Masticarla. Desde los cimientos.{" "}
-          </p>
-          <p>
-            En cambio, Notion, o Trello, o una agenda, o el método mágico de 5
-            pasos del gurú de turno… solo son una herramienta.{" "}
-          </p>{" "}
-          <p>¿Ves la diferencia? </p>
           <br></br>
           <p>
-            No puedes pretender mejorar tu productividad con una herramienta si
-            no gestionas antes tu vida. Es imposible.{" "}
+            <b>
+              El “secreto” de la productividad es hacer menos. Tan simple como
+              eso. Ojo, simple no es fácil. Saber qué priorizar es de las
+              habilidades más complicadas en cualquier negocio. Pero en
+              definitiva, es eso: menos, de más calidad; menos, para avanzar
+              más.
+            </b>
+          </p>
+          <br></br>
+          <br></br>
+          <p>
+            Al fin y al cabo, <i>¿qué sabrá Tony Robbins? </i>{" "}
           </p>
           <p>
-            Como dice Tony Robbins “No puedes planificar tu día hasta que tengas
-            un plan para tu vida”. Eso sí, una vez te lo trabajas, tu relación
-            con la organización y cómo vas a vivir a partir de ahora, cambia
-            para siempre.
+            Te lo digo porque este nº1 de EEUU en estrategia de vida y negocio,
+            ha repetido en varias ocasiones este mismo mensaje de
+            <i>≪do less, but do what matters≫.</i> Como has visto no liga el
+            éxito profesional con una <i>productividad extrema </i> sino con el
+            poder de la elección personal, de elegir menos y mejor, vaya.
           </p>
-          <p>Si quieres ver cómo hacer esto, es aquí.</p>
-          <br></br>
+          <p>
+            Pero… qué sabrá Tony Robbins, <i>¿verdad?</i>
+          </p>
+          <p>
+            En cualquier caso, si quieres suscribirte a mi newsletter donde
+            hablo de todo esto, es abajo, en la caja de suscripción.{" "}
+          </p>
           <SubscriptionForm
             titleForm={FORM_DATA.titleForm}
             textButton={FORM_DATA.textButton}
@@ -159,25 +144,72 @@ const Home = () => {
           />
           <br></br>
           <br></br>
-          <p>Al fin y al cabo, ¿qué sabrá Tony Robbins? </p>
+          <br></br>
+          <h2 className="ml-6">Esto no es nada nuevo.</h2>
+          <br></br>
+          <br></br>
           <p>
-            Te lo digo porque Tony Robbins, el coach <i>yanki</i> que más sabe
-            de vida y negocios, ha repetido frases como “El éxito es hacer lo
-            que quieres, cuando quieres, donde quieres, con quién quieres y
-            tanto como quieres”.{" "}
+            Quiero decir, no soy ninguna pionera. Ni siquiera Tony Robbins lo
+            es.
           </p>
           <p>
-            O sea, este nº1 de EEUU en estrategia de vida y negocio, no liga el
-            éxito profesional con una <i>productividad extrema</i> sino con la
-            gestión personal, porque esa gestión de vida es la que luego te hace
-            ser más productivo en tu trabajo.{" "}
+            El gran filósofo Réne Descartes tuvo sus sueños y visiones tras
+            varios meses descansando. Newton descubrió uno de los grandes
+            principios de la física sentado bajo un árbol. Las siestas de
+            Einstein son ya conocidas. Platón construyó el pilar de la filosofía
+            en los jardines de Akademos…{" "}
+            <b>
+              Ninguno de ellos llegó a sus descubrimientos con productividad
+              extrema.
+            </b>
+            <br></br>
+            <br></br>
+            <br></br>
+            <p>
+              <p className="mx-10 block text-gray-500 text-sm">
+                <i>
+                  <b>≪¡Qué descansada vida</b> la del que huye del mundanal
+                  ruido y sigue la escondida senda por donde han ido{" "}
+                  <b>los pocos sabios </b>que en el mundo han sido!≫. – Poeta y
+                  humanista del Renacimiento, Luis de León.
+                </i>
+              </p>
+            </p>
+             
           </p>
-          <p>Pero… ¿qué sabrá Tony Robbins, verdad?</p>
           <p>
-            En cualquier caso, si quieres suscribirte es abajo, en la caja de
-            suscripción.
+            Por eso, volviendo al presente, yo no te puedo decir que por usar
+            Notion vas a ser más productivo.{" "}
+          </p>
+          <p>
+            Cuando usamos Notion, una agenda o el método mágico de 5 pasos del
+            gurú de turno, me da igual… No entendemos que{" "}
+            <b>eso son solo herramientas.</b> Si solo te enseño Notion corremos
+            el riesgo de seguir cayendo en las dinámicas de hacer más. En lugar
+            de elegir mejor. <i>¿Ves la diferencia?</i>
           </p>
           <br></br>
+          <p>
+            Daniel Kahneman, premio Nobel, demuestra en su libro "Thinking Fast
+            and Slow" que nuestro cerebro necesita períodos de baja actividad
+            para tomar mejores decisiones y ser, por tanto, más
+            productivos.{" "}
+          </p>
+          <br></br>
+          <br></br>
+          <br></br>
+          <p>
+            Entonces. Si quieres saber (de forma práctica) cómo hacer más de
+            aquello que de verdad te importa, desde 2024 escribo una newsletter
+            semanal gratuita donde comparto consejos de productividad para tu
+            negocio y vida personal, o como a mí me gusta llamarlos:{" "}
+            <b>
+              tips para tocarte la papaya (porque si sigues estos tips tendrás
+              más tiempo para tocártela).
+            </b>{" "}
+            A veces también doy algún regalo pero, claro, solo a los
+            suscriptores. Si te gusta la idea te apuntas ahí:{" "}
+          </p>
           <SubscriptionForm
             titleForm={FORM_DATA.titleForm}
             textButton={FORM_DATA.textButton}
@@ -187,92 +219,58 @@ const Home = () => {
           />
           <br></br>
           <br></br>
+          <br></br>
+          <br></br>
+          <h2 className="text-2xl">
+            Ahora vamos con lo que puedes aprender si te suscribes a la
+            lista.{" "}
+          </h2>
+          <br></br>
+          <br></br>
           <p>
-            Ahora vamos con lo que puedes aprender si te suscribes a la lista.
             Digo puede, porque por mucho que yo te ayude y te comparta recursos,
             al final el que lleva a la acción todo esto, o no, eres tú.{" "}
           </p>
           <p>Pues eso, vamos con lo que puedes conseguir si te suscribes:</p>
+          <br></br>
           <ul className="mx-8">
             <li>
-              <b>
-                Te voy a enseñar por qué Notion es una herramienta fantástica
-                para poder trabajar tus objetivos y priorizarlos.{" "}
-              </b>
-              ¿Qué objetivos? Pues no sé. Eso lo sabes tú. Pero como te he dicho
-              antes, mejorar tu productividad depende en buena parte de trabajar
-              tus prioridades, sean las uqe sean.{" "}
+              Compartiré contigo lo que leo y descubro del mundo de la
+              productividad, negocios y vida.
             </li>
             <li>
-              <b>
-                Cómo implementar Notion en tu trabajo para ser más productivo,
-                trabajes de lo que trabajes:
-              </b>{" "}
-              construcción, ventas, derecho, fantasía… Sí, en cualquier sector.
-              O sea, cómo puedes implementarlo tú, no tu empresa. Que lo
-              implemente tu empresa si no es una tecnológica… ya es otra
-              historia. También te contaré esa otra historia.{" "}
+              También cómo aplico eso que descubro, de forma práctica, para que
+              tú también puedas aplicarlo en tu vida y negocio.{" "}
             </li>
             <li>
-              <b>
-                Cómo mejorar tu productividad de vida en el día a día: tus
-                rutinas de gimnasio, tu dieta, tus oposiciones, tu terapia, la
-                gestión de tus clientes… Vaya, tu vida diaria con Notion. Todo
-                esto con anécdotas humanas y reales, como cuando se me olvidaban
-                las bragas en casa.
-              </b>
+              Todo esto con anécdotas humanas y reales. No soy ninguna gurú. Si
+              esperas eso, no te apuntes.{" "}
             </li>
             <li>
-              Igual no lo sabías, pero{" "}
-              <b>
-                Notion lanza actualizaciones y nuevas funciones todas las
-                semanas. Algunas son paja, otras son la leche (como cuando
-                sacaron la función de hacer cronogramas, o de crear tareas
-                recurrentes)
-              </b>
-              . Pues si eso no lo sabías ahora podrás enterarte en la
-              newsletter. O no. Porque las que no sirvan para mejorar tu
-              productividad diaria no las mencionaré.
+              Por supuesto te hablaré de Notion. De las actualizaciones nuevas
+              relevantes que saquen, sí, pero sobre todo de cómo utilizar esta
+              herramienta para enfocarte en lo que de verdad te importa; sin
+              widgets ni florituras.{" "}
             </li>
             <li>
-              Porque Notion se actualiza, muchas de las plantillas o cursos
-              hechos por creadores de Notion se van quedando obsoletos. Por
-              ponerte un ejemplo, en un habit tracker antes no se podían poner
-              eventos recurrentes. Ahora sí. En mi newsletter tendrás acceso a
-              mis plantillas actualizadas, solo para mis suscriptores.
+              Tendrás acceso prioritario a los vídeos nuevos 24 horas antes de
+              que se hagan públicos (si no son directos, entiéndeme). Y claro,
+              es mucho más probable que pueda responderte a los comentarios que
+              me hagas en esas primeras 24 horas. Como te digo, esto es
+              exclusivo para mis suscriptores de la newsletter.{" "}
             </li>
             <li>
-              También compartiré contigo plantillas... Obvio, ¿no? Bueno no sé,
-              pero por si te quedaban dudas sí, mis suscriptores tb recibirán
-              plantillas exclusivas. Eso sí, algunas serán de pago.
+              También te enviaré emails sobre mis cursos, plantillas, y otros
+              recursos, a veces regalos, que vaya sacando que de otra forma no
+              podrás enterarte. Si esto es un problema, no te apuntes.{" "}
             </li>
             <li>
-              Tendrás muchas más probabilidades de que te conteste a comentarios
-              en los tutoriales de mi canal de YouTube @emprendeconnotion. ¿Por
-              estar suscrito a la newsletter? ¿Cómo es eso?{" "}
-              <b>
-                Porque tendrás acceso prioritario a los vídeos nuevos 24 horas
-                antes de que se hagan públicos. Y claro, es mucho más probable
-                que pueda responderte a los comentarios que me hagas en esas
-                primeras 24 horas. Como te digo, esto es exclusivo para mis
-                suscriptores de la newsletter.
-              </b>{" "}
-            </li>
-            <li>
-              <b>
-                Por qué te interesa enterarte de todos los talleres que voy
-                sacando. Que luego los compres o no es otra histoira, pero si no
-                estás suscrito no podrás acceder siquiera a la página de ventas.
-                Y por tanto, no podrás saber si te interesa o no…
-              </b>
+              Ah, y te he mentido sobre lo de semanal, a veces me emociono con
+              algo nuevo de productividad que he aprendido y me pongo a escribir
+              varios días seguidos.{" "}
             </li>
           </ul>
-          <br></br>
-          <p>
-            Si crees que esto te puede interesar puedes suscribirte abajo. Si
-            ves que no va contigo, no te suscribas.{" "}
-          </p>
-          <br></br>
+          <p>Abajo para entrar. </p>
           <SubscriptionForm
             titleForm={FORM_DATA.titleForm}
             textButton={FORM_DATA.textButton}
@@ -282,168 +280,123 @@ const Home = () => {
           />
           <br></br>
           <br></br>
-          <h2>Opiniones reales, de gente real, no solicitadas.</h2>
           <br></br>
-          <p>
-            Todas son opiniones de gente que me sigue desde hace tiempo en mi
-            canal, y el no ser solicitadas es lo que las hace reales. No compro
-            opiniones, ni buenas ni malas, como estas:
-          </p>
           <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>“No sirve”.</i>
-          </p>
+          <h2>
+            Comentario real, no solicitado, de gente de dentro de la
+            newsletter:{" "}
+          </h2>
           <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>“No explicas como creas las plantillas, no sirve”.</i>
-          </p>
           <br></br>
-          <p>
-            Lo que está claro es que nadie les ha pedido que me dejen un
-            comentario positivo. No les doy regalos a cambio, sabes. A los que
-            me dejan comentarios negativos tampoco les doy regalos, por si te lo
-            preguntabas.
-          </p>
-          <p>Copio-pego:</p>
-          <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “(…)tu canal ayuda a organizarnos, sea cual sea la razon
-              (negocios, colegio,vida,etc). tu canal me a ayudado Muchisimos a
-              organizar mi vida y mi negocio. EN FIN GRACIAS.”
+          <p className="mx-20">
+            <i className=" bg-gray-200">
+              “Hola, el contenido del newsletter fue una decepción total. No
+              encontré ningún valor en lo que leí. Si realmente quieres llegar a
+              más personas, deberías mejorar tu imagen personal o consultar con
+              un experto en el tema.”
             </i>
           </p>
           <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “Wow reina! Está increíble, era justo lo que necesitaba! Muchas
-              gracias por el contenido de valor, suscrito para seguir
-              aprendiendo a usar Notion”.
-            </i>
-          </p>
-          <p className="mx-12 sm:mx-16">
-            <b>Esto me escribió el otro día un suscriptor sobre </b>
-            <a
-              href="https://www.emprendeconnotion.com/plantillas/plantilla-contabilizar-horas-de-trabajo-en-notion-7"
-              target="_blank"
-            >
-              <b>
-                la plantilla de Fichero de horas, te pongo aquí el enlace por si
-                te interesa.
-              </b>
-            </a>
-          </p>
+          <p>Comentarios, también reales y no solicitados. Copio-pego:</p>
           <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “Hola Laura! Increible el conocimiento que tienes sobre notion.
-              Una pregunta, si una misma tarea tiene interrupciones (…)”.
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “(…) Así que gracias por todos tus mensajes que me hacen sentir
+              que ni soy tan rara ni estoy tan loca, ni tan sola en esta idea de
+              emprender y que todo parezca un imposible... Y sin embargo no lo
+              es.”
             </i>
           </p>
           <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “Laura, tu contenido me ha enamorado, y lo explicas de forma súper
-              sencilla. Estoy usando Notion para mi empresa de Pinterest
-              Marketing. Me gustaría saber (…) Gracias”.
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “Tengo una lista de correos POTENTES que guardo en Notion y que
+              releo con frecuencia. Este va directo a esa lista. Saludos,
+              Laura.”
             </i>
           </p>
           <br></br>
-          <p>
-            El siguiente me hizo especial ilusión... Porque, lo dicho, las
-            pesronas que me dejan estos mensajes no ganan nada por recomendarme:
-          </p>
-          <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “(…)Hoy vi estos tutos porque tengo tdah diagnosticado hace poco y
-              ya estoy cansada de no tener control en mi vida, y vengo
-              utilizando notion pero las plantillas que encontre relmente no las
-              utilizaba. Pero hoy te encontre y ya personalize esta plantilla y
-              la de habit tracker y me gusta mucho. Gracias por compartir tus
-              plantillas gratis . . Super bien explicado todo. Espero poder
-              mantenerme constante, a ver que tal. Voy a sugerir tus videos y
-              plantillas, te mereces todo. Gracias”
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “Lo que tengo claro es que deseo recibir estos mensajes todos los
+              días. Te sobra ingenio a raudales. Gracias!!”
             </i>
           </p>
-          <p className="mx-12 sm:mx-16">
-            <b>Te pongo aquí el enlace a la plantilla de </b>
-            <a
-              href="https://www.emprendeconnotion.com/plantillas/plantilla-diario-de-agradecimiento-+-habit-tracker-en-notion-1"
-              target="_blank"
-            >
-              <b>Habit Tracker a la que se refiere.</b>
-            </a>
+          <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">“:) love it”</i>
           </p>
           <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">“AMO esta newsletters!”</i>
+          </p>
           <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “Hola Laura! Estoy encantada con tus vídeos! A parte de que eres
-              un encanto como persona y te expresas súper bien, lo explicas todo
-              súper fácil. Había intentado usar Notion años atrás y no terminaba
-              de encontrarle el punto hasta que te descubrí! Y ahora estoy
-              encantada con el, organizando toda mi vida y mi empresa con él.
-              Así que muchas gracias por tu canal y tu labor también respecto a
-              los consejos que das de desarrollo personal! (…)”
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “A veces me suceden cosas u observo y pienso ¿cómo lo incluiría
+              Laura en un email? Sobre todo, si es curioso, divertido o aporta
+              una lección.”
             </i>
           </p>
-          <p className="mx-12 sm:mx-16">
-            <b>Comentario de una suscriptora después de ver </b>
-            <a
-              href="https://www.emprendeconnotion.com/plantillas/plantilla-crea-tu-buyer-persona-en-notion-9"
-              target="_blank"
-            >
+          <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “Hola Laura! (…) Quiero felicitarte y agradecerte por tus mails y
+              todo tu contenido! Es de muchísima ayuda para mi y todos los
+              emprendedores! Lo valoro mucho.”
+            </i>
+          </p>
+          <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
               {" "}
-              <b>la plantilla de Buyer Persona, te la dejo aquí.</b>
-            </a>
-          </p>
-          <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “Hola, he visto varios videos sobre el tema, y hasta ahora este ha
-              sido el mas pedagógico para comprender e iniciar el uso de esta
-              herramienta, incluso realice un curso on line donde escuche por
-              primera vez de esta plataforma y ni ellos son tan precisos como tu
-              en este video... gracias…”.
+              “Buen día, Sinceramente... Es el primer email completo (no laboral
+              ni académico) que me he leído completo. Ansioso de ver esos{" "}
+              <b>tips para tocarme la papaya </b>que no tengo. Saludos y
+              gracias,”
             </i>
           </p>
-          <p className="mx-12 sm:mx-16">
+          <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “Tengo que confesar que este es el primer correo que abro tuyo 🥴.
+              Pero ahora sí que no me los perderé jajajajaja… Al leer el
+              comienzo me hizo reír mucho y debo de confesar que lo leía varias
+              veces esa parte para saber si si había entendido bien jajajaja.
+              Ahora nunca se me olvidará este tip! Gracias!”
+            </i>
+          </p>
+          <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “Me has ayudado a organizarme mucho con Notion. Desde que lo
+              describí me enamoré completamente de esta app y de apoco estoy
+              organizando MI VIDA ENTERA allí! Pacientes, diarios alimentarios,
+              de hábitos, cosas del hogar, loa hobbies, proyectos… todo!!
+              Gracias gracias gracias 🙏”
+            </i>
+          </p>
+          <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">“Me mola tu canal y tus emails😊”</i>
+          </p>
+          <br></br>
+          <p className="mx-20 ">
+            <i className=" bg-gray-200">
+              “(…) me encanto tu newsletter. Voy a estar atenta a recibirla
+              porque de verdad …. Quiero empezar a tener ese tiempo.”
+            </i>
+          </p>
+          <br></br>
+          <br></br>
+          <p>
+            Si tú también quieres recibir semanalmente los{" "}
             <b>
-              Este me lo escribieron después de ver el tutorial para aprender
-              Notion desde 0,{" "}
+              tips para tocarte la papaya (porque si sigues esos tips tendrás
+              más tiempo para tocártela){" "}
             </b>
-            <a href="https://www.emprendeconnotion.com/blog" target="_blank">
-              <b>te dejo aquí el blog para aprender más de Notion.</b>
-            </a>
-          </p>
-          <br></br>
-          <p className="mx-12 sm:mx-16">
-            <i>
-              “(…)supe de Notion hace varios días, he visto varios muchos
-              videos, ya abrí una cuenta... la cerré porque no me di "mañas", un
-              poco impaciente. Seguí viendo tutoriales, hasta que apareció el
-              tuyo, es fantástico, explicas perfecto y conviertes el vídeo en
-              uno de consulta permanente. El esmero de tu vídeo lo hace muy
-              valioso.”
-            </i>
-          </p>
-          <br></br>
-          <p>
-            Todas y cada una de las palabras que lees en esta página son
-            de gente NO imaginaria que me comprará en el futuro formaciones y
-            plantillas como loca y hará que pueda jubilarme a los 40...
-          </p>
-          <p>
-            Jaja no. No a lo de jubilarme a los 40, que yo soy muy culo
-            inquieto. Lo de que me comprarán formaciones es muy probable que sí.
-            Todas las que has leído son comentarios no solicitados dejados por
-            gente que ha visto mis formaciones de YouTube o que se ha descargado
-            las plantillas que tienes en esta web.
-          </p>
-          <p>
-            Pero vaya, que tú por apuntarte mi lista de email no tienes que
-            pagar nada ¿vale?
+            de los que hablan… <br></br>
+            <br></br>Es aquí abajo:
           </p>
           <br></br>
           <SubscriptionForm

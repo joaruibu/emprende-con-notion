@@ -47,7 +47,7 @@ export default function Navbar() {
                 <a
                   key={item.name}
                   target={item.target}
-                  className={`text-xs font-sub block h-full text-black  hover:text-terracotta ${
+                  className={`text-xs font-alternate block h-full text-black  hover:text-terracotta ${
                     item.href === pathname ? "text-terracotta" : ""
                   }`}
                 >

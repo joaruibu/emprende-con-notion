@@ -30,6 +30,10 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap"
           rel="stylesheet"
         />
+        <script
+          src="https://kit.fontawesome.com/618d0a5e66.js"
+          crossorigin="anonymous"
+        ></script>
       </Head>
       <body className=" text-stone-950 ">
         <Main />

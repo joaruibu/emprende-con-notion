@@ -47,16 +47,15 @@ const CoverItemDownloadPage = ({ cover }) => {
             </h1>
             <div className="grid grid-cols-3 gap-4">
               <div className=" mb-6 sm:mb-9  border-2 border-stone-950 bg-stone-50 overflow-hidden rounded-xl ">
-                <iframe
-                  width="460"
-                  height="232"
-                  src="https://www.youtube.com/embed/nsoRfPXFhMs?si=-_YjJaBHanKT8Acl"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  allowfullscreen
-                ></iframe>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video">
+                  <iframe
+                    src="https://www.youtube.com/embed/nsoRfPXFhMs?si=-_YjJaBHanKT8Acl"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </div>
               <div className="col-span-2 p-4 border-2 border-stone-950 bg-stone-50 overflow-hidden rounded-xl mb-6 sm:mb-9  ">
                 <h2 className="">Aprende a usar tus covers</h2>
