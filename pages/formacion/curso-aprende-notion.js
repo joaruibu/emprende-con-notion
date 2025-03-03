@@ -5,7 +5,7 @@ const CursoNotion = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: "Curso Notion",
     buttonText: " Acceder ahora",
-    price: "9 €",
+    price: "15 €",
     isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/ed8819c9aec49dc340f88c7d4e95eacd8cc8bb63",
@@ -265,7 +265,7 @@ const CursoNotion = () => {
           <br></br>
           <br></br>
           <br></br>
-          <p className="ml-12">Todo esto, en menos de dos horas.</p>
+          <p className="ml-12">Todo esto, en dos horas y pico.</p>
           <p className="ml-12">
             Si algo de esto te interesa, puedes acceder ya mismo al contenido
             desde aquí:
@@ -455,7 +455,7 @@ const CursoNotion = () => {
             <br></br>
             <p>
               Depende de ti. Quiero decir, somos adultos. Yo puedo decirte que
-              el tiempo total de las grabaciones es menos de dos horas. Lo que
+              el tiempo total de las grabaciones es de dos horas y pico. Lo que
               dediques a practicar e implementar y el ritmo al que lo hagas… es
               cosa tuya. Pero recuerda, tienes dos semanas de soporte dsde el
               momento de compra.

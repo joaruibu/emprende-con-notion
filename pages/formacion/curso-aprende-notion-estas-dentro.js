@@ -33,6 +33,7 @@ const cursoNotion = () => {
             <h1 className="mb-4 font-alternate text-5xl leading-[52px] text-center">
               CURSO DE NOTION.
             </h1>
+            <h2 className="text-center">Empezar en Notion es así de fácil.</h2>
             <br></br>
             <br></br>
             <br></br>
@@ -70,7 +71,18 @@ const cursoNotion = () => {
                 type="secondary"
                 title="Lección 0. Bienvenida e instrucciones para el curso."
               >
-                <p>Próximamente...</p>
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1JLICMSSbkTIfLL00Sox1dwNe3zdHF5HL/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Desplegable>
 
               <Desplegable type="secondary" title="Lección 1. Crear un cuenta.">
@@ -226,15 +238,12 @@ const cursoNotion = () => {
                 type="secondary"
                 title="Lección 6. Duplicar plantillas y dónde encontrarlas."
               >
-                <p>Próximamente...</p>
-
-                {/* <br></br>
+                <br></br>
                 <h4>- Lección:</h4>
                 <br></br>
-
                 <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
                   <iframe
-                    src="https://drive.google.com/file/d/1M3OCOvmqZanQqLxugrpZLcAuXehzAQy2/preview "
+                    src="https://drive.google.com/file/d/1s4R_7nE6HaixQCIAaSiU6QWmd_rdUpcA/preview "
                     width="100%"
                     class="absolute inset-0 w-full h-full"
                     frameborder="0"
@@ -253,7 +262,7 @@ const cursoNotion = () => {
                   >
                     Más plantillas de Notion
                   </button>
-                </a> */}
+                </a>
               </Desplegable>
               <br></br>
             </Desplegable>
