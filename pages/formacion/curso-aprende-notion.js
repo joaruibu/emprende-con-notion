@@ -5,7 +5,7 @@ const CursoNotion = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: "Curso Notion",
     buttonText: " Acceder ahora",
-    price: "15 €",
+    price: "19 €",
     isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/ed8819c9aec49dc340f88c7d4e95eacd8cc8bb63",
