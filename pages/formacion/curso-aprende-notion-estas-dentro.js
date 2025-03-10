@@ -15,7 +15,7 @@ const cursoNotion = () => {
 
   return (
     <>
-      {isCorrectPassword(password) ? (
+      {!isCorrectPassword(password) ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
@@ -267,8 +267,258 @@ const cursoNotion = () => {
               <br></br>
             </Desplegable>
 
-            <Desplegable title="Módulo: Crea tu propia web en Notion"></Desplegable>
-            <Desplegable title="Módulo: Gestión personal: hábitos, gastos y lectura."></Desplegable>
+            <Desplegable title="Módulo: Crea tu propia web en Notion">
+              <Desplegable type="secondary" title="Lección 7. Muñecas rusas.">
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1xIG03Dn0WaHAht3ts8Y38hMrnrmTBpcf/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-matryoshka?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable
+                type="secondary"
+                title="Lección 8. Multimedia y diseño."
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1OI0R6eeHI3PzCksNl8_mfrnJvaKGGHlU/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-practica-multimedia?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+
+                <a href={"https://tinypng.com/"} target="_blank">
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Reduce imágenes
+                  </button>
+                </a>
+
+                <a href={"https://indify.co/"} target="_blank">
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Widgets gratuitos
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable
+                type="secondary"
+                title="Lección 9. Bloques avanzados."
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1v0MC9rf2xV7WXnPlWBsd7rp5Pg7_ch-z/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-bloques-avanzados?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+              <Desplegable
+                type="secondary"
+                title="Lección 10. Compartir páginas."
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1ZFDtPKmjLLLneNgm35YRazczfJH_0Jwh/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-compartir-paginas?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+            </Desplegable>
+            <Desplegable title="Módulo: Gestión personal: hábitos, gastos y lectura.">
+              <Desplegable
+                type="secondary"
+                title="Lección 11. Qué es una base de datos y sus propiedades."
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1Xfa-J5moeZFMSmON-OPooRjY4RWwzUVr/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-propiedades?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+              <Desplegable type="secondary" title="Lección 12. Modos de vista.">
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1Ylu9OKrsuUE_ZRdGo5cLKjRpj7pG1seO/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Bonus de lección:</h4>
+                <p>Disponible próximamente.</p>
+                <br></br>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-modos-de-vista?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable type="secondary" title="Lección 13. Filtros.">
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1lVOj2hRsHap8Si23vnhX4PyERNNynBxO/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-filtros?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable
+                type="secondary"
+                title="Bonus de módulo. Buenas prácticas. "
+              >
+                <br></br>
+                <h4>- Disponible próximamente</h4>
+                <br></br>
+              </Desplegable>
+            </Desplegable>
             <Desplegable title="Módulo:  Objetivos y tareas con barras de progreso."></Desplegable>
             <Desplegable title="Módulo: Ahorra tiempo. "></Desplegable>
 
