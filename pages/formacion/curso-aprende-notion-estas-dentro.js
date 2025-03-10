@@ -15,7 +15,7 @@ const cursoNotion = () => {
 
   return (
     <>
-      {!isCorrectPassword(password) ? (
+      {isCorrectPassword(password) ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
