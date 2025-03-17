@@ -460,8 +460,17 @@ const cursoNotion = () => {
                     allowfullscreen
                   ></iframe>
                 </div>
-                <h4>- Bonus de lección:</h4>
-                <p>Disponible próximamente.</p>
+                <h4>- Bonus de lección: Formularios de contacto y CRMs.</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/17aEkVoh7K-spY6N9TXxPNZvxjYVFRwnG/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <br></br>
                 <h4>- Recursos:</h4>
                 <br></br>
@@ -515,11 +524,141 @@ const cursoNotion = () => {
                 title="Bonus de módulo. Buenas prácticas. "
               >
                 <br></br>
-                <h4>- Disponible próximamente</h4>
+                <h4>- Lección:</h4>
                 <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1aQvNybb5c8glOaKqPIfgjh0EjnLIzZbr/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-buenas-practicas?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
               </Desplegable>
             </Desplegable>
-            <Desplegable title="Módulo:  Objetivos y tareas con barras de progreso."></Desplegable>
+            <Desplegable title="Módulo:  Objetivos y tareas con barras de progreso.">
+              <Desplegable
+                type="secondary"
+                title="14. Propiedades avanzadas: fórmulas"
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1X-6PMLP0DB4PIGhjTuZkm1tGQ3N2ZfkS/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-buenas-practicas?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+                <br></br>
+                <a
+                  href={"https://www.notion.com/help/category/formulas"}
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Amplía conocimientos
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable
+                type="secondary"
+                title="15. Propiedades avanzadas: relaciones"
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1oDz8NzkUne3BccWe5wCBcjirF5z33kQ0/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a href={"1oDz8NzkUne3BccWe5wCBcjirF5z33kQ0"} target="_blank">
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable
+                type="secondary"
+                title="16. Propiedades avanzadas: rollups"
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1YfHiaFOS6NhEb8zlKalmLa8M-lyNw2mk/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-rollups?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+            </Desplegable>
             <Desplegable title="Módulo: Ahorra tiempo. "></Desplegable>
 
             <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
