@@ -15,7 +15,7 @@ const cursoNotion = () => {
 
   return (
     <>
-      {isCorrectPassword(password) ? (
+      {!isCorrectPassword(password) ? (
         <div className="h-[90vh]  w-full  flex flex-col justify-center">
           <div className=" border-2 px-8 bg-stone-50  border-stone-950 rounded-xl w-full my-8 ">
             <FormAccesContent
@@ -61,6 +61,22 @@ const cursoNotion = () => {
               del curso y del proceso tan bonito que es crearte tu propio hogar
               digital. :){" "}
             </p>
+
+            <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
+              - Bonus de bienvenida.
+            </h2>
+
+            <a
+              href={"https://emprendecon.notion.site/curso-aprende-notion"}
+              target="_blank"
+            >
+              <button
+                className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                type="submit"
+              >
+                Conseguir plantilla
+              </button>
+            </a>
 
             <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
               - El curso.
@@ -659,12 +675,147 @@ const cursoNotion = () => {
                 </a>
               </Desplegable>
             </Desplegable>
-            <Desplegable title="Módulo: Ahorra tiempo. "></Desplegable>
+            <Desplegable title="Módulo: Ahorra tiempo. ">
+              <Desplegable type="secondary" title="17. Unión de calendarios ">
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1Z1eVu73LThvowkcQEY78N1uLv1BWTlrZ/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-unir-calendarios?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
 
-            <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
-              - Bonus.
-            </h2>
-            <p>Próximamente...</p>
+              <Desplegable type="secondary" title="18. Automatiza procesos">
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1QVk-mnYpu1n3Uixp1pScT6pxd5wXw5sW/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-automatizaciones?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable
+                type="secondary"
+                title="19. Usa Notion en el móvil. "
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1AHxKHiLrONPBxLxTTwPDhhjLPFd4UNSL/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-notion-movil?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+
+                <a
+                  href={
+                    "https://emprendecon.notion.site/capturar-informacion-desde-el-iphone?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Capturar desde el iPhone
+                  </button>
+                </a>
+              </Desplegable>
+
+              <Desplegable
+                type="secondary"
+                title="20. Organiza tu dashboard (personal y para equipos)"
+              >
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1ZAnb9XPKHmce27836qD2THXkXTpfm_JS/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Recursos:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/solucion-leccion-organiza-tu-espacio?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Solución a la práctica
+                  </button>
+                </a>
+              </Desplegable>
+            </Desplegable>
 
             <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
               - Resolución de dudas.
