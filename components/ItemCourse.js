@@ -6,7 +6,7 @@ const ItemCourse = ({ item }) => {
   const { title, id, img, isFree } = item;
 
   return (
-    <Link className="block" href={`/formcion/${getUrltTitle(title)}`}>
+    <Link className="block" href={`/formacion/${getUrltTitle(title)}`}>
       <article
         key={id}
         className="break-inside mb-9 relative isolate border-2 border-stone-950 bg-white rounded-md hover:shadow-dark transition-all"

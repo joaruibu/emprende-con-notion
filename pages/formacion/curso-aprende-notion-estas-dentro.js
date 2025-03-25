@@ -47,7 +47,10 @@ const cursoNotion = () => {
             </h2>
             <ol className="">
               <li>Mira el curso por orden.</li>
-              <li>No te saltes ninguna lección, el curso es muy progresivo.</li>
+              <li>
+                No te saltes ninguna lección (aunque pienses que sabes hacerlo),
+                el curso es muy progresivo.
+              </li>
               <li>
                 Haz las prácticas. De nuevo, es muy progresivo y si no
                 practicas, por básicas que te parezcan las primeras, no sabrás
@@ -114,6 +117,18 @@ const cursoNotion = () => {
                     allowfullscreen
                   ></iframe>
                 </div>
+                <h4>- Bonus de lección: Duplicar plantillas.</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1s4R_7nE6HaixQCIAaSiU6QWmd_rdUpcA/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+
                 <h4>- Recursos:</h4>
                 <br></br>
                 <a
@@ -192,6 +207,19 @@ const cursoNotion = () => {
                     Solución a la práctica
                   </button>
                 </a>
+                <a
+                  href={
+                    "https://www.notion.so/Los-15-Atajos-de-Teclado-Que-M-s-Uso-en-Notion-3c226b5b1bd94b848fa42a010c340513?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Usa notion más rápido
+                  </button>
+                </a>
               </Desplegable>
 
               <Desplegable type="secondary" title="Lección 4. Tablas básicas.">
@@ -239,6 +267,17 @@ const cursoNotion = () => {
                     allowfullscreen
                   ></iframe>
                 </div>
+                <h4>- Bonus: dónde encontrar plantillas.</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/11fA4jWh1J-Eq_2gM9bVY5YImYVXbYbf2/preview "
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
                 <h4>- Recursos:</h4>
                 <br></br>
                 <a href={"https://faces.notion.com/"} target="_blank">
@@ -249,25 +288,6 @@ const cursoNotion = () => {
                     Crea tu propio avatar
                   </button>
                 </a>
-              </Desplegable>
-              <Desplegable
-                type="secondary"
-                title="Lección 6. Duplicar plantillas y dónde encontrarlas."
-              >
-                <br></br>
-                <h4>- Lección:</h4>
-                <br></br>
-                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
-                  <iframe
-                    src="https://drive.google.com/file/d/1s4R_7nE6HaixQCIAaSiU6QWmd_rdUpcA/preview "
-                    width="100%"
-                    class="absolute inset-0 w-full h-full"
-                    frameborder="0"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <h4>- Recursos:</h4>
-                <br></br>
                 <a
                   href={"https://emprendeconnotion.com/plantillas"}
                   target="_blank"
@@ -284,7 +304,7 @@ const cursoNotion = () => {
             </Desplegable>
 
             <Desplegable title="Módulo: Crea tu propia web en Notion">
-              <Desplegable type="secondary" title="Lección 7. Muñecas rusas.">
+              <Desplegable type="secondary" title="Lección 6. Muñecas rusas.">
                 <br></br>
                 <h4>- Lección:</h4>
                 <br></br>
@@ -316,7 +336,7 @@ const cursoNotion = () => {
 
               <Desplegable
                 type="secondary"
-                title="Lección 8. Multimedia y diseño."
+                title="Lección 7. Multimedia y diseño."
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -367,7 +387,7 @@ const cursoNotion = () => {
 
               <Desplegable
                 type="secondary"
-                title="Lección 9. Bloques avanzados."
+                title="Lección 8. Bloques avanzados."
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -399,7 +419,7 @@ const cursoNotion = () => {
               </Desplegable>
               <Desplegable
                 type="secondary"
-                title="Lección 10. Compartir páginas."
+                title="Lección 9. Compartir páginas."
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -433,7 +453,7 @@ const cursoNotion = () => {
             <Desplegable title="Módulo: Gestión personal: hábitos, gastos y lectura.">
               <Desplegable
                 type="secondary"
-                title="Lección 11. Qué es una base de datos y sus propiedades."
+                title="Lección 10. Qué es una base de datos y sus propiedades."
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -463,7 +483,7 @@ const cursoNotion = () => {
                   </button>
                 </a>
               </Desplegable>
-              <Desplegable type="secondary" title="Lección 12. Modos de vista.">
+              <Desplegable type="secondary" title="Lección 11. Modos de vista.">
                 <br></br>
                 <h4>- Lección:</h4>
                 <br></br>
@@ -505,7 +525,7 @@ const cursoNotion = () => {
                 </a>
               </Desplegable>
 
-              <Desplegable type="secondary" title="Lección 13. Filtros.">
+              <Desplegable type="secondary" title="Lección 12. Filtros.">
                 <br></br>
                 <h4>- Lección:</h4>
                 <br></br>
@@ -537,7 +557,7 @@ const cursoNotion = () => {
 
               <Desplegable
                 type="secondary"
-                title="Bonus de módulo. Buenas prácticas. "
+                title="Lección 13. Buenas prácticas. "
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -568,10 +588,10 @@ const cursoNotion = () => {
                 </a>
               </Desplegable>
             </Desplegable>
-            <Desplegable title="Módulo:  Objetivos y tareas con barras de progreso.">
+            <Desplegable title="Módulo: Objetivos y tareas con barras de progreso.">
               <Desplegable
                 type="secondary"
-                title="14. Propiedades avanzadas: fórmulas"
+                title="Lección 14. Propiedades avanzadas: fórmulas"
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -616,7 +636,7 @@ const cursoNotion = () => {
 
               <Desplegable
                 type="secondary"
-                title="15. Propiedades avanzadas: relaciones"
+                title="Lección 15. Propiedades avanzadas: relaciones"
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -644,7 +664,7 @@ const cursoNotion = () => {
 
               <Desplegable
                 type="secondary"
-                title="16. Propiedades avanzadas: rollups"
+                title="Lección 16. Propiedades avanzadas: rollups"
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -676,7 +696,10 @@ const cursoNotion = () => {
               </Desplegable>
             </Desplegable>
             <Desplegable title="Módulo: Ahorra tiempo. ">
-              <Desplegable type="secondary" title="17. Unión de calendarios ">
+              <Desplegable
+                type="secondary"
+                title="Lección 17. Unión de calendarios "
+              >
                 <br></br>
                 <h4>- Lección:</h4>
                 <br></br>
@@ -706,7 +729,10 @@ const cursoNotion = () => {
                 </a>
               </Desplegable>
 
-              <Desplegable type="secondary" title="18. Automatiza procesos">
+              <Desplegable
+                type="secondary"
+                title="Lección 18. Automatiza procesos"
+              >
                 <br></br>
                 <h4>- Lección:</h4>
                 <br></br>
@@ -738,7 +764,7 @@ const cursoNotion = () => {
 
               <Desplegable
                 type="secondary"
-                title="19. Usa Notion en el móvil. "
+                title="Lección 19. Usa Notion en el móvil. "
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -785,7 +811,7 @@ const cursoNotion = () => {
 
               <Desplegable
                 type="secondary"
-                title="20. Organiza tu dashboard (personal y para equipos)"
+                title="Lección 20. Organiza tu dashboard (personal y para equipos)"
               >
                 <br></br>
                 <h4>- Lección:</h4>
@@ -812,6 +838,19 @@ const cursoNotion = () => {
                     type="submit"
                   >
                     Solución a la práctica
+                  </button>
+                </a>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/1c0868683e7880dea001d93ba5b8eb7a?pvs=105"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-stone-200 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Deja tu review
                   </button>
                 </a>
               </Desplegable>

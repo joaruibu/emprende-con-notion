@@ -37,7 +37,7 @@ export default Index;
 export async function getStaticProps() {
   return {
     props: {
-      templates: getAllItems(DATA_TYPE.templates),
+      templates: getAllItems(DATA_TYPE.courses),
     },
   };
 }

@@ -265,7 +265,7 @@ const CursoNotion = () => {
           <br></br>
           <br></br>
           <br></br>
-          <p className="ml-12">Todo esto, en dos horas y pico.</p>
+          <p className="ml-12">Todo esto, lo aprendes en una tarde.</p>
           <p className="ml-12">
             Si algo de esto te interesa, puedes acceder ya mismo al contenido
             desde aquí:
@@ -322,9 +322,10 @@ const CursoNotion = () => {
             <h2 className="text-2xl ">¿Qué incluye?</h2>
             <br></br>
             <p>
-              Tiempo total del curso unas 2h en vídeo. Esas 2h se distribuyen en
-              20 lecciones de menos de 10 minutos. Cada lección tiene una
-              práctica. O sea, practicas todo lo que ves y lo aplicas para ti.
+              Tiempo total del curso unas tres horas en vídeo. Esas 3 horas se
+              distribuyen en 20 lecciones de menos de 10 minutos. Cada lección
+              tiene una práctica. O sea, practicas todo lo que ves y lo aplicas
+              para ti.
             </p>
           </div>
           <div className="pb-12">
@@ -455,7 +456,7 @@ const CursoNotion = () => {
             <br></br>
             <p>
               Depende de ti. Quiero decir, somos adultos. Yo puedo decirte que
-              el tiempo total de las grabaciones es de dos horas y pico. Lo que
+              el tiempo total de las grabaciones es de tres horas y pico. Lo que
               dediques a practicar e implementar y el ritmo al que lo hagas… es
               cosa tuya. Pero recuerda, tienes dos semanas de soporte dsde el
               momento de compra.
