@@ -1070,6 +1070,140 @@ const templates = [
     ],
     tags: [TAG_TEMPLATES_TYPE.personal],
   },
+  {
+    title: "Plantilla CV + Gestor de entrevistas en Notion",
+    id: "12",
+    isFree: true,
+    template_summary: `
+            <p >Si todavía haces tu CV en word y pdf… Lee esto. En serio, te interesa. Tener tu CV en Notion es muy fácil. Y gratis. Y diferenciador. Y fácil. Y bonito. Y fácil. </p>
+            `,
+    template_body: `
+            <p>En 2017 estaba terminando el master de arquitectura.  </p>
+    
+            <p>Además trabajaba en Bimba y Lola como dependienta.</p>
+            
+            <p>Quería independizarme.</p>
+            
+            <p>Ah. Y follaba mucho.</p>
+                        
+            <p>Pero eso es otra historia. </p>
+            
+            <p>La cuestión es que necesitaba un trabajo que me diera para pagarme un alquiler. Y Bimba no me daba. </p>
+            
+            <br>
+            
+            <p>Empecé a enviar CVs a empresas del sector de la construcción. Preferiblemente constructoras. Multinacionales. O sea, evitando estudios de arquitectura como tal. </p>
+            
+            <p>Si conocéis el sector, sabréis lo mucho que se explota a los arquitectos pipiolos. </p>
+            
+            <p>Y yo era una arquitecta pipiola.  </p>
+
+            <br>
+            
+            <p>La cosa es que conseguí una entrevista en una multinacional del sector cerámico en Castellón. </p>
+            
+            <p>Una multinacional muy gorda. </p>
+            
+            <p>De hecho, de las más gordas a nivel internacional en cerámica. </p>
+            
+            <p>Te imaginas mi emoción ¿no?  </p>
+            
+            <p>En mi mundo inocente pensaba que me habían llamado porque a pesar de ser joven y mujer tenía un buen currículum: prácticas, Erasmus, idiomas, matrículas de honor… </p>
+           
+            <p>Pues no. Ahora te explico.</p>
+
+            <br>
+
+            <p>La primera entrevista fue genial. El de rrhh era jovencito. El típico cayetano de pueblo (lo de pueblo no va a malas eh, es simplemente descriptivo). </p>
+            
+            <p>La segunda entrevista fue también muy bien. Ahí estaba yo con el cayetano de rrhh, y el CEO de la empresa típico casposo de vox. </p>
+            
+            <p>Por cierto, que si te sientes insultado al leer esto, lo mejor es que no continúes leyendo porque voy a soltar más y no quiero que lo pases mal. </p>
+            
+            <p>Sigo.</p>
+            <br>
+    
+            <p>Me llamaron a la semana. </p>
+            
+            <p>Yo estaba trabajando en Bimba. Cogí el teléfono y dejé plantada a la clienta con la que estaba hablando (algo imperdonable, no debíamos ni tener los móviles en los bolsillos). </p>
+            
+            <p>Me dijeron que empezase cuanto antes. </p>
+            
+            <p>Al día siguiente dejé mi trabajo como dependienta. </p>
+            
+            <p>A las dos semanas ya estaba independizada en Castellón, con un coche nuevo en leasing, y con un sueldo de 24000 brutos.</p>
+
+            <p>Disponible para aguantar marichulos y hacer horas extra a cascoporro.</p>
+            
+            <p>O sea, mi primer trabajo serio, y en una multinacional gorda. Te haces una idea de mi emoción del momento. </p>
+            <br>
+            
+            <p>La cosa es que semanas después pillé al cayetano de rrhh en la sala general, junto a la típica impresora blanca enorme. Estaba imprimiendo un montón de CVs en A4 y blanco y negro. Cuando digo un montón, me refiero a cientos. </p>
+            
+            <p><b>Y me dijo, “Pfff tía es que el 99% son iguales… y feos. ¿Sabías que el tuyo me gustó?” </b></p>
+            
+            <p>Y yo en mi mundo inocente pensé: “Normal, Cayetano, normal. Tengo un currículum estupendo para la edad que tengo.” </p>
+            
+            <p>En lugar de eso le dije: “¿Por qué?” </p>
+            
+            <p>Cayetano me respondió: “Porque el diseño de tu CV era horizontal. El 99% lo hacen en vertical, tía. Y eso me llamó la atención.”</p>
+            
+            <p>Yo por dentro: “Cri, Cri”. </p>
+            
+            <p>Yo por fuera: “Ja ja, pues menos mal tío”</p>
+            
+            <p>Me fui a mi mesa de trabajo. Y me sentí infravalorada a más no poder. </p>
+            <br>
+            
+            <p>Esto es lo que aprendí de esa conversación:  </p>
+    
+            <ul class="list-disc list-inside">
+    
+            <li>Aprendí que para llamar la atención un CV clásico no sirve. </li>
+    
+            <li><b>Tu CV tiene que diferenciarte. Ojo, he dicho tu CV, no tu experiencia.</b> Es distinto. Da igual si tienes 2, 8 o 15 másters. Eso se lo leen después. Antes han hecho una criba. Criba con algo visual que les ha llamado la atención.  </li>
+            
+            <li>No pierdas tiempo pensando en un diseño bonito. Que la mayoría no somos diseñadores gráficos, asúmelo. <b>Es mejor invertir ese tiempo en hacer un CV diferente a la mayoría. No bonito, diferente. Es decir. Si lo hacen en vertical. Pues tu horizontal. Si lo hacen en papel, pues tú online. Así de fácil. </b></li>
+            
+            </ul>
+            <br>
+
+            <p>Cuando dejé de trabajar allí y volví necesitar un CV, me hice mi propia página web en wordpress. Fue un jaleo.</p>
+            
+            <p>Cuando conocí Notion, me hice un CV en Notion. Que es lo mismo que crearte tu propia página web, pero más fácil vaya.  </p>
+            
+            <p>El CV en Notion lo hice en muchísimo menos tiempo, claro. </p>
+
+            <p<b>O sea, coges la info de tu CV, y vas haciendo copia-pega en Notion con el diseño que quieras.</b>  </p>
+            
+            <p<b>Cuando ya la tienes, haces que esa página de currículum en Notion sea pública. </b>  </p>
+            
+            <p<b>Y CV en Notion listo.  </b>  </p>
+            
+            <p>El CV en Notion lo hice en muchísimo menos tiempo, claro. </p>
+            
+            <br>
+            
+            <p>Y como encima el estilo de Notion es minimalista, tampoco es que puedas cagarla con el diseño, ¿sabes? </p>
+            
+            <p><b>P.D.: Por si tienes dudas sobre cómo utilizar tu CV en Notion, al suscribirte recibirás un email con la plantilla y el vídeo sobre cómo personalizarla y hacerla pública. </b></p>
+            <p><b>P.D.2: Para conseguir la plantilla de CV en Notion, suscríbete abajo. </b></p>
+                `,
+    form: {
+      titleForm: "",
+      textButton: "Suscribir y recibir plantilla.",
+      label: "template-gestor+CV",
+      id: "fieldtyjjpr",
+      name: "cm-f-tyjjpr",
+    },
+    imgs: [
+      "https://res.cloudinary.com/dwsa2s0pn/image/upload/v1743682865/emprende-con-notion/template/CV-digital/Plantilla-CV_en_Notion-2-emprende_con_notion.webp",
+      "https://res.cloudinary.com/dwsa2s0pn/image/upload/v1743682867/emprende-con-notion/template/CV-digital/Plantilla-CV_en_Notion-1-emprende_con_notion.webp",
+      "https://res.cloudinary.com/dwsa2s0pn/image/upload/v1743682864/emprende-con-notion/template/CV-digital/Plantilla-CV_en_Notion-3-emprende_con_notion.webp",
+    ],
+    tags: [TAG_TEMPLATES_TYPE.student],
+  },
+
   //Plantilla de pago, descomentar cuando Laura tenga la 1ª de pago
   // {
   //     title: 'Plantilla Lean Canvas en Notion de pago',
