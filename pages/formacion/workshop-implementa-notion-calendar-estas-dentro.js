@@ -51,6 +51,25 @@ const workshopNotionCalendarEstasDentro = () => {
             <br></br>
             <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
+                - Actualizaciones.
+              </h2>
+
+              <a
+                href={
+                  "https://emprendecon.notion.site/integracion-icloud-notion-calendar"
+                }
+                target="_blank"
+              >
+                <button
+                  className="rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold duration-150 hover:shadow-dark  "
+                  type="submit"
+                >
+                  Integración directa iCloud
+                </button>
+              </a>
+            </div>
+            <div className=" mb-24">
+              <h2 className="font-alternate text-2xl leading-[52px]">
                 - El workshop.
               </h2>
               {/* <p>
