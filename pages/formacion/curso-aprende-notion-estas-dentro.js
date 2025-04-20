@@ -609,7 +609,7 @@ const cursoNotion = () => {
                 <br></br>
                 <a
                   href={
-                    "https://emprendecon.notion.site/solucion-buenas-practicas?pvs=4"
+                    "https://emprendecon.notion.site/solucion-leccion-formulas?pvs=4"
                   }
                   target="_blank"
                 >
