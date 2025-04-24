@@ -1203,6 +1203,81 @@ const templates = [
     ],
     tags: [TAG_TEMPLATES_TYPE.student],
   },
+  {
+    title: "Plantilla CRM de clientes",
+    id: "13",
+    isFree: true,
+    template_summary: `
+            <p>Cualquier negocio necesita un sistema para gestionar clientes</p>
+            `,
+    template_body: `
+            <p>Cualquier negocio necesita un sistema para gestionar clientes.</p>
+    
+            <p>Cualquiera.</p>
+            
+            <p>El otro día hablaba con una amiga-profe-de-yoga-emprendedora (que por cierto está haciendo el curso de Notion y menuda web se ha hecho ya) que iba a hacer un directo compartiendo un CRM.</p>
+            
+            <p>Me respondió:</p>
+                        
+            <p><i>“¿CRqué?”</i></p>
+            
+            <p>Jajaja claro. </p>
+            
+            <br>
+            
+            <p>A ver.</p>
+            
+            <p>Es que si en tu vida has trabajado en mierdas de comerciales, por qué narices tienes que saber términos raros en inglés.</p>
+            
+            <p>Si tú estás empezando tu negocio y solo quieres gestionar tus clientes de forma intuitiva...</p>
+
+            <br>
+            
+            <p>Para qué marearte con herramientas híperespecializadas hípercomplejas tipo Salesforce HubSpot Dynamics Monday etc etc.</p>
+            
+            <p>Para qué narices tienes que saber el término CRM, prospecto, lead, calificado etc etc etc. </p>
+            
+            <p>Digo yo.</p>
+            
+            <p>Que si tú usas Notion (si estás en esta newsletter me da que sí) tiene más sentido que puedas también gestionar tus clientes también en Notion sin tanta parafernalia. </p>
+            
+            <p>O no??</p>
+           
+            <p>O sea, un sitio donde poder poner el estado del cliente.</p>
+
+            <p>Poder añadir las notas de cada mensaje-reunión-llamada, que hayas tenido.  </p>
+            
+            <p>Que puedas apuntarte qué ha ido bien en esa llamada. </p>
+            
+            <p>Qué le ha gustado. </p>
+            
+            <p>Qué dato personal puedes usar para conectar con la persona.</p>
+    
+            <p>Así que llámalo como te salga de la papaya. </p>
+            
+            <p>CRM</p>
+            
+            <p>Gestor de clientes.</p>
+            
+            <p>Está todo bien.</p>
+            
+            <p>Empieza a organizar tus clientes en Notion ya mismo con esta plantilla gratuita que te comparto. La recibirás en el email junto con un vídeo explicativo al suscribirte.</p>
+           
+                `,
+    form: {
+      titleForm: "",
+      textButton: "Suscribir y recibir plantilla.",
+      label: "template-CRM",
+      id: "fieldtyijltl",
+      name: "cm-f-tyijltl",
+    },
+    imgs: [
+      "https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745506074/emprende-con-notion/template/CRM%20de%20clientes/Plantilla_de_CRM_en_Notion_-_emprende_con_notion_3_aiqffm.webp",
+      "https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745506074/emprende-con-notion/template/CRM%20de%20clientes/Plantilla_de_CRM_en_Notion_-_emprende_con_notion_2_fhlx1g.webp",
+      "https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745506073/emprende-con-notion/template/CRM%20de%20clientes/Plantilla_de_CRM_en_Notion_-_emprende_con_notion_1_wehscg.webp",
+    ],
+    tags: [TAG_TEMPLATES_TYPE.entrepeneur],
+  },
 
   //Plantilla de pago, descomentar cuando Laura tenga la 1ª de pago
   // {
