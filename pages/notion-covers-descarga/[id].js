@@ -33,7 +33,7 @@ const CoverItemDownloadPage = ({ cover }) => {
 
   return (
     <>
-      <main className="mt-6">
+      <main className="pt-6 px-4">
         {!showCovers && formCoverConfig && (
           <FormDescargaCovers
             formCoverConfig={formCoverConfig}
