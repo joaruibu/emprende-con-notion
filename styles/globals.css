@@ -18,6 +18,9 @@
   .break-inside {
     break-inside: avoid;
   }
+  .animate-fade-in-manual {
+    opacity: 1 !important;
+  }
 }
 
 @layer base {
