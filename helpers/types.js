@@ -50,4 +50,7 @@ export const pagesNoNavbar = {
     "/formacion/grupo-privado-plantilla-zettelkasten-estas-dentro",
   secondBrain: "/formacion/segundo-cerebro-en-notion",
   secondBrainEstasDentro: "/formacion/segundo-cerebro-en-notion-estas-dentro",
+  cursoNotionCalendar: "/formacion/curso-notion-calendar",
+  cursoNotionCalendarEstasDentro:
+    "/formacion/curso-notion-calendar-estas-dentro",
 };
