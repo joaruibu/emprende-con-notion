@@ -12,11 +12,11 @@ const SegundoCerebroEnNotion = () => {
 
   const STRIPE_BUTTON_CONFIG = {
     title: "Segundo Cerebro en Notion",
-    buttonText: " Quiero mi segundo cerebro",
+    buttonText: " Quiero mi segundo cerebro (preventa)",
     price: "90 €",
     isDisabled: false,
     urlStripe:
-      "https://lauradearquer.quadernoapp.com/checkout/link/ed8819c9aec49dc340f88c7d4e95eacd8cc8bb63",
+      "https://lauradearquer.quadernoapp.com/checkout/link/96351b0f577a6b7b3be48b0d837cc7922f9d6a80",
   };
   return (
     <>
@@ -27,7 +27,7 @@ const SegundoCerebroEnNotion = () => {
               Tu vida y tu negocio organizado en tu segundo cerebro.
             </h1>
             <div className=" mb-6 max-w-2xl ">
-              <p className="text-sm sm:text-lg">
+              <p className="text-sm sm:text-lg p-0">
                 El Segundo Cerebro es un sistema todo-en-uno en Notion que te
                 ayuda a hacer seguimiento de tus metas, proyectos, notas…, todo
                 lo que hay entre medias de la gestión de proyectos y la gestión
@@ -35,9 +35,9 @@ const SegundoCerebroEnNotion = () => {
               </p>
             </div>
           </div>
-          <div className="opacity-0 mx-auto flex items-center justify-center transition-opacity duration-1000 delay-300 ease-out animate-fade-in-manual">
+          <div className="opacity-0 mx-auto flex items-center justify-center transition-opacity duration-1000 delay-300 ease-out animate-fade-in-manual relative -top-10">
             <img
-              className="text-center"
+              className="text-center "
               src={
                 "https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751007/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_plantilla_2_-_emprende_con_notion_gy4b5i.webp"
               }
@@ -50,17 +50,21 @@ const SegundoCerebroEnNotion = () => {
         </section>
 
         <section className="py-16 bg-white p-4">
-          <div className="max-w-5xl mx-auto px-6 mb-12 text-center">
-            <h2 className="text-4xl font-bold mb-4">¿Cómo funciona?</h2>
+          <div className="max-w-5xl mx-auto px-6 mb-60 text-center">
+            <h2 className="text-4xl font-bold mb-4 flex items-center justify-center">
+              {" "}
+              <span className="text-5xl font-black mr-4">1. </span> Captura y
+              etiqueta
+            </h2>
 
             <p className="text-base mb-8 max-w-2xl mx-auto">
-              Capturar y gestionar toda tu información en un solo lugar, tu
-              Segundo Cerebro, te proporciona claridad y estructura.
+              Saca toda la información y tareas de tu cabeza.
+              <br></br> y vuélcala tu Segundo Cerebro.
             </p>
             <div className=" sm:grid sm:grid-cols-3 gap-6">
               <div className="flex flex-col items-start">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751020/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_GTD_-_emprende_con_notion_-_d3aral.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751019/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_botones_-_emprende_con_notion_-_mmspfo.webp')]"></div>
                 </div>
                 <p className="text-2xl pb-2 font-bold">Captura todo</p>
                 <p className="text-sm text-left">
@@ -68,30 +72,103 @@ const SegundoCerebroEnNotion = () => {
                   evitar olvidarlas. Desde tu móvil, tablet u ordenador.
                 </p>
               </div>
-              <div className="flex flex-col items-start col-span-2">
+
+              <div className="flex flex-col items-start">
+                <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751019/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_botones_-_emprende_con_notion_-_mmspfo.webp')]"></div>
+                </div>
+                <p className="text-2xl pb-2 font-bold">Clasifica y prioriza</p>
+                <p className="text-sm text-left">
+                  Clasifica la tarea, por prioridad, area, lugar, nivel de
+                  energia
+                </p>
+              </div>
+
+              <div className="flex flex-col items-start">
+                <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751024/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_relaciones_2_-_emprende_con_notion_-_wkjvpo.webp')]"></div>
+                </div>
+                <p className="text-2xl pb-2 font-bold">Enlaza cualquier cosa</p>
+                <p className="text-sm text-left">
+                  Crea conexiones, como vincular una referencia útil a un
+                  proyecto.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="max-w-5xl mx-auto px-6 mb-60 text-center">
+            <h2 className="text-4xl font-bold mb-4 flex items-center justify-center">
+              {" "}
+              <span className="text-5xl font-black mr-4">2. </span> Tres métodos
+              de productividad integrados
+            </h2>
+
+            <p className="text-base mb-8 max-w-2xl mx-auto">
+              Basado en lo mejor de 3 sistemas de productividad que funcionan:
+              PARA, GTD y Zettelkasten.
+            </p>
+            <div className=" sm:grid sm:grid-cols-3 gap-12 items-center ">
+              <div className=" col-span-2">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
                   <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751025/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_sistema_PARA_-_emprende_con_notion_-_efdqyw.webp')]"></div>
                 </div>
+              </div>
+
+              <div>
+                <p className="text-2xl pb-2 font-bold text-left">Método GTD</p>
+
+                <p className="text-sm text-left">
+                  Vacia tu cabeza con todas las ideas y tares y centrarte en lo
+                  que toca para aumentar tu foco y productivdad. <br></br>{" "}
+                  Método creado por David Allen
+                </p>
+              </div>
+
+              <div>
+                <p className="text-2xl pb-2 font-bold text-left">Método PARA</p>
+
+                <p className="text-sm text-left">
+                  Simplificar tu estructura digital, de Tiago Forte
+                </p>
+              </div>
+              <div className=" col-span-2">
+                <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751025/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_sistema_PARA_-_emprende_con_notion_-_efdqyw.webp')]"></div>
+                </div>
+              </div>
+
+              <div className=" col-span-2">
+                <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751026/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_Zettelkasten_-_emprende_con_notion_-_wjx2iy.webp')]"></div>
+                </div>
+              </div>
+
+              <div>
                 <p className="text-2xl pb-2 font-bold text-left">
-                  Basado en lo mejor de 3 sistemas de productividad que
-                  funcionan: PARA, GTD y Zettelkasten.{" "}
+                  Método Zettelkasten
                 </p>
 
-                <ul className="text-sm text-left">
-                  <li className="pb-2">
-                    Método GTD para vaciar tu cabeza y centrarte en loque toca,
-                    de David Allen (imagen)
-                  </li>
-                  <li className="pb-2">
-                    Método PARA para simplificar tu estructura digital, de Tiago
-                    Forte (imagen)
-                  </li>
-                  <li className="pb-2">
-                    Método Zettelkasten para que tus ideas no mueran en notas
-                    sueltas, de Niklas Luhmann (imagen)
-                  </li>
-                </ul>
+                <p className="text-sm text-left">
+                  Para que tus ideas no mueran en notas sueltas, de Niklas
+                  Luhmann
+                </p>
               </div>
+            </div>
+          </div>
+
+          <div className="max-w-5xl mx-auto px-6 mb-12 text-center">
+            <h2 className="text-4xl font-bold mb-4 flex items-center justify-center">
+              {" "}
+              <span className="text-5xl font-black mr-4 ">3. </span> Completa
+              proyectos y gestiona conocimiento
+            </h2>
+
+            <p className="text-base mb-8 max-w-2xl mx-auto">
+              Saca toda la información y tareas de tu cabeza.
+              <br></br> y vuélcala tu Segundo Cerebro.
+            </p>
+            <div className=" sm:grid sm:grid-cols-3 gap-6">
               <div className="flex flex-col items-start col-span-2">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
                   <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751021/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_proyectos_-_emprende_con_notion_-_uu5gug.webp')]"></div>
@@ -106,14 +183,15 @@ const SegundoCerebroEnNotion = () => {
                   coherencia y consistencia.
                 </p>
               </div>
-              <div className="flex flex-col items-start">
+
+              <div className="flex flex-col items-start text-left ">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751024/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_relaciones_2_-_emprende_con_notion_-_wkjvpo.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751021/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_proyectos_-_emprende_con_notion_-_uu5gug.webp')]"></div>
                 </div>
-                <p className="text-2xl pb-2 font-bold">Enlaza cualquier cosa</p>
+
+                <p className="text-2xl pb-2 font-bold">Gestión de areas</p>
                 <p className="text-sm text-left">
-                  Crea conexiones, como vincular una referencia útil a un
-                  proyecto.
+                  Todas tus notas y tareas filtradas por áreas de tu vida.{" "}
                 </p>
               </div>
             </div>
@@ -332,15 +410,27 @@ const SegundoCerebroEnNotion = () => {
                 data-aos="fade-up"
               />
             </div>
+            <div className="my-12">
+              <StripeButton
+                urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
+                price={STRIPE_BUTTON_CONFIG.price}
+                title={STRIPE_BUTTON_CONFIG.title}
+                isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
+              >
+                {STRIPE_BUTTON_CONFIG.buttonText}
+              </StripeButton>
+            </div>
 
-            <StripeButton
-              urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
-              price={STRIPE_BUTTON_CONFIG.price}
-              title={STRIPE_BUTTON_CONFIG.title}
-              isDisabled={STRIPE_BUTTON_CONFIG.isDisabled}
-            >
-              {STRIPE_BUTTON_CONFIG.buttonText}
-            </StripeButton>
+            <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+              <span className="font-bold block mb-2">
+                ☝️ Este es el precio especial de preventa
+              </span>
+              <span className="">
+                Compras ahora pero la plantilla la tendrás disponibles en 7
+                días. Esto es así porque quiero hacer un precio especial a las
+                personas de la comunidad.
+              </span>
+            </div>
           </div>
         </section>
 
@@ -349,7 +439,41 @@ const SegundoCerebroEnNotion = () => {
           but Laura's template is very very very complete."
         </Review>
 
-        <section className="py-40 p-4 bg-white">
+        <section className="pt-20 pb-40 p-4 bg-white">
+          <div className="max-w-5xl mx-auto px-6 text-center">
+            <h2 className="text-4xl font-bold mb-4">
+              Preguntame lo que quieras a mi, o mi IA
+            </h2>
+            <p className="text-base mb-8 max-w-2xl mx-auto">
+              30 días de soporte para resolver tus dudas y preguntas, y mi IA
+              para siempre incluida.
+            </p>
+            <div className="max-w-3xl mx-auto">
+              <div className="flex items-center w-full gap-12">
+                <div className="flex-1 text-left bg-stone-100 rounded-lg p-4">
+                  <p className="text-2xl pb-2 font-bold">IA incluida</p>
+                  <p className="text-sm">
+                    He entrenado una IA con mis conocimientos y la he integrado
+                    en la plantilla para que puedas preguntarle lo que quieras.{" "}
+                    ¿Esto es un proyecto o una tarea? ¿Esto es una cita o una
+                    nota? Es prioritario o solo urgente.
+                  </p>
+                </div>
+
+                <div className="flex-1">
+                  <img
+                    className="w-full h-auto object-contain"
+                    src="https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751007/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_plantilla_2_-_emprende_con_notion_gy4b5i.webp"
+                    alt="Esquema de toda la plantilla del segundo cerebro donde se va indicadnado con flechas cada parte que es."
+                    data-aos="fade-up"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="py-20 p-4 pb-40 bg-stone-200">
           <div className="max-w-5xl mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold mb-4">
               Tu Second Brain listo en 1, 2, 3.
@@ -359,7 +483,7 @@ const SegundoCerebroEnNotion = () => {
               Brain fácilmente.
             </p>
             <div>
-              <div className="flex flex-col sm:flex-arrow items-center">
+              <div className="flex flex-col sm:flex-row  items-center">
                 <div className="group flex-1">
                   <span className="text-9xl sm:text-[140px] font-black text-center group-hover:text-gray-600 transition-all duration-300">
                     1
@@ -373,7 +497,7 @@ const SegundoCerebroEnNotion = () => {
                 <img
                   className="text-center rotate-90 sm:rotate-45 w-12 h-12 object-contain"
                   src={"/img/arrow.svg"}
-                  alt="stripe"
+                  alt="Flecha"
                 />
                 <div className="group flex-1">
                   <span className="text-9xl sm:text-[140px] font-black text-center group-hover:text-gray-600 transition-all duration-300">
@@ -388,8 +512,9 @@ const SegundoCerebroEnNotion = () => {
                 <img
                   className="text-center rotate-90 sm:rotate-45 w-12 h-12 object-contain"
                   src={"/img/arrow.svg"}
-                  alt="stripe"
+                  alt="Flecha"
                 />
+
                 <div className="group flex-1">
                   <span className="text-9xl sm:text-[140px] font-black text-center group-hover:text-gray-600 transition-all duration-300">
                     3
@@ -405,7 +530,7 @@ const SegundoCerebroEnNotion = () => {
           </div>
         </section>
 
-        <section className="pt-20 p-4 bg-stone-200">
+        <section className="pt-20 p-4 bg-white">
           <div className="max-w-5xl mx-auto px-6 text-left">
             <h2 className="text-4xl text-center font-bold mb-4">
               Preguntas Frecuentes.
@@ -527,6 +652,17 @@ const SegundoCerebroEnNotion = () => {
               >
                 {STRIPE_BUTTON_CONFIG.buttonText}
               </StripeButton>
+            </div>
+
+            <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+              <span className="font-bold block mb-2">
+                ☝️ Este es el precio especial de preventa
+              </span>
+              <span className="">
+                Compras ahora pero la plantilla la tendrás disponibles en 7
+                días. Esto es así porque quiero hacer un precio especial a las
+                personas de la comunidad.
+              </span>
             </div>
           </div>
         </section>
