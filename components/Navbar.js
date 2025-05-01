@@ -6,7 +6,7 @@ import { useRouter } from "next/router";
 
 const navigation = [
   { name: "plantillas", href: "/plantillas" },
-  { name: "curso", href: "/formacion/curso-aprende-notion" },
+  { name: "cursos", href: "/formacion" },
   { name: "sobre mí", href: "/sobre-mi" },
   { name: "blog", href: "/blog" },
   { name: "consultoria", href: "/consultoria-de-notion", target: "_blank" },

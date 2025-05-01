@@ -48,10 +48,12 @@ const SegundoCerebroEnNotion = () => {
             />
           </div>
 
-          <Review name="Rodrigo" job="">
-            "La mejor template. Es tan abierto el programa en sus posibilidades
-            que es muy dificil que alguien te de una guia solida y entendible.
-            Tu lo logras muy muy bien. "
+          <Review name="María José" job="Psicóloga">
+            "El lunes compré tu plantilla. Creo que hace tiempo te comenté que
+            usaba la de (…) (del mismo método). La de él es mucho más sencilla y
+            yo la fui llenando poco a poco. La tuya me parece más estructurada y
+            ya he empezado a darle movimiento, creo que la voy a sacar mucho
+            partido."
           </Review>
         </section>
 
@@ -82,7 +84,7 @@ const SegundoCerebroEnNotion = () => {
 
               <div className="flex flex-col items-start">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746088618/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_tareas_-_emprende_con_notion_--_akgatq.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746135848/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_objetivos_-_emprende_con_notion_--_muul6v.webp')]"></div>
                 </div>
                 <p className="text-2xl pb-2 font-bold">Clasifica y prioriza</p>
                 <p className="text-sm text-left">
@@ -93,7 +95,7 @@ const SegundoCerebroEnNotion = () => {
 
               <div className="flex flex-col items-start">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751024/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_relaciones_2_-_emprende_con_notion_-_wkjvpo.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746135849/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_relaciones_2_-_emprende_con_notion_-_cbiwtd.webp')]"></div>
                 </div>
                 <p className="text-2xl pb-2 font-bold">Enlaza cualquier cosa</p>
                 <p className="text-sm text-left">
@@ -187,7 +189,7 @@ const SegundoCerebroEnNotion = () => {
 
               <div className="flex flex-col items-start text-left ">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746088616/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_objetivos_-_emprende_con_notion_--_iqo9z7.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746135848/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_objetivos_-_emprende_con_notion_--_muul6v.webp')]"></div>
                 </div>
 
                 <p className="text-2xl pb-2 font-bold">Gestión de objetivos</p>
@@ -312,10 +314,14 @@ const SegundoCerebroEnNotion = () => {
             </div>
           </div>
 
-          <div className="max-w-3xl m-auto py-12  text-center font-montserrat pb-24 text-stone-700  text-3xl font-bold mb-10 leading-snug ">
-            ≪El éxito es hacer lo que quieres, cuando quieres, donde quieres,
-            con quién quieres y tanto como quieres.≫
-            <span className="block  text-stone-900 my-6">Tony Robbins.</span>
+          <div className="max-w-3xl m-auto py-12  text-center font-montserrat pb-24 text-stone-700  text-2xl font-bold mb-10 leading-snug ">
+            ≪Estar liado se convierte en un emblema de prestigio. Lo que por
+            supuesto, es del todo absurdo: durante gran parte de la historia, la
+            gracia de ser rico era que no tenías que trabajar tanto. ≫
+            <span className="block  text-stone-900 my-6">
+              {" "}
+              Oliver Burkeman, autor de Cuatro mil semanas.
+            </span>
           </div>
         </section>
 
@@ -384,14 +390,15 @@ const SegundoCerebroEnNotion = () => {
               </div>
             </div>
           </div>
-
-          <Review name="María José" job="Psicóloga">
-            "El lunes compré tu plantilla. Creo que hace tiempo te comenté que
-            usaba la de (…) (del mismo método). La de él es mucho más sencilla y
-            yo la fui llenando poco a poco. La tuya me parece más estructurada y
-            ya he empezado a darle movimiento, creo que la voy a sacar mucho
-            partido."
-          </Review>
+          <div className="max-w-3xl m-auto py-12  text-center font-montserrat pb-24 text-stone-700  text-2xl font-bold mb-10 leading-snug ">
+            ≪Cuando adoptamos muchas herramientas de organización sin una
+            intención clara, corremos el riesgo de gastar más tiempo organizando
+            el trabajo que haciéndolo. ≫
+            <span className="block  text-stone-900 my-6">
+              {" "}
+              Cal Newport, autor de Deep Work.
+            </span>
+          </div>
         </section>
 
         <section className="pt-20 p-4">
@@ -416,6 +423,11 @@ const SegundoCerebroEnNotion = () => {
                 data-aos="fade-up"
               />
             </div>
+            <Review name="Rodrigo S." job="">
+              "La mejor template. Es tan abierto el programa en sus
+              posibilidades que es muy dificil que alguien te de una guia solida
+              y entendible. Tu lo logras muy muy bien. "
+            </Review>
             <div className="my-12">
               <StripeButton
                 urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
@@ -427,7 +439,7 @@ const SegundoCerebroEnNotion = () => {
               </StripeButton>
             </div>
 
-            <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+            <div className="text-left w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
               <p className="font-bold block ">
                 ☝️ Este es el precio especial de preventa.
               </p>
@@ -452,7 +464,7 @@ const SegundoCerebroEnNotion = () => {
         <section className="pt-20 pb-40 p-4 bg-white">
           <div className="max-w-5xl mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold mb-4">
-              Preguntame lo que quieras a mí, o mi IA
+              Pregúntame lo que quieras a mí, o mi IA
             </h2>
             <p className="text-base mb-8 max-w-2xl mx-auto">
               30 días de soporte para resolver tus dudas y preguntas, y mi IA

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import FormAccesContent from "../../components/FormAccesoContentido";
+import CountdownWidget from "../../components/CountdownWidget";
 
 const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
   const [password, setPassword] = useState("");
@@ -49,14 +50,14 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 Por ahora, apunta en tu agenda nuestra primera sesión el domingo
                 18 de mayo a las 17.00 h (Valencia).{" "}
               </p>
-              <p>
+              <CountdownWidget />
+              <p className="pt-8">
                 P.D.: Cualquier duda, sugerencia, problema, saludos, me escribes
                 a laura@emprendeconnotion.com.{" "}
               </p>
               {/* <h2 className="font-alternate text-2xl leading-[52px]">
                 - Directo.
               </h2> */}
-
               {/* 
               <p>
                 <i>

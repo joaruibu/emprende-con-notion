@@ -1,5 +1,6 @@
 import React from "react";
 import StripeButton from "../../components/StripeButton";
+import Review from "../../components/Review";
 
 const CursoNotion = () => {
   const STRIPE_BUTTON_CONFIG = {
@@ -113,6 +114,13 @@ const CursoNotion = () => {
           <br></br>
           <br></br>
           <br></br>
+
+          <Review name="Andrea Marcos" job="Profesora de yoga y pilates">
+            "WTF, estaba ahora con el curso de Notion y voy ya por la lección 7.
+            Pero, qué locura, que te haces una página web así de la nada. Y yo
+            dándole los 2000€ del kit digital a un tío y esperando 4 meses. Me
+            acabas de dar la vida, gracias. Me encanta. Amo tu curso. "
+          </Review>
           <br></br>
           <br></br>
           <h2>Y eso es lo que vamos a ver en el curso.</h2>
@@ -217,6 +225,14 @@ const CursoNotion = () => {
             pero que te encantarán y no pararás de usar cuando te las explique
             en la lección. Módulo 4.
           </p>
+
+          <Review name="Jose Luis Gasion," job="Team Lider">
+            "Ante todo claridad. He estado investigando por google, youtube o
+            tik tok, inviertiendo muchisimas horas, descargando plantillas que
+            no sabia como usar, y abrumado por exceso de informacion. Aqui de
+            una manera clara y concisa tengo todo lo necesario para poner en
+            marcha mi Notion. "
+          </Review>
           <br></br>
           <br></br>
           <br></br>
@@ -281,6 +297,10 @@ const CursoNotion = () => {
           <br></br>
           <br></br>
 
+          <Review name="Jose L." job="">
+            "El curso me esta encantando, super agradecido. "
+          </Review>
+
           <p>Entonces.</p>
           <p>Entonces.</p>
           <br></br>
@@ -315,6 +335,10 @@ const CursoNotion = () => {
           >
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
+
+          <Review name="L.R" job="">
+            "Muchas gracias por tu soporte! "
+          </Review>
           <br></br>
           <h1 className="pb-12">Más preguntas.</h1>
           <br></br>
