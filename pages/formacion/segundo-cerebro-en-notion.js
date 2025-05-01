@@ -47,14 +47,21 @@ const SegundoCerebroEnNotion = () => {
               data-aos="fade-up"
             />
           </div>
+
+          <Review name="Rodrigo" job="">
+            "La mejor template. Es tan abierto el programa en sus posibilidades
+            que es muy dificil que alguien te de una guia solida y entendible.
+            Tu lo logras muy muy bien. "
+          </Review>
         </section>
 
         <section className="py-16 bg-white p-4">
-          <div className="max-w-5xl mx-auto px-6 mb-60 text-center">
-            <h2 className="text-4xl font-bold mb-4 flex items-center justify-center">
-              {" "}
-              <span className="text-5xl font-black mr-4">1. </span> Captura y
-              etiqueta
+          <div className="max-w-5xl mx-auto px-6 mb-48 text-center">
+            <h1 className="text-3xl sm:text-5xl font-bold mb-16 leading-tight">
+              ¿Cómo funciona?
+            </h1>
+            <h2 className="text-3xl font-bold mb-4 flex items-center justify-center">
+              Captura y etiqueta
             </h2>
 
             <p className="text-base mb-8 max-w-2xl mx-auto">
@@ -75,7 +82,7 @@ const SegundoCerebroEnNotion = () => {
 
               <div className="flex flex-col items-start">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751019/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_botones_-_emprende_con_notion_-_mmspfo.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746088618/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_tareas_-_emprende_con_notion_--_akgatq.webp')]"></div>
                 </div>
                 <p className="text-2xl pb-2 font-bold">Clasifica y prioriza</p>
                 <p className="text-sm text-left">
@@ -97,11 +104,9 @@ const SegundoCerebroEnNotion = () => {
             </div>
           </div>
 
-          <div className="max-w-5xl mx-auto px-6 mb-60 text-center">
-            <h2 className="text-4xl font-bold mb-4 flex items-center justify-center">
-              {" "}
-              <span className="text-5xl font-black mr-4">2. </span> Tres métodos
-              de productividad integrados
+          <div className="max-w-5xl mx-auto px-6 mb-48 text-center">
+            <h2 className="text-3xl font-bold mb-4 flex items-center justify-center">
+              Tres métodos de productividad integrados
             </h2>
 
             <p className="text-base mb-8 max-w-2xl mx-auto">
@@ -111,7 +116,7 @@ const SegundoCerebroEnNotion = () => {
             <div className=" sm:grid sm:grid-cols-3 gap-12 items-center ">
               <div className=" col-span-2">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751025/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_sistema_PARA_-_emprende_con_notion_-_efdqyw.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746088616/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_GTD_-_emprende_con_notion_--_sevwmv.webp')]"></div>
                 </div>
               </div>
 
@@ -119,8 +124,8 @@ const SegundoCerebroEnNotion = () => {
                 <p className="text-2xl pb-2 font-bold text-left">Método GTD</p>
 
                 <p className="text-sm text-left">
-                  Vacia tu cabeza con todas las ideas y tares y centrarte en lo
-                  que toca para aumentar tu foco y productivdad. <br></br>{" "}
+                  Vacía tu cabeza de todas las ideas y tareas para aumentar tu
+                  foco y productivdad. <br></br>
                   Método creado por David Allen
                 </p>
               </div>
@@ -150,20 +155,17 @@ const SegundoCerebroEnNotion = () => {
                 </p>
 
                 <p className="text-sm text-left">
-                  Para que tus ideas no mueran en notas sueltas, de Niklas
-                  Luhmann
+                  Crea conexiones para que tus ideas no mueran en notas sueltas,
+                  de Niklas Luhmann
                 </p>
               </div>
             </div>
           </div>
 
           <div className="max-w-5xl mx-auto px-6 mb-12 text-center">
-            <h2 className="text-4xl font-bold mb-4 flex items-center justify-center">
-              {" "}
-              <span className="text-5xl font-black mr-4 ">3. </span> Completa
-              proyectos y gestiona conocimiento
+            <h2 className="text-3xl font-bold mb-4 flex items-center justify-center">
+              Completa proyectos y gestiona conocimiento
             </h2>
-
             <p className="text-base mb-8 max-w-2xl mx-auto">
               Saca toda la información y tareas de tu cabeza.
               <br></br> y vuélcala tu Segundo Cerebro.
@@ -178,28 +180,30 @@ const SegundoCerebroEnNotion = () => {
                   Gestión de proyectos integrada
                 </p>
                 <p className="text-sm text-left">
-                  Alinea los proyectos con tus metas vitales, crea objetivos
-                  medibles y divídelos en tareas manejables para asegurar
-                  coherencia y consistencia.
+                  Alinea los proyectos con tus metas vitales, y divídelos en
+                  tareas manejables para asegurar coherencia y consistencia.
                 </p>
               </div>
 
               <div className="flex flex-col items-start text-left ">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751021/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_proyectos_-_emprende_con_notion_-_uu5gug.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746088616/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_objetivos_-_emprende_con_notion_--_iqo9z7.webp')]"></div>
                 </div>
 
-                <p className="text-2xl pb-2 font-bold">Gestión de areas</p>
+                <p className="text-2xl pb-2 font-bold">Gestión de objetivos</p>
                 <p className="text-sm text-left">
-                  Todas tus notas y tareas filtradas por áreas de tu vida.{" "}
+                  Crea objetivos medibles y priorízalos por trimestres del año.
                 </p>
               </div>
             </div>
           </div>
 
-          <Review name="Joaquín Ruiz" job="Desarrollador web">
-            "There are many templates that follow Tiago Forte's 2nd Brain
-            method, but Laura's template is very very very complete."
+          <Review name="Lorena" job="Nutricionista">
+            "Es de muchísima ayuda para mi y para cualquier emprendedor! Me has
+            ayudado a organizarme mucho con Notion. (…) De apoco estoy
+            organizando MI VIDA ENTERA allí! Pacientes, diarios alimentarios, de
+            hábitos, cosas del hogar, loa hobbies, proyectos... todo!! Gracias
+            gracias gracias"
           </Review>
         </section>
 
@@ -231,8 +235,7 @@ const SegundoCerebroEnNotion = () => {
               <p>
                 Es curioso que cuando trabajaba por cuenta ajena, era capaz de
                 autogestionarme y cumplir el 100% de las fechas límite de mis
-                proyectos (jamás me retrasé en ninguno, y como te digo me
-                organizaba yo el plan).{" "}
+                proyectos (jamás me retrasé en ninguno).{" "}
               </p>
               <p>Pero trabajando por cuenta propia pasaba lo contrario.</p>
               <p>
@@ -245,14 +248,14 @@ const SegundoCerebroEnNotion = () => {
               </p>
               <p>El llamado síndrome del impostor. </p>
               <p>
-                <u> Síntomas:</u> parálisis, perfeccionismo extremo. La presión
-                que nos autoimponemos cuando emprendemos no es de fechas límite,
-                es mucho peor, es de perfección.{" "}
+                <u> Síntomas:</u> La presión que nos autoimponemos cuando
+                emprendemos no es de fechas límite, es mucho peor, es de
+                perfección. Parálisis por perfección.
               </p>
               <p>
                 <u>Consecuencia:</u>
               </p>
-              <ul className="pl-4 mt-8">
+              <ul className="pl-4 mt-0">
                 <li>Mil tareas “urgentes” a la vez.</li>
                 <li>Miedo constante a olvidarme de lo importante.</li>
                 <li>Sensación de no avanzar una mierd.</li>
@@ -288,7 +291,7 @@ const SegundoCerebroEnNotion = () => {
                 años que a mí me ha costado recorrer el camino.
               </p>
               <p>
-                Para que todos podemos hacer sólo{" "}
+                Para que todos podamos hacer sólo{" "}
                 <b> más de aquellas cosas que de verdad nos importan.</b>
               </p>
               <p>
@@ -297,7 +300,7 @@ const SegundoCerebroEnNotion = () => {
               <ul className="pl-4 mt-8">
                 <li>He vuelto a dormir tranquila.</li>
                 <li> He recuperado mis fines de semana.</li>
-                <li>Sensación de no avanzar una mierd.</li>
+                <li>Me toco más la papaya.</li>
                 <li>
                   <b>
                     He avanzado en mi emprendimiento y mi marca personal como
@@ -382,9 +385,12 @@ const SegundoCerebroEnNotion = () => {
             </div>
           </div>
 
-          <Review name="Joaquín Ruiz" job="Desarrollador web">
-            "There are many templates that follow Tiago Forte's 2nd Brain
-            method, but Laura's template is very very very complete."
+          <Review name="María José" job="Psicóloga">
+            "El lunes compré tu plantilla. Creo que hace tiempo te comenté que
+            usaba la de (…) (del mismo método). La de él es mucho más sencilla y
+            yo la fui llenando poco a poco. La tuya me parece más estructurada y
+            ya he empezado a darle movimiento, creo que la voy a sacar mucho
+            partido."
           </Review>
         </section>
 
@@ -422,48 +428,58 @@ const SegundoCerebroEnNotion = () => {
             </div>
 
             <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
-              <span className="font-bold block mb-2">
-                ☝️ Este es el precio especial de preventa
-              </span>
-              <span className="">
-                Compras ahora pero la plantilla la tendrás disponibles en 7
-                días. Esto es así porque quiero hacer un precio especial a las
-                personas de la comunidad.
-              </span>
+              <p className="font-bold block ">
+                ☝️ Este es el precio especial de preventa.
+              </p>
+              <p className="text-sm">
+                Compras ahora, pero el contenido (plantilla, IA, lecciones…) lo
+                tendrás disponible a partir del día 18 de mayo, cuando haremos
+                en directo la primera sesión del curso. Por email te llegará
+                toda la información detallada con las fechas, si no puedes
+                asistir, queda grabado. Si ya me conoces sabes que siempre hago
+                un precio especial al principio para favorecer a los ya formáis
+                parte de la comunidad. :)
+              </p>
+              <p className="text-sm">
+                P.D.: Recordatorio para las que ya comprasteis la anterior
+                versión de la plantilla: no hace falta que compréis este curso,
+                tendréis acceso a todo el contenido.{" "}
+              </p>
             </div>
           </div>
         </section>
 
-        <Review name="Joaquín Ruiz" job="Desarrollador web">
-          "There are many templates that follow Tiago Forte's 2nd Brain method,
-          but Laura's template is very very very complete."
-        </Review>
-
         <section className="pt-20 pb-40 p-4 bg-white">
           <div className="max-w-5xl mx-auto px-6 text-center">
             <h2 className="text-4xl font-bold mb-4">
-              Preguntame lo que quieras a mi, o mi IA
+              Preguntame lo que quieras a mí, o mi IA
             </h2>
             <p className="text-base mb-8 max-w-2xl mx-auto">
               30 días de soporte para resolver tus dudas y preguntas, y mi IA
               para siempre incluida.
             </p>
             <div className="max-w-3xl mx-auto">
-              <div className="flex items-center w-full gap-12">
+              <div className="flex flex-col-reverse  sm:flex-row items-center w-full gap-12">
                 <div className="flex-1 text-left bg-stone-100 rounded-lg p-4">
                   <p className="text-2xl pb-2 font-bold">IA incluida</p>
                   <p className="text-sm">
-                    He entrenado una IA con mis conocimientos y la he integrado
-                    en la plantilla para que puedas preguntarle lo que quieras.{" "}
-                    ¿Esto es un proyecto o una tarea? ¿Esto es una cita o una
-                    nota? Es prioritario o solo urgente.
+                    He entrenado una IA con mis conocimientos y los tres métodos
+                    de productividad (PARA, GTD y Zettelkasten), y la he
+                    integrado en la plantilla para que puedas preguntarle lo que
+                    quieras. <br></br>{" "}
+                    <span className="mt-2 block">
+                      <i> ”¿Esto es un proyecto o una tarea?” </i>
+                      <br></br>
+                      <i> “¿Esto es una cita o una nota?” </i> <br></br>
+                      <i>“¿Es prioritario o solo urgente?”</i>
+                    </span>
                   </p>
                 </div>
 
                 <div className="flex-1">
                   <img
                     className="w-full h-auto object-contain"
-                    src="https://res.cloudinary.com/dwsa2s0pn/image/upload/v1745751007/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_plantilla_2_-_emprende_con_notion_gy4b5i.webp"
+                    src="https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746088616/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_IA_-_emprende_con_notion_--_xlk6cd.webp"
                     alt="Esquema de toda la plantilla del segundo cerebro donde se va indicadnado con flechas cada parte que es."
                     data-aos="fade-up"
                   />
@@ -473,14 +489,14 @@ const SegundoCerebroEnNotion = () => {
           </div>
         </section>
 
-        <section className="py-20 p-4 pb-40 bg-stone-200">
-          <div className="max-w-5xl mx-auto px-6 text-center">
+        <section className="py-20 p-4  bg-stone-200">
+          <div className="max-w-5xl mx-auto px-6 pb-32 text-center">
             <h2 className="text-4xl font-bold mb-4">
-              Tu Second Brain listo en 1, 2, 3.
+              Tu Segundo Cerebro listo en 1, 2, 3.
             </h2>
             <p className="text-base mb-8 max-w-2xl mx-auto">
-              Evita horas aprendiendo y construyendo. Usa Notion como tu Second
-              Brain fácilmente.
+              Evita horas aprendiendo y construyendo. Usa Notion como tu Segundo
+              Cerebro fácilmente.
             </p>
             <div>
               <div className="flex flex-col sm:flex-row  items-center">
@@ -528,11 +544,20 @@ const SegundoCerebroEnNotion = () => {
               </div>
             </div>
           </div>
+
+          <Review name="Naroa" job="Diseñadora de Interiores">
+            "Decirte que el curso está muy muy bien, organizado, ejemplos claros
+            y útiles. Me gusta que remarques que hay que hacerlo sencillo, yo me
+            iba por las ramas...Llevo un mes bastante saturadillo, y ESTOY
+            MOTIVADÍSIMA con ello. Ahora tengo mis ideas más organizadas y mente
+            algo más despejada, seguiré con ello. Felicitarte de nuevo por lo
+            que estás creando! Saludos.""
+          </Review>
         </section>
 
         <section className="pt-20 p-4 bg-white">
           <div className="max-w-5xl mx-auto px-6 text-left">
-            <h2 className="text-4xl text-center font-bold mb-4">
+            <h2 className="text-4xl text-center font-bold mb-12">
               Preguntas Frecuentes.
             </h2>
 
@@ -557,9 +582,35 @@ const SegundoCerebroEnNotion = () => {
                 <li className="pb-4">
                   <b>Soporte</b> por email para resolver tus dudas.
                 </li>
+                <li className="pb-4">
+                  <b> Inteligencia Artificial </b> entrenada y especializada en
+                  asesorarte con tu Segundo Cerebro.
+                </li>
               </ul>
             </Desplegable>
-            <Desplegable title="Dudo si conseguiré ponerlo en práctica."></Desplegable>
+            <Desplegable title="Dudo si conseguiré ponerlo en práctica.">
+              <div className="pt-4 px-4 max-w-3xl">
+                <p>
+                  Claro, es que si tienes la expectativa de que de repente vas a
+                  organizarte superbien con un método mágico de 5 pasos (es lo
+                  que te suelen vender los gurús)… No es real.
+                </p>
+                <p>
+                  Por eso esto no te vendo una plantilla sino un curso de
+                  productividad paso a paso, para introducir nuevos hábitos de
+                  productividad consciente.
+                </p>
+                <p>
+                  Y la herramienta que te ayudará en el proceso, es la plantilla
+                  de Segundo Cerebro.
+                </p>
+                <p>
+                  Si ya has hecho otros cursos conmigo sabes que soy muy muy
+                  didáctica, te iré marcando el ritmo de avance siempre, y si
+                  tienes dudas para eso estoy en el soporte.{" "}
+                </p>
+              </div>
+            </Desplegable>
             <Desplegable title="¿Incluye actualizaciones?">
               <div className="pt-4 px-4 max-w-3xl">
                 <p>
@@ -655,14 +706,23 @@ const SegundoCerebroEnNotion = () => {
             </div>
 
             <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
-              <span className="font-bold block mb-2">
-                ☝️ Este es el precio especial de preventa
-              </span>
-              <span className="">
-                Compras ahora pero la plantilla la tendrás disponibles en 7
-                días. Esto es así porque quiero hacer un precio especial a las
-                personas de la comunidad.
-              </span>
+              <p className="font-bold block ">
+                ☝️ Este es el precio especial de preventa.
+              </p>
+              <p className="text-sm">
+                Compras ahora, pero el contenido (plantilla, IA, lecciones…) lo
+                tendrás disponible a partir del día 18 de mayo, cuando haremos
+                en directo la primera sesión del curso. Por email te llegará
+                toda la información detallada con las fechas, si no puedes
+                asistir, queda grabado. Si ya me conoces sabes que siempre hago
+                un precio especial al principio para favorecer a los ya formáis
+                parte de la comunidad. :)
+              </p>
+              <p className="text-sm">
+                P.D.: Recordatorio para las que ya comprasteis la anterior
+                versión de la plantilla: no hace falta que compréis este curso,
+                tendréis acceso a todo el contenido.{" "}
+              </p>
             </div>
           </div>
         </section>

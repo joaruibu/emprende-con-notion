@@ -5,7 +5,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
   const [password, setPassword] = useState("");
   const PASSWORDS = {
     PASSWORD_1: "33333",
-    PASSWORD_2: "CerebroSoloHayDos",
+    PASSWORD_2: "SoyMasListaQueAntes",
   };
 
   const isCorrectPassword = (password) => {
@@ -36,9 +36,26 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
             <br></br>
             <br></br>
             <div className=" mb-24">
-              <h2 className="font-alternate text-2xl leading-[52px]">
+              <h3 className="mb-12">
+                Próximamente encontrarás aquí toda la información del
+                curso.{" "}
+              </h3>
+              <p>
+                Como has comprado en preventa esta página está por ahora
+                desactivada. No te preocupes, te avisaré por email cuando el
+                contenido esté visible.{" "}
+              </p>
+              <p>
+                Por ahora, apunta en tu agenda nuestra primera sesión el domingo
+                18 de mayo a las 17.00 h (Valencia).{" "}
+              </p>
+              <p>
+                P.D.: Cualquier duda, sugerencia, problema, saludos, me escribes
+                a laura@emprendeconnotion.com.{" "}
+              </p>
+              {/* <h2 className="font-alternate text-2xl leading-[52px]">
                 - Directo.
-              </h2>
+              </h2> */}
 
               {/* 
               <p>
@@ -72,9 +89,9 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
             </div>
 
             <div className=" mb-24">
-              <h2 className="font-alternate text-2xl leading-[52px]">
+              {/*   <h2 className="font-alternate text-2xl leading-[52px]">
                 - Bonus de bienvenida.
-              </h2>
+              </h2> */}
 
               {/* <p>
                 Haz el favor, y toma las notas poniendo en práctica todo lo que
@@ -107,7 +124,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </button>
               </a> */}
             </div>
-
+            {/* 
             <div className=" mb-24">
               <h2 className="font-alternate text-2xl leading-[52px]">
                 - Tu Segundo cerebro.
@@ -137,12 +154,12 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   este vídeo de menos de 1 minuto.
                 </a>
               </p>
-            </div>
+            </div> */}
 
             <div className=" mb-24">
-              <h2 className="font-alternate text-2xl leading-[52px]">
+              {/*   <h2 className="font-alternate text-2xl leading-[52px]">
                 - Soporte.
-              </h2>
+              </h2> */}
               {/* <p>
                 Tienes soporte por email hasta el día 28 de febrero a las
                 23:59h.
@@ -167,12 +184,12 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
             <br></br>
             <br></br>
             <br></br>
-
+            {/* 
             <p className="pt-24 pl-8">Espero que la aproveches mucho.</p>
             <div className="pl-16">
               <p>Un abrazo, y que Notion te acompañe.</p>
               <p>Laura, de Emprende con Notion.</p>
-            </div>
+            </div> */}
           </section>
         </article>
       )}
