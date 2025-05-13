@@ -84,7 +84,7 @@ const SegundoCerebroEnNotion = () => {
 
               <div className="flex flex-col items-start">
                 <div className="p-4 bg-stone-100 rounded-2xl w-full mb-8">
-                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746135848/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_objetivos_-_emprende_con_notion_--_muul6v.webp')]"></div>
+                  <div className="h-64 w-full bg-center bg-cover  bg-[url('https://res.cloudinary.com/dwsa2s0pn/image/upload/v1746088618/emprende-con-notion/courses/second-brain/Segundo_cerebro_en_Notion_-_tareas_-_emprende_con_notion_--_akgatq.webp')]"></div>
                 </div>
                 <p className="text-2xl pb-2 font-bold">Clasifica y prioriza</p>
                 <p className="text-sm text-left">
@@ -499,6 +499,24 @@ const SegundoCerebroEnNotion = () => {
               </div>
             </div>
           </div>
+
+          <Review name="José Luis" job="Team Leader y Club de Negocios Job.s">
+            "Que ganas tenia de ver ese segundo cerebro que has preparado. Para
+            serte sincero ya compre otro antes de conocerte, y la verdad, he
+            intentado adaptarlo con lo que aprendi en tu anterior cuso. Al final
+            no me encontraba comodo, ni me cuadraba nada, asi que estaba entre
+            hacer uno nuevo, seguir haciendo parches...o esperarte ;-) Asi que
+            nada, comprado y seguimos tu filosofia que por cierto tanto GTD como
+            Eissenhower tambien es la mia... jejje (…) Lo que mas tengo es
+            libros, con sus caratulas y. resumenes, cursos que voy haciendo y
+            voy tomando notas, capturas..., tareas ya realizadas, cosas que
+            quiero comprar o que ya he comprado con sus costes previstos y
+            reales, gestion de viajes ya realizados, los que realizare y los que
+            me gustaria (o actividades, como restaurantes a visitar, o sitios
+            que visitaria si fuera a x...), y pagina de recursos, que eso es lo
+            que te pregunte y que he aplicado lo que mandaste en un video y que
+            me ha cuadrado perfectamente... "
+          </Review>
         </section>
 
         <section className="py-20 p-4  bg-stone-200">

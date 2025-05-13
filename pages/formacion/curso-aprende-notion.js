@@ -542,6 +542,12 @@ const CursoNotion = () => {
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
 
+          <Review name="N. Lucio" job=" Diseñadora de Interiores">
+            "El curso es muy top: tener todo en una simple página me ayuda un
+            montón, los vídeos son cortos pero con contenido muy potente, y yo
+            que soy bastante movidita, me ayudan mucho a centrarme y sentarme. "
+          </Review>
+
           <p>Un abrazo, y que Notion te acompañe, </p>
           <p>Laura de Arquer</p>
         </section>
