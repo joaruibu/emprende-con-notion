@@ -5,7 +5,7 @@ const TallerEmpezarEnNotionEsFacilEstasDentro = () => {
   const [password, setPassword] = useState("");
 
   const PASWORDS = {
-    PASWORD_1: "EmpecemosConBuenPie",
+    PASWORD_1: "EmpecemosConBuenPi3",
   };
 
   return (
