@@ -284,10 +284,9 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </p>
               </div>
 
-              <p className="pt-8">
-                P.D.: Cualquier duda, sugerencia, problema, saludos, me escribes
-                a laura@emprendeconnotion.com.{" "}
-              </p>
+              <p className="pt-8">P.D.: Trabaja a tu favor.</p>
+              <p className="">Nos amo,</p>
+              <p className="pt-8">Laura de Arquer.</p>
               {/* <h2 className="font-alternate text-2xl leading-[52px]">
                 - Directo.
               </h2> */}
