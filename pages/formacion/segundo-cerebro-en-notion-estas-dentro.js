@@ -121,6 +121,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 <p>
                   * Si aún no sabes duplicar plantillas, te lo explico en este
                   <a
+                    className="underline"
                     href="https://youtu.be/Y6rBNkV4rnY?si=0oHMxHKf4NhGAIkp"
                     target="_blank"
                   >
@@ -196,6 +197,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </p>
                 <p>
                   <a
+                    className="underline"
                     href="https://drive.usercontent.google.com/u/0/uc?id=1MMgsBRmo4xRt2kBH8n9Bqj-KcpbdSJhQ&export=download"
                     target="_blank"
                   >
@@ -206,6 +208,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </p>
                 <p>
                   <a
+                    className="underline"
                     href="https://drive.usercontent.google.com/u/0/uc?id=1lxVnGXKvjwHgMbPYGr8Gz38Vp8rdScy4&export=download"
                     target="_blank"
                   >
@@ -216,6 +219,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </p>
                 <p>
                   <a
+                    className="underline"
                     href="https://drive.usercontent.google.com/u/0/uc?id=1ruYkdwuMa4lzikaOWND_sq9rg-jrMNc0&export=download"
                     target="_blank"
                   >
@@ -228,6 +232,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
                 <p>
                   <a
+                    className="underline"
                     href="https://drive.usercontent.google.com/u/0/uc?id=10I7VEw_pwMwQ2HDasSzA75z4Oe8Q0HJu&export=download"
                     target="_blank"
                   >
@@ -239,6 +244,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
                 <p>
                   <a
+                    className="underline"
                     href="https://drive.usercontent.google.com/u/0/uc?id=134WU7ZcLr83YHmdAllgQF5RvkeSTEbmy&export=download"
                     target="_blank"
                   >
@@ -246,6 +252,21 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   </a>{" "}
                   sesión de dudas grupal.
                 </p>
+
+                <i className=" text-xs block mb-6 mx-6">
+                  *** Nota 1: Si no puedes asistir a algún directo, igualmente
+                  planifica en tu agenda ver la grabación. No lo dejes pasar o
+                  perderás el ritmo. Lo que no está en la agenda no existe.
+                </i>
+                <i className=" text-xs block mb-6 mx-6">
+                  *** Nota 2: Si has comprado el curso con la planificación ya
+                  empezada (o sea, entre el 18 de mayo y el 8 de junio) te
+                  recomiendo en cualquier caso asistir a los directos. Es una
+                  oportunidad para recibir soporte en directo que más adelante
+                  no tendrás. Esto es independiente para que cuando puedas te
+                  planifiques para ver el curso por orden, completo, desde el
+                  principio.
+                </i>
               </div>
 
               <div className="mb-12">
@@ -262,21 +283,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   emails con ese asunto y si no me aparece no le daré prioridad.
                 </p>
               </div>
-
-              <i className=" text-xs block mb-6 mx-6">
-                *** Nota 1: Si no puedes asistir a algún directo, igualmente
-                planifica en tu agenda ver la grabación. No lo dejes pasar o
-                perderás el ritmo. Lo que no está en la agenda no existe.
-              </i>
-              <i className=" text-xs block mb-6 mx-6">
-                *** Nota 2: Si has comprado el curso con la planificación ya
-                empezada (o sea, entre el 18 de mayo y el 8 de junio) te
-                recomiendo en cualquier caso asistir a los directos. Es una
-                oportunidad para recibir soporte en directo que más adelante no
-                tendrás. Esto es independiente para que cuando puedas te
-                planifiques para ver el curso por orden, completo, desde el
-                principio.
-              </i>
 
               <p className="pt-8">
                 P.D.: Cualquier duda, sugerencia, problema, saludos, me escribes
