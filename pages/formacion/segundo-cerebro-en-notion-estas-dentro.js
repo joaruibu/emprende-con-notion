@@ -144,18 +144,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   ya.
                 </p>
               </Desplegable>
-              <Desplegable title="Módulo 3. Cual zarapito trinador.">
-                <p className="m-6">
-                  Próximamente… Mira el apartado de planificación para agenciar
-                  ya.
-                </p>
-              </Desplegable>
-              <Desplegable title="Módulo 3. Cual zarapito trinador.">
-                <p className="m-6">
-                  Próximamente… Mira el apartado de planificación para agenciar
-                  ya.
-                </p>
-              </Desplegable>
               <Desplegable title="Módulo 4. Onirograma y otros psicodélicos.">
                 <p className="m-6">
                   Próximamente… Mira el apartado de planificación para agenciar
