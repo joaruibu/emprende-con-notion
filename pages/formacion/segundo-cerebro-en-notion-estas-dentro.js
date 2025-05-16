@@ -104,12 +104,17 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
               <Desplegable title="Módulo 0.  Primera parada.">
                 <br></br>
-                <a href={"Empieza aquí. "} target="_blank">
+                <a
+                  href={
+                    "https://emprendecon.notion.site/segundo-cerebro-modulo-1?pvs=4"
+                  }
+                  target="_blank"
+                >
                   <button
                     className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
                     type="submit"
                   >
-                    Empieza aquí.
+                    Módulo 0. Empieza aquí.
                   </button>
                 </a>
 
@@ -174,6 +179,104 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   ya.
                 </p>
               </Desplegable>
+
+              <div className="mb-12">
+                <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
+                  - Planificación.
+                </h2>
+
+                <p className="mb-6">
+                  Clica en los enlaces siguientes para agenciar automáticamente
+                  los eventos en tu calendario:{" "}
+                </p>
+
+                <p>
+                  <b> – Hoy, día 16 de mayo: </b>recibes el módulo 0. Tienes dos
+                  días para completarlo.
+                </p>
+                <p>
+                  <a
+                    href="https://drive.usercontent.google.com/u/0/uc?id=1MMgsBRmo4xRt2kBH8n9Bqj-KcpbdSJhQ&export=download"
+                    target="_blank"
+                  >
+                    <b> – Domingo 18 mayo a las 17.00: </b>{" "}
+                  </a>{" "}
+                  módulos 1 y 2. Recibes la plantilla. Te doy una semana
+                  para identificar.
+                </p>
+                <p>
+                  <a
+                    href="https://drive.usercontent.google.com/u/0/uc?id=1lxVnGXKvjwHgMbPYGr8Gz38Vp8rdScy4&export=download"
+                    target="_blank"
+                  >
+                    <b> – Domingos 25 mayo a las 17.00: </b>{" "}
+                  </a>{" "}
+                  curso Notion exprés + módulo 3. Te doy una semana para migrar
+                  y poner en práctica.
+                </p>
+                <p>
+                  <a
+                    href="https://drive.usercontent.google.com/u/0/uc?id=1ruYkdwuMa4lzikaOWND_sq9rg-jrMNc0&export=download"
+                    target="_blank"
+                  >
+                    <b> – Domingo 1 junio a las 17.00: </b>{" "}
+                  </a>{" "}
+                  módulo 4. Recomiendo especialmente asistencia presencial. Será
+                  intenso, bonito y participativo. Te doy una semana para{" "}
+                  <i> profundizar</i>. Lo vas a necesitar.
+                </p>
+
+                <p>
+                  <a
+                    href="https://drive.usercontent.google.com/u/0/uc?id=10I7VEw_pwMwQ2HDasSzA75z4Oe8Q0HJu&export=download"
+                    target="_blank"
+                  >
+                    <b>– Domingo 8 junio a las 17.00: </b>{" "}
+                  </a>{" "}
+                  módulo 5 y 6. Mucha acción. Será larga. Haremos descanso para
+                  hacer un pis o lo que sea que tú hagas en los descansos.
+                </p>
+
+                <p>
+                  <a
+                    href="https://drive.usercontent.google.com/u/0/uc?id=134WU7ZcLr83YHmdAllgQF5RvkeSTEbmy&export=download"
+                    target="_blank"
+                  >
+                    <b>– Domingo 29 de junio a las 17.00: </b>{" "}
+                  </a>{" "}
+                  sesión de dudas grupal.
+                </p>
+              </div>
+
+              <div className="mb-12">
+                <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
+                  - Resolución de dudas.
+                </h2>
+                <p>
+                  Recuerda que el curso incluye soporte por email, puedes
+                  escribir a laura@emprendeconnotion.com. El asunto debe ser:
+                  ¿QUÉ ME PASA DOCTOR?
+                </p>
+                <p>
+                  Es importante que tenga ese asunto: filtraré en mi gestor los
+                  emails con ese asunto y si no me aparece no le daré prioridad.
+                </p>
+              </div>
+
+              <i className=" text-xs block mb-6 mx-6">
+                *** Nota 1: Si no puedes asistir a algún directo, igualmente
+                planifica en tu agenda ver la grabación. No lo dejes pasar o
+                perderás el ritmo. Lo que no está en la agenda no existe.
+              </i>
+              <i className=" text-xs block mb-6 mx-6">
+                *** Nota 2: Si has comprado el curso con la planificación ya
+                empezada (o sea, entre el 18 de mayo y el 8 de junio) te
+                recomiendo en cualquier caso asistir a los directos. Es una
+                oportunidad para recibir soporte en directo que más adelante no
+                tendrás. Esto es independiente para que cuando puedas te
+                planifiques para ver el curso por orden, completo, desde el
+                principio.
+              </i>
 
               <p className="pt-8">
                 P.D.: Cualquier duda, sugerencia, problema, saludos, me escribes
