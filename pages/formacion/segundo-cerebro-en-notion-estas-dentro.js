@@ -46,11 +46,10 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
               <h2 className="mt-24 font-alternate text-3xl leading-[52px] mb-12">
                 - Para acceder al próximo directo:
               </h2>
-              <a href={""} target="_blank">
+              <a href={" https://meet.google.com/fkv-rfpf-ivn"} target="_blank">
                 <button
-                  className=" opacity-20 rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
+                  className=" rounded-md w-full border border-stone-950 bg-yellow-300 p-4 text-xl font-sub text-zinc-900 font-semibold  "
                   type="submit"
-                  disabled
                 >
                   Clica para acceder al directo
                 </button>
