@@ -12,8 +12,8 @@ const SegundoCerebroEnNotion = () => {
 
   const STRIPE_BUTTON_CONFIG = {
     title: "Segundo Cerebro en Notion",
-    buttonText: " Quiero mi segundo cerebro (preventa)",
-    price: "90 €",
+    buttonText: " Quiero mi segundo cerebro",
+    price: "120 €",
     isDisabled: false,
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/96351b0f577a6b7b3be48b0d837cc7922f9d6a80",
@@ -439,7 +439,7 @@ const SegundoCerebroEnNotion = () => {
               </StripeButton>
             </div>
 
-            <div className="text-left w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+            {/* <div className="text-left w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
               <p className="font-bold block ">
                 ☝️ Este es el precio especial de preventa.
               </p>
@@ -457,7 +457,7 @@ const SegundoCerebroEnNotion = () => {
                 versión de la plantilla: no hace falta que compréis este curso,
                 tendréis acceso a todo el contenido.{" "}
               </p>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -735,7 +735,7 @@ const SegundoCerebroEnNotion = () => {
               </StripeButton>
             </div>
 
-            <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+            {/* <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
               <p className="font-bold block ">
                 ☝️ Este es el precio especial de preventa.
               </p>
@@ -753,7 +753,7 @@ const SegundoCerebroEnNotion = () => {
                 versión de la plantilla: no hace falta que compréis este curso,
                 tendréis acceso a todo el contenido.{" "}
               </p>
-            </div>
+            </div> */}
           </div>
         </section>
       </article>
