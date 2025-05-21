@@ -161,13 +161,38 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
               </Desplegable>
 
               <Desplegable title="Módulo 2. Medisina.">
-                <CountdownWidget></CountdownWidget>
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+
+                <p>Mañana quedará colgada</p>
+                {/* <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1BbZzaOQsz_ctVkj3lj5fYpktV448Lj5N/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div> */}
+                <h4>- Acción:</h4>
+                <br></br>
+                {/* <a
+                  href={
+                    "https://emprendecon.notion.site/segundo-cerebro-modulo-1?pvs=4"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Ejercicios Módulo 1
+                  </button>
+                </a> */}
               </Desplegable>
               <Desplegable title="Módulo 3. Cual zarapito trinador.">
-                <p className="m-6">
-                  Próximamente… Mira el apartado de planificación para agenciar
-                  ya.
-                </p>
+                <CountdownWidget></CountdownWidget>
               </Desplegable>
               <Desplegable title="Módulo 4. Onirograma y otros psicodélicos.">
                 <p className="m-6">
@@ -188,10 +213,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </p>
               </Desplegable>
               <Desplegable title="Bonus. Curso de Notion Exprés.">
-                <p className="m-6">
-                  Próximamente… Mira el apartado de planificación para agenciar
-                  ya.
-                </p>
+                <CountdownWidget></CountdownWidget>
               </Desplegable>
 
               <div className="mb-12">
