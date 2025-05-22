@@ -101,6 +101,10 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 <q>Laura.</q>
               </p>
 
+              <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
+                - El curso.
+              </h2>
+
               <Desplegable title="Módulo 0.  Primera parada.">
                 <br></br>
                 <a
