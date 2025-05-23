@@ -61,12 +61,10 @@ const SegundoCerebroEnNotion = () => {
               parecen buenos los ejemplos para poder transmitir muchos mensajes
               a los pacientes 😊"
             </Review>
-            <Review name="M.J" job="Terapeupa">
-              "Eres la mejor explicando las clases, tienes muy dominado todo lo
-              que tiene que ver con el desarrollo personal, se nota que te
-              gusta, pero, sobre todo, se nota que te esfuerzas mucho por
-              entenderlo, asimilarlo y comprenderlo. Gracias por ponérnoslo tan
-              fácil."
+            <Review name="Rodrigo S." job="">
+              "La mejor template. Es tan abierto el programa en sus
+              posibilidades que es muy dificil que alguien te de una guia solida
+              y entendible. Tu lo logras muy muy bien. "
             </Review>
           </div>
         </section>
@@ -437,10 +435,12 @@ const SegundoCerebroEnNotion = () => {
                 data-aos="fade-up"
               />
             </div>
-            <Review name="Rodrigo S." job="">
-              "La mejor template. Es tan abierto el programa en sus
-              posibilidades que es muy dificil que alguien te de una guia solida
-              y entendible. Tu lo logras muy muy bien. "
+            <Review name="M.J" job="Terapeuta">
+              "Eres la mejor explicando las clases, tienes muy dominado todo lo
+              que tiene que ver con el desarrollo personal, se nota que te
+              gusta, pero, sobre todo, se nota que te esfuerzas mucho por
+              entenderlo, asimilarlo y comprenderlo. Gracias por ponérnoslo tan
+              fácil."
             </Review>
             <div className="my-12">
               <StripeButton
@@ -452,24 +452,27 @@ const SegundoCerebroEnNotion = () => {
                 {STRIPE_BUTTON_CONFIG.buttonText}
               </StripeButton>
             </div>
-
-            <div className="text-left w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+            <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
               <p className="font-bold block ">
                 ☝️ Este es el precio especial de preventa.
               </p>
               <p className="text-sm">
-                Compras ahora, pero el contenido (plantilla, IA, lecciones…) lo
-                tendrás disponible a partir del día 18 de mayo, cuando haremos
-                en directo la primera sesión del curso. Por email te llegará
-                toda la información detallada con las fechas, si no puedes
-                asistir, queda grabado. Si ya me conoces sabes que siempre hago
-                un precio especial al principio para favorecer a los ya formáis
-                parte de la comunidad. :)
+                Estamos en proceso de preventa, esto significa que el curso está
+                teniendo lugar <i>ahora</i>.
               </p>
               <p className="text-sm">
-                P.D.: Recordatorio para las que ya comprasteis la anterior
-                versión de la plantilla: no hace falta que compréis este curso,
-                tendréis acceso a todo el contenido.{" "}
+                Es decir, cada domingo desde hace un par de semanas y hasta el
+                día 8 de junio, tengo sesión en directo con mis clientes del
+                curso Segundo Cerebro.
+              </p>
+              <p className="text-sm">
+                Por eso, el curso ahora vale solo 120€, y no 150€, que es lo que
+                valdrá una vez terminen los directos.
+              </p>
+              <p className="text-sm">
+                Si compras ahora, tienes la oportunidad de llevártelo a este
+                precio, participar en las sesiones en directo, y tener acceso a
+                todas las sesiones pasadas.
               </p>
             </div>
           </div>
@@ -772,18 +775,22 @@ const SegundoCerebroEnNotion = () => {
                 ☝️ Este es el precio especial de preventa.
               </p>
               <p className="text-sm">
-                Compras ahora, pero el contenido (plantilla, IA, lecciones…) lo
-                tendrás disponible a partir del día 18 de mayo, cuando haremos
-                en directo la primera sesión del curso. Por email te llegará
-                toda la información detallada con las fechas, si no puedes
-                asistir, queda grabado. Si ya me conoces sabes que siempre hago
-                un precio especial al principio para favorecer a los ya formáis
-                parte de la comunidad. :)
+                Estamos en proceso de preventa, esto significa que el curso está
+                teniendo lugar <i>ahora</i>.
               </p>
               <p className="text-sm">
-                P.D.: Recordatorio para las que ya comprasteis la anterior
-                versión de la plantilla: no hace falta que compréis este curso,
-                tendréis acceso a todo el contenido.{" "}
+                Es decir, cada domingo desde hace un par de semanas y hasta el
+                día 8 de junio, tengo sesión en directo con mis clientes del
+                curso Segundo Cerebro.
+              </p>
+              <p className="text-sm">
+                Por eso, el curso ahora vale solo 120€, y no 150€, que es lo que
+                valdrá una vez terminen los directos.
+              </p>
+              <p className="text-sm">
+                Si compras ahora, tienes la oportunidad de llevártelo a este
+                precio, participar en las sesiones en directo, y tener acceso a
+                todas las sesiones pasadas.
               </p>
             </div>
           </div>
