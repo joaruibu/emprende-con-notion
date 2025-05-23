@@ -72,35 +72,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 <li>Comprométete a acabarlo.</li>
               </ol>
 
-              <p className="border-l-2 pl-4 flex flex-col gap-4 mb-12">
-                <q>
-                  Dicho esto, gracias por volver a confiar en mí —si ya has
-                  hecho otro curso conmigo— o por confiar en mi trabajo por
-                  primera vez. Escribo esto con mucho agradecimiento. Verás. Amo
-                  enseñar lo que estudio para poder aprenderlo. Gracias por
-                  ayudarme a materializar uno de mis sueños, que es enseñar
-                  desarrollo personal.
-                </q>
-                <q>
-                  Porque, no te equivoques, la productividad es una pata del
-                  desarrollo personal, y te voy a enseñar a trabajarla con la
-                  importancia y dedicación que merece en tu vida.{" "}
-                </q>
-                <q>
-                  En este curso de Segundo Cerebro voy compartir contigo
-                  herramientas que me parecen imprescindibles.
-                </q>
-                <q>
-                  Quizás algunas, ya las conozcas. Si es el caso, te recomiendo
-                  que las vuelvas a analizar porque, dependiendo del momento
-                  vital en el que te encuentres, tu interpretación puede ser
-                  totalmente diferente y traer nueva información que te sea útil
-                  para el trabajo.
-                </q>
-                <q>Gracias por dejarme acompañarte. :)</q>
-                <q>Laura.</q>
-              </p>
-
               <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
                 - El curso.
               </h2>
@@ -239,7 +210,12 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </p>
               </Desplegable>
               <Desplegable title="Bonus. Curso de Notion Exprés.">
-                <CountdownWidget></CountdownWidget>
+                <p className="m-6">
+                  Quedará colgado al terminar los 6 módulos. Como siempre, te
+                  avisaré por email. Si necesitas soporte antes ya sabes que
+                  puedes escribirme por email (más abajo explico cómo enviar
+                  dudas).{" "}
+                </p>
               </Desplegable>
 
               <div className="mb-12">
@@ -275,8 +251,8 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   >
                     <b> – Domingos 25 mayo a las 17.00: </b>{" "}
                   </a>{" "}
-                  curso Notion exprés + módulo 3. Te doy una semana para migrar
-                  y poner en práctica.
+                  módulo 3 + Bonus Workshop. Te doy una semana para migrar y
+                  poner en <i> práctica</i>.
                 </p>
                 <p>
                   <a
@@ -311,7 +287,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   >
                     <b>– Domingo 29 de junio a las 17.00: </b>{" "}
                   </a>{" "}
-                  sesión de dudas grupal.
+                  sesión de <i>dudas</i> grupal.
                 </p>
 
                 <i className=" text-xs block mb-6 mx-6">
@@ -344,6 +320,37 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   emails con ese asunto y si no me aparece no le daré prioridad.
                 </p>
               </div>
+
+              <hr></hr>
+
+              <p className="border-l-2  pl-4 flex flex-col gap-4 my-12">
+                <q>
+                  Gracias por volver a confiar en mí —si ya has hecho otro curso
+                  conmigo— o por confiar en mi trabajo por primera vez. Escribo
+                  esto con mucho agradecimiento. Verás. Amo enseñar lo que
+                  estudio para poder aprenderlo. Gracias por ayudarme a
+                  materializar uno de mis sueños, que es enseñar desarrollo
+                  personal.
+                </q>
+                <q>
+                  Porque, no te equivoques, la productividad es una pata del
+                  desarrollo personal, y te voy a enseñar a trabajarla con la
+                  importancia y dedicación que merece en tu vida.{" "}
+                </q>
+                <q>
+                  En este curso de Segundo Cerebro voy compartir contigo
+                  herramientas que me parecen imprescindibles.
+                </q>
+                <q>
+                  Quizás algunas, ya las conozcas. Si es el caso, te recomiendo
+                  que las vuelvas a analizar porque, dependiendo del momento
+                  vital en el que te encuentres, tu interpretación puede ser
+                  totalmente diferente y traer nueva información que te sea útil
+                  para el trabajo.
+                </q>
+                <q>Gracias por dejarme acompañarte. :)</q>
+                <q>Laura.</q>
+              </p>
 
               <p className="pt-8">P.D.: Trabaja a tu favor.</p>
               <p className="">Nos amo,</p>

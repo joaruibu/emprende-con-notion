@@ -48,13 +48,27 @@ const SegundoCerebroEnNotion = () => {
             />
           </div>
 
-          <Review name="María José" job="Psicóloga">
-            "El lunes compré tu plantilla. Creo que hace tiempo te comenté que
-            usaba la de (…) (del mismo método). La de él es mucho más sencilla y
-            yo la fui llenando poco a poco. La tuya me parece más estructurada y
-            ya he empezado a darle movimiento, creo que la voy a sacar mucho
-            partido."
-          </Review>
+          <div className="flex flex-col lg:flex-row items-center md:items-start ">
+            <Review name="María José" job="Psicóloga">
+              "El lunes compré tu plantilla. Creo que hace tiempo te comenté que
+              usaba la de (…) (del mismo método). La de él es mucho más sencilla
+              y yo la fui llenando poco a poco. La tuya me parece más
+              estructurada y ya he empezado a darle movimiento, creo que la voy
+              a sacar mucho partido."
+            </Review>
+            <Review name="Laura" job="Neuróloga">
+              "Hola! Me esta gustando mucho cómo lo cuentas. Soy neuróloga y me
+              parecen buenos los ejemplos para poder transmitir muchos mensajes
+              a los pacientes 😊"
+            </Review>
+            <Review name="M.J" job="Terapeupa">
+              "Eres la mejor explicando las clases, tienes muy dominado todo lo
+              que tiene que ver con el desarrollo personal, se nota que te
+              gusta, pero, sobre todo, se nota que te esfuerzas mucho por
+              entenderlo, asimilarlo y comprenderlo. Gracias por ponérnoslo tan
+              fácil."
+            </Review>
+          </div>
         </section>
 
         <section className="py-16 bg-white p-4">
@@ -439,7 +453,7 @@ const SegundoCerebroEnNotion = () => {
               </StripeButton>
             </div>
 
-            {/* <div className="text-left w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+            <div className="text-left w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
               <p className="font-bold block ">
                 ☝️ Este es el precio especial de preventa.
               </p>
@@ -457,7 +471,19 @@ const SegundoCerebroEnNotion = () => {
                 versión de la plantilla: no hace falta que compréis este curso,
                 tendréis acceso a todo el contenido.{" "}
               </p>
-            </div> */}
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row items-center md:items-start ">
+            <Review name="María" job="Coach">
+              "(…) Digo que menudo trabajazo, tantas cosas conectadas. Es una
+              maravilla. O sea, yo pienso, me llevaría a mí… Media vida hacer
+              eso. Gracias. Porque me parece maravilloso. "
+            </Review>
+            <Review name="Silvia" job="Instructora de Mindfulness">
+              " Hola Laura! Aquí una que va aplicando los ejercicios del curso
+              ;) "
+            </Review>
           </div>
         </section>
 
@@ -594,27 +620,33 @@ const SegundoCerebroEnNotion = () => {
             <Desplegable title="Realmente, ¿qué incluye?">
               <ul className=" pt-4 px-4 max-w-3xl">
                 <li className="pb-4">
-                  Acceso al{" "}
-                  <b>
-                    curso de productividad basado en los métodos GTD + PARA +
-                    Zettelkasten + mi experiencia,{" "}
-                  </b>{" "}
-                  con lecciones en vídeo y prácticas.
+                  Acceso al <b>curso de productividad: 6 módulos </b> con
+                  lecciones en vídeo y ejercicios prácticos.
                 </li>
 
                 <li className="pb-4">
-                  La plantilla de <b>Segundo Cerebro en Notion.</b>
-                </li>
-                <li className="pb-4">
-                  <b>Actualizaciones</b> del curso y de la plantilla.
+                  La plantilla de{" "}
+                  <b>
+                    Segundo Cerebro en Notion basado en los métodos GTD + PARA +
+                    Zettelkasten + mi experiencia.
+                  </b>
                 </li>
 
                 <li className="pb-4">
                   <b>Soporte</b> por email para resolver tus dudas.
                 </li>
+
+                <li className="pb-4">
+                  <b>Bonus Notion Exprés </b> (curso de 1 hora donde aprendes
+                  Notion desde 0, y todo lo necesario para saber personalizar tu
+                  plantilla al máximo).
+                </li>
                 <li className="pb-4">
                   <b> Inteligencia Artificial </b> entrenada y especializada en
                   asesorarte con tu Segundo Cerebro.
+                </li>
+                <li className="pb-4">
+                  <b>Actualizaciones</b> del curso y de la plantilla de por vida
                 </li>
               </ul>
             </Desplegable>
@@ -735,7 +767,7 @@ const SegundoCerebroEnNotion = () => {
               </StripeButton>
             </div>
 
-            {/* <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
+            <div className=" w-full max-w-3xl mx-auto bg-stone-100  rounded-lg p-4 ">
               <p className="font-bold block ">
                 ☝️ Este es el precio especial de preventa.
               </p>
@@ -753,7 +785,7 @@ const SegundoCerebroEnNotion = () => {
                 versión de la plantilla: no hace falta que compréis este curso,
                 tendréis acceso a todo el contenido.{" "}
               </p>
-            </div> */}
+            </div>
           </div>
         </section>
       </article>
