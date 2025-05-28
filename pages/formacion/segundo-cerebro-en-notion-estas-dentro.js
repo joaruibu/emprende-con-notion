@@ -189,13 +189,34 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </a>
               </Desplegable>
               <Desplegable title="Módulo 3. Cual zarapito trinador.">
-                <CountdownWidget></CountdownWidget>
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1kn3mvzBknQTxF0RJynp1UW5m521uXuWB/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Acción:</h4>
+                <br></br>
+                <a
+                  href={"https://emprendecon.notion.site/modulo-3?pvs=4"}
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Ejercicios Módulo 3
+                  </button>
+                </a>
               </Desplegable>
               <Desplegable title="Módulo 4. Onirograma y otros psicodélicos.">
-                <p className="m-6">
-                  Próximamente… Mira el apartado de planificación para agenciar
-                  ya.
-                </p>
+                <CountdownWidget></CountdownWidget>
               </Desplegable>
               <Desplegable title="Módulo 5. Coge tu agenda por los cuernos.">
                 <p className="m-6">
