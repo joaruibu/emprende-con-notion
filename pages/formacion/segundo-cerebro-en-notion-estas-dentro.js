@@ -216,13 +216,64 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </a>
               </Desplegable>
               <Desplegable title="Módulo 4. Onirograma y otros psicodélicos.">
-                <CountdownWidget></CountdownWidget>
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1pY0kQTd_Lw6u6r0_Y0OYEaYcuu1vEq-c/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Acción:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/207868683e7880a0b450e1a8d7c9e31f?pvs=105"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Participa en el Juego Perverso
+                  </button>
+                </a>
+                <br></br>
+                <a
+                  href={
+                    "https://www.notion.so/1f9868683e7880bc9b2ced791410c5ad?pvs=25"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Ejercicios Módulo 4
+                  </button>
+                </a>
+
+                <h4>- Visualiza tu meta:</h4>
+                <br></br>
+
+                <audio controls controlsList="nodownload" className="w-full">
+                  <source
+                    src="https://res.cloudinary.com/dwsa2s0pn/video/upload/v1749024298/emprende-con-notion/courses/second-brain/curso_Segundo_Cerebro_visualizacion_metas.mp3"
+                    type="audio/mp3"
+                  ></source>
+                </audio>
+                <p className="text-xs my-4">
+                  *Visualización en parte basada en Crea Futuro de Ana Albiol
+                  (que si no conocéis, os recomiendo seguir).{" "}
+                </p>
               </Desplegable>
               <Desplegable title="Módulo 5. Coge tu agenda por los cuernos.">
-                <p className="m-6">
-                  Próximamente… Mira el apartado de planificación para agenciar
-                  ya.
-                </p>
+                <CountdownWidget></CountdownWidget>
               </Desplegable>
               <Desplegable title="Módulo 6. Y tú, ¿qué consumes?">
                 <p className="m-6">
