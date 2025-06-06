@@ -80,7 +80,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 <br></br>
                 <a
                   href={
-                    "ttps://emprendecon.notion.site/segundo-cerebro-modulo-0"
+                    "https://emprendecon.notion.site/segundo-cerebro-modulo-0"
                   }
                   target="_blank"
                 >
