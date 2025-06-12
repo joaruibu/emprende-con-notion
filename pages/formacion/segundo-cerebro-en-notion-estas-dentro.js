@@ -273,20 +273,41 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </p>
               </Desplegable>
               <Desplegable title="Módulo 5. Coge tu agenda por los cuernos.">
-                <CountdownWidget></CountdownWidget>
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1Fhy3smjnSBex6iBGMv9J-gcl8i9hpC7k/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Acción:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/segundo-cerebro-modulo-5?source=copy_link"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Ejercicios Módulo 5
+                  </button>
+                </a>
               </Desplegable>
-              <Desplegable title="Módulo 6. Y tú, ¿qué consumes?">
-                <p className="m-6">
-                  Próximamente… Mira el apartado de planificación para agenciar
-                  ya.
-                </p>
-              </Desplegable>
+
               <Desplegable title="Bonus. Curso de Notion Exprés.">
                 <p className="m-6">
-                  Quedará colgado al terminar los 6 módulos. Como siempre, te
-                  avisaré por email. Si necesitas soporte antes ya sabes que
-                  puedes escribirme por email (más abajo explico cómo enviar
-                  dudas).{" "}
+                  Quedará colgado antes de la sesión de dudas en directo del
+                  domingo 29 de junio. Como siempre, te avisaré por email. Si
+                  necesitas soporte antes ya sabes que puedes escribirme por
+                  email (más abajo explico cómo enviar dudas).
                 </p>
               </Desplegable>
 
@@ -347,7 +368,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   >
                     <b>– Domingo 8 junio a las 17.00: </b>{" "}
                   </a>{" "}
-                  módulo 5 y 6. Mucha acción. Será larga. Haremos descanso para
+                  módulo 5. Mucha acción. Será larga. Haremos descanso para
                   hacer un pis o lo que sea que tú hagas en los descansos.
                 </p>
 
