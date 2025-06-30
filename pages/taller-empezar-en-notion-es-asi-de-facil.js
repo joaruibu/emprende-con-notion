@@ -12,7 +12,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
   };
   return (
     <>
-      <article className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
+      <article className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
         <div className=" sm:overflow-hidden sm:rounded-xl"></div>
         <section className="pt-10 ">
           <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
@@ -82,7 +82,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
           <p className="pl-6">No sé. Quizás prestados, quizás en un cajón. </p>
           <br></br>
           <p>
-            ¿Y si necesita hacerse el típico listado de tareas en el trabajo?{" "}
+            ¿Y si necesita hacerse el típico listado de tareas en el
+            trabajo?{" "}
           </p>
           <p className="pl-6">
             - Pues en una nota del móvil. Bueno, a veces también en un posit. O,
@@ -121,10 +122,12 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </p>
             <p>
               O las ideas que has tenido mientras estabas haciendo caca esta
-              mañana, sobre ese proyecto profesional que estás desarrollando...{" "}
+              mañana, sobre ese proyecto profesional que estás
+              desarrollando...{" "}
             </p>
             <p>
-              O el libro que te acaban de recomendar en tu podcast favorito...{" "}
+              O el libro que te acaban de recomendar en tu podcast
+              favorito...{" "}
             </p>
             <p>
               O llevar un seguimiento de tus proyectos u objetivos personales,
@@ -139,7 +142,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
             después…{" "}
           </p>
           <p>
-            Cris estaba <span className="text-terracotta">desquiciada</span> .{" "}
+            Cris estaba <span className="text-terracotta">desquiciada</span>{" "}
+            .{" "}
           </p>
           <br></br>
           <p>

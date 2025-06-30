@@ -23,7 +23,7 @@ const Home = () => {
   }, []);
 
   return (
-    <main className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
+    <main className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
       {domLoaded && (
         <>
           <TitlePage subtitle={TITLE_DATA.subtitle}>

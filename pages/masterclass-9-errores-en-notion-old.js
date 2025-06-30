@@ -3,8 +3,6 @@ import StripeButton from "../components/StripeButton";
 import CountdownTimer from "../components/CountDown";
 
 const masterclass9ErroresNotion = () => {
-  const [isTimOver, setIsTimeOver] = useState(false);
-
   const STRIPE_BUTTON_CONFIG = {
     title: " Masterclass: 9 errores en Notion",
     buttonText: "Comprar Masterclass",
@@ -12,9 +10,12 @@ const masterclass9ErroresNotion = () => {
     urlStripe:
       "https://lauradearquer.quadernoapp.com/checkout/link/912a9c484e699412ef02f484203a4a1541d0a22f",
   };
+
+  const [isTimOver, setIsTimeOver] = useState(false);
+
   return (
     <>
-      {/* <article className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
+      <article className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
         <div className=" sm:overflow-hidden sm:rounded-xl"></div>
 
         <header>
@@ -174,7 +175,8 @@ const masterclass9ErroresNotion = () => {
                 otros 5 lugares donde te las sueles apuntar, para pasar a usar
                 solo Notion.
               </b>{" "}
-              Con el ahorro de tiempo y duplicidad de información que conlleva.{" "}
+              Con el ahorro de tiempo y duplicidad de información que
+              conlleva.{" "}
             </li>
           </ul>
 
@@ -250,7 +252,8 @@ const masterclass9ErroresNotion = () => {
                 complejas en Notion (que luego dejas de usar por lo complejas
                 que son),{" "}
               </b>
-              y que te ahorrará todo ese tiempo y la frustración del comienzo.{" "}
+              y que te ahorrará todo ese tiempo y la frustración del
+              comienzo.{" "}
             </li>
           </ul>
 
@@ -343,7 +346,8 @@ const masterclass9ErroresNotion = () => {
             </p>
             <p>
               Así que da igual si tu nivel es básico básico que casi que solo
-              sabes abrir la aplicación, como si ya llevas meses usando Notion.{" "}
+              sabes abrir la aplicación, como si ya llevas meses usando
+              Notion.{" "}
             </p>
             <p>
               Si estás empezando, aún mejor, porque conocer estos errores te
@@ -426,7 +430,7 @@ const masterclass9ErroresNotion = () => {
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
         </section>
-      </article> */}
+      </article>
     </>
   );
 };

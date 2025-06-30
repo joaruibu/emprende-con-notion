@@ -28,10 +28,10 @@ const CountdownTimer = ({ timer, setIsTimeOver }) => {
 
   return (
     <div className="flex space-x-4 pt-4 justify-center font-playfair text-white text-3xl">
-      <div className=" h-20 w-20 grid place-content-center  rounded  bg-terracotta">
+      <div className=" h-20 w-20 grid place-content-center  rounded  bg-red-500">
         <span>{` ${minutes}m `}</span>
       </div>
-      <div className=" h-20 w-20 grid place-content-center rounded  bg-terracotta">
+      <div className=" h-20 w-20 grid place-content-center rounded  bg-red-500">
         <span>{` ${seconds}s `}</span>
       </div>
     </div>

@@ -1,6 +1,6 @@
 const Review = ({ children, name, job }) => {
   return (
-    <div className="max-w-xl m-auto py-12 flex flex-col items-center px-4">
+    <div className="max-w-xl m-auto py-12 flex flex-col items-center px-4 bg-stone-100 rounded-2xl shadow-sm">
       <img
         className="py-4"
         src={"/img/5-stars.png"}

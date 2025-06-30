@@ -8,7 +8,7 @@ const TITLE_DATA = {
 
 const ConsultoriaDeNotion = () => {
   return (
-    <article className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
+    <article className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
       <div className=" sm:overflow-hidden sm:rounded-xl"></div>
       <section className="pt-10 ">
         <TitlePage subtitle={TITLE_DATA.subtitle}>{TITLE_DATA.title}</TitlePage>

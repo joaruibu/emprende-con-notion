@@ -13,7 +13,7 @@ const CursoNotion = () => {
   };
   return (
     <>
-      <article className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
+      <article className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
         <div className=" sm:overflow-hidden sm:rounded-xl"></div>
         <section className="pt-10 ">
           <h1 className="mb-14 font-alternate text-6xl leading-[75px]">
@@ -44,9 +44,7 @@ const CursoNotion = () => {
           <br></br>
           <p>Atiende.</p>
           <br></br>
-
           <br></br>
-
           <p>El problema es que estás hasta los ovarios del desastre actual.</p>
           <p>Lo estás. </p>
           <p>
@@ -114,13 +112,13 @@ const CursoNotion = () => {
           <br></br>
           <br></br>
           <br></br>
-
           <Review name="Andrea Marcos" job="Profesora de yoga y pilates">
             "WTF, estaba ahora con el curso de Notion y voy ya por la lección 7.
             Pero, qué locura, que te haces una página web así de la nada. Y yo
             dándole los 2000€ del kit digital a un tío y esperando 4 meses. Me
             acabas de dar la vida, gracias. Me encanta. Amo tu curso. "
           </Review>
+          <br></br>
           <br></br>
           <br></br>
           <h2>Y eso es lo que vamos a ver en el curso.</h2>
@@ -178,7 +176,6 @@ const CursoNotion = () => {
           <br></br>
           <br></br>
           <br></br>
-
           <div className="flex justify-center mb-24">
             <img
               className="text-center"
@@ -188,7 +185,6 @@ const CursoNotion = () => {
               height={100}
             />
           </div>
-
           <p>
             <b>√ </b> Hay gente que dice que un hábito se hace en 21 días, otros
             que en un mes, y luego estamos la mayoría que después de un año nos
@@ -225,8 +221,10 @@ const CursoNotion = () => {
             pero que te encantarán y no pararás de usar cuando te las explique
             en la lección. Módulo 4.
           </p>
-
-          <Review name="Jose Luis Gasion," job="Team Lider">
+          <br></br>
+          <br></br>
+          <br></br>
+          <Review name="Jose Luis Gasion," job="Team Lider en grupo Élite">
             "Ante todo claridad. He estado investigando por google, youtube o
             tik tok, inviertiendo muchisimas horas, descargando plantillas que
             no sabia como usar, y abrumado por exceso de informacion. Aqui de
@@ -296,11 +294,13 @@ const CursoNotion = () => {
           </StripeButton>
           <br></br>
           <br></br>
-
-          <Review name="Jose L." job="">
+          <br></br>
+          <Review name="José L." job="Emprendedor digital en clubjobs.es">
             "El curso me esta encantando, super agradecido. "
           </Review>
-
+          <br></br>
+          <br></br>
+          <br></br>
           <p>Entonces.</p>
           <p>Entonces.</p>
           <br></br>
@@ -335,11 +335,12 @@ const CursoNotion = () => {
           >
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
-
-          <Review name="L.R" job="">
+          <br></br> <br></br> <br></br>
+          <Review name="Laura Rubio" job="Neuróloga">
             "Muchas gracias por tu soporte! "
           </Review>
           <br></br>
+          <br></br> <br></br>
           <h1 className="pb-12">Más preguntas.</h1>
           <br></br>
           <div className="pb-12">
@@ -402,15 +403,16 @@ const CursoNotion = () => {
             </h2>
             <br></br>
             <p>
-              x Si buscas algo que funcione "de inmediato" sin ningún esfuerzo.
-              Entiendo que hay boomers que quieren esa promesa. No es el caso de
-              este curso. Notion requiere una curva de aprendizaje.
+              x Si buscas algo que funcione "de inmediato". Notion requiere una
+              curva de aprendizaje, este curso es esa curva.
             </p>
             <p>
-              x Para equipos. En el curso veremos cuestiones básicas sobre
-              gestión de equipos pero nada en profundidad. Si tú necesitas una
-              formación específica de Notion para tu equipo considera una
-              consultoría.
+              x Para empresas con grandes equipos que necesitan una solución
+              personalizada. En el curso veremos cuestiones básicas sobre
+              gestión de equipos, perfecto y suficiente para equipos pequeños y
+              emprendedores individuales. Si formas parte de un equipo grande y
+              necesitas una formación específica de Notion para tu empresa
+              considera una consultoría.
             </p>
           </div>
           <div className="pb-12">
@@ -429,12 +431,12 @@ const CursoNotion = () => {
             <h2 className="text-2xl">¿Notion es gratuito?</h2>
             <br></br>
             <p>
-              Sí. Existen planes de pago pero el curso está pensado para uso
-              individual con una cuenta gratuita. Si más adelante necesitas
-              pasarte al plan de pago (por ejemplo porque trabajas en equipo o
-              porque quieres la IA), en el curso te explico cómo se hace. Pero
-              te adelanto que para un uso individual normal, lo que hacemos la
-              mayoría, el gratuito va genial.
+              Sí. Existen planes de pago pero el curso está pensado para{" "}
+              <b>uso individual o pequeños equipos con una cuenta gratuita.</b>{" "}
+              Si más adelante necesitas pasarte al plan de pago (por ejemplo
+              porque trabajas en equipo o porque quieres la IA), en el curso te
+              explico cómo se hace. Pero te adelanto que para un uso individual
+              normal, lo que hacemos la mayoría, el gratuito va genial.
             </p>
           </div>
           <div className="pb-12">
@@ -453,14 +455,17 @@ const CursoNotion = () => {
             </h2>
             <br></br>
             <p>
-              El objetivo es darte el nivel necesario para crear tus propios
-              sistemas de organización utilizando el plan gratuito, tanto a
-              nivel personal como para tu negocio. Es decir, las funcionalidades
-              de planes de pago (como automatizaciones o IA) no las vemos. Por
-              el mismo motivo tampoco veremos fórmulas avanzadas para las que
-              básicamente necesitas saber de programación porque no, ese no es
-              el objetivo del curso. Si tienes necesidades más técnicas para tu
-              negocio, lo mejor es que contrates una consultoría.
+              Vas a conseguir el nivel necesario para crear tus propios sistemas
+              de organización profesionales y con automatizaciones utilizando el
+              plan gratuito, tanto a nivel personal como para tu negocio. Este
+              es el objetivo del curso, ni más ni menos. Para lograr esto, sí,
+              el curso llega a un nivel de uso avanzado en Notion y muy
+              personalizado, pero las funcionalidades de planes de pago (como
+              automatizaciones de pago o IA) no las vemos. Por el mismo motivo
+              tampoco veremos fórmulas avanzadas para las que básicamente
+              necesitas saber de programación porque no, ese no es el objetivo
+              del curso. Si tienes necesidades técnicas para tu negocio, lo
+              mejor es que contrates una consultoría.
             </p>
           </div>
           <div className="pb-12">
@@ -472,7 +477,8 @@ const CursoNotion = () => {
               con el contenido del curso y te daré las indicaciones sobre cómo
               enviármelas una vez compres. Podría dar más tiempo, pero no
               quiero. Son “solo” dos semanas para crearte la obligación de hacer
-              el curso y terminarlo en ese tiempo.
+              el curso y terminarlo en ese tiempo. Te lo explico todo dentro del
+              curso.
             </p>
           </div>
           <div className="pb-12">
@@ -532,7 +538,6 @@ const CursoNotion = () => {
               accedes abajo:
             </p>
           </div>
-
           <StripeButton
             urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
             price={STRIPE_BUTTON_CONFIG.price}
@@ -541,13 +546,15 @@ const CursoNotion = () => {
           >
             {STRIPE_BUTTON_CONFIG.buttonText}
           </StripeButton>
-
+          <br></br>
+          <br></br>
           <Review name="N. Lucio" job=" Diseñadora de Interiores">
             "El curso es muy top: tener todo en una simple página me ayuda un
             montón, los vídeos son cortos pero con contenido muy potente, y yo
             que soy bastante movidita, me ayudan mucho a centrarme y sentarme. "
           </Review>
-
+          <br></br>
+          <br></br>
           <p>Un abrazo, y que Notion te acompañe, </p>
           <p>Laura de Arquer</p>
         </section>

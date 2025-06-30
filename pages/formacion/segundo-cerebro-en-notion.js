@@ -48,18 +48,20 @@ const SegundoCerebroEnNotion = () => {
             />
           </div>
 
-          <div className="flex flex-col lg:flex-row items-center md:items-start ">
-            <Review name="María José" job="Psicóloga">
+          <div className="flex flex-col lg:flex-row items-center md:items-start space-x-4">
+            <Review name="María José Martínez Martín" job="Psicóloga">
               "El lunes compré tu plantilla. Creo que hace tiempo te comenté que
               usaba la de (…) (del mismo método). La de él es mucho más sencilla
               y yo la fui llenando poco a poco. La tuya me parece más
               estructurada y ya he empezado a darle movimiento, creo que la voy
               a sacar mucho partido."
             </Review>
-            <Review name="Laura" job="Neuróloga">
+            <Review name="Laura Rubio" job="Neuróloga">
               "Hola! Me esta gustando mucho cómo lo cuentas. Soy neuróloga y me
               parecen buenos los ejemplos para poder transmitir muchos mensajes
-              a los pacientes 😊"
+              a los pacientes 😊 (...) La plantilla es un tiempo incalculable
+              pensando en todo el conocimiento y esfuerzo que hay debajo para
+              llegar a ese resultado, así que enhorabuena por lograrlo!"
             </Review>
             <Review name="Rodrigo S." job="">
               "La mejor template. Es tan abierto el programa en sus
@@ -435,13 +437,7 @@ const SegundoCerebroEnNotion = () => {
                 data-aos="fade-up"
               />
             </div>
-            <Review name="M.J" job="Terapeuta">
-              "Eres la mejor explicando las clases, tienes muy dominado todo lo
-              que tiene que ver con el desarrollo personal, se nota que te
-              gusta, pero, sobre todo, se nota que te esfuerzas mucho por
-              entenderlo, asimilarlo y comprenderlo. Gracias por ponérnoslo tan
-              fácil."
-            </Review>
+
             <div className="my-12">
               <StripeButton
                 urlStripe={STRIPE_BUTTON_CONFIG.urlStripe}
@@ -476,18 +472,34 @@ const SegundoCerebroEnNotion = () => {
               </p>
             </div>
           </div>
-
-          <div className="flex flex-col lg:flex-row items-center md:items-start ">
+          <br></br>
+          <br></br>
+          <div className="flex flex-col lg:flex-row items-center md:items-start space-x-4">
             <Review name="María" job="Coach">
               "(…) Digo que menudo trabajazo, tantas cosas conectadas. Es una
               maravilla. O sea, yo pienso, me llevaría a mí… Media vida hacer
               eso. Gracias. Porque me parece maravilloso. "
             </Review>
-            <Review name="Silvia" job="Instructora de Mindfulness">
+
+            <Review name="Silvia Roig Antoner" job="Instructora de Mindfulness">
               " Hola Laura! Aquí una que va aplicando los ejercicios del curso
-              ;) "
+              ;) (...) Por cierto, ya tengo todo por fin migrado a la plantilla
+              de mi Segundo Cerebro. ¡Qué maravilla, qué orden, qué alegría me
+              da tenerlo todo organizado y en el mismo sitio y con todas las
+              técnicas que voy implementando poco a poco! (...) Ya voy
+              implementando cositas como el dailyhighlight o los deadlines cada
+              vez que me dicen una cita... lo anoto enseguida las revisiones
+              diarias. Muchas gracias por tu atención"
+            </Review>
+            <Review name="Mª José" job="Terapeuta">
+              "Eres la mejor explicando las clases, tienes muy dominado todo lo
+              que tiene que ver con el desarrollo personal, se nota que te
+              gusta, pero, sobre todo, se nota que te esfuerzas mucho por
+              entenderlo, asimilarlo y comprenderlo. Gracias por ponérnoslo tan
+              fácil."
             </Review>
           </div>
+          <br></br>
         </section>
 
         <section className="pt-20 pb-40 p-4 bg-white">
@@ -529,7 +541,7 @@ const SegundoCerebroEnNotion = () => {
             </div>
           </div>
 
-          <Review name="José Luis" job="Team Leader y Club de Negocios Job.s">
+          <Review name="José Luis" job="Team Leader en grupo Élite">
             "Que ganas tenia de ver ese segundo cerebro que has preparado. Para
             serte sincero ya compre otro antes de conocerte, y la verdad, he
             intentado adaptarlo con lo que aprendi en tu anterior cuso. Al final
@@ -604,7 +616,7 @@ const SegundoCerebroEnNotion = () => {
             </div>
           </div>
 
-          <Review name="Naroa" job="Diseñadora de Interiores">
+          <Review name="Naroa Lucio" job="Diseñadora de Interiores">
             "Decirte que el curso está muy muy bien, organizado, ejemplos claros
             y útiles. Me gusta que remarques que hay que hacerlo sencillo, yo me
             iba por las ramas...Llevo un mes bastante saturadillo, y ESTOY

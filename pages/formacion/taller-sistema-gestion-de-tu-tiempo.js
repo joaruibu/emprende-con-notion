@@ -11,7 +11,7 @@ const TallerSistemaGestionTiempo = () => {
       "https://lauradearquer.quadernoapp.com/checkout/session/554f7fe9d84b056197db3559dac594fe0acd1e92/init",
   };
   return (
-    <article className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
+    <article className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
       <div className=" sm:overflow-hidden sm:rounded-xl"></div>
       <section className="pt-10 ">
         <h1 className="mb-4 font-alternate text-4xl leading-[52px]">
@@ -183,7 +183,8 @@ const TallerSistemaGestionTiempo = () => {
 
           <li>
             <b>
-              El extraño y sencillo hábito que hacen el 100% de los asalariados{" "}
+              El extraño y sencillo hábito que hacen el 100% de los
+              asalariados{" "}
             </b>
             (y casi ningún emprendedor), por el que son capaces de tomarse una
             cerveza al salir del trabajo, o ir al gym, o hacer cerámica, o
@@ -263,7 +264,8 @@ const TallerSistemaGestionTiempo = () => {
         <ul className="pl-6">
           <li>
             Hay gente que no se planifica la semana, y gente que se la planifica
-            mal. <b>Siento decirte que, posiblemente, lo estés haciendo mal.</b>{" "}
+            mal.{" "}
+            <b>Siento decirte que, posiblemente, lo estés haciendo mal.</b>{" "}
           </li>
           <li>
             La forma en la que organices tus horas{" "}
@@ -366,7 +368,8 @@ const TallerSistemaGestionTiempo = () => {
             razón de que pasen los días sin que hayas avanzado con tu proyecto,
             con esa sensación de{" "}
             <b> “solo he estado en reunions” “solo he contestado emails”</b>, y
-            la forma de evitarlo para focalizarte en lo que realmente quieres.{" "}
+            la forma de evitarlo para focalizarte en lo que realmente
+            quieres.{" "}
           </li>
         </ul>
         <br></br>
@@ -448,7 +451,8 @@ const TallerSistemaGestionTiempo = () => {
 
           <li>
             <strong>
-              Lo peor que te puede pasar en una reunión es no sirva para nada.{" "}
+              Lo peor que te puede pasar en una reunión es no sirva para
+              nada.{" "}
             </strong>{" "}
             <br></br>Con plantillas específicas para cada tipo de reunión: 1to1,
             brainstorming, retrospectiva… podrás añadir recursos útiles y
@@ -542,7 +546,8 @@ const TallerSistemaGestionTiempo = () => {
             </li>
             <li>
               {" "}
-              <b>Soporte durante un mes</b> con resolución de dudas grupales.{" "}
+              <b>Soporte durante un mes</b> con resolución de dudas
+              grupales.{" "}
             </li>
             <li>
               {" "}
@@ -686,7 +691,8 @@ const TallerSistemaGestionTiempo = () => {
             Perfecto, tendrás otra plantilla adaptada a trabajo individual.{" "}
           </p>
           <p>
-            En cualquier caso, nadie mejor que tú para saber si te conviene.{" "}
+            En cualquier caso, nadie mejor que tú para saber si te
+            conviene.{" "}
           </p>
         </div>
         <div className="pb-12">

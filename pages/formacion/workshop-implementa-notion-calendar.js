@@ -12,7 +12,7 @@ const TallerEmpezarEnNotionEsFacil = () => {
   };
   return (
     <>
-      <article className=" border-2 bg-stone-50 border-stone-950 p-4 rounded-xl my-8">
+      <article className=" border-2 bg-stone-50 border-stone-950 px-4 sm:p-8 rounded-xl my-8">
         <div className=" sm:overflow-hidden sm:rounded-xl"></div>
         <section className="pt-10 ">
           <h2 className="mb-4 font-alternate text-2xl leading-[38px]">
@@ -246,7 +246,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </li>
             <li>
               Caso práctico para gestionar tus proyectos (bien un viaje a Japón
-              bien el lanzamiento de productos), con Notion + Notion Calendar.{" "}
+              bien el lanzamiento de productos), con Notion + Notion
+              Calendar.{" "}
             </li>
             <li>
               Caso práctico para gestionar tus tareas y recordatorios diarios y
@@ -382,7 +383,8 @@ const TallerEmpezarEnNotionEsFacil = () => {
             </p>
             <p>
               Además el taller estará estructurado en módulos para que cuando
-              vuelvas a ver la grabación te sea mucho más fácil el aprendizaje.{" "}
+              vuelvas a ver la grabación te sea mucho más fácil el
+              aprendizaje.{" "}
             </p>
             <p>
               Estará colgado durante al menos un año, eso está garantizado,

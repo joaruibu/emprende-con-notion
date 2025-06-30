@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
             pathname
           )
             ? " max-w-screen-3xl "
-            : " max-w-3xl px-4 "
+            : " max-w-4xl px-4 "
         } mx-auto min-h-screen relative  `}
       >
         {showNavbarPage(pathname) && <Navbar />}
