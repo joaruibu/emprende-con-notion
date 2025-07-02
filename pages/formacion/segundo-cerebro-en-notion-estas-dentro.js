@@ -304,14 +304,78 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
 
               <Desplegable title="Bonus. Curso de Notion Exprés.">
                 <p className="m-6">
-                  Quedará colgado antes de la sesión de dudas en directo del
-                  domingo 29 de junio. Como siempre, te avisaré por email. Si
-                  necesitas soporte antes ya sabes que puedes escribirme por
-                  email (más abajo explico cómo enviar dudas).
+                  Quedará colgado durante el mes. Como siempre, te avisaré por
+                  email. Si necesitas soporte antes ya sabes que puedes
+                  escribirme por email (más abajo explico cómo enviar dudas).
                 </p>
               </Desplegable>
 
-              <div className="mb-12">
+              <Desplegable title="Resolución de dudas.">
+                <br></br>
+                <h4>- Para recibir soporte:</h4>
+                <br></br>
+                <p>
+                  Recuerda que el curso incluye soporte por email, puedes
+                  escribir a laura@emprendeconnotion.com. El asunto debe ser:
+                  ¿QUÉ ME PASA DOCTOR?
+                </p>
+                <p>
+                  Es importante que tenga ese asunto: filtraré en mi gestor los
+                  emails con ese asunto y si no me aparece no le daré prioridad.
+                </p>
+                <br></br>
+                <h4>
+                  - Sesión en directo de dudas (dudas de mucho valor y muy
+                  útiles, no dejes de verlo):
+                </h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1rjQgh_-Q6KSjSgeqrfvYKxVOvQbXyZ2f/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <h4>- Índice de las dudas resueltas en el vídeo:</h4>
+                <br></br>
+                <a
+                  href={
+                    "https://emprendecon.notion.site/segundo-cerebro-indice-dudas?source=copy_link"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Índice sesión dudas
+                  </button>
+                </a>
+
+                <h4>
+                  - Recuerda que también puedes resolver tus dudas referentes al
+                  Segundo Cerebro con la IA personalizada incluida en este
+                  curso:{" "}
+                </h4>
+                <br></br>
+                <a
+                  href={
+                    "https://chatgpt.com/g/g-6818ab20c8988191b349949e74e7abc8-asistente-del-segundo-cerebro"
+                  }
+                  target="_blank"
+                >
+                  <button
+                    className=" mb-12 rounded-md w-full border border-stone-950 bg-yellow-300 text-xl text-stone-950 p-4 font-alternate uppercase font-semibold duration-150 hover:shadow-dark "
+                    type="submit"
+                  >
+                    Acceso directo a la IA
+                  </button>
+                </a>
+              </Desplegable>
+
+              {/* <div className="mb-12">
                 <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
                   - Planificación.
                 </h2>
@@ -397,8 +461,8 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   planifiques para ver el curso por orden, completo, desde el
                   principio.
                 </i>
-              </div>
-
+              </div> */}
+              {/* 
               <div className="mb-12">
                 <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
                   - Resolución de dudas.
@@ -412,7 +476,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   Es importante que tenga ese asunto: filtraré en mi gestor los
                   emails con ese asunto y si no me aparece no le daré prioridad.
                 </p>
-              </div>
+              </div> */}
 
               <hr></hr>
 
