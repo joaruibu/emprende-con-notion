@@ -54,7 +54,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   Clica para acceder al directo
                 </button>
               </a>
-
               <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
                 - Instrucciones de uso.
               </h2>
@@ -71,11 +70,9 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 </li>
                 <li>Comprométete a acabarlo.</li>
               </ol>
-
               <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
                 - El curso.
               </h2>
-
               <Desplegable title="Módulo 0.  Primera parada.">
                 <br></br>
                 <a
@@ -104,7 +101,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   </a>
                 </p>
               </Desplegable>
-
               <Desplegable title="Módulo 1. Qué me pasa doctor.">
                 <br></br>
                 <h4>- Lección:</h4>
@@ -134,7 +130,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   </button>
                 </a>
               </Desplegable>
-
               <Desplegable title="Módulo 2. Medisina.">
                 <br></br>
                 <h4>- Lección:</h4>
@@ -301,13 +296,19 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   </button>
                 </a>
               </Desplegable>
-
               <Desplegable title="Bonus. Curso de Notion Exprés.">
-                <p className="m-6">
-                  Quedará colgado durante el mes. Como siempre, te avisaré por
-                  email. Si necesitas soporte antes ya sabes que puedes
-                  escribirme por email (más abajo explico cómo enviar dudas).
-                </p>
+                <br></br>
+                <h4>- Lección:</h4>
+                <br></br>
+                <div class="relative w-full max-w-2xl mx-auto aspect-video mb-12">
+                  <iframe
+                    src="https://drive.google.com/file/d/1BeM6V3lgELXteVJ-0FBXrV6ngJRIyZi6/preview"
+                    width="100%"
+                    class="absolute inset-0 w-full h-full"
+                    frameborder="0"
+                    allowfullscreen
+                  ></iframe>
+                </div>
               </Desplegable>
 
               <Desplegable title="Resolución de dudas.">
@@ -374,7 +375,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   </button>
                 </a>
               </Desplegable>
-
               {/* <div className="mb-12">
                 <h2 className="mt-24 font-alternate text-3xl leading-[52px]">
                   - Planificación.
@@ -477,9 +477,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                   emails con ese asunto y si no me aparece no le daré prioridad.
                 </p>
               </div> */}
-
               <hr></hr>
-
               <p className="border-l-2  pl-4 flex flex-col gap-4 my-12">
                 <q>
                   Gracias por volver a confiar en mí —si ya has hecho otro curso
@@ -508,7 +506,6 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
                 <q>Gracias por dejarme acompañarte. :)</q>
                 <q>Laura.</q>
               </p>
-
               <p className="pt-8">P.D.: Trabaja a tu favor.</p>
               <p className="">Nos amo,</p>
               <p className="pt-8">Laura de Arquer.</p>
@@ -526,7 +523,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
               <br></br>
 
               <iframe
-                src="https://drive.google.com/file/d/10zmLJePRGWWevkAf03X3poKsYr8GXM4P/preview"
+                src="https://drive.google.com/file/d/18x967lcl4NQQ5HQfy1y5EnE0llEXowo2/preview"
                 width="100%"
                 height="432px"
                 allowFullScreen

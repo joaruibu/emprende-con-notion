@@ -88,7 +88,7 @@ const GrupoPrivadoPlantillaZettelkastenEstasDentro = () => {
               <br></br>
 
               <iframe
-                src="https://drive.google.com/file/d/10zmLJePRGWWevkAf03X3poKsYr8GXM4P/preview"
+                src="https://drive.google.com/file/d/18x967lcl4NQQ5HQfy1y5EnE0llEXowo2/preview"
                 width="100%"
                 height="432px"
                 allowFullScreen

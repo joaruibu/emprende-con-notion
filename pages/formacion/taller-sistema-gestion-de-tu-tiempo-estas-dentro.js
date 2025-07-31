@@ -199,14 +199,13 @@ const tallerSistemaGestionTiempoEstasDentro = () => {
 
               <div class="relative w-full max-w-2xl mx-auto aspect-video">
                 <iframe
-                  src="https://drive.google.com/file/d/1VYKfAdQLuokoF-eXxTC56QHLXntutXWW/preview"
+                  src="https://drive.google.com/file/d/1oIFV5TyUNz2vqcF-Yvu_czsGxzcTGN9U/preview"
                   width="100%"
                   class="absolute inset-0 w-full h-full"
                   frameborder="0"
                   allowfullscreen
                 ></iframe>
               </div>
-
               <h4 className="my-8">
                 <a
                   href={

@@ -100,10 +100,9 @@ const workshopNotionCalendarEstasDentro = () => {
                 </i>
               </p>
               <br></br>
-
               <div class="relative w-full max-w-2xl mx-auto aspect-video">
                 <iframe
-                  src="https://drive.google.com/file/d/10zmLJePRGWWevkAf03X3poKsYr8GXM4P/preview"
+                  src="https://drive.google.com/file/d/18x967lcl4NQQ5HQfy1y5EnE0llEXowo2/preview"
                   width="100%"
                   class="absolute inset-0 w-full h-full"
                   frameborder="0"
