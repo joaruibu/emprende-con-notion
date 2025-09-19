@@ -8,8 +8,7 @@ const CursoNotion = () => {
     buttonText: " Acceder ahora",
     price: "20 €",
     isDisabled: false,
-    urlStripe:
-      "https://lauradearquer.quadernoapp.com/checkout/link/ed8819c9aec49dc340f88c7d4e95eacd8cc8bb63",
+    urlStripe: "https://buy.stripe.com/28EcN47g8cJw4Lxd91fAc01",
   };
   return (
     <>

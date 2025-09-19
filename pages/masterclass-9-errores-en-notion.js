@@ -8,8 +8,7 @@ const masterclass9ErroresNotion = () => {
     title: "Curso + Masterclass exclusiva,",
     buttonText: "Comprar curso+masterclass",
     price: "20€",
-    urlStripe:
-      "https://lauradearquer.quadernoapp.com/checkout/link/912a9c484e699412ef02f484203a4a1541d0a22f",
+    urlStripe: "https://buy.stripe.com/aFaeVc1VObFsem77OHfAc00",
   };
 
   const [isTimOver, setIsTimeOver] = useState(false);

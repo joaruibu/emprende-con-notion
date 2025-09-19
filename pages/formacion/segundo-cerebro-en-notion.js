@@ -13,10 +13,9 @@ const SegundoCerebroEnNotion = () => {
   const STRIPE_BUTTON_CONFIG = {
     title: "Segundo Cerebro en Notion",
     buttonText: " Quiero mi segundo cerebro",
-    price: "120 €",
+    price: "150 €",
     isDisabled: false,
-    urlStripe:
-      "https://lauradearquer.quadernoapp.com/checkout/link/96351b0f577a6b7b3be48b0d837cc7922f9d6a80",
+    urlStripe: "https://buy.stripe.com/dRmaEWgQI38W4Lxc4XfAc02",
   };
   return (
     <>
