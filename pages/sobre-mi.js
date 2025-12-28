@@ -95,7 +95,7 @@ const About = () => {
           ;
         </li>
 
-        <li>y mi crecimiento personal en terapia, hábitos y demás;</li>
+        <li>y mi crecimiento personal en terapia, hábitos y demás.</li>
       </ul>
 
       <p>

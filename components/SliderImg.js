@@ -23,7 +23,7 @@ function SliderImg({ imgs }) {
 
         <div className=' w-full m-auto grid content-center relative group'>
 
-            <Image layout="responsive" width={0} height={0} alt={`Descargar plantilla de Notion`} src={imgs[currentIndex]} priority className='duration-200 rounded-xl' />
+            <Image fill sizes="100vw" alt={`Descargar plantilla de Notion`} src={imgs[currentIndex]} priority className='duration-200 rounded-xl object-cover' />
 
             {/* Left Arrow */}
             <div onClick={prevSlide} className='rotate-170 hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
