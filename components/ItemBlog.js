@@ -19,9 +19,9 @@ const ItemBlog = ({ item }) => {
                 />
                 <div className=" p-3 pb-0">
                     <h3 className="  pb-1 font-bold  leading-6 text-gray-900 group-hover:text-gray-600">
-                        <a className='text-gray-900 sm:hover:text-gray-900' href={`/blog/${getUrltTitle(title)}-${id}`}>
+                        <span className='text-gray-900 sm:hover:text-gray-900'>
                             {title}
-                        </a>
+                        </span>
                     </h3>
                     <div className="flex items-center gap-x-3 mt-2 pb-2">
                         {

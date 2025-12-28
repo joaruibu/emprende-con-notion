@@ -24,36 +24,32 @@ export default function Navbar() {
         aria-label="Global"
       >
         <div className=" flex items-center w-full justify-between ">
-          <Link href="/" legacyBehavior prefetch={false}>
-            <a className=" flex items-center gap-x-2 text-black ">
-              <span className="sr-only">Emprende con Notion</span>
-              <span className="hidden sm:block font-alternate text-xs sm:text-base">
-                Emprende con Notion
-              </span>
-              <img
-                className="  h-16 w-auto"
-                src="/img/logo.png"
-                alt="Logo de Emprende con Notion"
-              />
-            </a>
+          <Link href="/" prefetch={false} className=" flex items-center gap-x-2 text-black ">
+
+            <span className="sr-only">Emprende con Notion</span>
+            <span className="hidden sm:block font-alternate text-xs sm:text-base">
+              Emprende con Notion
+            </span>
+            <img
+              className="  h-16 w-auto"
+              src="/img/logo.png"
+              alt="Logo de Emprende con Notion"
+            />
+
           </Link>
           <div className="hidden sm:flex sm:gap-x-4">
             {navigation.map((item) => (
               <Link
                 href={item.href}
                 key={item.name}
-                legacyBehavior
                 prefetch={false}
-              >
-                <a
-                  key={item.name}
-                  target={item.target}
-                  className={`text-xs font-alternate block h-full text-black  hover:text-terracotta ${
-                    item.href === pathname ? "text-terracotta" : ""
-                  }`}
-                >
-                  {item.name}
-                </a>
+                target={item.target}
+                className={`text-xs font-alternate block h-full text-black  hover:text-terracotta ${
+                  item.href === pathname ? "text-terracotta" : ""
+                }`}>
+
+                {item.name}
+
               </Link>
             ))}
           </div>
@@ -78,15 +74,15 @@ export default function Navbar() {
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-4 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex border-b-2 border-black  items-center justify-between">
-            <Link href="/" legacyBehavior prefetch={false}>
-              <a>
-                <span className="sr-only">Emprende con Notion</span>
-                <img
-                  className="h-16 w-auto"
-                  src="/img/logo.png"
-                  alt="Logo de Emprende con Notion"
-                />
-              </a>
+            <Link href="/" prefetch={false}>
+
+              <span className="sr-only">Emprende con Notion</span>
+              <img
+                className="h-16 w-auto"
+                src="/img/logo.png"
+                alt="Logo de Emprende con Notion"
+              />
+
             </Link>
             <button
               type="button"
@@ -104,16 +100,12 @@ export default function Navbar() {
                   <Link
                     href={item.href}
                     key={item.name}
-                    legacyBehavior
                     prefetch={false}
-                  >
-                    <a
-                      key={item.name}
-                      className="-mx-3 block rounded-sm px-3 py-2 font-sub leading-7  hover:text-terracotta"
-                      onClick={() => setMobileMenuOpen(false)}
-                    >
-                      {item.name}
-                    </a>
+                    className="-mx-3 block rounded-sm px-3 py-2 font-sub leading-7  hover:text-terracotta"
+                    onClick={() => setMobileMenuOpen(false)}>
+
+                    {item.name}
+
                   </Link>
                 ))}
               </div>

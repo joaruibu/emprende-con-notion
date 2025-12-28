@@ -21,9 +21,9 @@ const ItemCover = ({ item }) => {
 
                 <div className='flex items-center justify-between my-4 mr-3'>
                     <h4 className=" ml-3">
-                        <a className='text-gray-900 text-2xl leading-5 hover:text-gray-800 font-montserrat font-bold no-underline' href={`/templates/${getUrltTitle(title)}-${id}`}>
+                        <span className='text-gray-900 text-2xl leading-5 hover:text-gray-800 font-montserrat font-bold no-underline'>
                             {title}
-                        </a>
+                        </span>
                     </h4>
 
                     {

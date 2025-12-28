@@ -19,12 +19,11 @@ const ItemTemplate = ({ item }) => {
 
         <div className="flex items-center justify-between my-4 mr-3">
           <h4 className=" ml-3">
-            <a
+            <span
               className="text-gray-900 text-lg leading-5 hover:text-gray-800 font-montserrat font-bold no-underline"
-              href={`/templates/${getUrltTitle(title)}-${id}`}
             >
               {title}
-            </a>
+            </span>
           </h4>
         </div>
 
